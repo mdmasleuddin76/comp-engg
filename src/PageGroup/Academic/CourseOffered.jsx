@@ -1,8 +1,9 @@
-
 function CourseOffered() {
   return (
-    <div>
-      <h1>Course Offered</h1>
+    <div className="h-screen w-screen bg-green-light">
+      <h1 className="w-full text-center text-3xl text-green-deep">
+        Course Offered
+      </h1>
     </div>
   );
 }

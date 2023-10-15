@@ -3,6 +3,7 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
+
 import AboutDept from "./PageGroup/About/AboutDept";
 import AboutJMI from "./PageGroup/About/AboutJMI";
 import Achievment from "./PageGroup/About/Achievment";
@@ -17,7 +18,7 @@ import Event from "./PageGroup/Event/Event";
 import Gallery from "./PageGroup/Gallery/Gallery";
 import Home from "./PageGroup/Home/Home";
 import Placement from "./PageGroup/Placement/Placement";
-import Devloper from "./PageGroup/People/Devloper";
+import Developer from "./PageGroup/People/Developer";
 import Faculty from "./PageGroup/People/Faculty";
 import PhdScholar from "./PageGroup/People/PhdScholar";
 import StaffMember from "./PageGroup/People/StaffMember";
@@ -25,6 +26,7 @@ import Students from "./PageGroup/People/Students";
 import Project from "./PageGroup/Research/Project";
 import Publication from "./PageGroup/Research/Publication";
 import ResearchArea from "./PageGroup/Research/ResearchArea";
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/">
@@ -46,7 +48,7 @@ const router = createBrowserRouter(
       <Route path="people/staffMember" element={<StaffMember />} />
       <Route path="people/students" element={<Students />} />
       <Route path="people/phdScholar" element={<PhdScholar />} />
-      <Route path="people/devloper" element={<Devloper />} />
+      <Route path="people/developer" element={<Developer />} />
       <Route path="research/project" element={<Project />} />
       <Route path="research/publication" element={<Publication />} />
       <Route path="research/researchArea" element={<ResearchArea />} />
