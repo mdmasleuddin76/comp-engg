@@ -52,7 +52,7 @@ const router = createBrowserRouter(
       <Route path="research/project" element={<Project />} />
       <Route path="research/publication" element={<Publication />} />
       <Route path="research/researchArea" element={<ResearchArea />} />
-    </Route>
-  )
+    </Route>,
+  ),
 );
 export default router;

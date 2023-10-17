@@ -1,13 +1,9 @@
-import React from 'react';
-
-function Menu({ section, links }) {
+function Menu({ links }) {
   return (
     <div className=" flex flex-col flex-wrap">
       {links.map((link, index) => (
-        <div>
-        <a href={link.url} key={index}>
-          {link.text}
-        </a>
+        <div className="font-semibold" key={index}>
+          <a href={link.url}>{link.text}</a>
         </div>
       ))}
     </div>

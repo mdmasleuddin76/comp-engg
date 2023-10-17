@@ -10,7 +10,7 @@ function AboutJMI() {
           <span className=" text-green-deep text-xl">Jamia Millia Islamia</span>, established in the year 1920, is an institution
           originally established by a group of Muslim nationalists and
           intellectuals at Aligarh, Uttar Pradesh during the Khilafat and
-          Non-Cooperate movement in response to Mahatma Gandhi’s step to boycott
+          Non-Cooperate movement in response to Mahatma Gandhi&apos;s step to boycott
           government-supported education system. Jamia Millia Islamia became a
           Central University in the year 1988 by an act of the Indian Parliament
           which was passed on December 26, 1988
