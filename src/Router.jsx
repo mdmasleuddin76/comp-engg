@@ -6,7 +6,7 @@ import {
 
 import AboutDept from "./PageGroup/About/AboutDept";
 import AboutJMI from "./PageGroup/About/AboutJMI";
-import Achievment from "./PageGroup/About/Achievment";
+import Achievments from "./PageGroup/About/Achievments";
 import Facilities from "./PageGroup/About/Facilities";
 import MessageHOD from "./PageGroup/About/MessageHOD";
 import Testimonials from "./PageGroup/About/Testimonials";
@@ -37,7 +37,7 @@ const router = createBrowserRouter(
       <Route path="about/messageHOD" element={<MessageHOD />} />
       <Route path="about/facilities" element={<Facilities />} />
       <Route path="about/testimonials" element={<Testimonials />} />
-      <Route path="about/achievment" element={<Achievment />} />
+      <Route path="about/achievements" element={<Achievments />} />
       <Route path="academic/courseOffered" element={<CourseOffered />} />
       <Route path="academic/courseStructure" element={<CourseStructure />} />
       <Route path="academic/notices" element={<Notices />} />
