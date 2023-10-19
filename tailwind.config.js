@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// import defaultTheme from 'tailwindcss/defaultTheme'
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -8,6 +9,9 @@ export default {
         "green-deep": "var(--green-deep)",
         "green-yellow": "var(--green-yellow)",
       },
+      // fontFamily:{
+      //   sans: ['Poppins', ...defaultTheme.fontFamily.sans],
+      // }
     },
   },
   plugins: [],

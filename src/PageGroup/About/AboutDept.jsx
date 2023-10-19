@@ -4,7 +4,7 @@ function AboutDept() {
   return (
     <div>
       <div
-        className="max-w-screen h-32 bg-cover bg-center bg-no-repeat  md:h-72 "
+        className="max-w-screen h-32 bg-cover bg-center bg-no-repeat md:h-72"
         style={{ backgroundImage: `url(${image})` }}
       ></div>
       <div className=" mx-auto max-w-[90%] rounded-3xl bg-green-light px-12 pb-6 pt-5 italic">
@@ -51,11 +51,11 @@ function AboutDept() {
         </div>
         <div className=" mt-6 border-r-2 border-green-yellow px-4">
           The Department of Computer Engineering is also an institutional member
-          of the Computer Society of India, and has an active student's chapter
+          of the Computer Society of India, and has an active student&apos;s chapter
           which successfully conducts an annual cultural cum technical fest and
           various other events throughout the year. We also have a Linux user
           group here at the department which is also actively making efforts to
-          improve the student's skills in Linux.
+          improve the student&apos;s skills in Linux.
         </div>
       </div>
       <div className=" mx-auto my-20 flex max-w-[90%] flex-wrap justify-between md:flex-nowrap">
