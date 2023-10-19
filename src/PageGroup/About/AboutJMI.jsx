@@ -5,7 +5,7 @@ function AboutJMI() {
     <div>
       <div className="max-w-screen h-32 bg-center bg-cover bg-no-repeat  md:h-72 " style={{ backgroundImage:`url(${image})`}}>
       </div>
-      <div className=" bg-green-light px-12 max-w-[90%] mx-auto italic">
+      <div className=" bg-green-light px-12 max-w-[90%] mx-auto italic text-lg py-7 rounded-3xl my-3">
         <div className=" mb-5 border-l-2 px-4 border-green-yellow ">
           <span className=" text-green-deep text-xl">Jamia Millia Islamia</span>, established in the year 1920, is an institution
           originally established by a group of Muslim nationalists and
