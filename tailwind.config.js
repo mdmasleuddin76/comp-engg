@@ -10,6 +10,7 @@ export default {
         "green-yellow": "var(--green-yellow)",
       },
       // fontFamily:{
+      //   sans: ['Lato', ...defaultTheme.fontFamily.sans],
       //   sans: ['Poppins', ...defaultTheme.fontFamily.sans],
       // }
     },
