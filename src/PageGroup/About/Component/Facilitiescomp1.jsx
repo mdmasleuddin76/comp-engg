@@ -19,7 +19,7 @@ function Facilitiescomp1({ images, content, heading, css }) {
   useEffect(() => {
     const intervalid = setInterval(() => {
       setcurrentindex((currentindex + 1) % images.length);
-    }, 5000);
+    }, 3000);
     return () => clearInterval(intervalid);
   }, [currentindex]);
 
@@ -31,8 +31,8 @@ function Facilitiescomp1({ images, content, heading, css }) {
         className=" relative mx-auto flex h-64 w-[90%] rounded-2xl border-2 border-black bg-cover bg-center shadow-2xl md:h-80 md:w-[33%]"
         style={{ backgroundImage: `url(${images[currentindex]})` }}
       >
-        <ChevronLeft className=" absolute left-0 top-[50%]" onClick={prev} />
-        <ChevronRight className="absolute right-0 top-[50%]" onClick={next} />
+        <ChevronLeft className=" absolute left-0 top-[50%] bg-white bg-opacity-50 rounded-xl cursor-pointer" onClick={prev} />
+        <ChevronRight className="absolute right-0 top-[50%] bg-white bg-opacity-50 rounded-xl cursor-pointer" onClick={next} />
       </div>
       <div className="mx-auto my-9 flex w-[90%] flex-col md:my-0 md:w-[55%]">
         <h1 className=" mb-5 px-6 text-3xl font-medium text-green-yellow">
