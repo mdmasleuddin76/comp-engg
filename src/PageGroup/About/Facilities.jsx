@@ -9,10 +9,10 @@ function Facilities() {
                 return (
                     <Facilitiescomp1
                         key={index}
+                        num1={index}
                         images={item.images}
                         content={item.content}
                         heading={item.heading}
-                        css={item.css}
                     />
                 );
             })}

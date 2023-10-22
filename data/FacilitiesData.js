@@ -8,7 +8,6 @@ const computerlab1 = {
     "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
   ],
-  css: "",
 };
 const computerlab2 = {
   heading: "Computer Lab 2",
@@ -20,7 +19,6 @@ const computerlab2 = {
     "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
   ],
-  css: "flex-row-reverse",
 };
 
 const researchlab = {
@@ -33,7 +31,6 @@ const researchlab = {
     "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
   ],
-  css: "",
 };
 const hardwarelab = {
   heading: "Hardware Lab",
@@ -45,7 +42,6 @@ const hardwarelab = {
     "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
   ],
-  css: "flex-row-reverse",
 };
 
 const advancecomputinglab = {
@@ -58,7 +54,6 @@ const advancecomputinglab = {
     "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
   ],
-  css: "",
 };
 const embededlab = {
   heading: "Embedded IOT & Wireless Sensor Lab",
@@ -70,7 +65,6 @@ const embededlab = {
     "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
   ],
-  css: "flex-row-reverse",
 };
 const library = {
   heading: "Library",
@@ -82,7 +76,6 @@ const library = {
     "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
   ],
-  css: "",
 };
 const canteen = {
   heading: "Canteen",
@@ -94,7 +87,6 @@ const canteen = {
     "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
   ],
-  css: "flex-row-reverse",
 };
 const FacilitiesData = [
   computerlab1,
