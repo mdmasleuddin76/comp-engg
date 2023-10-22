@@ -1,10 +1,11 @@
 import Facilitiescomp1 from "./Component/Facilitiescomp1";
 import FacilitiesData from "../../../data/FacilitiesData.js";
-
+import Facilitiesbelowheader from "./Component/Facilitiesbelowheader";
 function Facilities() {
     console.log(FacilitiesData);
     return (
         <div>
+            <Facilitiesbelowheader />
             {FacilitiesData.map((item, index) => {
                 return (
                     <Facilitiescomp1
