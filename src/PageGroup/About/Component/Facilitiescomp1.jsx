@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "react-feather";
+
 function Facilitiescomp1({ images, content, heading, css }) {
   const [currentindex, setcurrentindex] = useState(0);
   // Previous and Next Button
