@@ -1,6 +1,6 @@
 import { PlayCircle, Video } from "react-feather";
 import HeroSection from "./Component/HeroSection";
-import { achievementInTech, videoLectures } from "../../../data/aboutData";
+import { achievementInTech, videoLectures } from "../../../data/Achivement";
 function Achievments() {
   return (
     <div className="mb-48 flex w-full flex-col items-center justify-center gap-y-8 font-[450]">
