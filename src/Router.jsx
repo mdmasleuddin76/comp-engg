@@ -10,7 +10,6 @@ import Achievments from "./PageGroup/About/Achievments";
 import Facilities from "./PageGroup/About/Facilities";
 import MessageHOD from "./PageGroup/About/MessageHOD";
 import Testimonials from "./PageGroup/About/Testimonials";
-import VisionMission from "./PageGroup/About/VisionMission";
 import CourseOffered from "./PageGroup/Academic/CourseOffered";
 import CourseStructure from "./PageGroup/Academic/CourseStructure";
 import Notices from "./PageGroup/Academic/Notices";
@@ -33,7 +32,6 @@ const router = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path="about/aboutjmi" element={<AboutJMI />} />
       <Route path="about/aboutDept" element={<AboutDept />} />
-      <Route path="about/visionMission" element={<VisionMission />} />
       <Route path="about/messageHOD" element={<MessageHOD />} />
       <Route path="about/facilities" element={<Facilities />} />
       <Route path="about/testimonials" element={<Testimonials />} />

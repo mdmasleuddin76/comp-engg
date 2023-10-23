@@ -1,14 +1,14 @@
 import HeroSection from "./Component/HeroSection";
-import { testimonials } from "../../../data/aboutData";
+import { testimonials } from "../../../data/Achivement";
 import TestimonialCard from "./Component/TestimonialCard";
-import image from "./assets/aboutjmi.jpeg"
+import image from "./assets/aboutjmi.jpeg";
 
 function Testimonials() {
   return (
     <div className="flex w-full flex-col items-center justify-center gap-y-8 font-[450]">
       <HeroSection heading={"Testimonials"} image={image} />
       <div className="-mt-12 h-8 w-full backdrop-blur-[2px]" />
-      <div className="mt-8 grid w-full grid-cols-1 place-items-center gap-x-4 gap-y-12 px-2 sm:px-6 md:grid-cols-2 mx-auto md:px-12 lg:grid-cols-3 lg:px-20">
+      <div className="mx-auto mt-8 grid w-full grid-cols-1 place-items-center gap-x-4 gap-y-12 px-2 sm:px-6 md:grid-cols-2 md:px-12 lg:grid-cols-3 lg:px-20">
         {testimonials.map((testimonial, i) => (
           <TestimonialCard
             key={i}

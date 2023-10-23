@@ -7,7 +7,6 @@ const sections = [
     links: [
       { url: "/about/aboutjmi", text: "About Jamia" },
       { url: "/about/aboutDept", text: "About Department" },
-      { url: "/about/visionMission", text: "Vision & Mission" },
       { url: "/about/messageHOD", text: "Message From HOD" },
       { url: "/about/achievements", text: "Achievements" },
       { url: "/about/facilities", text: "Facilities" },
