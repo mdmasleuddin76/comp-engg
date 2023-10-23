@@ -10,7 +10,7 @@ git pull upstream main
 git fetch upstream main
 git merge upstream main
 git checkout -b BRANCH_NAME
-git branch 
+git branch
 git add -A
 git commit -m "DESCRIPTION OF CHANGES"
 git push origin BRANCH_NAME
