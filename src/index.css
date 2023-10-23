@@ -11,9 +11,10 @@ html, body, :root{
 }
 @layer base {
   :root {
-    --green-light: #effce5;
+    --green-light: #e4fce5;
     --green-deep: #046b09;
     --green-yellow: #1caa23;
+    --dark-black:#020202;
   }
 }
 
