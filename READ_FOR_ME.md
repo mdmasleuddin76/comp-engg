@@ -14,5 +14,6 @@ git branch
 git add -A
 git commit -m "DESCRIPTION OF CHANGES"
 git push origin BRANCH_NAME
+git rm -r --cached .
 # Delete branch when merge is successful
 ```
