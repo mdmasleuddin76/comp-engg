@@ -4,7 +4,7 @@ import image from "../../../assets/icons8-error-globe-64.png";
 const AvatarSection = () => {
   const [imageLoaded, setImageLoaded] = useState(true);
   return (
-    <div className="flex w-full -translate-y-12 flex-col justify-start gap-x-24 gap-y-6 rounded-md px-10 backdrop-blur-[2px] sm:flex-row sm:items-center sm:gap-y-0 sm:px-8 md:px-12 lg:px-16">
+    <div className="flex w-full -translate-y-20 flex-col justify-start gap-x-24 gap-y-6 rounded-md px-10 sm:flex-row sm:items-center sm:gap-y-0 sm:px-8 md:px-12 lg:px-16">
       {imageLoaded ? (
         <img
           id="Government"
