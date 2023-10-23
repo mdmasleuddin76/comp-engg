@@ -8,6 +8,7 @@ export default {
         "green-light": "var(--green-light)",
         "green-deep": "var(--green-deep)",
         "green-yellow": "var(--green-yellow)",
+        "black-deep": "var(--dark-black)",
       },
       // fontFamily:{
       //   sans: ['Lato', ...defaultTheme.fontFamily.sans],
