@@ -20,4 +20,5 @@ function Facilities() {
     </div>
   );
 }
+
 export default Facilities;
