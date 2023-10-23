@@ -1,7 +1,8 @@
 import { PlayCircle, Video } from "react-feather";
 import HeroSection from "./Component/HeroSection";
 import image from "./assets/aboutjmi.jpeg";
-import { achievementInTech, videoLectures } from "../../../data/Achivement";
+import { achievementInTech, videoLectures } from "../../../data/achievement";
+import AchiementCard from "./Component/AchiementCard";
 function Achievments() {
   return (
     <div className="mb-48 flex w-full flex-col items-center justify-center gap-y-8 font-[450]">
@@ -45,16 +46,11 @@ function Achievments() {
       <hr className="mt-8 w-[80%] bg-green-deep" />
       <div className="mt-8 grid w-full grid-cols-1 gap-x-2 gap-y-6 px-6 sm:grid-cols-2 sm:gap-x-6 sm:px-8 md:gap-x-12 md:px-12 lg:px-24">
         {achievementInTech.map((achievement, i) => (
-          <div
-            className="group relative col-span-1 flex items-center justify-center overflow-hidden rounded-md text-green-800 shadow"
+          <AchiementCard
             key={i}
-          >
-            <div className="flex w-full flex-col gap-y-3 bg-green-light px-4 py-4 pl-6 text-base sm:px-8 sm:pl-8 md:px-12">
-              <h3 className="font-semibold">{achievement.title}</h3>
-              <p className="text-black">{achievement.description}</p>
-            </div>
-            <div className="absolute left-2 h-[80%] w-[5px] rounded bg-green-700 transition-all duration-300 group-hover:h-[60%] sm:left-4" />
-          </div>
+            title={achievement.title}
+            description={achievement.description}
+          />
         ))}
       </div>
     </div>

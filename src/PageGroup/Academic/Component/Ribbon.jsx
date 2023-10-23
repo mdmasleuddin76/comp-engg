@@ -3,7 +3,7 @@ import rupee from "../assets/rupee.svg";
 import clock from "../assets/clock.svg";
 const Ribbon = () => {
   return (
-    <div className="mt-28 flex h-1 w-full bg-green-deep">
+    <div className="flex h-1 w-full bg-green-deep">
       <div className="relative flex w-full items-center justify-evenly">
         <div className="flex w-1/4 flex-col items-center gap-y-2">
           <img

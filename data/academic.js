@@ -18,3 +18,18 @@ export const peosData = [
     icon: "Book",
   },
 ];
+
+export const psosData = [
+  {
+    code: "PSO1",
+    text: "Design and develop Parallel systems using CUDA OPENCL, Microprocessor and Microcontroller based systems",
+  },
+  {
+    code: "PSO2",
+    text: "Design and develop Parallel systems using CUDA OPENCL, Microprocessor and Microcontroller based systems",
+  },
+  {
+    code: "PSO3",
+    text: "Design and develop Parallel systems using CUDA OPENCL, Microprocessor and Microcontroller based systems",
+  },
+];

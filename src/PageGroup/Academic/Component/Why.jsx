@@ -1,6 +1,6 @@
 const Why = () => {
   return (
-    <div className="mt-52 flex w-full flex-col items-center justify-center gap-y-4">
+    <div className="flex w-full flex-col items-center justify-center gap-y-4">
       <h2 className="text-center text-3xl font-semibold">
         <span className="text-green-deep">Why Mtech from </span>
         Jamia Millia Islamia?

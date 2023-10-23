@@ -1,5 +1,5 @@
 import HeroSection from "./Component/HeroSection";
-import { testimonials } from "../../../data/Achivement";
+import { testimonials } from "../../../data/achievement";
 import TestimonialCard from "./Component/TestimonialCard";
 import image from "./assets/aboutjmi.jpeg";
 
