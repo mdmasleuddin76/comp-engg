@@ -1,14 +1,13 @@
 const computerlab1 = {
   heading: "Computer Lab 1",
   content:
-    "The Apple Lab is a state-of-the-art facility housing a total of 60 computers, each equipped with dual-boot capabilities for both Mac OS and Windows operating systems. These computers are powered by Intel Core I5-2400S CPUs running at 2.50GHz, with 4GB of RAM, and a spacious 500GB HDD. On the Mac OS side, these systems operate with version 10.6.7. The lab is well-equipped with essential software tools, including DevC++, Codeblocks, JDK, MySQL 5.0, and Adobe Reader, making it an ideal environment for various tasks. It serves as an excellent hub for conducting labs related to Data Structure, Database Management Systems (DBMS), and Operating Systems, providing students with a versatile and conducive space for their academic endeavors.",
+    "The Apple Lab is a state-of-the-art facility housing a total of 60 computers, each equipped with dual-boot capabilities for both Mac OS and Windows operating systems. These computers are powered by Intel Core I5-2400S CPUs running at 2.50GHz, with 4GB of RAM, and a spacious 500GB HDD. The lab is well-equipped with essential software tools, including DevC++, Codeblocks, JDK, MySQL 5.0, and Adobe Reader, making it an ideal environment for various tasks. It serves as an excellent hub for conducting labs related to Data Structure, Database Management Systems (DBMS), and Operating Systems, providing students with a versatile and conducive space for their academic endeavors.",
   images: [
     "https://images.unsplash.com/photo-1677579016602-d342f911d11c?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1682192701389-4865ccd41a3f?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
   ],
-  css: "",
 };
 const computerlab2 = {
   heading: "Computer Lab 2",
@@ -20,7 +19,6 @@ const computerlab2 = {
     "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
   ],
-  css: "flex-row-reverse",
 };
 
 const researchlab = {
@@ -33,7 +31,6 @@ const researchlab = {
     "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
   ],
-  css: "",
 };
 const hardwarelab = {
   heading: "Hardware Lab",
@@ -45,7 +42,6 @@ const hardwarelab = {
     "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
   ],
-  css: "flex-row-reverse",
 };
 
 const advancecomputinglab = {
@@ -58,7 +54,6 @@ const advancecomputinglab = {
     "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
   ],
-  css: "",
 };
 const embededlab = {
   heading: "Embedded IOT & Wireless Sensor Lab",
@@ -70,19 +65,17 @@ const embededlab = {
     "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
   ],
-  css: "flex-row-reverse",
 };
 const library = {
   heading: "Library",
   content:
-    "Library in today’s time is an essential part of an educational institute. At the library of Faculty of Engineering and technology, the students and staff have access to a variety of resources related to academics and research. Large number of books are available in library on almost every section of engineering. Apart from books, library also provides facility of accessing internet resources through computers in a separate section. Students get issued book of their interest for a specified time period. Library provides a range of learning opportunities for both large and small groups as well as individuals with a focus on intellectual content, information literacy, and the learner. Library serves as a learning space for students to do independent work, use computers, research materials for increasing their knowledge.",
+    "Library in today’s time is an essential part of an educational institute. At the library of Faculty of Engineering and technology, the students and staff have access to a variety of resources related to academics and research. Large number of books are available in library on almost every section of engineering.Students get issued book of their interest for a specified time period. Library provides a range of learning opportunities for both large and small groups as well as individuals with a focus on intellectual content, information literacy, and the learner. Library serves as a learning space for students to do independent work, use computers, research materials for increasing their knowledge.",
   images: [
     "https://images.unsplash.com/photo-1677579016602-d342f911d11c?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1682192701389-4865ccd41a3f?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
   ],
-  css: "",
 };
 const canteen = {
   heading: "Canteen",
@@ -94,7 +87,6 @@ const canteen = {
     "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
     "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
   ],
-  css: "flex-row-reverse",
 };
 const FacilitiesData = [
   computerlab1,
