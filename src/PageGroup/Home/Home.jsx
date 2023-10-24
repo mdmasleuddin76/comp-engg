@@ -1,5 +1,11 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import Menu from "./Component/Menu";
+import Footer from "./Component/Footer";
+import './Home.css';
+import NoticeBoard from "./Component/noticeBoard";
+import Events from "./Component/Events";
+
 function Home() {
   const [hoveredSection, setHoveredSection] = useState(null);
 
@@ -57,11 +63,12 @@ function Home() {
   ];
 
   return (
-    <div className="about-us w-screen flex justify-evenly flex-row flex-wrap">
+    <div className="about-us w-screen">
+    <div className=" flex justify-evenly flex-row flex-wrap">
       {sections.map((section, index) => (
         <div
           key={index}
-          className="section-container relative m-5 p-8 bg-slate-400 hover:bg-gray-500"
+          className="section-container relative m-5 p-8 bg-slate-400 hover:bg-gray-500 "
           onMouseEnter={() => setHoveredSection(section)}
           onMouseLeave={() => setHoveredSection(null)}
         >
@@ -73,7 +80,15 @@ function Home() {
           )}
         </div>
       ))}
+    </div>
       {/* Rest of the content */}
+      <section className="flex justify-evenly flex-row flex-wrap">
+        <NoticeBoard />
+        <Events />
+      </section>
+      
+      <Footer />
+
     </div>
   );
 }
