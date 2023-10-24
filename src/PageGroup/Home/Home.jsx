@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Menu from "./Component/Menu";
 import Footer from "./Component/Footer";
 import './Home.css';
-import NoticeBoard from "./Component/noticeBoard";
+import NoticeBoard from "./Component/NoticeBoard";
 import Events from "./Component/Events";
 import Navigation from "./Component/Navbar/Navigation";
 import Hero from "./Component/Hero";
@@ -90,7 +90,7 @@ function Home() {
       <Achievements />
       <JmiCarousel />
         <section className="flex justify-evenly flex-row flex-wrap">
-        {/* <NoticeBoard /> */}
+        <NoticeBoard />
         <Events />
         </section>
       
