@@ -1,5 +1,5 @@
 import React from 'react'
-import { achievementInTech } from '../../../../data/Achivement'
+import { achievementInTech } from '../../../../data/achievement'
 
 const Achievements = () => {
 
