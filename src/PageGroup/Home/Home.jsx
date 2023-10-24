@@ -90,7 +90,7 @@ function Home() {
       <Achievements />
       <JmiCarousel />
         <section className="flex justify-evenly flex-row flex-wrap">
-        <NoticeBoard />
+        {/* <NoticeBoard /> */}
         <Events />
         </section>
       
