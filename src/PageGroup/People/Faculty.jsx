@@ -1,8 +1,7 @@
-
 import { Container, Row, Col } from 'react-grid-system';
-import User from '../../../src/assets/user.png'
 import {IoIosMail,IoIosCall} from 'react-icons/io'
 import background from '../../../src/assets/faculty_people.png'
+import {faculty_data} from '../../../data/faculty_data'
 function Faculty() {
   const innerHeading = {
     color: "white",
@@ -68,10 +67,9 @@ function Faculty() {
     color : 'green', 
     display : 'inline',
     marginRight : '3%',
-    marginTop: '10%'
   }
   const FacultyIcon= {
-    fontSize : "1.5rem",
+    fontSize : "1rem",
     color : 'green', 
     display : 'inline',
     marginRight : '3%'
@@ -91,156 +89,46 @@ function Faculty() {
       <Container style={HOD}>
             <Row>
               <Col lg={3} style={FacultyImage}>
-               <img src={User}></img>
+               <img src={faculty_data[0].dp}></img>
               </Col>
               <Col lg={9}>
-                  <h1 style={HODName}>Name of Professor</h1>
+                  <h1 style={HODName}>{faculty_data[0].name}</h1>
                   <h2 style={HODDesignation}>Head of Department</h2> 
-                  <p>Specialization</p>
+                  <p>{faculty_data[0].areaOfIntrest}</p>
                   <h3 style={HODStatement}>A statement on Department of Computer Engineering</h3>
-                  <IoIosMail style={HODIcon}/>
-                  <IoIosCall style={HODIcon}/>
+                  <br></br>
+                  <p><IoIosMail style={HODIcon}/> {faculty_data[0].email}</p>
+                  <p><IoIosCall style={HODIcon}/> {faculty_data[0].mobileNumber}</p>
               </Col>
             </Row>
       </Container>
 
 
       <Row>
-        <Col sm={6} style={{padding : '2% 0%'}}>
+      {faculty_data.map((professor => {
+        return (
+          <Col sm={6} style={{padding : '2% 0%'}} key={professor.name}>
           <Container style={Faculty}>
             <Row>
               <Col lg={3} style={FacultyImage}>
-               <img src={User}></img>
+               <img src={professor.dp}></img>
               </Col>
               <Col lg={9}>
-                  <h1 style={FacultyName}>Name of Professor</h1>
-                  <h2 style={FacultyDesignation}>(Designation)</h2>
-                  <p>Specialization</p>
-                  <IoIosMail style={FacultyIcon}/>
-                  <IoIosCall style={FacultyIcon}/>
+                  <h1 style={FacultyName}>{professor.name}</h1>
+                  <h2 style={FacultyDesignation}>{professor.designation}</h2>
+                  <p>{professor.areaOfIntrest}</p>
+                  <br></br>
+                  {professor.email ? <p><IoIosMail style={FacultyIcon}/>{professor.email}</p> : null }
+                  {professor.mobileNumber ? <p><IoIosCall style={FacultyIcon}/>{professor.mobileNumber}</p> : null }
               </Col>
             </Row>
           </Container>
         </Col>
-        <Col sm={6} style={{padding : '2% 0%'}}>
-          <Container style={Faculty}>
-            <Row>
-              <Col lg={3} style={FacultyImage}>
-               <img src={User}></img>
-              </Col>
-              <Col lg={9}>
-                  <h1 style={FacultyName}>Name of Professor</h1>
-                  <h2 style={FacultyDesignation}>(Designation)</h2>
-                  <p>Specialization</p>
-                  <IoIosMail style={FacultyIcon}/>
-                  <IoIosCall style={FacultyIcon}/>
-              </Col>
-            </Row>
-          </Container>
-        </Col>
+        )
+      }))}
       </Row>
-      <Row>
-        <Col sm={6} style={{padding : '2% 0%'}}>
-          <Container style={Faculty}>
-            <Row>
-              <Col lg={3} style={FacultyImage}>
-               <img src={User}></img>
-              </Col>
-              <Col lg={9}>
-                  <h1 style={FacultyName}>Name of Professor</h1>
-                  <h2 style={FacultyDesignation}>(Designation)</h2>
-                  <p>Specialization</p>
-                  <IoIosMail style={FacultyIcon}/>
-                  <IoIosCall style={FacultyIcon}/>
-              </Col>
-            </Row>
-          </Container>
-        </Col>
-        <Col sm={6} style={{padding : '2% 0%'}}>
-          <Container style={Faculty}>
-            <Row>
-              <Col lg={3} style={FacultyImage}>
-               <img src={User}></img>
-              </Col>
-              <Col lg={9}>
-                  <h1 style={FacultyName}>Name of Professor</h1>
-                  <h2 style={FacultyDesignation}>(Designation)</h2>
-                  <p>Specialization</p>
-                  <IoIosMail style={FacultyIcon}/>
-                  <IoIosCall style={FacultyIcon}/>
-              </Col>
-            </Row>
-          </Container>
-        </Col>
-      </Row>
-      <Row>
-        <Col sm={6} style={{padding : '2% 0%'}}>
-          <Container style={Faculty}>
-            <Row>
-              <Col lg={3} style={FacultyImage}>
-               <img src={User}></img>
-              </Col>
-              <Col lg={9}>
-                  <h1 style={FacultyName}>Name of Professor</h1>
-                  <h2 style={FacultyDesignation}>(Designation)</h2>
-                  <p>Specialization</p>
-                  <IoIosMail style={FacultyIcon}/>
-                  <IoIosCall style={FacultyIcon}/>
-              </Col>
-            </Row>
-          </Container>
-        </Col>
-        <Col sm={6} style={{padding : '2% 0%'}}>
-          <Container style={Faculty}>
-            <Row>
-              <Col lg={3} style={FacultyImage}>
-               <img src={User}></img>
-              </Col>
-              <Col lg={9}>
-                  <h1 style={FacultyName}>Name of Professor</h1>
-                  <h2 style={FacultyDesignation}>(Designation)</h2>
-                  <p>Specialization</p>
-                  <IoIosMail style={FacultyIcon}/>
-                  <IoIosCall style={FacultyIcon}/>
-              </Col>
-            </Row>
-          </Container>
-        </Col>
-      </Row>
-      <Row>
-        <Col sm={6} style={{padding : '2% 0%'}}>
-          <Container style={Faculty}>
-            <Row>
-              <Col lg={3} style={FacultyImage}>
-               <img src={User}></img>
-              </Col>
-              <Col lg={9}>
-                  <h1 style={FacultyName}>Name of Professor</h1>
-                  <h2 style={FacultyDesignation}>(Designation)</h2>
-                  <p>Specialization</p>
-                  <IoIosMail style={FacultyIcon}/>
-                  <IoIosCall style={FacultyIcon}/>
-              </Col>
-            </Row>
-          </Container>
-        </Col>
-        <Col sm={6} style={{padding : '2% 0%'}}>
-          <Container style={Faculty}>
-            <Row>
-              <Col lg={3} style={FacultyImage}>
-               <img src={User}></img>
-              </Col>
-              <Col lg={9}>
-                  <h1 style={FacultyName}>Name of Professor</h1>
-                  <h2 style={FacultyDesignation}>(Designation)</h2>
-                  <p>Specialization</p>
-                  <IoIosMail style={FacultyIcon}/>
-                  <IoIosCall style={FacultyIcon}/>
-              </Col>
-            </Row>
-          </Container>
-        </Col>
-      </Row>
+      
+      
     </Container>
     </div>
   );
