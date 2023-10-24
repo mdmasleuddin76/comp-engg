@@ -1,8 +1,5 @@
 import { useState } from "react";
-import Navigation from "./Component/Navbar/Navigation";
-import Hero from "./Component/Hero";
-import Achievements from "./Component/Achievements";
-import JmiCarousel from "./Component/Carousel";
+import Menu from "./Component/Menu";
 
 const sections = [
   {
@@ -60,30 +57,24 @@ function Home() {
   const [hoveredSection, setHoveredSection] = useState(null);
 
   return (
-    // <div className="about-us flex w-screen flex-row flex-wrap justify-evenly">
-    //   {sections.map((section, index) => (
-    //     <div
-    //       key={index}
-    //       className="section-container relative m-5 bg-slate-400 p-8 hover:bg-gray-500"
-    //       onMouseEnter={() => setHoveredSection(section)}
-    //       onMouseLeave={() => setHoveredSection(null)}
-    //     >
-    //       <p className="text-white">{section.name}</p>
-    //       {hoveredSection === section && (
-    //         <div className="menu absolute left-0 top-full mb-2 bg-white p-2">
-    //           <Menu links={hoveredSection.links} />
-    //         </div>
-    //       )}
-    //     </div>
-    //   ))}
-    //   {/* Rest of the content */}
-    // </div>
-    <>
-      <Navigation />
-      <Hero />
-      <Achievements />
-      <JmiCarousel />
-    </>
+    <div className="about-us flex w-screen flex-row flex-wrap justify-evenly">
+      {sections.map((section, index) => (
+        <div
+          key={index}
+          className="section-container relative m-5 bg-slate-400 p-8 hover:bg-gray-500"
+          onMouseEnter={() => setHoveredSection(section)}
+          onMouseLeave={() => setHoveredSection(null)}
+        >
+          <p className="text-white">{section.name}</p>
+          {hoveredSection === section && (
+            <div className="menu absolute left-0 top-full mb-2 bg-white p-2">
+              <Menu links={hoveredSection.links} />
+            </div>
+          )}
+        </div>
+      ))}
+      {/* Rest of the content */}
+    </div>
   );
 }
 
