@@ -1,9 +1,8 @@
-
-function Devloper() {
+function Developer() {
   return (
     <div>
       <h1>Devloper</h1>
     </div>
   );
 }
-export default Devloper;
+export default Developer;
