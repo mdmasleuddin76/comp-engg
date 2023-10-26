@@ -1,3 +1,4 @@
+
 import image from "./assets/aboutjmi.jpeg"
 
 function AboutJMI() {

@@ -85,7 +85,6 @@ function Home() {
     // </div> 
     // </div>
       <>
-      <Navigation />
       <Hero />
       <Achievements />
       <JmiCarousel />
@@ -93,7 +92,6 @@ function Home() {
         <NoticeBoard />
         <Events />
         </section>
-      
         <Footer />
       </>
   );
