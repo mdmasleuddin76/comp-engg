@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navigation from "./PageGroup/Home/Component/Navbar/Navigation";
 import Copyright from "./PageGroup/Home/Component/Copyright";
+import AboutDept from "./PageGroup/About/AboutDept";
 
 
 const Layout=()=>{
@@ -8,7 +9,8 @@ const Layout=()=>{
       <>
         <Navigation/>
         <Outlet/>
-        <Copyright/>
+        {/* <Copyright/> */}
+        <AboutDept/>
       </>
     )
   }
