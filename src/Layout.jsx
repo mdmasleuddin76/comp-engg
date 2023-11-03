@@ -10,7 +10,7 @@ const Layout=()=>{
         <Navigation/>
         <Outlet/>
         {/* <Copyright/> */}
-        <AboutDept/>
+        {/* <AboutDept/> */}
       </>
     )
   }
