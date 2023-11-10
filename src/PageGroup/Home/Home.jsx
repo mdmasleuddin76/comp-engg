@@ -9,6 +9,7 @@ import Navigation from "./Component/Navbar/Navigation";
 import Hero from "./Component/Hero";
 import Achievements from "./Component/Achievements";
 import JmiCarousel from "./Component/Carousel";
+import Ribbon from "./Component/Ribbon";
 const sections = [
   {
     name: "About",
@@ -84,16 +85,19 @@ function Home() {
     //   ))}
     // </div> 
     // </div>
-      <>
+    <>
       <Hero />
       <Achievements />
+      <div class="mt-28"></div>
+      <Ribbon />
+      <div class="mb-40"></div>
       <JmiCarousel />
-        <section className="flex justify-evenly flex-row flex-wrap">
+      <section className="flex justify-evenly flex-row flex-wrap">
         <NoticeBoard />
         <Events />
-        </section>
-        <Footer />
-      </>
+      </section>
+      <Footer />
+    </>
   );
 }
 

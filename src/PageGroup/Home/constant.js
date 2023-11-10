@@ -28,7 +28,7 @@ export const routes = [
       },
     {
       name: "Photo Gallery",
-      link: "/products",
+      link: "/Gallery",
     },
     {
       name: "Contact Us",
