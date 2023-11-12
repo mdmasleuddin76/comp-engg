@@ -1,9 +1,15 @@
-import { useState } from "react";
+/* eslint-disable no-unused-vars */
+import React, { useState } from "react";
+import Menu from "./Component/Menu";
+import Footer from "./Component/Footer";
+import './Home.css';
+import NoticeBoard from "./Component/NoticeBoard";
+import Events from "./Component/Events";
 import Navigation from "./Component/Navbar/Navigation";
 import Hero from "./Component/Hero";
 import Achievements from "./Component/Achievements";
 import JmiCarousel from "./Component/Carousel";
-
+import Ribbon from "./Component/Ribbon";
 const sections = [
   {
     name: "About",
@@ -60,29 +66,37 @@ function Home() {
   const [hoveredSection, setHoveredSection] = useState(null);
 
   return (
-    // <div className="about-us flex w-screen flex-row flex-wrap justify-evenly">
+    // <div className="about-us w-screen">
+    // <div className=" flex justify-evenly flex-row flex-wrap">
     //   {sections.map((section, index) => (
     //     <div
     //       key={index}
-    //       className="section-container relative m-5 bg-slate-400 p-8 hover:bg-gray-500"
+    //       className="section-container relative m-5 p-8 bg-slate-400 hover:bg-gray-500 "
     //       onMouseEnter={() => setHoveredSection(section)}
     //       onMouseLeave={() => setHoveredSection(null)}
     //     >
     //       <p className="text-white">{section.name}</p>
-    //       {hoveredSection === section && (
-    //         <div className="menu absolute left-0 top-full mb-2 bg-white p-2">
-    //           <Menu links={hoveredSection.links} />
+    //       {hoveredSection && (
+    //         <div className="menu bg-white absolute top-full left-0 mb-2 p-2">
+    //           <Menu section={hoveredSection.name} links={hoveredSection.links} />
     //         </div>
     //       )}
     //     </div>
     //   ))}
-    //   {/* Rest of the content */}
+    // </div> 
     // </div>
     <>
-      <Navigation />
       <Hero />
       <Achievements />
+      <div class="mt-28"></div>
+      <Ribbon />
+      <div class="mb-40"></div>
       <JmiCarousel />
+      <section className="flex justify-evenly flex-row flex-wrap">
+        <NoticeBoard />
+        <Events />
+      </section>
+      <Footer />
     </>
   );
 }

@@ -1,11 +1,11 @@
 import Facilitiescomp1 from "./Component/Facilitiescomp1";
 import FacilitiesData from "../../../data/FacilitiesData.js";
-import Facilitiesbelowheader from "./Component/Facilitiesbelowheader";
+import HeroSection from "./Component/HeroSection";
 function Facilities() {
   console.log(FacilitiesData);
   return (
     <div>
-      <Facilitiesbelowheader />
+      <HeroSection heading={"Facilities"} image={FacilitiesData[0].images} />
       {FacilitiesData.map((item, index) => {
         return (
           <Facilitiescomp1
