@@ -46,22 +46,22 @@ const Project = () => {
         </h3>
       </div>
 
-      <div className="flex justify-center">
-        <div className="flex flex-row gap-x-10 ">
-          <label className="bg-deep text-grey border-silver  w-64 border p-4 px-4 py-2">
-            Select Group Number:
+      <div className="flex justify-center flex-wrap">
+        <div className="flex flex-row gap-x-10 flex wrap ">
+          <label className="bg-deep text-grey border-silver  w-32 border p-4 px-4 py-2">
+            Select Year:
             <select
               value={selectedNumber}
               onChange={(e) => setSelectedNumber(e.target.value)}
             >
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="17">17</option>
+              <option value="1">2001</option>
+              <option value="2">2003</option>
+              <option value="17">2017</option>
               {/* Add more options as needed */}
             </select>
           </label>
 
-          <label className="bg-deep text-grey border-silver w-64 border p-4 px-4 py-2">
+          <label className="bg-deep text-grey border-silver w-40 border p-4 px-4 py-2">
             Select Category:
             <select
               value={selectedCategory}
@@ -83,7 +83,7 @@ const Project = () => {
         </h2>
         
       </div>
-
+      <div className="overflow-x-auto">
       <div className="bg-gray-100 p-8">
       <table className="min-w-full bg-white border border-gray-300">
         <thead>
@@ -116,18 +116,18 @@ const Project = () => {
             <button
               onClick={() => handlePageChange(currentPage - 1)}
               disabled={currentPage === 1}
-              className="text-grey border-silver w-64 border bg-green-deep p-4 px-4 py-2 hover:bg-green-700"
+              className="text-grey border-silver w-40 border bg-green-deep p-4 px-4 py-1 hover:bg-green-700"
             >
               Previous Page
             </button>
-            <span className="bg-deep text-grey w-64 border px-4 py-2">
+            <span className="bg-deep text-grey w-40 border px-4 py-2">
               {" "}
               Page {currentPage}{" "}
             </span>
             <button
               onClick={() => handlePageChange(currentPage + 1)}
               disabled={currentPage * itemsPerPage >= filteredData.length}
-              className="text-grey border-silver w-64 border bg-green-deep p-4 px-4 py-2 hover:bg-green-700"
+              className="text-grey border-silver w-40 border bg-green-deep p-4 px-4 py-1 hover:bg-green-700"
             >
               Next Page
             </button>
@@ -136,7 +136,7 @@ const Project = () => {
       </div>
 
       <div>
-      
+      </div>
       </div>
     </div>
   );
