@@ -25,10 +25,11 @@ import Students from "./PageGroup/People/Students";
 import Project from "./PageGroup/Research/Project";
 import Publication from "./PageGroup/Research/Publication";
 import ResearchArea from "./PageGroup/Research/ResearchArea";
+import Layout from "./Layout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/">
+    <Route path="/" element={<Layout/>}>
       <Route path="" element={<Home />} />
       <Route path="about/aboutjmi" element={<AboutJMI />} />
       <Route path="about/aboutDept" element={<AboutDept />} />

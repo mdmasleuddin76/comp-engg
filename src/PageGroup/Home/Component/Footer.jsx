@@ -5,7 +5,7 @@ import Map from './Map'
 const Footer = () => {
   return (
     <div
-  className="main-footer bg-black-deep text-center text-neutral-600 dark:text-neutral-200 ">
+  className="main-footer bg-black-deep text-center text-white dark:text-neutral-200 ">
   <div
     className="reach-label font-bold dark:border-neutral-500">
       <span>HOW TO REACH US?</span>
@@ -76,11 +76,12 @@ const Footer = () => {
   </div>
 
   {/* Copyright section */}
-  <div className="main-footer-end bg-green-deep p-6 text-center">
+  {/* <Copyright/> */}
+  {/* <div className="main-footer-end bg-green-deep p-6 text-center">
     <span>Copyright© Adil crafted with love 🤍</span>
     <span>Development Team</span>
     <span>Jamia Millia Islamia, New Delhi, 110025</span>
-  </div>
+  </div> */}
 </div>
 )
 }

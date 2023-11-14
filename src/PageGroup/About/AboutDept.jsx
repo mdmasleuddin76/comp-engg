@@ -91,6 +91,7 @@ function AboutDept() {
           </ul>
         </div>
       </div>
+  <div className="bg-green-deep text-white">Computer engineering</div>
     </div>
   );
 }
