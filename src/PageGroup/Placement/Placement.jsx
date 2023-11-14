@@ -1,8 +1,12 @@
 import { useState } from "react";
 import "./index.css";
 import Spc from "./Component/Spc";
+import Dropdown from "./Component/Dropdown";
 import Coordinator from "./Component/Coordinator";
 import {spcs} from '../../../data/placement';
+
+const drop1 = ['SPCs', 'B.Tech', 'M.Tech'];
+const drop2 = [2020, 2021, 2022];
 
 function Placement() {
   return (
@@ -70,7 +74,9 @@ function Placement() {
           <div className="absolute bottom-1 h-[5px] w-[60px] rounded bg-green-700 transition-all duration-300 group-hover:w-[10%] sm:left-2" />
         </div>
       </section>
-
+      {/* Dropdown Section */}
+      <Dropdown dropmenu={drop1} title={'Choose Option'}/>
+      <Dropdown dropmenu={drop2} title={'Choose Year'}/>
       {/* Coordinator section  */}
       <Coordinator />
 
@@ -87,6 +93,13 @@ function Placement() {
         </div>
 
       </section>
+     <div>
+     <div className="flex justify-evenly font-bold bg-green-deep text-white text-center">
+    <span>Copyright© Adil crafted with love 🤍</span>
+    <span>Development Team</span>
+    <span>Jamia Millia Islamia, New Delhi, 110025</span>
+  </div>
+     </div>
     </section>
   );
 }
