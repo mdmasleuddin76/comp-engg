@@ -13,6 +13,7 @@ div.flexcontainer {
     display: flex;
     min-height: 150px;
     /* font-size:15px; */
+    
 }
 
 div.columns {

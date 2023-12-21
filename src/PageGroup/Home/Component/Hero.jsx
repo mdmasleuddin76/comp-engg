@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import HeroImg from "../assets/Jmi.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -62,10 +63,12 @@ const Hero = () => {
           <h3>1 in 3 B.Tech Students Placed Above</h3>
         </div>
         <div class="columns lastcol">
-          Click here to get more information about placements
+        <a href="/placement"><u>Click here to know more about our placement </u>
+        </a>
         </div>
       </div>
       <hr></hr>
+      
     </>
   );
 };
