@@ -91,7 +91,9 @@ function Home() {
       <div class="mt-28"></div>
       <Ribbon />
       <div class="mb-40"></div>
-      <JmiCarousel />
+
+        <JmiCarousel />
+
       <section className="flex justify-evenly flex-row flex-wrap">
         <NoticeBoard />
         <Events />

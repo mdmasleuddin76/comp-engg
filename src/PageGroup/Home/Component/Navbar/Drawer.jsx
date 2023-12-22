@@ -35,7 +35,7 @@ const Drawer = ({ isOpen, toggleDrawer, routes }) => {
 
 export default Drawer;
 const SNavbarBrand = styled.h2`
-  font-size: 3rem;
+  font-size: 1.4rem;
 `;
 const Backdrop = styled.div`
   height: 100%;
@@ -71,7 +71,7 @@ const NavRoute = styled(Link)`
   display: flex;
   text-decoration: none;
   color: black;
-  font-size: 2rem;
+  font-size: 1.4rem;
   padding: 0.5rem;
 `;
 

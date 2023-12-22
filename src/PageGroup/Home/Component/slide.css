@@ -1,0 +1,25 @@
+.main-slide{
+    padding-top: 30px;
+    padding : 0 40px;
+    
+}
+.carousel .slider-wrapper{
+    /* width: 50%; */
+    height: 80vh;
+    border-radius: 15px;
+    
+}
+.carousel{
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .carousel .slider-wrapper{
+        height: 30vh;
+    }
+    .main-slide{
+        padding-top: 30px;
+        padding : 0 20px;
+        
+    }
+}
