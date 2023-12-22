@@ -11,7 +11,7 @@ const Navbar = ({ toggleDrawer, routes }) => {
         <DrawerButton onClick={toggleDrawer}>
           <FaBars />
         </DrawerButton>
-        <img src={Logo} alt="logo" className="md:cursor-pointer h-9" />
+        <Link to="/" ><img src={Logo} alt="logo" className="md:cursor-pointer h-9" /></Link>
         <RightNav>
           <NavRoutes>
             {routes.map((route) => {
