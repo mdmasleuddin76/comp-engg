@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import Map from './Map'
+import MainFooter from './MainFooter'
 
 const Footer = () => {
   return (
@@ -77,11 +78,6 @@ const Footer = () => {
 
   {/* Copyright section */}
   {/* <Copyright/> */}
-  {/* <div className="main-footer-end bg-green-deep p-6 text-center">
-    <span>Copyright© Adil crafted with love 🤍</span>
-    <span>Development Team</span>
-    <span>Jamia Millia Islamia, New Delhi, 110025</span>
-  </div> */}
 </div>
 )
 }
