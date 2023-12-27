@@ -93,13 +93,13 @@ function Placement() {
         </div>
 
       </section>
-     <div>
+     {/* <div>
      <div className="flex justify-evenly font-bold bg-green-deep text-white text-center">
     <span>Copyright© Adil crafted with love 🤍</span>
     <span>Development Team</span>
     <span>Jamia Millia Islamia, New Delhi, 110025</span>
   </div>
-     </div>
+     </div> */}
     </section>
   );
 }

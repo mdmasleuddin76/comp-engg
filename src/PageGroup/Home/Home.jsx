@@ -94,7 +94,7 @@ function Home() {
 
         <JmiCarousel />
 
-      <section className="flex justify-evenly flex-row flex-wrap">
+      <section className="flex justify-evenly mb-16 flex-row flex-wrap">
         <NoticeBoard />
         <Events />
       </section>

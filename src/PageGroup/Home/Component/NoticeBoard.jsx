@@ -31,7 +31,8 @@ const NoticeBoard = () => {
   const displayedNews = newsData.slice(page * itemsPerPage, (page + 1) * itemsPerPage);
 
   return (
-    <div className="main-notice-board m-4 p-4 rounded-lg">
+    <div className='main-notice'>
+      <div className="main-notice-board m-4 p-4 rounded-lg">
       <h2 className="text-2xl text-center font-bold mb-4">Notice Board</h2>
       <ul className="space-y-2">
         {displayedNews.map((news) => (
@@ -57,6 +58,7 @@ const NoticeBoard = () => {
             <img width="50" height="50" src="https://img.icons8.com/ios/50/circled-chevron-right--v1.png" alt="circled-chevron-right--v1"/>  
         </button>
       </div>
+    </div>
     </div>
   );
 };
