@@ -111,23 +111,23 @@ const Project = () => {
     </div>
 
       <div>
-        <div className="flex justify-center">
+        <div className="flex justify-center px-3 py-4">
           <div className="flex flex-row gap-x-10 ">
             <button
               onClick={() => handlePageChange(currentPage - 1)}
               disabled={currentPage === 1}
-              className="text-grey border-silver w-40 border bg-green-deep p-4 px-4 py-1 hover:bg-green-700"
+              className="text-grey border-silver w-40 border bg-green-100 p-4 px-4 py-1 hover:bg-green-deep"
             >
               Previous Page
             </button>
-            <span className="bg-deep text-grey w-40 border px-4 py-2">
+            <span className="bg-deep text-grey w-30 px-4 py-2">
               {" "}
               Page {currentPage}{" "}
             </span>
             <button
               onClick={() => handlePageChange(currentPage + 1)}
               disabled={currentPage * itemsPerPage >= filteredData.length}
-              className="text-grey border-silver w-40 border bg-green-deep p-4 px-4 py-1 hover:bg-green-700"
+              className="text-grey border-silver w-40 border bg-green-100 p-4 px-4 py-1 hover:bg-green-deep"
             >
               Next Page
             </button>
