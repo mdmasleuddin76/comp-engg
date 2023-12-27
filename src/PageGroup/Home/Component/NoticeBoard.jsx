@@ -45,14 +45,14 @@ const NoticeBoard = () => {
       <div className="mt-4 text-center">
         <button
           onClick={handlePrevClick}
-          className="NB-button py-2 px-4 mr-2 rounded"
+          className="NB-button py-2 px-2 mr-2 rounded"
           disabled={page === 0}
         >
           <img width="50" height="50" src="https://img.icons8.com/ios/50/circled-chevron-left.png" alt="circled-chevron-left"/>
         </button>
         <button
           onClick={handleNextClick}
-          className="NB-button py-2 px-4 rounded"
+          className="NB-button py-2 px-2 rounded"
           disabled={(page + 1) * itemsPerPage >= newsData.length}
         >
             <img width="50" height="50" src="https://img.icons8.com/ios/50/circled-chevron-right--v1.png" alt="circled-chevron-right--v1"/>  

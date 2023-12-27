@@ -123,19 +123,25 @@
 }
 
 .NB-button {
-    padding: 0px;
+    margin: 5px;
     border-radius: 50%;
+    padding: 0px;
 }
 
 .NB-button > img{
-    border-radius: 100%;
+    border-radius: 50% !important;
+    padding: 0px;
 }
 
 .NB-button:hover {
     background-color: #fff;
-    border-radius: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    border-radius: 50%;
+}
+
+.NB-button:disabled,
+.NB-button[disabled] {
+    background-color: rgb(176, 201, 174);
+    border-radius: 50%;
 }
 
 .events-heading {
