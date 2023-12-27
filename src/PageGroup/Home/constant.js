@@ -41,15 +41,15 @@ export const routes = [
     link: "/placement"
   },
   {
-    name: "Gallery",
-    link: "/Gallery",
-  },
-  {
     name: "Research",
     subRoutes: [
       { link: "/research/project", name: "Projects" },
       { link: "/research/publication", name: "Publication" },
       { link: "/research/researchArea", name: "Research Area" },
     ],
+  },
+  {
+    name: "Gallery",
+    link: "/Gallery",
   },
 ];
