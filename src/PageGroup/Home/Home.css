@@ -103,6 +103,16 @@
     z-index: 1;
 }
 
+.main-notice {
+    /* background-color: #046b04; */
+    /* padding: 15%; */
+    position: relative;
+    padding: auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .main-notice-board {
     background-color: #E4FCE5;
     height: fit-content;
