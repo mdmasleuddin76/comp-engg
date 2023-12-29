@@ -45,6 +45,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+}
+ .carousel .slider-wrapper {
+  height: 270px;
+  border-radius: 0;
 }
 .caraButton{
     background-color: white;
