@@ -30,6 +30,7 @@ const Events = () => {
     ]
 
   return (
+    
     <div className='m-3 flex flex-wrap max-w-screen-sm'>
       <h1 className='events-heading font-bold'>Events</h1>
         {events.map((event) => (

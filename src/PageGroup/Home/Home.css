@@ -47,7 +47,7 @@
 
 
 .main-footer-end {
-    position: absolute;
+    /* position: absolute; */
     font-weight: bold;
     width: 100%;
     background-color: #046b04;
@@ -97,11 +97,20 @@
 .reach-icon {
     border-radius: 50%;
     background-color: #1CAA23;
-    /* margin-right: 0%; */
     padding: 5px;
     border: 3px solid white;
     height: 50px;
     z-index: 1;
+}
+
+.main-notice {
+    /* background-color: #046b04; */
+    /* padding: 15%; */
+    position: relative;
+    padding: auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .main-notice-board {
@@ -119,14 +128,18 @@
 }
 
 .NB-button > img{
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .NB-button:hover {
     background-color: #fff;
+    border-radius: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .events-heading {
+    padding-top: 15px;
     font-size: x-large;
     color: #046b04;
 }
