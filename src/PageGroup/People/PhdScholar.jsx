@@ -3,7 +3,7 @@ import HeroSection from "../About/Component/HeroSection";
 import PhdScholars from "../../../data/PhdScholar";
 
 // *****************************component for phd scholar*****************
-function Compforresearch({ sno, name, supervisor, title, year }) {
+function CompforPhdScholar({ sno, name, supervisor, title, year }) {
   return (
     <tr>
       <td className=" bg-slate-200 text-center">{sno}</td>
@@ -33,7 +33,7 @@ function PhdScholar() {
           <option value="">Awarded</option>
         </select>
       </div>
-      <div className=" mx-auto mb-8 overflow-auto md:w-[90%]">
+      <div className=" mx-auto mb-8 overflow-auto md:w-[90%] shadow-slate-500 shadow-2xl">
         <table className="mx-auto table w-full">
           <thead>
             <tr>
@@ -57,7 +57,7 @@ function PhdScholar() {
           <tbody>
             {PhdScholars[index + 1].map((item, index) => {
               return (
-                <Compforresearch
+                <CompforPhdScholar
                   key={index}
                   sno={index + 1}
                   name={item.name}
