@@ -1,420 +1,257 @@
-export const project_data = {
-    "major1": [
-      {
-        "ID": 1,
-        "group_number": "1.",
-        "supervisor_name": "Mr. Faiyaz Ahmad",
-        "project_title": "Water Management system using IoT",
-        "roll_numbers": [
-          "16BCS020",
-          "16BCS077"
-        ],
-        "names": [
-          "Faria Mabood",
-          "Abdul Irshad"
-        ]
-      }
-    ],
-    "major2": [
-      {
-        "ID": 2,
-        "group_number": "2.",
-        "supervisor_name": "Mrs. Some Supervisor",
-        "project_title": "Smart Home Automation",
-        "roll_numbers": [
-          "16BCS001",
-          "16BCS045"
-        ],
-        "names": [
-          "John Doe",
-          "Jane Smith"
-        ]
-      },
-      {
-        "ID": 3,
-        "group_number": "2.",
-        "supervisor_name": "Mrs. Some Supervisor",
-        "project_title": "Environmental Monitoring System",
-        "roll_numbers": [
-          "16BCS012",
-          "16BCS055"
-        ],
-        "names": [
-          "Alice Johnson",
-          "Bob Williams"
-        ]
-      }
-    ],
-    "minor1": [
-      {
-        "ID": 4,
-        "group_number": "3.",
-        "supervisor_name": "Mr. Another Supervisor",
-        "project_title": "Minor Project 1",
-        "roll_numbers": [
-          "16BCS003",
-          "16BCS066"
-        ],
-        "names": [
-          "Eva Anderson",
-          "Daniel Brown"
-        ]
-      }
-    ],
-    "minor2": [
-      {
-        "ID": 5,
-        "group_number": "4.",
-        "supervisor_name": "Mrs. Different Supervisor",
-        "project_title": "Minor Project 2",
-        "roll_numbers": [
-          "16BCS011",
-          "16BCS022"
-        ],
-        "names": [
-          "Grace Miller",
-          "Henry Taylor"
-        ]
-      }
-    ],
-    "minor17": [
-      {
-          "ID": 1,
-          "group_number": "1.",
-          "supervisor_name": "Mr. Musheer Ahmad",
-          "project_title": "A Novel Data encryption scheme using DNA computing",
-          "roll_numbers": [
-              "14BCS0019","14BCS0047","14BCS0054"
-          ],
-          "names": [
-              "Tafseer Ahmad","Subia Ansari","Iram Ayyub"
-          ]
-      },
-      {
-          "ID": 2,
-          "group_number": "2.",
-          "supervisor_name": "Prof. Tanvir Ahmad",
-          "project_title": "Home Automation using ARDUINO",
-          "roll_numbers": [
-              "14BCS0062","14BCS0063"
-          ],
-          "names": [
-              "Mubashshir Khan","Murtaza Hasan"
-          ]
-      },
-      {
-          "ID": 3,
-          "group_number": "3.",
-          "supervisor_name": "Mr. Jawahar Lal",
-          "project_title": "Opinion Mining using Deep Neural Networks.",
-          "roll_numbers": [
-              "14BCS0004","14BCS0012"
-          ],
-          "names": [
-              "Mohd. Faizan Shahid","Arpit Singh"
-          ]
-      },
-      {
-          "ID": 4,
-          "group_number": "4.",
-          "supervisor_name": "Mr. Musheer Ahmad",
-          "project_title": "Fractional Order Chaotic System Based S Box Design",
-          "roll_numbers": [
-              "14BCS0020","14BCS0035"
-          ],
-          "names": [
-              "Vaibhav Singhal","Saurabh Sharma"
-          ]
-      },
-      {
-          "ID": 5,
-          "group_number": "5.",
-          "supervisor_name": "Mr. Jawahar Lal",
-          "project_title": "Speaker recognition system using cepstral analysis",
-          "roll_numbers": [
-              "14BCS0058","14BCS0061"
-          ],
-          "names": [
-              "Md. Amir NaseemZeeshan Siddiqui"
-          ]
-      },
-      {
-          "ID": 6,
-          "group_number": "6.",
-          "supervisor_name": "Mr. Musheer Ahmad",
-          "project_title": "Image Encryption based on Algebraic S-Box and Galios field",
-          "roll_numbers": [
-              "14BCS0036","14BCS0041","14BCS0050"
-          ],
-          "names": [
-              "Abdul Mohsin Siddiqui","Mohd. Zayan Alam","Zaki Mustafa Farooqui"
-          ]
-      },
-      {
-          "ID": 7,
-          "group_number": "7.",
-          "supervisor_name": "Mr. Danish Raza Rizvi",
-          "project_title": "Maternal Diabetic Analysis",
-          "roll_numbers": [
-              "14BCS0017","14BCS0046"
-          ],
-          "names": [
-              "Shubham Garg","Sanjay Kumar"
-          ]
-      },
-      {
-          "ID": 8,
-          "group_number": "8.",
-          "supervisor_name": "Mr. Sarfaraz Masood",
-          "project_title": "A project on Noise reduction on image using Morphological image cleaning",
-          "roll_numbers": [
-              "14BCS0002","14BCS0009"
-          ],
-          "names": [
-              "Joy Mukherjee","Shabnam Khatoon"
-          ]
-      },
-      {
-          "ID": 9,
-          "group_number": "9.",
-          "supervisor_name": "Mr. Mumtaz Ahmad",
-          "project_title": "Automatic Entity Recognition",
-          "roll_numbers": [
-              "14BCS0038","14BCS0052"
-          ],
-          "names": [
-              "Akshay Sharma","Azfar Sikander Zaidi"
-          ]
-      },
-      {
-          "ID": 10,
-          "group_number": "10.",
-          "supervisor_name": "Prof. Tanvir Ahmad",
-          "project_title": "Artistic image style transfer using deep neural networks",
-          "roll_numbers": [
-              "14BCS0023","14BCS0053","14BCS0065"
-          ],
-          "names": [
-              "Abhishek Bhat","tHarsh Vijay","Rohit Kumar Wasan"
-          ]
-      },
-      {
-          "ID": 11,
-          "group_number": "11.",
-          "supervisor_name": "Mr. Mumtaz Ahmad",
-          "project_title": "BOT-CHEF: Making a platform for cybersecurity research and detection of vulnerable target online using Shodan.",
-          "roll_numbers": [
-              "14BCS0056","14BCS0026","14BCS0030"
-          ],
-          "names": [
-              "Lakhita Bhatia","Dhruv Malik","Mohd. Usman Alvi"
-          ]
-      },
-      {
-          "ID": 12,
-          "group_number": "12.",
-          "supervisor_name": "Mr. Danish Raza Rizvi",
-          "project_title": "Detection and Drawing of basic geometric shapes in a hand drawn diagram image",
-          "roll_numbers": [
-              "14BCS0006","14BCS0010"
-          ],
-          "names": [
-              "Sahiba Khan","Alima Siddiqui"
-          ]
-      },
-      {
-          "ID": 13,
-          "group_number": "13.",
-          "supervisor_name": "Mr. Faiyaz Ahmad",
-          "project_title": "Smart home monitoring using a chat bot and raspberry Pi",
-          "roll_numbers": [
-              "14BCS0042","14BCS0067"
-          ],
-          "names": [
-              "Mohd. Saqib","Syed Faheel Ahmad"
-          ]
-      },
-      {
-          "ID": 14,
-          "group_number": "14.",
-          "supervisor_name": "Mr. Sarfaraz Masood",
-          "project_title": "Clustering music by Genres using supervised and Unsupervised Algorithms",
-          "roll_numbers": [
-              "14BCS0027","14BCS0034"
-          ],
-          "names": [
-              "Farah Naaz","Purnima Garg"
-          ]
-      },
-      {
-          "ID": 15,
-          "group_number": "15.",
-          "supervisor_name": "Mr. Sarfaraz Masood",
-          "project_title": "Framework of a clothing fashion recommendation system",
-          "roll_numbers": [
-              "14BCS0024","14BCS0033"
-          ],
-          "names": [
-              "Aisha Aijaz","Mohd. Wajid Zaman"
-          ]
-      },
-      {
-          "ID": 16,
-          "group_number": "16.",
-          "supervisor_name": "Dr. Mohd. Amjad",
-          "project_title": "Smart Irrigation System",
-          "roll_numbers": [
-              "14BCS0025","14BCS0028"
-          ],
-          "names": [
-              "Anas Akhtar","Gaurav Arora"
-          ]
-      },
-      {
-          "ID": 17,
-          "group_number": "17.",
-          "supervisor_name": "Dr. Mohd. Amjad",
-          "project_title": "Sign Language Interpreter",
-          "roll_numbers": [
-              "14BCS0007","14BCS0039","14BCS0045"
-          ],
-          "names": [
-              "Saif Rehman Nasir","Anish Sharma","Rahul Tuteja"
-          ]
-      },
-      {
-          "ID": 18,
-          "group_number": "18.",
-          "supervisor_name": "Dr. Bashir Alam",
-          "project_title": "Finger Print Authentication system",
-          "roll_numbers": [
-              "14BCS0055","14BCS0059"
-          ],
-          "names": [
-              "Khalid Hasan Rahmani","Mohd. Ariz Ansari"
-          ]
-      },
-      {
-          "ID": 19,
-          "group_number": "19.",
-          "supervisor_name": "Mr. Shahzad Alam",
-          "project_title": "Edge detection in medical images using quantum image enhancement and Shanon entropy",
-          "roll_numbers": [
-              "14BCS0011","14BCS0032"
-          ],
-          "names": [
-              "Aquib Jawed","Mohd. Suhail"
-          ]
-      },
-      {
-          "ID": 20,
-          "group_number": "20.",
-          "supervisor_name": "Mr. Hannan Mansoor",
-          "project_title": "Exploring CNN-RNN architectures for multilabel classification of the Amazon",
-          "roll_numbers": [
-              "14BCS0003","14BCS0013"
-          ],
-          "names": [
-              "Kunal Kaushik","Aviral Mudgal"
-          ]
-      },
-      {
-          "ID": 21,
-          "group_number": "21.",
-          "supervisor_name": "Dr. Bashir Alam",
-          "project_title": "Moodifier",
-          "roll_numbers": [
-              "14BCS0001","14BCS0040"
-          ],
-          "names": [
-              "","AbdullahGourav Suri"
-          ]
-      },
-      {
-          "ID": 22,
-          "group_number": "22.",
-          "supervisor_name": "Mr. Shamim Ahmad",
-          "project_title": "User categorization from stack overflow data using BIG data techniques",
-          "roll_numbers": [
-              "14BCS0022","14BCS0037"
-          ],
-          "names": [
-              "Abhishek Barnwal","Afzal Ahmad"
-          ]
-      },
-      {
-          "ID": 23,
-          "group_number": "23.",
-          "supervisor_name": "Prof. M. N. Doja",
-          "project_title": "A novel approach towards spam classification",
-          "roll_numbers": [
-              "14BCS0008","14BCS0018","14BCS0043","14BCS0048","14BCS0049"
-          ],
-          "names": [
-              "Saquib Ali Khan","Suhail Khan","Najeeb Khan","Yasir Bashir Mir","Zafrullah Mahmood"
-          ]
-      },
-      {
-          "ID": 24,
-          "group_number": "24.",
-          "supervisor_name": "Mr. Mohd. Zeeshan Ansari",
-          "project_title": "Part of speech tagging of Hindi- English Code Mixed Text",
-          "roll_numbers": [
-              "14BCS0014"
-          ],
-          "names": [
-              "KashanUddin Z. Khan"
-          ]
-      },
-      {
-          "ID": 25,
-          "group_number": "25.",
-          "supervisor_name": "Mr. Mohd. Zeeshan Ansari",
-          "project_title": "Amazon Review representative ranking",
-          "roll_numbers": [
-              "14BCS0015","14BCS0016","14BCS0068"
-          ],
-          "names": [
-              "Rishabn Jain","Saurabh Purohit","Shikhar Chaudhary"
-          ]
-      },
-      {
-          "ID": 26,
-          "group_number": "26.",
-          "supervisor_name": "Mr. Mohd. Zeeshan Ansari",
-          "project_title": "Predictive Air Pollution levels of a city (using machine learning)",
-          "roll_numbers": [
-              "14BCS0057","14BCS0066"
-          ],
-          "names": [
-              "Lokesh Kumar","Shabahat Jawed"
-          ]
-      },
-      {
-          "ID": 27,
-          "group_number": "27.",
-          "supervisor_name": "Mr. Faiyaz Ahmad",
-          "project_title": "Autonomous parking using deep reinforcement learning",
-          "roll_numbers": [
-              "14BCS0031","14BCS0051"
-          ],
-          "names": [
-              "Mohd. Huzaifa Faruqi","Ajitesh Kumar Rai"
-          ]
-      },
-      {
-          "ID": 28,
-          "group_number": "28.",
-          "supervisor_name": "Prof. Tanvir Ahmad",
-          "project_title": "Application of Block chain in Education Industry",
-          "roll_numbers": [
-              "14BCS0060"
-          ],
-          "names": [
-              "Mohd. Sadiq"
-          ]
-      }
-  ]
-    // Add more as needed
-  }
-  
+const image =
+  "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+
+// ******************************MAJOR PROJECTS********************************
+const MA15 = [
+        {
+          name: ["Aman Singh"],
+          rollNo: ["11CSS08"],
+          supervisor: "Mr. Saurabh Mehta",
+          title: "Automatic Classification of Cricket Shots",
+        },
+        {
+          name: ["Afsha Shah", "Noreen Anwar", "Shreyansh Jain"],
+          rollNo: ["11CSS04", "11CSS45", "11CSS59"],
+          supervisor: "Mr. Shahzad Alam",
+          title: "ACO based Image Edge Detection Steganography",
+        },
+        {
+          name: ["Chaudhary Shahid Husain", "Mohammad Toseef Mahmood"],
+          rollNo: ["11CSS14", "11CSS34"],
+          supervisor: "Dr. Mohd. Amjad",
+          title: "Truth Discovery with Multiple Conflicting Information Providers on the web",
+        },
+        {
+          name: ["Zeba Naseem", "Zohra Bano"],
+          rollNo: ["11CSS72", "11CSS73"],
+          supervisor: "Mr. Faiyaz Ahmad",
+          title: "Composition Method based Chaotic S-Box Design",
+        },
+        {
+          name: ["Obedullah", "Shivanshu Singh"],
+          rollNo: ["11CSS46", "11CSS58"],
+          supervisor: "Mr. Mohd. Zeeshan Ansari",
+          title: "Fuzzy Logic based Meta Search Engine",
+        },
+        {
+          name: ["Jatin Aggarwal", "Soyef"],
+          rollNo: ["11CSS24", "11CSS63"],
+          supervisor: "Dr. Bashir Alam",
+          title: "Dynamic Sharing of GPU in Cloud System",
+        },
+        {
+          name: ["Madhav Mehta", "Namrata"],
+          rollNo: ["11CSS27", "11CSS42"],
+          supervisor: "Mr. Danish Raza Rizvi",
+          title: "Speech Recognition in Hindi",
+        },
+        {
+          name: ["Shadab Khan", "Shubham Gupta"],
+          rollNo: ["11CSS55", "11CSS60"],
+          supervisor: "Mr. Sarfaraz Masood",
+          title: "Musical Instrument Identification",
+        },
+        {
+          name: ["Deepanshu Bhatia", "Yusuf Hassan"],
+          rollNo: ["11CSS15", "11CSS70"],
+          supervisor: "Mr. Musheer Ahmad",
+          title: "Improving CSO performance using Chaotic Maps",
+        },
+        {
+          name: ["Nalin Sharma", "Suraj Tripathi"],
+          rollNo: ["11CSS41", "11CSS64"],
+          supervisor: "Mr. Sarfaraz Masood",
+          title: "Question answering system using Natural Language Processing",
+        },
+        {
+          name: ["Izhar Ahmed", "Raghib Faisal", "Shubham Khulbe"],
+          rollNo: ["11CSS23", "11CSS50", "11CSS61"],
+          supervisor: "Mr. Mumtaz Ahmad",
+          title: "Seizure prediction in intracranial EEG recordings",
+        },
+        {
+          name: ["Dheeraj Dang", "Jitin Tanwar"],
+          rollNo: ["11CSS16", "11CSS25"],
+          supervisor: "Mr. Jawahar Lal",
+          title: "Click-Through-Rate prediction of Ads in Mobiles",
+        },
+        {
+          name: ["Karuna Rai", "Shaivi Kochar"],
+          rollNo: ["11CSS26", "11CSS56"],
+          supervisor: "Mr. Shamim Ahmad",
+          title: "Cause-Effect pairs—Sequential Pattern Mining",
+        },
+        {
+          name: ["Hatim Tai", "Md. Zulkarnain", "Oves Khan"],
+          rollNo: ["11CSS21", "11CSS31", "11CSS47"],
+          supervisor: "Dr. Tanvir Ahmad",
+          title: "Application of Text-Mining to Build Recommendation system for Hotels",
+        },
+        {
+          name: ["Astha Tiwari", "Siddharth Verma"],
+          rollNo: ["11CSS12", "11CSS62"],
+          supervisor: "Mr. Danish Raza Rizvi",
+          title: "Solving Travelling Salesperson problem using Distributed Computing",
+        },
+        {
+          name: ["Eram Farooqui", "Gulshana Chaudhary"],
+          rollNo: ["11CSS18", "11CSS19"],
+          supervisor: "Mr. Mumtaz Ahmad",
+          title: "Using data mining and neural networks for forecasting stock market trends",
+        },
+        {
+          name: ["Andleeb Zehra Zaidi", "Prerna Agarwal"],
+          rollNo: ["11CSS09", "11CSS49"],
+          supervisor: "Prof. M. N. Doja",
+          title: "Identification and Ranking of key persons in a social networking website using Big Data Analytics",
+        },
+        {
+          name: ["Asgher Imam", "S. Shahzawaz Ahmad"],
+          rollNo: ["11CSS11", "11CSS53"],
+          supervisor: "Mr. Mohd. Zeeshan Ansari",
+          title: "Design & Implementation of web based search engine for category specific search result",
+        },
+        {
+          name: ["Mohd. Sufiyan", "Zaki Hasan Mehdi"],
+          rollNo: ["11CSS39", "11CSS71"],
+          supervisor: "Mr. Mohd. Zeeshan Ansari",
+          title: "Facial Recognition using Eigen Faces",
+        },
+        {
+          name: ["Md. Danish Khan", "Md. Salik R. Khan", "Mohd. Danish Ansari"],
+          rollNo: ["11CSS28", "11CSS30", "11CSS37"],
+          supervisor: "Dr. Bashir Alam",
+          title: "Performance Evaluation of Shortest path algorithm on GPU",
+        },
+        {
+          name: ["Nikhil Dargan", "Utsav Jain"],
+          rollNo: ["11CSS44", "11CSS67"],
+          supervisor: "Mr. Musheer Ahmad",
+          title: "Digital Watermarking based on Neural Networks",
+        },
+        {
+          name: ["Nausheen Usmani", "Rukhsar Shakir"],
+          rollNo: ["11CSS43", "11CSS52"],
+          supervisor: "Mr. Shahzad Alam",
+          title: "Chaos based Zero- Steganography Method",
+        },
+        {
+          name: ["Prakriti Marwaha", "Rashi Batra"],
+          rollNo: ["11CSS48", "11CSS51"],
+          supervisor: "Dr. Tanvir Ahmad",
+          title: "Satellite Image Classification using Fuzzy Logic",
+        },
+        {
+          name: ["Mohd. Abdullah Hammad", "Mohd. Amir Amhad"],
+          rollNo: ["11CSS32", "11CSS35"],
+          supervisor: "Dr. Mohd. Amjad",
+          title: "Symmetric Synchronous Stream Encryption using Images",
+        },
+        {
+          name: ["Moonis Javed", "Vishakha Singh"],
+          rollNo: ["11CSS40", "11CSS69"],
+          supervisor: "Dr. Tanvir Ahmad",
+          title: "Optical Character Recognition for Hindi Language",
+        },
+        {
+          name: ["Harshvardhan Singh", "Mohd. Ashraf Khan"],
+          rollNo: ["11CSS20", "11CSS36"],
+          supervisor: "Mr. Jawahar Lal",
+          title: "Sentiment Analysis for Hindi Language",
+        },
+        {
+          name: ["Aadam Saleem", "Mohammad Shadab"],
+          rollNo: ["11CSS01", "11CSS38"],
+          supervisor: "Prof. M. N. Doja",
+          title: "Hand Gesture controlled Android game using LEAP TH Motion",
+        },
+        {
+          name: ["Ekamber Chadda", "Shamim Biswas"],
+          rollNo: ["11CSS17", "11CSS57"],
+          supervisor: "Mr. Faiyaz Ahmad",
+          title: "Sentiment Analysis of Natural Language with Vector Word Representation and Deep Learning",
+        },
+        {
+          name: ["Ankur Saldhi", "Mohammad Amir Jamil"],
+          rollNo: ["11CSS10", "11CSS33"],
+          supervisor: "Mr. Shahzad Alam",
+          title: "Image Steganography using Genetic Algorithm and Visula Cryptography for Secure Data Hiding and Transmission over Network",
+        },
+        {
+          name: ["Akif Khan Yusufzai", "Umar Ahmad", "Vipul Nayyar"],
+          rollNo: ["11CSS07", "11CSS66", "11CSS68"],
+          supervisor: "Dr. Bashir Alam",
+          title: "Building and Optimizing Applications using High Performance Computing",
+        },
+        {
+          name: ["Batool Naseem", "Hena Parween"],
+          rollNo: ["11CSS13", "11CSS22"],
+          supervisor: "Dr. Mohd. Amjad",
+          title: "Combination of Cryptography and Steganography for secure communication in video file",
+        },
+        {
+          name: ["Md. Safiyat Reza", "Surbhi Agarwal"],
+          rollNo: ["11CSS29", "11CSS65"],
+          supervisor: "Mr. Musheer Ahmad",
+          title: "CAT Swarm Optimization based S-Box Design",
+        },
+      ];
+const MA16 = [];
+const MA17 = [];
+const MA18 = [];
+const MA19 = [];
+const MA20 = [];
+const MA21 = [];
+const MA22 = [];
+const MA23 = [];
+
+// ******************************MINOR PROJECTS********************************
+const MI15 = [];
+const MI16 = [];
+const MI17 = [];
+const MI18 = [];
+const MI19 = [];
+const MI20 = [];
+const MI21 = [];
+const MI22 = [];
+const MI23 = [];
+// ******************************OPTIONS********************************
+const opt = [
+  {
+    id: 1,
+    value: "2022-2026",
+  },
+  {
+    id: 1,
+    value: "2021-2025",
+  },
+  {
+    id: 1,
+    value: "2020-2024",
+  },
+  {
+    id: 1,
+    value: "2019-2023",
+  },
+  {
+    id: 1,
+    value: "2018-2022",
+  },
+  {
+    id: 1,
+    value: "2017-2021",
+  },
+  {
+    id: 1,
+    value: "2016-2020",
+  },
+  {
+    id: 1,
+    value: "2015-2019",
+  },
+];
+// ******************************PROJECT DATA********************************
+const major = [MA23, MA22, MA21, MA20, MA19, MA18, MA17, MA16, MA15];
+const minor = [MI23, MI22, MI21, MI20, MI19, MI18, MI17, MI16, MI15];
+const ProjectData = [image,minor, major,opt];
+export default ProjectData;
