@@ -1,145 +1,99 @@
-import { useState, useEffect } from "react";
-import { project_data } from "../../../data/ProjectData";
-import image from "../About/assets/aboutjmi.jpeg";
+import { useState,useEffect } from "react";
 import HeroSection from "../About/Component/HeroSection";
-
-const Project = () => {
-  const [selectedNumber, setSelectedNumber] = useState("1");
-  const [selectedCategory, setSelectedCategory] = useState("major");
-  const [displayCategory, setDisplayCategory] = useState("Major");
-  const [currentPage, setCurrentPage] = useState(1);
-
-  const itemsPerPage = 10;
-
-  const [filteredData, setFilteredData] = useState([]);
-  const [paginatedData, setPaginatedData] = useState([]);
-
-  useEffect(() => {
-    const newData = filterData(selectedNumber, selectedCategory);
-    setFilteredData(newData);
-    setCurrentPage(1);
-  }, [selectedNumber, selectedCategory]);
-
-  useEffect(() => {
-    const startIndex = (currentPage - 1) * itemsPerPage;
-    const endIndex = startIndex + itemsPerPage;
-    setPaginatedData(filteredData.slice(startIndex, endIndex));
-  }, [filteredData, currentPage]);
-
-  const filterData = (number, category) => {
-    const key = `${category}${number}`;
-    return project_data[key] || [];
-  };
-
-  const handlePageChange = (newPage) => {
-    setCurrentPage(newPage);
-  };
-
+import ProjectData from "../../../data/ProjectData";
+// *****************************component for phd scholar*****************
+function CompforStudents({ sno, name, rollno,title,superVisor }) {
   return (
-    <div>
-      <HeroSection heading={"Research Projects"} image={image} />
-      <div className="flex w-full flex-col items-center justify-center gap-y-8 font-[450]">
-        <div className="-mt-12 h-8 w-full backdrop-blur-[2px] " />
-        <h3 className="mb-5 px-6 text-3xl font-medium">
-          {" "}
-          <span className="text-green-deep">Projects</span> List
-        </h3>
-      </div>
+    <tr>
+      <td className=" bg-slate-200 text-center">{sno}</td>
+      <td className=" bg-slate-200 text-center">{title}</td>
+      <td className=" bg-slate-200 text-center">{superVisor}</td>
+      <td className=" bg-slate-200 text-center">{name}</td>
+      <td className=" bg-slate-200 text-center">{rollno}</td>
+    </tr>
+  );
+}
 
-      <div className="flex justify-center flex-wrap">
-        <div className="flex flex-row gap-x-10 flex wrap ">
-          <label className="bg-deep text-grey border-silver  w-32 border p-4 px-4 py-2">
-            Select Year:
-            <select
-              value={selectedNumber}
-              onChange={(e) => setSelectedNumber(e.target.value)}
-            >
-              <option value="1">2001</option>
-              <option value="2">2003</option>
-              <option value="17">2017</option>
-              {/* Add more options as needed */}
-            </select>
-          </label>
-
-          <label className="bg-deep text-grey border-silver w-40 border p-4 px-4 py-2">
-            Select Category:
-            <select
-              value={selectedCategory}
-              onChange={(e) => {
-                setDisplayCategory(e.target.value.toUpperCase());
-                setSelectedCategory(e.target.value)}}
-            >
-              <option value="major">Major</option>
-              <option value="minor">Minor</option>
-            </select>
-          </label>
-        </div>
+// *****************************main function **********************
+function Project() {
+  const [i, seti] = useState(0);
+  const [j, setj] = useState(0);
+  return (
+    <div className=" bg-green-100 bg-opacity-[0.3]">
+      {/* ***********************************Hero section*******************/}
+      <HeroSection heading={"Students"} image={ProjectData[0]} />
+      {/***************************************filter****************************/}
+      <div className=" mx-auto flex w-full flex-wrap justify-center rounded-lg bg-green-yellow p-5 text-black md:w-[90%]">
+        <h1 className="w-[100%] text-center text-xl md:text-3xl font-bold text-white md:w-[50%] md:pr-16 md:text-right mb-5 md:mb-0">
+          Projects ( {i ? (j?`Major,${ProjectData[3][j-1].value}`:"Major,2023-2027") :( j?`Minor,${ProjectData[3][j-1].value}`:"Minor,2023-2027")} )
+        </h1>
+        {/*****************************first dropdown***********************************/}
+        <select
+          className="mb-5 mr-3 w-[45%] md:mr-5 bg-green-500 p-1 font-bold md:mb-0 md:w-[20%] md:p-0"
+          onChange={(e) => seti(e.target.selectedIndex)}
+        >
+          <option value="">Minor</option>
+          <option value="">Major</option>
+        </select>
+        {/*****************************second dropdown*********************************/}
+        <select
+          className="mb-5 w-[45%] bg-green-500 p-1 font-bold md:mb-0 md:w-[20%] md:p-0"
+          onChange={(e) => setj(e.target.selectedIndex)}
+        >
+           <option value="">2023-2027</option> 
+          {
+            ProjectData[3].map((item,index)=>{
+              return(
+                <option value="">{item.value}</option>
+              )
+            })
+          }
+        </select>
       </div>
-
-      {/* Display */}
-      <div>
-        <h2 className=" m-7 rounded-sm bg-green-deep p-4 text-center text-2xl font-bold text-white">
-          {displayCategory} Projects of 20{selectedNumber}
-        </h2>
-        
-      </div>
-      <div className="overflow-x-auto">
-      <div className="bg-gray-100 p-8">
-      <table className="min-w-full bg-white border border-gray-300">
-        <thead>
-          <tr>
-            <th className="py-2 px-4 border-b">No.</th>
-            <th className="py-2 px-4 border-b">Project Name</th>
-            <th className="py-2 px-4 border-b">Supervisor</th>
-            <th className="py-2 px-4 border-b">Students</th>
-            <th className="py-2 px-4 border-b">Rollno</th>
-          </tr>
-        </thead>
-        <tbody>
-          {paginatedData.map((data, index) => (
-            <tr key={index}>
-              <td className="py-2 px-4 border-b">{index+1}</td>
-              <td className="py-2 px-4 border-b">{data.project_title}</td>
-              <td className="py-2 px-4 border-b">{data.supervisor_name}</td>
-              <td className="py-2 px-4 border-b">{data.names.join(", ")}{" "}</td>
-              <td className="py-2 px-4 border-b">{data.roll_numbers.join(", ")}{" "}</td>
-              
+      {/***********************************table***********************************/}
+      <div className=" mx-auto mb-8 overflow-auto bg-green-100 bg-opacity-[0.3] shadow-2xl shadow-slate-500 md:w-[90%]">
+        <table className="mx-auto table w-full">
+          <thead>
+            <tr>
+              <th className="w-1/12 min-w-[80px] bg-green-yellow text-white">
+                S.No.
+              </th>
+              <th className="w-4/12 min-w-[245px] bg-green-yellow text-white">
+                Title
+              </th>
+              <th className="w-2/12 min-w-[180px] bg-green-yellow text-white">
+                Supervisor
+              </th>
+              <th className="w-3/12 min-w-[180px] bg-green-yellow text-white">
+                Name
+              </th>
+              <th className="w-2/12 min-w-[145px] bg-green-yellow text-white">
+                Roll No
+              </th>
             </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-
-      <div>
-        <div className="flex justify-center px-3 py-4">
-          <div className="flex flex-row gap-x-10 ">
-            <button
-              onClick={() => handlePageChange(currentPage - 1)}
-              disabled={currentPage === 1}
-              className="text-grey border-silver w-40 border bg-green-100 p-4 px-4 py-1 hover:bg-green-deep"
-            >
-              Previous Page
-            </button>
-            <span className="bg-deep text-grey w-30 px-4 py-2">
-              {" "}
-              Page {currentPage}{" "}
-            </span>
-            <button
-              onClick={() => handlePageChange(currentPage + 1)}
-              disabled={currentPage * itemsPerPage >= filteredData.length}
-              className="text-grey border-silver w-40 border bg-green-100 p-4 px-4 py-1 hover:bg-green-deep"
-            >
-              Next Page
-            </button>
+          </thead>
+          <tbody>
+            {ProjectData[i + 1][j].map((item, index) => {
+              return (
+                <CompforStudents
+                  key={index}
+                  sno={index + 1}
+                  name={item.name}
+                  rollno={item.rollNo}
+                  title={item.title}
+                  superVisor={item.supervisor}
+                />
+              );
+            })}
+          </tbody>
+        </table>
+        {ProjectData[i + 1][j].length === 0 ? (
+          <div className=" w-[100%] rounded-lg bg-slate-500 p-5 text-center font-bold">
+            Data Not Found
           </div>
-        </div>
-      </div>
-
-      <div>
-      </div>
+        ) : null}
       </div>
     </div>
   );
-};
-
+}
 export default Project;
