@@ -1,7 +1,7 @@
 const HeroSection = ({ title, shortTitle, text }) => {
   return (
     <div className="h-auto w-full bg-gradient-to-r from-black to-green-deep bg-fixed">
-      <div className="flex w-full flex-col-reverse items-center justify-start px-12 py-12 sm:flex-row">
+      <div className="flex w-full flex-col-reverse items-center justify-start px-0 py-20 sm:flex-row sm:px-10 md:px-20 lg:px-40">
         <div className="flex w-full flex-col gap-y-5 text-white">
           <div className="relative flex flex-col py-2">
             <h2 className="ml-6 text-3xl">{title}</h2>

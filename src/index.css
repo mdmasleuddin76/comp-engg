@@ -4,7 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body, :root{
+html,
+body,
+:root {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
@@ -14,7 +16,7 @@ html, body, :root{
     --green-light: #e4fce5;
     --green-deep: #046b09;
     --green-yellow: #1caa23;
-    --dark-black:#020202;
+    --dark-black: #020202;
   }
 }
 
@@ -24,4 +26,8 @@ html, body, :root{
 ::-webkit-scrollbar-thumb {
   background: var(--green-deep);
   border-radius: 2px;
+}
+
+#custom-scrollbar {
+  scrollbar-color: var(--green-deep) var(--green-light);
 }
