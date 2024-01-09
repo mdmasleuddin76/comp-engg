@@ -43,7 +43,7 @@ function Event() {
           </select>
       </div>
       
-      <div className="flex w-full items-center justify-between gap-y-8 px-20 font-[450]">
+      <div className="flex w-full items-center justify-between gap-y-8 md:px-20 xs:px-2 font-[450]">
         
           
         
@@ -52,7 +52,7 @@ function Event() {
 
       {/* Display */}
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 p-4 mx-2">
+      <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-10 p-4 mx-2 md:mx-0">
         {filteredData.map((card, index) => (
             <div key={index} className="bg-green-200 rounded-md border-5 border-green-deep shadow-lg">
           
