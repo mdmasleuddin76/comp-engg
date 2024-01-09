@@ -47,14 +47,12 @@ function Event() {
         
           
         
-        {/* <div className="flex justify-end gap-x-10">
-          
-        </div>   */}
+        
       
 
       {/* Display */}
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 p-10 mx-5">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 p-4 mx-2">
         {filteredData.map((card, index) => (
             <div key={index} className="bg-green-200 rounded-md border-5 border-green-deep shadow-lg">
           
@@ -64,16 +62,15 @@ function Event() {
                   src={card.image}
                   alt={card.desc}
                 />
-                {card.tagline && <p className="absolute bottom-0 left-0 right-0 text-center text-green-deep bg-white p-2 mb-4  inline-block" style={{ margin: '0 auto' }}>{card.tagline}</p> }
+                {card.tagline && <p className="absolute bottom-0 left-0 right-0 text-center text-sm text-green-deep bg-white p-2 mb-4  inline-block" style={{ margin: '0 auto' }}>{card.tagline}</p> }
               </div>
 
           
               <div className="h-1/2">
-                <h2 className="text-xl font-bold mb-2">{card.title}</h2>
-                <p className="text-gray-700 mb-4 p-2 px-4">{card.desc}</p>
+                <p className="text-gray-700 mb-4 p-2 px-4 text-sm">{card.desc}</p>
 
                 
-                <div className="text-md text-black p-2 px-4">
+                <div className="text-sm p-2 px-4">
                 <p className="pb-2 flex"><FaLocationDot/><p className="ml-2">{card.venue}</p></p>
                   <p className="pb-2 flex"><MdOutlineAccessTimeFilled/><p className="ml-2">{card.date}</p></p>
                 </div>
