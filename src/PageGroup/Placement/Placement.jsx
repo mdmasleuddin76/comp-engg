@@ -29,15 +29,6 @@ function Placement() {
       <Coordinator />
 
       <TableComponent />
-
-      {/* Footer Section */}
-      {/* <div>
-        <div className="flex justify-evenly bg-green-deep text-center font-bold text-white">
-          <span>Copyright© Adil crafted with love 🤍</span>
-          <span>Development Team</span>
-          <span>Jamia Millia Islamia, New Delhi, 110025</span>
-        </div>
-      </div> */}
     </section>
   );
 }
