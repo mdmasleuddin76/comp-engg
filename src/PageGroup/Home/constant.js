@@ -29,7 +29,7 @@ export const routes = [
       { link: "/people/staffMember", name: "Staff Members" },
       { link: "/people/students", name: "Students" },
       { link: "/people/phdScholar", name: "Ph.D Scholars" },
-      { link: "/people/devloper", name: "Devloper" },
+      { link: "/people/developer", name: "Developer" },
     ],
   },
   {

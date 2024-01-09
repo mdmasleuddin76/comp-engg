@@ -7,19 +7,19 @@ const Header = () => {
         </h1>
       </div>
       <div className="subHeading flex flex-col sm:flex-row">
-        <div className="sm:w-1/3">
-          <h3 className="mb-2 bg-[color:var(--dark-black)] px-6 py-4 text-white sm:mb-0">
-            Placement Details for 2022 Batch (Btech)
+        <div className="sm:w-1/3 sm:mr-4">
+          <h3 className="mb-2 hover:bg-[#7ec769ec]  hover:text-black bg-[color:var(--dark-black)] px-6 py-4 text-white sm:mb-0">
+            <a href="https://forms.gle/ZxhzPSRU214uiXKM6" target="_blank"> Placement Details for 2022 Batch (Btech) </a>
+          </h3>
+        </div>
+        <div className="sm:w-1/3 sm:mr-4">
+          <h3 className="mb-2 hover:bg-[#7ec769ec]  hover:text-black bg-[color:var(--dark-black)] px-6 py-4 text-white sm:mb-0">
+            <a href="https://forms.gle/XSN2mrt6Pm5jp3Xm6" target="_blank">Placement Registration for 2024 Batch (Btech/Mtech)</a>
           </h3>
         </div>
         <div className="sm:w-1/3">
-          <h3 className="mb-2 bg-[color:var(--dark-black)] px-6 py-4 text-white sm:mb-0">
-            Placement Registration for 2024 Batch (Btech/Mtech)
-          </h3>
-        </div>
-        <div className="sm:w-1/3">
-          <h3 className="mb-2 bg-[color:var(--dark-black)] px-6 py-4 text-white sm:mb-0">
-            Placement Details for Mtech Computer Engg. student
+          <h3 className="mb-2 hover:bg-[#7ec769ec]  hover:text-black bg-[color:var(--dark-black)] px-6 py-4 text-white sm:mb-0">
+            <a href="https://forms.gle/VUVVj45Z3ZpTkHWN9" target="_blank">Placement Details for Mtech Computer Engg. student</a>
           </h3>
         </div>
       </div>
