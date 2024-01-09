@@ -4,7 +4,7 @@ import "./Table.css";
 import Spc from "./Spc";
 
 const PlacementTable = () => {
-  const [selectedCourse, setSelectedCourse] = useState("B.Tech");
+  const [selectedCourse, setSelectedCourse] = useState("SPCs");
   const [selectedYear, setSelectedYear] = useState("2021");
   const [list, setList] = useState([]);
 
@@ -30,7 +30,7 @@ const PlacementTable = () => {
             >
               <option value="B.Tech">B.Tech</option>
               <option value="M.Tech">M.Tech</option>
-              <option value="SPCs">SPCs</option>
+              <option value="SPCs" selected>SPCs</option>
             </select>
           </div>
           <div>
@@ -40,7 +40,7 @@ const PlacementTable = () => {
               onChange={(e) => setSelectedYear(e.target.value)}
               value={selectedYear}
             >
-              <option value="2021">2021</option>
+              <option value="2021" selected>2021</option>
               <option value="2022">2022</option>
               <option value="2023">2023</option>
             </select>

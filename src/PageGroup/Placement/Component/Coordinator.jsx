@@ -3,7 +3,7 @@ const Coordinator = () => {
         <section>
         <div className="m-8 flex flex-col items-center justify-center md:flex-row md:justify-evenly">
           <div>
-            <div className="shd mb-10 h-[311px] w-[309px] rounded-lg bg-[url('./src/PageGroup/Placement/assets/shahzadSir.jpeg')] bg-contain md:mb-0"></div>
+            <div className="shd mb-10 h-[311px] w-[309px] rounded-lg bg-[url('/src/PageGroup/Placement/assets/shahzadSir.jpeg')] bg-contain md:mb-0"></div>
           </div>
           <div className="px-4 text-center md:max-w-sm md:text-left lg:max-w-lg">
             <h3 className="mb-3 text-[22px] font-bold text-[color:var(--green-deep)]">
