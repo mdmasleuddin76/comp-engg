@@ -11,14 +11,14 @@ export const data= {
         desc : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
         venue: "FET Auditorium",
         date: "17-10-2017",
-        tagline: "",
+        tagline: "This was amazing",
         
       },{
         image : "https://images.pexels.com/photos/8761330/pexels-photo-8761330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         desc : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
         venue: "FET Auditorium",
         date: "17-10-2017",
-        tagline: "",
+        tagline: "This was amazing",
         
       }],
     "2016" : [{
@@ -26,14 +26,14 @@ export const data= {
         desc : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
         venue: "FET Auditorium",
         date: "17-10-2016",
-        tagline: "",
+        tagline: "This was amazing",
         
       },{
         image : "https://images.pexels.com/photos/8761330/pexels-photo-8761330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         desc : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
         venue: "FET Auditorium",
         date: "17-10-2016",
-        tagline: "",
+        tagline: "This was amazing",
         
       }]
 }

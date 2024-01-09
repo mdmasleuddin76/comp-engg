@@ -54,7 +54,7 @@ function Event() {
 
       <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-10 p-4 mx-2 md:mx-0">
         {filteredData.map((card, index) => (
-            <div key={index} className="bg-green-200 rounded-md border-5 border-green-deep shadow-lg">
+            <div key={index} className="bg-green-200 rounded-md border-6 border-green-deep shadow-t-lg " style={{boxShadow: '0px 0px 12px rgba(0, 0, 0, 0.7)' }}>
           
               <div className="relative h-1/2 mb-4 overflow-hidden rounded-t-md">
                 <img
