@@ -43,7 +43,7 @@ function Facilitiescomp1({ num1,images, content, heading}) {
         <h1 className=" mb-5 px-6 text-3xl font-medium text-green-yellow">
           {heading}
         </h1>
-        <p className="flex-1 rounded-3xl bg-green-light p-6 italic shadow-2xl">
+        <p className="flex-1 rounded-3xl bg-green-light p-6 shadow-2xl">
           {content}
         </p>
       </div>

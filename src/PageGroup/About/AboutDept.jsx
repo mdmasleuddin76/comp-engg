@@ -8,7 +8,7 @@ function AboutDept() {
         heading={"Department of Computer Engineering"}
         image={image}
       />
-      <div className="mx-auto mt-6 max-w-[90%] rounded-3xl bg-green-light px-12 pb-6 pt-5 italic">
+      <div className="mx-auto mt-6 max-w-[90%] rounded-3xl bg-green-light px-12 pb-6 pt-5 text-lg">
         <div className=" mb-5 border-l-2 border-green-yellow px-4 ">
           <span className=" text-xl text-green-deep">
             The Department of Computer Engineering{" "}
@@ -62,7 +62,7 @@ function AboutDept() {
       <div className=" mx-auto my-20 flex max-w-[90%] flex-wrap justify-between md:flex-nowrap">
         <div className=" mx-auto mb-14 w-[90%] rounded-3xl bg-green-yellow text-white md:mx-0 md:mb-0 md:w-[45%]">
           <h1 className=" py-4 text-center text-lg font-bold">VISION</h1>
-          <q className=" block px-9 py-4 text-xl italic leading-loose">
+          <q className=" block px-9 py-4 text-xl leading-loose">
             To produce excellent professionals and innovators in the field of
             Computer Engineering for the economic development and global
             competitiveness of the nation.
@@ -91,7 +91,7 @@ function AboutDept() {
           </ul>
         </div>
       </div>
-  <div className="bg-green-deep text-white">Computer engineering</div>
+      <div className="bg-green-deep text-white">Computer engineering</div>
     </div>
   );
 }

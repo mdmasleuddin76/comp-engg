@@ -8,17 +8,17 @@ const Header = () => {
       </div>
       <div className="subHeading flex flex-col sm:flex-row">
         <div className="sm:w-1/3">
-          <h3 className="bg-[color:var(--dark-black)] px-6 py-4 text-white mb-2 sm:mb-0">
+          <h3 className="mb-2 bg-[color:var(--dark-black)] px-6 py-4 text-white sm:mb-0">
             Placement Details for 2022 Batch (Btech)
           </h3>
         </div>
         <div className="sm:w-1/3">
-          <h3 className="bg-[color:var(--dark-black)] px-6 py-4 text-white mb-2 sm:mb-0">
+          <h3 className="mb-2 bg-[color:var(--dark-black)] px-6 py-4 text-white sm:mb-0">
             Placement Registration for 2024 Batch (Btech/Mtech)
           </h3>
         </div>
         <div className="sm:w-1/3">
-          <h3 className="bg-[color:var(--dark-black)] px-6 py-4 text-white mb-2 sm:mb-0">
+          <h3 className="mb-2 bg-[color:var(--dark-black)] px-6 py-4 text-white sm:mb-0">
             Placement Details for Mtech Computer Engg. student
           </h3>
         </div>
@@ -27,7 +27,7 @@ const Header = () => {
       <div>
         <div className="group relative col-span-1 m-10 flex items-center justify-center overflow-hidden rounded-md text-green-800 shadow">
           <div className="flex w-full flex-col gap-y-3 bg-green-light px-5 py-5 pl-6 text-sm sm:px-8 sm:pl-8 md:px-12">
-            <p className="font-normal italic text-black">
+            <p className="font-normal text-black">
               Campus Placement is the facility given by the University Placement
               Cell to the Department of Computer Engineering to provide jobs for
               students pursuing B.Tech. and M.Tech. Computer Engineering
