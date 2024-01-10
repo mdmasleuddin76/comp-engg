@@ -1,5 +1,6 @@
 import CounsellorGrid from "./Component/Counsellor_Grid";
 import DevGrid from "./Component/Dev_Grid";
+import imgfor from "./assets/image-12@2x.png"
 
 const img = "/src/PageGroup/People/assets";
 
@@ -47,7 +48,7 @@ const Developer = () => {
           </div>
           <img
             className="h-auto w-full object-contain md:h-[550px] lg:h-[700px] lg:w-[45%]"
-            src={`${img}/image-12@2x.png`}
+            src={`${imgfor}`}
           />
         </div>
         <img
