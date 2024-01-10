@@ -1,3 +1,10 @@
+import shahzadSirImg from '../src/PageGroup/Placement/assets/shahzadSir.jpeg';
+import insharahImg from '../src/PageGroup/Placement/assets/insharah.jpeg';
+import zeeshanSirImg from '../src/PageGroup/People/assets/zeeshanSir.jpeg';
+import amjadSirImg from '../src/PageGroup/People/assets/amjadSir.png';
+import sample1 from '../src/PageGroup/Placement/assets/sample1.jpg';
+import sample2 from '../src/PageGroup/Placement/assets/sample2.jpg';
+
 export const caraData = [
   {
     name: "M.Tech 2022",
@@ -49,7 +56,7 @@ export const placementStats = [
         name: "Insharah Ayyubi",
         year: "B.Tech/3rd",
         email: "insharahayyubifiverr@gmail.com",
-        img: "/src/PageGroup/Placement/assets/insharah.jpeg",
+        img: insharahImg,
         github: "https://github.com/insharahAyyubi",
         linkedin: "https://www.linkedin.com/in/insharah-ayyubi",
         whatsapp: "",
@@ -58,7 +65,7 @@ export const placementStats = [
         name: "Md Masleuddin",
         year: "B.Tech/3rd",
         email: "masleuddin@gmail.com",
-        img: "/src/PageGroup/Placement/assets/insharah.jpeg",
+        img: sample2,
         github: "https://github.com/insharahAyyubi",
         linkedin: "https://www.linkedin.com/in/insharah-ayyubi",
         whatsapp: "",
@@ -67,7 +74,7 @@ export const placementStats = [
         name: "Md Masleuddin",
         year: "B.Tech/3rd",
         email: "masleuddin@gmail.com",
-        img: "/src/PageGroup/Placement/assets/insharah.jpeg",
+        img: sample1,
         github: "https://github.com/insharahAyyubi",
         linkedin: "https://www.linkedin.com/in/insharah-ayyubi",
         whatsapp: "",
@@ -76,7 +83,7 @@ export const placementStats = [
         name: "Md Masleuddin",
         year: "B.Tech/3rd",
         email: "masleuddin@gmail.com",
-        img: "/src/PageGroup/Placement/assets/insharah.jpeg",
+        img: insharahImg,
         github: "https://github.com/insharahAyyubi",
         linkedin: "https://www.linkedin.com/in/insharah-ayyubi",
         whatsapp: "",
@@ -89,19 +96,19 @@ export const counsellors = [
   {
     name: "Dr. Mohd Zeeshan Ansari",
     designation: "Assistant Professor",
-    img: "/src/PageGroup/People/assets/zeeshanSir.jpeg",
+    img: zeeshanSirImg,
     info: "Information Extraction, Text Mining, Machine Learning, Soft Computing",
   },
   {
     name: "Dr. Shahzad Alam",
     designation: "Assistant Professor",
-    img: "/src/PageGroup/Placement/assets/shahzadSir.jpeg",
+    img: shahzadSirImg,
     info: "Image processing, Information Security, Cryptography and Soft Computing Techniques",
   },
   {
     name: "Prof. Mohd Amjad",
     designation: "Professor",
-    img: "/src/PageGroup/People/assets/amjadSir.png",
+    img: amjadSirImg,
     info: "Mobile Computing, Wireless Sensor Networks, Security in Cloud Computing",
   },
 ];
@@ -110,7 +117,7 @@ export const devs = [
   {
     name: "Insharah Ayyubi",
     degree: "B.Tech Computer Engineering",
-    img: "/src/PageGroup/Placement/assets/insharah.jpeg",
+    img: insharahImg,
     github: "https://github.com/insharahAyyubi",
     insta: "",
     linkedin: "https://www.linkedin.com/in/insharah-ayyubi",
@@ -118,7 +125,7 @@ export const devs = [
   {
     name: "Md Masleuddin",
     degree: "B.Tech Computer Engineering",
-    img: "/src/PageGroup/Placement/assets/insharah.jpeg",
+    img: sample2,
     github: "https://github.com/insharahAyyubi",
     insta: "",
     linkedin: "https://www.linkedin.com/in/insharah-ayyubi",
@@ -126,7 +133,15 @@ export const devs = [
   {
     name: "Md Masleuddin",
     degree: "B.Tech Computer Engineering",
-    img: "/src/PageGroup/Placement/assets/insharah.jpeg",
+    img: sample1,
+    github: "https://github.com/insharahAyyubi",
+    insta: "",
+    linkedin: "https://www.linkedin.com/in/insharah-ayyubi",
+  },
+  {
+    name: "Insharah Ayyubi",
+    degree: "B.Tech Computer Engineering",
+    img: insharahImg,
     github: "https://github.com/insharahAyyubi",
     insta: "",
     linkedin: "https://www.linkedin.com/in/insharah-ayyubi",
@@ -134,23 +149,15 @@ export const devs = [
   {
     name: "Md Masleuddin",
     degree: "B.Tech Computer Engineering",
-    img: "/src/PageGroup/Placement/assets/insharah.jpeg",
+    img: sample2,
     github: "https://github.com/insharahAyyubi",
     insta: "",
     linkedin: "https://www.linkedin.com/in/insharah-ayyubi",
   },
   {
-    name: "Md Masleuddin",
+    name: "Clara Doe",
     degree: "B.Tech Computer Engineering",
-    img: "/src/PageGroup/Placement/assets/insharah.jpeg",
-    github: "https://github.com/insharahAyyubi",
-    insta: "",
-    linkedin: "https://www.linkedin.com/in/insharah-ayyubi",
-  },
-  {
-    name: "Md Masleuddin",
-    degree: "B.Tech Computer Engineering",
-    img: "/src/PageGroup/Placement/assets/insharah.jpeg",
+    img: sample1,
     github: "https://github.com/insharahAyyubi",
     insta: "",
     linkedin: "https://www.linkedin.com/in/insharah-ayyubi",
