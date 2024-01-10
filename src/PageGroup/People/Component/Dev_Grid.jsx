@@ -12,11 +12,11 @@ const GridItem = ({ name, degree, img, github, insta, linkedin }) => {
     <div className="relative mb-8 flex items-center justify-center">
       <img
         className="absolute top-[-50%] z-10 h-[150px] w-[150px] rounded-full border-2 border-green-700 object-cover"
-        src={img}
+        src={`${img}`}
         alt="Avatar"
       />
       <div className="relative z-0 rounded-xl border-2 border-green-900">
-        <div className="mt-8 px-16 pt-8 pb-4 md:mt-8 md:px-24 text-center sm:min-w-0 min-w-[450px]">
+        <div className="mt-8 px-16 pt-8 pb-4 md:mt-8 md:px-24 text-center">
           <div className="mb-1 text-lg font-medium">{name}</div>
           <div className="text-md text-gray-700 mb-2">{degree}</div>
           <a className="cursor-pointer" href={github}  target="_blank" rel="noopener noreferrer">

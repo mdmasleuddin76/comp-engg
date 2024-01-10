@@ -6,7 +6,7 @@ const Item = ({ name, designation, img, info }) => {
     <div className="relative mb-8 flex items-center justify-center">
       <img
         className="absolute top-[-40%] z-10 h-[150px] w-[150px] rounded-full border-2 border-green-700 object-cover"
-        src={img}
+        src={`${img}`}
         alt="Avatar"
       />
       <div className="relative z-0 min-h-[250px] rounded-xl border-2 border-green-900">

@@ -6,7 +6,7 @@ const Spc = (props) => {
       <div className="mt-10 rounded-3xl border-2 border-[color:var(--green-deep)] bg-white p-4 shadow-md">
         <div className="flex items-center md:items-start flex-col md:flex-row">
           <div className="circle-container w-[60px] h-[60px]">
-            <img src={img} alt="" />
+            <img src={`${img}`} alt="" className="object-cover" />
           </div>
           <div className="hidden md:block mx-4 h-[130px] w-[4px] rounded-md bg-[color:var(--green-deep)]"></div>
           <div className="md:ml-4 mt-4 md:mt-0">
