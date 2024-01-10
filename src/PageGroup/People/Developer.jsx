@@ -1,7 +1,11 @@
-import CounsellorGrid from "./Component/Counsellor_Grid";
-import DevGrid from "./Component/Dev_Grid";
-
-const img = "/src/PageGroup/People/assets";
+import CounsellorGrid from "./Component/Counsellor_Grid"
+import DevGrid from "./Component/Dev_Grid"
+import polygon18 from './assets/polygon-18@2x.png'
+import polygon17 from './assets/polygon-17@2x.png'
+import ellipse78 from './assets/ellipse-78@2x.png'
+import group297 from './assets/group-297@2x.png'
+import image12 from './assets/image-12@2x.png'
+import vector72 from './assets/vector-72@2x.png'
 
 const Developer = () => {
   return (
@@ -10,12 +14,12 @@ const Developer = () => {
         <img
           className="absolute left-[756.5px] top-[-731px] h-[1400.2px] w-[1400px] object-contain"
           alt=""
-          src={`${img}/polygon-18@2x.png`}
+          src={polygon18}
         />
         <img
           className="absolute left-[1250px] top-[-268px] h-[575.1px] w-[574.2px] rotate-[125deg] object-contain"
           alt=""
-          src={`${img}/polygon-17@2x.png`}
+          src={polygon17}
         />
 
         <div className="absolute left-[9px] top-[150px] -z-10 hidden h-36 w-[139px] rounded-[50%] bg-green-200 sm:block" />
@@ -47,16 +51,16 @@ const Developer = () => {
           </div>
           <img
             className="h-auto w-full object-contain md:h-[550px] lg:h-[700px] lg:w-[45%]"
-            src={`${img}/image-12@2x.png`}
+            src={image12}
           />
         </div>
         <img
           className="absolute left-[9px] top-[550px] h-[173px]  w-[309px] object-contain pb-12"
-          src={`${img}/vector-72@2x.png`}
+          src={vector72}
         />
         <img
           className="absolute left-[-37px] top-[600px] h-[173px]  w-[309px] object-contain pb-12"
-          src={`${img}/vector-72@2x.png`}
+          src={vector72}
         />
       </div>
 
