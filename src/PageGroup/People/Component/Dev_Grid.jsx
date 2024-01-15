@@ -5,9 +5,9 @@ import {
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import placementData from "../../../../data/placement";
+import devData from "../../../../data/developer";
 
-const GridItem = ({ name, degree, img, github, insta, linkedin }) => {
+const GridItem = ({ name, desg, degree, img, github, insta, linkedin }) => {
   return (
     <div className="relative mb-8 flex items-center justify-center">
       <img
@@ -15,10 +15,11 @@ const GridItem = ({ name, degree, img, github, insta, linkedin }) => {
         src={`${img}`}
         alt="Avatar"
       />
-      <div className="relative z-0 rounded-xl border-2 border-green-900">
+      <div className="relative bg-[#d7ffdab0] z-0 rounded-xl border-2 border-green-900">
         <div className="mt-8 px-16 pt-8 pb-4 md:mt-8 md:px-24 text-center">
-          <div className="mb-1 text-lg font-medium">{name}</div>
-          <div className="text-md text-gray-700 mb-2">{degree}</div>
+          <div className="mb-1 text-xl font-semibold text-[#000]">{name}</div>
+          <div className="text-lg font-semibold text-[#0f4003] mb-2">{desg}</div>
+          <div className="text-md text-gray-800 mb-2">{degree}</div>
           <a className="cursor-pointer" href={github}  target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon className="text-[#046B09] text-xl mr-2" icon={faGithub} />
           </a>
@@ -38,7 +39,7 @@ const Grid = () => {
   return (
     <div className="flex min-h-screen items-center justify-center">
       <div className="grid max-w-7xl grid-cols-1 gap-x-8 gap-y-24 p-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-        {placementData[3].map((item, index) => (
+        {devData[1].map((item, index) => (
           <GridItem key={index} {...item} />
         ))}
       </div>
