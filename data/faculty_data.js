@@ -5,7 +5,7 @@ import MumtazSirImg from '../src/PageGroup/People/assets/MumtazSir.png';
 
 export const HOD = {
     "name": "Prof. Bashir Alam",
-    "dp": "https://www.jmi.ac.in/upload/employee/balam220210804205147_l.jpg",
+    "dp": "https://ieeexplore.ieee.org/mediastore_new/IEEE/content/freeimages/30/8970630/8932580/alam-2959629-small.gif",
     "onclick": "id3",
     "designation": "(Professor & Head of Department )",
     "department": "Department of Computer Engineering, Jamia Millia Islamia<br>New Delhi, Delhi-110025 India",

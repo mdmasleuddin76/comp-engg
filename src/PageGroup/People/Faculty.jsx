@@ -3,12 +3,11 @@ import { faculty_data, HOD } from "../../../data/faculty_data";
 import HeroSection from "../About/Component/HeroSection";
 import image from "../About/assets/aboutjmi.jpeg";
 import { Container } from "react-grid-system";
-import ellipse78 from "./assets/ellipse-78@2x.png";
-import group297 from "./assets/group-297@2x.png";
-import image12 from "./assets/image-12@2x.png";
-import vector72 from "./assets/vector-72@2x.png";
-import polygon18 from "./assets/polygon-18@2x.png";
-import polygon17 from "./assets/polygon-17@2x.png";
+import polygon18 from './assets/polygon-18@2x.png'
+import polygon17 from './assets/polygon-17@2x.png'
+import ellipse78 from './assets/ellipse-78@2x.png'
+import image12 from './assets/image-12@2x.png'
+import vector72 from './assets/vector-72@2x.png'
 function Faculty() {
   const HODIcon = {
     fontSize: "2rem",
@@ -55,7 +54,7 @@ function Faculty() {
                 src={HOD.dp}
                 alt="image"
               />
-              <div className="relative z-0 min-h-[250px] rounded-xl border-2 border-green-900">
+              <div className="relative bg-[#d7ffdab0] z-0 min-h-[250px] rounded-xl border-2 border-green-900">
                 <div className="mt-8 max-w-[700px] px-16 pb-4 pt-8 text-center md:mt-8 md:px-12">
                   <div className="mb-1 text-lg font-medium">{HOD.name}</div>
                   <div className="text-bold mb-2 text-lg text-gray-900">
@@ -114,7 +113,7 @@ function Faculty() {
                     src={professor.dp}
                     alt="image"
                   />
-                  <div className="relative z-0 min-h-[250px] rounded-xl border-2 border-green-900">
+                  <div className="relative bg-[#d7ffdab0] z-0 min-h-[250px] rounded-xl border-2 border-green-900">
                     <div className="mt-8 max-w-[450px] px-16 pb-4 pt-8 text-center md:mt-8 md:px-12">
                       <div className="mb-1 text-lg font-medium">
                         {professor.name}
