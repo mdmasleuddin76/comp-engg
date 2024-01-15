@@ -1,9 +1,8 @@
-import CounsellorGrid from "./Component/Counsellor_Grid"
+import FacultyGrid from "./Component/Faculty_Grid"
 import DevGrid from "./Component/Dev_Grid"
 import polygon18 from './assets/polygon-18@2x.png'
 import polygon17 from './assets/polygon-17@2x.png'
 import ellipse78 from './assets/ellipse-78@2x.png'
-import group297 from './assets/group-297@2x.png'
 import image12 from './assets/image-12@2x.png'
 import vector72 from './assets/vector-72@2x.png'
 
@@ -65,11 +64,11 @@ const Developer = () => {
       </div>
 
       <div>
-        <div className="mb-24 mt-4 bg-green-200 text-center text-3xl font-medium text-[#000000d8]">
-          Counsellors
+        <div className="mb-24 mt-4 py-4 bg-green-200 text-center text-3xl font-medium text-[#000000d8]">
+          Faculty Members
         </div>
-        <CounsellorGrid />
-        <div className="lg:16 mb-24 mt-4 bg-green-200 text-center text-3xl font-medium text-[#000000d8] md:mb-28">
+        <FacultyGrid />
+        <div className="lg:16 mb-24 mt-4 py-4 bg-green-200 text-center text-3xl font-medium text-[#000000d8] md:mb-28">
           Student Developers
         </div>
         <DevGrid />
