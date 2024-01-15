@@ -33,7 +33,7 @@ function Event() {
           
 
           <select
-            className="bg-deep text-grey border-deep-green w-32 border-3 p-4 px-4 py-2"
+            className="bg-deep text-grey border-deep-green w-32 border-3 p-4 px-4 py-2 rounded-lg"
             value={selectedCategory}
             onChange={(e) => setSelectedCategory(e.target.value)}
           >
@@ -54,7 +54,8 @@ function Event() {
 
       <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-10 p-4 mx-2 md:mx-0">
         {filteredData.map((card, index) => (
-            <div key={index} className="bg-green-200 rounded-md border-6 border-green-deep shadow-t-lg " style={{boxShadow: '0px 0px 12px rgba(0, 0, 0, 0.7)' }}>
+          <div key={index} className="bg-green-200 rounded-md overflow-hidden">
+            <div className="border-6 border-solid border-green-deep p-1">
           
               <div className="relative h-1/2 mb-4 overflow-hidden rounded-t-md">
                 <img
@@ -72,9 +73,10 @@ function Event() {
                 
                 <div className="text-sm p-2 px-4">
                 <p className="pb-2 flex"><FaLocationDot/><p className="ml-2">{card.venue}</p></p>
-                  <p className="pb-2 flex"><MdOutlineAccessTimeFilled/><p className="ml-2">{card.date}</p></p>
+                  <p className="pb-2 flex"><MdOutlineAccessTimeFilled /><p className="ml-2">{card.date}</p></p>
                 </div>
               </div>
+            </div>
             </div>
         ))}
       </div>
