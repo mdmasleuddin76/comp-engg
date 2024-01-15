@@ -1,5 +1,5 @@
 import React from "react";
-import placementData from "../../../../data/placement";
+import devData from "../../../../data/developer";
 
 const Item = ({ name, designation, img, info }) => {
   return (
@@ -9,10 +9,10 @@ const Item = ({ name, designation, img, info }) => {
         src={`${img}`}
         alt="Avatar"
       />
-      <div className="relative z-0 min-h-[250px] rounded-xl border-2 border-green-900">
+      <div className="relative bg-[#d7ffdab0] z-0 min-h-[250px] rounded-xl border-2 border-green-900">
         <div className="mt-8 max-w-[450px] px-16 pb-4 pt-8 text-center md:mt-8 md:px-12">
           <div className="mb-1 text-lg font-medium">{name}</div>
-          <div className="text-bold mb-2 text-lg text-gray-900">
+          <div className="font-semibold mb-2 text-lg text-gray-900">
             {designation}
           </div>
           <hr className="mx-auto my-4 w-4/5 border-t border-gray-300" />
@@ -26,8 +26,8 @@ const Item = ({ name, designation, img, info }) => {
 const CounsellorGrid = () => {
   return (
     <div className="flex min-h-[400px] items-center justify-center">
-      <div className="grid max-w-7xl grid-cols-1 gap-x-8 gap-y-24 p-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-        {placementData[2].map((item, index) => (
+      <div className="grid max-w-7xl grid-cols-1 gap-x-8 gap-y-24 p-8 sm:grid-cols-2 lg:grid-cols-3 mt-12">
+        {devData[0].map((item, index) => (
           <Item key={index} {...item} />
         ))}
       </div>
