@@ -226,12 +226,12 @@ const course_data_mtech_sem1 = [
 const course_data_mtech_sem2 = [];
 const course_data_mtech_sem3 = [];
 const course_data_mtech_sem4 = [];
-const course_data_be_sem1 = [];
-const course_data_be_sem2 = [];
-const course_data_be_sem3 = [];
-const course_data_be_sem4 = [];
-const course_data_be_sem5 = [];
-const course_data_be_sem6 = [];
+const course_data_phd_sem1 = [];
+const course_data_phd_sem2 = [];
+const course_data_phd_sem3 = [];
+const course_data_phd_sem4 = [];
+const course_data_phd_sem5 = [];
+const course_data_phd_sem6 = [];
 
 export const courseStructureData = [
   {
@@ -290,34 +290,34 @@ export const courseStructureData = [
     course_data: course_data_mtech_sem4,
   },
   {
-    course: "BE",
+    course: "Phd",
     semester: "Semester-1",
-    course_data: course_data_be_sem1,
+    course_data: course_data_phd_sem1,
   },
   {
-    course: "BE",
+    course: "Phd",
     semester: "Semester-2",
-    course_data: course_data_be_sem2,
+    course_data: course_data_phd_sem2,
   },
   {
-    course: "BE",
+    course: "Phd",
     semester: "Semester-3",
-    course_data: course_data_be_sem3,
+    course_data: course_data_phd_sem3,
   },
   {
-    course: "BE",
+    course: "Phd",
     semester: "Semester-4",
-    course_data: course_data_be_sem4,
+    course_data: course_data_phd_sem4,
   },
   {
-    course: "BE",
+    course: "Phd",
     semester: "Semester-5",
-    course_data: course_data_be_sem5,
+    course_data: course_data_phd_sem5,
   },
   {
-    course: "BE",
+    course: "Phd",
     semester: "Semester-6",
-    course_data: course_data_be_sem6,
+    course_data: course_data_phd_sem6,
   },
 ];
 
@@ -341,7 +341,7 @@ export const courseStructureFilters = [
     semester: ["Semester-1", "Semester-2", "Semester-3", "Semester-4"],
   },
   {
-    course: "BE",
+    course: "Phd",
     semester: [
       "Semester-1",
       "Semester-2",

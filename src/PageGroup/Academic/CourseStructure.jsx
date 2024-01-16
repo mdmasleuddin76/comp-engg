@@ -7,13 +7,22 @@ import {
   courseStructureFilters,
 } from "../../../data/CourseStructure";
 import { CourseStructureFilters } from "./Component/CourseStructureFilter";
+import { useNavigate } from "react-router-dom";
 
 const DEFAULT_COURSE = "BTech";
 const DEFAULT_SEMESTER = "Semester-1";
 
 function CourseStructure() {
-  const [selectedCourse, setSelectedCourse] = useState(DEFAULT_COURSE);
-  const [selectedSemester, setSelectedSemester] = useState(DEFAULT_SEMESTER);
+  const searchParams = new URLSearchParams(window.location.search);
+  const defaultCourse = searchParams.get("course");
+  const defaultSemester = searchParams.get("semester");
+  const navigate = useNavigate();
+  const [selectedCourse, setSelectedCourse] = useState(
+    defaultCourse ?? DEFAULT_COURSE,
+  );
+  const [selectedSemester, setSelectedSemester] = useState(
+    defaultSemester ?? DEFAULT_SEMESTER,
+  );
   const [courseData, setCourseData] = useState();
 
   useEffect(() => {
@@ -22,8 +31,12 @@ function CourseStructure() {
         course.course === selectedCourse && course.semester === selectedSemester
       );
     });
+    const searchParams = new URLSearchParams(window.location.search);
+    searchParams.set("course", selectedCourse);
+    searchParams.set("semester", selectedSemester);
+    navigate(`?${searchParams.toString()}`);
     setCourseData(data?.course_data);
-  }, [selectedCourse, selectedSemester]);
+  }, [navigate, selectedCourse, selectedSemester]);
   return (
     <div>
       <HeroSection heading={"Course Structure"} image={image} />
