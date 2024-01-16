@@ -34,7 +34,7 @@ function CourseStructure() {
     const searchParams = new URLSearchParams(window.location.search);
     searchParams.set("course", selectedCourse);
     searchParams.set("semester", selectedSemester);
-    navigate(`?${searchParams.toString()}`);
+    navigate(`?${searchParams.toString()}`, { replace: true });
     setCourseData(data?.course_data);
   }, [navigate, selectedCourse, selectedSemester]);
   return (
