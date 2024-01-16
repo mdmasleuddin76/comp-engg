@@ -51,6 +51,7 @@ function Faculty() {
         </div>
         <div className="py-10">
           <div className="flex min-h-[400px] items-center justify-center">
+          <Link to="/people/faculty/professor" state={{ fromHome: { HOD } }}>
             <div className="relative mb-8 flex items-center justify-center">
               <img
                 className="absolute top-[-40%] z-10 h-[150px] w-[150px] rounded-full border-2 border-green-700 object-cover"
@@ -60,9 +61,9 @@ function Faculty() {
               <div className="relative bg-[#d7ffdab0] z-0 min-h-[250px] rounded-xl border-2 border-green-900">
                 <div className="mt-8 max-w-[700px] px-16 pb-4 pt-8 text-center md:mt-8 md:px-12">
                   <div className="mb-1 text-lg font-medium">
-                  <Link to="/people/faculty/professor" state={{ fromHome: { HOD } }}>
+                  
                         {HOD.name}
-                      </Link>
+                      
                   </div>
                   <div className="text-bold mb-2 text-lg text-gray-900">
                     {HOD.designation}
@@ -87,6 +88,7 @@ function Faculty() {
                 </div>
               </div>
             </div>
+            </Link>
           </div>
         </div>
 
@@ -110,11 +112,12 @@ function Faculty() {
         Faculty Members
       </div>
       <div className="flex min-h-[400px] items-center justify-center">
-        <div className="grid max-w-7xl grid-cols-1 gap-x-8 gap-y-24 p-8 py-24 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+        <div className="grid max-w-7xl grid-cols-1 gap-x-8 gap-y-24 p-8 py-30 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
           {faculty_data.map((professor, index) => {
             return (
               <div key={index}>
-                <div className="relative mb-8 flex items-center justify-center">
+              <Link to="/people/faculty/professor" state={{ fromHome: { professor } }}>
+                <div className="relative mb-10 flex items-center justify-center">
                   <img
                     className="absolute top-[-40%] z-10 h-[150px] w-[150px] rounded-full border-2 border-green-700 object-cover"
                     src={professor.dp}
@@ -123,9 +126,9 @@ function Faculty() {
                   <div className="relative bg-[#d7ffdab0] z-0 min-h-[250px] rounded-xl border-2 border-green-900">
                     <div className="mt-8 max-w-[500px] px-16 pb-4 pt-8 text-center md:mt-8 md:px-12">
                       <div className="mb-1 text-lg font-medium">
-                      <Link to="/people/faculty/professor" state={{ fromHome: { professor } }}>
+                      
                         {professor.name}
-                      </Link>
+                      
                       </div>
                       <div className="text-bold mb-2 text-lg text-gray-900">
                         {professor.designation}
@@ -145,6 +148,7 @@ function Faculty() {
                     </div>
                   </div>
                 </div>
+                </Link>
               </div>
             );
           })}
