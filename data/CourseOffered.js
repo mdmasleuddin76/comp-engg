@@ -1,298 +1,85 @@
-export const courseOfferedHeaders = [
-  "Course Code",
-  "Course Title",
-  "Lecture (Hrs.)",
-  "Tutorial (Hrs.)",
-  "Practical (Hrs.)",
-  "Total (Hrs.)",
-  "Course Credit",
-];
+export const PSO_COVER = "Program Specific Outcome (PSOs) : ";
+export const PEO_COVER = "Program Educational Objectives (PEOs) :";
+export const COURSES_OFFERED = "Courses Offered :";
 
-export const courseOfferedData = [
-  {
-    course: "BTech",
-    semester: "Semester-1",
-    course_data: [
-      {
-        course_code: "CSE 1101",
-        course_title: "Computer Fundamentals",
-        lecture: 2,
-        tutorial: 1,
-        practical: 3,
-        total: 6,
-        credit: 3,
-      },
-      {
-        course_code: "CSE 2201",
-        course_title: "Data Structures and Algorithms",
-        lecture: 3,
-        tutorial: 2,
-        practical: 2,
-        total: 7,
-        credit: 4,
-      },
-      {
-        course_code: "CSE 3301",
-        course_title: "Database Management Systems",
-        lecture: 2,
-        tutorial: 1,
-        practical: 3,
-        total: 6,
-        credit: 3,
-      },
-      {
-        course_code: "CSE 4401",
-        course_title: "Computer Networks",
-        lecture: 2,
-        tutorial: 1,
-        practical: 3,
-        total: 6,
-        credit: 3,
-      },
-      {
-        course_code: "CSE 5501",
-        course_title: "Artificial Intelligence",
-        lecture: 3,
-        tutorial: 2,
-        practical: 2,
-        total: 7,
-        credit: 4,
-      },
-      {
-        course_code: "CSE 6601",
-        course_title: "Computer Graphics",
-        lecture: 2,
-        tutorial: 1,
-        practical: 3,
-        total: 6,
-        credit: 3,
-      },
-      {
-        course_code: "CSE 7701",
-        course_title: "Software Engineering",
-        lecture: 3,
-        tutorial: 2,
-        practical: 2,
-        total: 7,
-        credit: 4,
-      },
-      {
-        course_code: "CSE 8801",
-        course_title: "Computer Architecture",
-        lecture: 2,
-        tutorial: 1,
-        practical: 3,
-        total: 6,
-        credit: 3,
-      },
-      {
-        course_code: "CSE 9901",
-        course_title: "Compiler Design",
-        lecture: 3,
-        tutorial: 2,
-        practical: 2,
-        total: 7,
-        credit: 4,
-      },
-      {
-        course_code: "CSE 1102",
-        course_title: "Structured Programming Language",
-        lecture: 2,
-        tutorial: 1,
-        practical: 3,
-        total: 6,
-        credit: 3,
-      },
-      {
-        course_code: "CSE 2202",
-        course_title: "Object Oriented Programming Language",
-        lecture: 3,
-        tutorial: 2,
-        practical: 2,
-        total: 7,
-        credit: 4,
-      },
-      {
-        course_code: "CSE 3302",
-        course_title: "Operating Systems",
-        lecture: 2,
-        tutorial: 1,
-        practical: 3,
-        total: 6,
-        credit: 3,
-      },
-      {
-        course_code: "CSE 4402",
-        course_title: "Computer and Network Security",
-        lecture: 3,
-        tutorial: 2,
-        practical: 2,
-        total: 7,
-        credit: 4,
-      },
-    ],
-  },
-  {
-    course: "BTech",
-    semester: "Semester-2",
-    course_data: [
-      {
-        course_code: "CSE 1103",
-        course_title: "Digital Logic Design",
-        lecture: 2,
-        tutorial: 1,
-        practical: 3,
-        total: 6,
-        credit: 3,
-      },
-      {
-        course_code: "CSE 2203",
-        course_title: "Computer Architecture and Organization",
-        lecture: 3,
-        tutorial: 2,
-        practical: 2,
-        total: 7,
-        credit: 4,
-      },
-    ],
-  },
-  {
-    course: "BTech",
-    semester: "Semester-3",
-    course_data: [
-      {
-        course_code: "CSE 1104",
-        course_title: "Discrete Mathematics",
-        lecture: 3,
-        tutorial: 2,
-        practical: 2,
-        total: 7,
-        credit: 4,
-      },
-    ],
-  },
-  {
-    course: "BTech",
-    semester: "Semester-4",
-    course_data: [
-      {
-        course_code: "CSE 1105",
-        course_title: "Data Communication and Computer Networks",
-        lecture: 3,
-        tutorial: 2,
-        practical: 2,
-        total: 7,
-        credit: 4,
-      },
-    ],
-  },
-  {
-    course: "BTech",
-    semester: "Semester-5",
-    course_data: [
-      {
-        course_code: "CSE 1106",
-        course_title: "Theory of Computation",
-        lecture: 3,
-        tutorial: 2,
-        practical: 2,
-        total: 7,
-        credit: 4,
-      },
-    ],
-  },
-  {
-    course: "BTech",
-    semester: "Semester-6",
-    course_data: [
-      {
-        course_code: "CSE 1107",
-        course_title: "Computer Graphics and Multimedia Systems",
-        lecture: 3,
-        tutorial: 2,
-        practical: 2,
-        total: 7,
-        credit: 4,
-      },
-    ],
-  },
-  {
-    course: "BTech",
-    semester: "Semester-7",
-    course_data: [
-      {
-        course_code: "CSE 1108",
-        course_title: "Software Engineering and Information System Design",
-        lecture: 3,
-        tutorial: 2,
-        practical: 2,
-        total: 7,
-        credit: 4,
-      },
-    ],
-  },
-  {
-    course: "MTech",
-    semester: "Semester-1",
-    course_data: [
-      {
-        course_code: "CSE 1109",
-        course_title: "Advanced Computer Architecture",
-        lecture: 3,
-        tutorial: 2,
-        practical: 2,
-        total: 7,
-        credit: 4,
-      },
-      {
-        course_code: "CSE 2209",
-        course_title: "Advanced Computer Networks",
-        lecture: 3,
-        tutorial: 2,
-        practical: 2,
-        total: 7,
-        credit: 4,
-      },
-      {
-        course_code: "CSE 3309",
-        course_title: "Advanced Database Management Systems",
-        lecture: 3,
-        tutorial: 2,
-        practical: 2,
-        total: 7,
-        credit: 4,
-      },
-    ],
-  },
-];
+const mtech_peo1 = {
+  title: "Leading a successful Professional Career:",
+  description:
+    "Applying their skills as computing professionals for conducting research and or teaching, designing/developing maintaining projects in various application areas",
+  icon: "Target",
+};
+const mtech_peo2 = {
+  title: "Leading a successful Professional Career:",
+  description:
+    "Applying their skills as computing professionals for conducting research and or teaching, designing/developing maintaining projects in various application areas",
+  icon: "User",
+};
+const mtech_peo3 = {
+  title: "Leading a successful Professional Career:",
+  description:
+    "Applying their skills as computing professionals for conducting research and or teaching, designing/developing maintaining projects in various application areas",
+  icon: "Book",
+};
 
-export const courseOfferedFilters = [
-  {
-    course: "BTech",
-    semester: [
-      "Semester-1",
-      "Semester-2",
-      "Semester-3",
-      "Semester-4",
-      "Semester-5",
-      "Semester-6",
-      "Semester-7",
-      "Semester-8",
-    ],
-  },
-  {
-    course: "MTech",
-    semester: ["Semester-1", "Semester-2", "Semester-3", "Semester-4"],
-  },
-  {
-    course: "BE",
-    semester: [
-      "Semester-1",
-      "Semester-2",
-      "Semester-3",
-      "Semester-4",
-      "Semester-5",
-      "Semester-6",
-    ],
-  },
-];
+const mtech_pso1 = {
+  title: "PSO1",
+  description:
+    "Design and develop Parallel systems using CUDA OPENCL, Microprocessor and Microcontroller based systems",
+};
+const mtech_pso2 = {
+  title: "PSO1",
+  description:
+    "Design and develop Parallel systems using CUDA OPENCL, Microprocessor and Microcontroller based systems",
+};
+const mtech_pso3 = {
+  title: "PSO1",
+  description:
+    "Design and develop Parallel systems using CUDA OPENCL, Microprocessor and Microcontroller based systems",
+};
+
+const MTECH = {
+  title: "Master of Technology",
+  short_title: "MTech",
+  description:
+    "M.Tech is a two year, full time program for advanced studies and research in Computer Science, Engineering, and Technology.",
+  duration: "Years-2 (Semesters-4)",
+  intake: "20",
+  fee: "13,050/- p.a.",
+  why: "Pursuing a M.Tech at Jamia Millia Islamia (JMI) is an excellent choice for engineering education. JMI offers rigorous academic programs that stay current with industry demands. It is known for its diverse and inclusive environment, providing a global perspective. JMI's renowned faculty mentors students, and the university emphasizes holistic development through extracurricular activities and community engagement. With its rich cultural heritage, JMI offers a unique backdrop for learning. Additionally, the influential alumni network opens doors to numerous career opportunities. In sum, JMI blends academic excellence, cultural exposure, renowned faculty, holistic development, and extensive networking, preparing students for success in engineering and beyond",
+  peos: [mtech_peo1, mtech_peo2, mtech_peo3],
+  psos: [mtech_pso1, mtech_pso2, mtech_pso3],
+  career_prospects:
+    "The programme bears testimony to an excellent placement track record, with our students bagging offers from the top companies in the industry. The current placement season has seen the Exchanger companies hiring at an annual package of close to a million.The department also boasts of state of the art laboratory and infrastructure facilities for its students, thereby stimulating an atmosphere of research among them",
+};
+
+const BTECH = {
+  title: "Bachelor of Technology",
+  short_title: "BTech",
+  description:
+    "B.Tech is a four year, full time program for advanced studies and research in Computer Science, Engineering, and Technology.",
+  duration: "Years-4 (Semesters-8)",
+  intake: "60",
+  fee: "13,050/- p.a.",
+  why: "Pursuing a B.Tech at Jamia Millia Islamia (JMI) is an excellent choice for engineering education. JMI offers rigorous academic programs that stay current with industry demands. It is known for its diverse and inclusive environment, providing a global perspective. JMI's renowned faculty mentors students, and the university emphasizes holistic development through extracurricular activities and community engagement. With its rich cultural heritage, JMI offers a unique backdrop for learning. Additionally, the influential alumni network opens doors to numerous career opportunities. In sum, JMI blends academic excellence, cultural exposure, renowned faculty, holistic development, and extensive networking, preparing students for success in engineering and beyond",
+  peos: [mtech_peo1, mtech_peo2, mtech_peo3],
+  psos: [mtech_pso1, mtech_pso2, mtech_pso3],
+  career_prospects:
+    "The programme bears testimony to an excellent placement track record, with our students bagging offers from the top companies in the industry. The current placement season has seen the Exchanger companies hiring at an annual package of close to a million.The department also boasts of state of the art laboratory and infrastructure facilities for its students, thereby stimulating an atmosphere of research among them",
+};
+
+const PHD = {
+  title: "Doctor of Philosophy",
+  short_title: "Phd",
+  description:
+    "Ph.D is a five year, full time program for advanced studies and research in Computer Science, Engineering, and Technology.",
+  duration: "Years-5 (Semesters-10)",
+  intake: "20",
+  fee: "13,050/- p.a.",
+  why: "Pursuing a Ph.D at Jamia Millia Islamia (JMI) is an excellent choice for engineering education. JMI offers rigorous academic programs that stay current with industry demands. It is known for its diverse and inclusive environment, providing a global perspective. JMI's renowned faculty mentors students, and the university emphasizes holistic development through extracurricular activities and community engagement. With its rich cultural heritage, JMI offers a unique backdrop for learning. Additionally, the influential alumni network opens doors to numerous career opportunities. In sum, JMI blends academic excellence, cultural exposure, renowned faculty, holistic development, and extensive networking, preparing students for success in engineering and beyond",
+  peos: [mtech_peo1, mtech_peo2, mtech_peo3],
+  psos: [mtech_pso1, mtech_pso2, mtech_pso3],
+  career_prospects:
+    "The programme bears testimony to an excellent placement track record, with our students bagging offers from the top companies in the industry. The current placement season has seen the Exchanger companies hiring at an annual package of close to a million.The department also boasts of state of the art laboratory and infrastructure facilities for its students, thereby stimulating an atmosphere of research among them",
+};
+
+export const COURSES = [MTECH, BTECH, PHD];
