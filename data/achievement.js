@@ -48,6 +48,9 @@ export const achievementInTech = [
   },
 ];
 
+
+
+
 export const testimonials = [
   {
     text: "With some of the best equipment, dedicated libraries, placement opportunities, workshops, and techno-cultural fests, the Computer Science department of Jamia Millia Islamia has been an excellent form of exposure for me. I have had the pleasure of studying under and working with eminent professors who have relentlessly assisted me in my research and project works.The campus is beautiful and the atmosphere is always inviting.",

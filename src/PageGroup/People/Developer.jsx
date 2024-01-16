@@ -64,7 +64,7 @@ const Developer = () => {
       </div>
 
       <div>
-        <div className="mb-24 mt-4 py-4 bg-green-200 text-center text-3xl font-medium text-[#000000d8]">
+        <div className=" mb-16 md:mb-24 mt-4 py-4 bg-green-200 text-center text-3xl font-medium text-[#000000d8]">
           Faculty Members
         </div>
         <FacultyGrid />
