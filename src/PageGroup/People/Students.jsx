@@ -28,7 +28,7 @@ function Students() {
       {/***************************************filter****************************/}
       <div className=" mx-auto flex w-full flex-wrap-reverse justify-center rounded-lg bg-green-yellow p-5 text-black md:w-[70%]">
         <h1 className="w-[100%] text-center text-2xl font-bold text-white md:w-[50%] md:pr-16 md:text-right">
-          Students({i ? (j?`M.Tech,${optio[j-1].value}`:"M.Tech,2023-2025") :( j?`B.Tech,${optio[j-1].value}`:"B.Tech,2023-2027")})
+          Students({i ? (j?`M.Tech,${optio[j-1].value}`:"M.Tech,2023-2025") :( j?`B.Tech,${optio[j-1].value}`:"B.Tech,2022-2026")})
         </h1>
         {/*****************************first dropdown***********************************/}
         <select
@@ -44,7 +44,7 @@ function Students() {
           onChange={(e) => setj(e.target.selectedIndex)}
         >
           {
-            i?<option value="">2023-2025</option>: <option value="">2023-2027</option>
+            i?<option value="">2023-2025</option>: <option value="">2022-2026</option>
           }
           {
             optio.map((item,index)=>{
