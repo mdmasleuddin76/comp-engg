@@ -26,6 +26,7 @@ import Project from "./PageGroup/Research/Project";
 import Publication from "./PageGroup/Research/Publication";
 import ResearchArea from "./PageGroup/Research/ResearchArea";
 import Layout from "./Layout";
+import AboutProf from "./PageGroup/People/Component/AboutProf";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -51,6 +52,7 @@ const router = createBrowserRouter(
       <Route path="research/project" element={<Project />} />
       <Route path="research/publication" element={<Publication />} />
       <Route path="research/researchArea" element={<ResearchArea />} />
+      <Route path="people/faculty/professor" element={<AboutProf />} />
     </Route>,
   ),
 );

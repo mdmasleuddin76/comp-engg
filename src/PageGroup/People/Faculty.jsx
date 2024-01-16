@@ -1,5 +1,6 @@
 import { IoIosMail, IoIosCall } from "react-icons/io";
 import { faculty_data, HOD } from "../../../data/faculty_data";
+import { Link } from "react-router-dom";
 import HeroSection from "../About/Component/HeroSection";
 import image from "../About/assets/aboutjmi.jpeg";
 import { Container } from "react-grid-system";
@@ -8,7 +9,9 @@ import polygon17 from './assets/polygon-17@2x.png'
 import ellipse78 from './assets/ellipse-78@2x.png'
 import image12 from './assets/image-12@2x.png'
 import vector72 from './assets/vector-72@2x.png'
+import AboutProf from "./Component/AboutProf";
 function Faculty() {
+  // const navigate=useNavigate();
   const HODIcon = {
     fontSize: "2rem",
     color: "green",
@@ -56,7 +59,11 @@ function Faculty() {
               />
               <div className="relative bg-[#d7ffdab0] z-0 min-h-[250px] rounded-xl border-2 border-green-900">
                 <div className="mt-8 max-w-[700px] px-16 pb-4 pt-8 text-center md:mt-8 md:px-12">
-                  <div className="mb-1 text-lg font-medium">{HOD.name}</div>
+                  <div className="mb-1 text-lg font-medium">
+                  <Link to="/people/faculty/professor" state={{ fromHome: { HOD } }}>
+                        {HOD.name}
+                      </Link>
+                  </div>
                   <div className="text-bold mb-2 text-lg text-gray-900">
                     {HOD.designation}
                   </div>
@@ -114,9 +121,11 @@ function Faculty() {
                     alt="image"
                   />
                   <div className="relative bg-[#d7ffdab0] z-0 min-h-[250px] rounded-xl border-2 border-green-900">
-                    <div className="mt-8 max-w-[450px] px-16 pb-4 pt-8 text-center md:mt-8 md:px-12">
+                    <div className="mt-8 max-w-[500px] px-16 pb-4 pt-8 text-center md:mt-8 md:px-12">
                       <div className="mb-1 text-lg font-medium">
+                      <Link to="/people/faculty/professor" state={{ fromHome: { professor } }}>
                         {professor.name}
+                      </Link>
                       </div>
                       <div className="text-bold mb-2 text-lg text-gray-900">
                         {professor.designation}
@@ -126,18 +135,13 @@ function Faculty() {
                         {professor.areaOfIntrest}
                       </div>
                       {/* <hr className="mx-auto my-4 w-4/5 border-t border-gray-300" /> */}
-                      {professor.email ? (
-                        <p>
+                      
+                        
                           <IoIosMail style={FacultyIcon} />
-                          {professor.email}
-                        </p>
-                      ) : null}
-                      {professor.mobileNumber ? (
-                        <p>
+                          
+                      
                           <IoIosCall style={FacultyIcon} />
-                          {professor.mobileNumber}
-                        </p>
-                      ) : null}
+                          
                     </div>
                   </div>
                 </div>
@@ -152,27 +156,3 @@ function Faculty() {
 }
 export default Faculty;
 
-{
-  /* <div className="mt-10 w-11/12 rounded-3xl border-2 border-[color:var(--green-deep)] bg-white p-4 shadow-md" key={professor.name}>
-          <div className="flex items-center md:items-start">
-            <div className="w-[70px] h-[70px]">
-              <img src={""} alt="image" />
-            </div>
-            <div className="mx-4 h-[130px] w-[4px] rounded-md bg-[color:var(--green-deep)]"></div>
-            <div>
-              <h3 className=" text-[20px] font-medium">
-              {professor.name}
-              </h3>
-              <p className=" text-md font-medium text-[color:var(--green-deep)]">
-              {professor.designation}
-              </p>
-
-              <p className="mb-1 text-sm font- ">{professor.areaOfIntrest}</p>
-                  <br></br>
-                  {professor.email ? <p><IoIosMail style={FacultyIcon}/>{professor.email}</p> : null }
-                  {professor.mobileNumber ? <p><IoIosCall style={FacultyIcon}/>{professor.mobileNumber}</p> : null }
-              
-            </div>
-          </div>
-        </div> */
-}
