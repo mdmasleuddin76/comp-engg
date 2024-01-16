@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import HeroSection from "../About/Component/HeroSection";
 import image from "./assets/study-book.jpeg";
 import {
-  courseOfferedHeaders,
-  courseOfferedData,
-  courseOfferedFilters,
-} from "../../../data/CourseOffered";
-import { CourseOfferedFilters } from "./Component/CourseOfferedFilter";
+  courseStructureHeaders,
+  courseStructureData,
+  courseStructureFilters,
+} from "../../../data/CourseStructure";
+import { CourseStructureFilters } from "./Component/CourseStructureFilter";
 
 const DEFAULT_COURSE = "BTech";
 const DEFAULT_SEMESTER = "Semester-1";
@@ -17,7 +17,7 @@ function CourseStructure() {
   const [courseData, setCourseData] = useState();
 
   useEffect(() => {
-    const data = courseOfferedData.find((course) => {
+    const data = courseStructureData.find((course) => {
       return (
         course.course === selectedCourse && course.semester === selectedSemester
       );
@@ -31,8 +31,8 @@ function CourseStructure() {
         <h1 className="text-pretty text-3xl font-semibold text-white">
           {`${selectedCourse} (${selectedSemester})`}
         </h1>
-        <CourseOfferedFilters
-          options={courseOfferedFilters}
+        <CourseStructureFilters
+          options={courseStructureFilters}
           selectedCourse={selectedCourse}
           setSelectedCourse={setSelectedCourse}
           selectedSemester={selectedSemester}
@@ -43,7 +43,7 @@ function CourseStructure() {
         <table className="mx-auto table w-full">
           <thead>
             <tr>
-              {courseOfferedHeaders.map((item, index) => (
+              {courseStructureHeaders.map((item, index) => (
                 <th key={index} className="w-fit bg-green-yellow text-white">
                   {item}
                 </th>

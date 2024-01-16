@@ -1,6 +1,6 @@
 const DEFAULT_SEMESTER = "Semester-1";
 
-export const CourseOfferedFilters = ({
+export const CourseStructureFilters = ({
   options,
   selectedCourse,
   setSelectedCourse,
