@@ -87,6 +87,11 @@ function Home() {
     // </div>
     <>
       <Hero />
+      <section className="flex justify-evenly mb-16 flex-row flex-wrap">
+        <NoticeBoard />
+        <Events />
+      </section>
+      
       <Achievements />
       <div class="mt-28"></div>
       <Ribbon />
@@ -94,10 +99,6 @@ function Home() {
 
       <JmiCarousel />
 
-      <section className="flex justify-evenly mb-16 flex-row flex-wrap">
-        <NoticeBoard />
-        <Events />
-      </section>
       <div
           className="-mt-12 group relative col-span-1 flex justify-end overflow-hidden rounded-md text-black h-12 "
         >
