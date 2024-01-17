@@ -29,7 +29,7 @@ export const routes = [
       { link: "/people/staffMember", name: "Staff Members" },
       { link: "/people/students", name: "Students" },
       { link: "/people/phdScholar", name: "Ph.D Scholars" },
-      { link: "/people/devloper", name: "Devloper" },
+      { link: "/people/developer", name: "Developer" },
     ],
   },
   {
@@ -41,15 +41,15 @@ export const routes = [
     link: "/placement"
   },
   {
-    name: "Gallery",
-    link: "/Gallery",
-  },
-  {
     name: "Research",
     subRoutes: [
       { link: "/research/project", name: "Projects" },
       { link: "/research/publication", name: "Publication" },
       { link: "/research/researchArea", name: "Research Area" },
     ],
+  },
+  {
+    name: "Gallery",
+    link: "/Gallery",
   },
 ];

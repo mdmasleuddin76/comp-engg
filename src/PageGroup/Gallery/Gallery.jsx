@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import HeroSection from "../About/Component/HeroSection";
 import image from "../About/assets/aboutjmi.jpeg";
 import Imagebox from "./Component/Imagebox";
-import data from "./data.js";
+import data from "../../../data/gallery_data.js";
 
 function Gallery() {
 

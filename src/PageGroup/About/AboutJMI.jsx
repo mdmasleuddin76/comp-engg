@@ -1,17 +1,19 @@
-
-import image from "./assets/aboutjmi.jpeg"
+import HeroSection from "./Component/HeroSection";
+import image from "./assets/aboutjmi.jpeg";
 
 function AboutJMI() {
   return (
     <div>
-      <div className="max-w-screen h-32 bg-center bg-cover bg-no-repeat  md:h-72 " style={{ backgroundImage:`url(${image})`}}>
-      </div>
-      <div className=" bg-green-light px-12 max-w-[90%] mx-auto italic text-lg py-7 rounded-3xl my-3">
-        <div className=" mb-5 border-l-[3px] px-4 border-green-yellow ">
-          <span className=" text-green-deep text-xl">Jamia Millia Islamia</span>, established in the year 1920, is an institution
-          originally established by a group of Muslim nationalists and
-          intellectuals at Aligarh, Uttar Pradesh during the Khilafat and
-          Non-Cooperate movement in response to Mahatma Gandhi&apos;s step to boycott
+      <HeroSection image={image} heading={"JAMIA MILLIA ISLAMIA"} />
+      {/* <div className="max-w-screen h-32 bg-center bg-cover bg-no-repeat  md:h-72 " style={{ backgroundImage:`url(${image})`}}> */}
+      {/* </div> */}
+      <div className=" mx-auto my-3 max-w-[90%] rounded-3xl bg-green-light px-12 py-7 text-lg">
+        <div className=" mb-5 border-l-[3px] border-green-yellow px-4 ">
+          <span className=" text-xl text-green-deep">Jamia Millia Islamia</span>
+          , established in the year 1920, is an institution originally
+          established by a group of Muslim nationalists and intellectuals at
+          Aligarh, Uttar Pradesh during the Khilafat and Non-Cooperate movement
+          in response to Mahatma Gandhi&apos;s step to boycott
           government-supported education system. Jamia Millia Islamia became a
           Central University in the year 1988 by an act of the Indian Parliament
           which was passed on December 26, 1988
@@ -49,7 +51,7 @@ function AboutJMI() {
           - Faculty of Law, was added in 1989. Many new courses and programmes
           at UG and PG levels have since been added.
         </div>
-        <div className=" mt-6 px-4 border-r-[3px] border-green-yellow">
+        <div className=" mt-6 border-r-[3px] border-green-yellow px-4">
           Besides its nine faculties, Jamia has a number of centers of learning
           and research, like AJK-Mass Communication Research Centre (MCRC),
           Academy of International Studies, etc. Jamia is also marching ahead in
