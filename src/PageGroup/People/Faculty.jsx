@@ -73,18 +73,10 @@ function Faculty() {
                     {HOD.areaOfIntrest}
                   </div>
                   {/* <hr className="mx-auto my-4 w-4/5 border-t border-gray-300" /> */}
-                  {HOD.email ? (
-                    <p>
-                      <IoIosMail style={HODIcon} />
-                      {HOD.email}
-                    </p>
-                  ) : null}
-                  {HOD.mobileNumber ? (
-                    <p>
-                      <IoIosCall style={HODIcon} />
-                      {HOD.mobileNumber}
-                    </p>
-                  ) : null}
+                  <IoIosMail style={FacultyIcon} />
+                          
+                      
+                  <IoIosCall style={FacultyIcon} />
                 </div>
               </div>
             </div>
