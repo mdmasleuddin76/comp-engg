@@ -111,7 +111,7 @@ function Faculty() {
       <div className="lg:16 mb-24 mt-1 bg-green-200 text-center text-3xl font-medium text-[#000000d8] md:mb-28">
         Faculty Members
       </div>
-      <div className="flex min-h-[400px] items-center justify-center">
+      <div className="flex minh-[400px] items-center justify-center">
         <div className="grid max-w-7xl grid-cols-1 gap-x-8 gap-y-24 p-8 py-30 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
           {faculty_data.map((professor, index) => {
             return (
@@ -123,8 +123,8 @@ function Faculty() {
                     src={professor.dp}
                     alt="image"
                   />
-                  <div className="relative bg-[#d7ffdab0] z-0 min-h-[250px] rounded-xl border-2 border-green-900">
-                    <div className="mt-8 max-w-[500px] px-16 pb-4 pt-8 text-center md:mt-8 md:px-12">
+                  <div className="relative bg-[#d7ffdab0] z-0 min-h-[300px] rounded-xl border-2 border-green-900">
+                    <div className="mt-8 w-[500px] px-16 pb-4 pt-8 text-center md:mt-8 md:px-12">
                       <div className="mb-1 text-lg font-medium">
                       
                         {professor.name}
