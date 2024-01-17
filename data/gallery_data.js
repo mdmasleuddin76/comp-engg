@@ -16,8 +16,8 @@ const images = [
   [
     {
       img: i1,
-      txt: "",
-      year: "",
+      txt: "BUILDING",
+      year: "2021",
     },
     {
       img: i2,

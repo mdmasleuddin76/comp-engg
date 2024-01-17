@@ -52,14 +52,14 @@ function Faculty() {
         <div className="py-10">
           <div className="flex min-h-[400px] items-center justify-center">
           <Link to="/people/faculty/professor" state={{ fromHome: { HOD } }}>
-            <div className="relative mb-8 flex items-center justify-center">
+            <div className="relative mb-8 flex items-center justify-center   ">
               <img
-                className="absolute top-[-40%] z-10 h-[150px] w-[150px] rounded-full border-2 border-green-700 object-cover"
+                className="absolute top-[-30%] z-10 h-[150px] w-[150px] rounded-full border-2 border-green-700 object-cover md:top-[-40%]"
                 src={HOD.dp}
                 alt="image"
               />
-              <div className="relative bg-[#d7ffdab0] z-0 min-h-[250px] rounded-xl border-2 border-green-900">
-                <div className="mt-8 max-w-[700px] px-16 pb-4 pt-8 text-center md:mt-8 md:px-12">
+              <div className="relative bg-[#d7ffdab0] z-0 min-h-[250px] rounded-xl border-2 border-green-900 md:w-[700px] xs:w-[400px] ml-6 mr-6">
+                <div className="mt-8 px-16 pb-4 pt-8 text-center md:mt-8 md:px-12 ">
                   <div className="mb-1 text-lg font-medium">
                   
                         {HOD.name}
@@ -73,18 +73,10 @@ function Faculty() {
                     {HOD.areaOfIntrest}
                   </div>
                   {/* <hr className="mx-auto my-4 w-4/5 border-t border-gray-300" /> */}
-                  {HOD.email ? (
-                    <p>
-                      <IoIosMail style={HODIcon} />
-                      {HOD.email}
-                    </p>
-                  ) : null}
-                  {HOD.mobileNumber ? (
-                    <p>
-                      <IoIosCall style={HODIcon} />
-                      {HOD.mobileNumber}
-                    </p>
-                  ) : null}
+                  <IoIosMail style={FacultyIcon} />
+                          
+                      
+                  <IoIosCall style={FacultyIcon} />
                 </div>
               </div>
             </div>
@@ -119,12 +111,12 @@ function Faculty() {
               <Link to="/people/faculty/professor" state={{ fromHome: { professor } }}>
                 <div className="relative mb-10 flex items-center justify-center">
                   <img
-                    className="absolute top-[-40%] z-10 h-[150px] w-[150px] rounded-full border-2 border-green-700 object-cover"
+                    className="absolute top-[-30%] z-10 h-[150px] w-[150px] rounded-full border-2 border-green-700 object-cover md:top-[-40%]"
                     src={professor.dp}
                     alt="image"
                   />
                   <div className="relative bg-[#d7ffdab0] z-0 min-h-[300px] rounded-xl border-2 border-green-900">
-                    <div className="mt-8 w-[500px] px-16 pb-4 pt-8 text-center md:mt-8 md:px-12">
+                    <div className="mt-8 px-16 pb-4 pt-8 text-center md:mt-8 md:px-12  md:w-[500px] xs:max-w-[400px]">
                       <div className="mb-1 text-lg font-medium">
                       
                         {professor.name}
