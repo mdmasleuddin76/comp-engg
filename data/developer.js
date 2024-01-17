@@ -1,32 +1,34 @@
 import shahzadSirImg from "../src/PageGroup/Placement/assets/shahzadSir.jpeg";
 import zeeshanSirImg from "../src/PageGroup/People/assets/zeeshanSir.jpeg";
 import amjadSirImg from "../src/PageGroup/People/assets/amjadSir.png";
-import masleuddin from "../src/PageGroup/People/assets/Devloper/masleuddin.jpg";
+import masleuddin from "../src/PageGroup/People/assets/Developer/masleuddin.jpg";
 import insharahImg from "../src/PageGroup/Placement/assets/insharah.jpeg";
-import ahmad from "../src/PageGroup/People/assets/Devloper/ahmad.png";
-import aadil from "../src/PageGroup/People/assets/Devloper/aadil.jpg";
-import arsalan from "../src/PageGroup/People/assets/Devloper/arsalan.jpg";
-import budhil from "../src/PageGroup/People/assets/Devloper/budhil.jpg";
-import hammad from "../src/PageGroup/People/assets/Devloper/hammad.jpeg";
-import sania from "../src/PageGroup/People/assets/Devloper/sania.png";
-import tauheed from "../src/PageGroup/People/assets/Devloper/tauheed.jpg";
+import ahmad from "../src/PageGroup/People/assets/Developer/ahmad.png";
+import aadil from "../src/PageGroup/People/assets/Developer/aadil.jpg";
+import arsalan from "../src/PageGroup/People/assets/Developer/arsalan.jpg";
+import budhil from "../src/PageGroup/People/assets/Developer/budhil.jpg";
+import hammad from "../src/PageGroup/People/assets/Developer/hammad.jpeg";
+import sania from "../src/PageGroup/People/assets/Developer/sania.png";
+import tauheed from "../src/PageGroup/People/assets/Developer/tauheed.jpg";
+import mariam from "../src/PageGroup/People/assets/Developer/mariam.jpeg";
+import nabeel from"../src/PageGroup/People/assets/Developer/nabeel.jpeg";
 
 export const faculty = [
   {
     name: "Prof. Mohd Amjad (Professor)",
-    designation: "(Coordinator)  Hony.Adll.Director:Website & MIS",
+    designation: "(Coordinator)  Hony. Adll. Director:Website & MIS",
     img: amjadSirImg,
     info: "Mobile Computing, Wireless Sensor Networks, Security in Cloud Computing",
   },
   {
     name: "Dr. Mohd Zeeshan Ansari (Assistant Professor)",
-    designation: "(Councilor)",
+    designation: "(Counsellor)",
     img: zeeshanSirImg,
     info: "Information Extraction, Text Mining, Machine Learning, Soft Computing",
   },
   {
     name: "Dr. Shahzad Alam (Assistant Professor)",
-    designation: "(Councilor)",
+    designation: "(Counsellor)",
     img: shahzadSirImg,
     info: "Image processing, Information Security, Cryptography and Soft Computing Techniques",
   },
@@ -46,10 +48,10 @@ export const devs = [
     name: "Md Nabeel Ashar",
     desg: "(Team Member)",
     degree: "Computer Engineering (2021-2025)",
-    // img: insharahImg,
-    github: "https://github.com/insharahAyyubi",
-    insta: "mailto: insharahayyubifiverr@gmail.com",
-    linkedin: "https://www.linkedin.com/in/insharah-ayyubi",
+    img: nabeel,
+    github: "https://github.com/m-d-nabeel",
+    insta: "mailto: asharnabeel137@gmail.com",
+    linkedin: "https://www.linkedin.com/in/m-d-nabeel",
   },
   {
     name: "Mohd Arsalan",
@@ -127,7 +129,7 @@ export const devs = [
     name: "Mariam Khan",
     desg: "Volunteer",
     degree: "Computer Engineering (2022-2026)",
-    // img: sample1,
+    img: mariam,
     github: "https://github.com/mariamkhan0604",
     insta: "mailto: mariamkhan0604@gmail.com",
     linkedin: "https://www.linkedin.com/in/mariam-khan-9a64022aa/",

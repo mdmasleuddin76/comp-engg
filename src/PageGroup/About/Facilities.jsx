@@ -5,7 +5,7 @@ function Facilities() {
   console.log(FacilitiesData);
   return (
     <div>
-      <HeroSection heading={"Facilities"} image={FacilitiesData[0].images} />
+      <HeroSection heading={"Facilities"} image={FacilitiesData[0].images[0]} />
       {FacilitiesData.map((item, index) => {
         return (
           <Facilitiescomp1
