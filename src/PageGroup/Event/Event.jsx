@@ -43,6 +43,7 @@ function Event() {
           >
             <option value="2016">2016</option>
             <option value="2017">2017</option>
+            <option value="2018">2018</option>
             {/* Add more options as needed */}
           </select>
       </div>
@@ -58,33 +59,31 @@ function Event() {
 
       <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-12 p-4 mx-2 md:mx-0">
         {filteredData.map((card, index) => (
-          <div key={index} className="">
-            <div className="">
-            <div className="border-6 border-solid border-green-deep p-1">
-          
-              <div className="relative h-1/2  overflow-hidden rounded-t-md ">
-                <img
-                  className="object-cover w-full h-full rounded-t-md "
-                  src={card.image}
-                  alt={card.desc}
-                />
-                {card.tagline && <p className="font-semibold absolute bottom-3 left-0 right-0 text-center text-sm text-green-deep bg-white p-1 inline-block rounded-lg w-1/2" style={{ margin: '0 auto' }}>{card.tagline}</p> }
-              </div>
-
-          
-              <div className="h-1/2 bg-green-200">
-                <p className="text-gray-900 font-semibold mb-4 p-2 px-4 text-sm">{card.desc}</p>
-
-                
-                <div className="text-gray-900 font-semibold p-2 px-4">
-                <p className="pb-2 flex"><FaLocationDot/><p className="ml-2">{card.venue}</p></p>
-                  <p className="pb-2 flex"><MdOutlineAccessTimeFilled /><p className="ml-2">{card.date}</p></p>
-                </div>
-              </div>
-            </div>
-            </div>
-            </div>
-        ))}
+  <div key={index} className="w-full p-2">
+    <div className="border-6 border-solid border-green-deep p-1">
+      <div className="relative h-40 rounded-t-md overflow-hidden">
+        <img
+          className="w-full h-full object-cover rounded-t-md"
+          src={card.image}
+          alt={card.desc}
+        />
+        {card.tagline && (
+          <p className="font-semibold absolute bottom-3 left-0 right-0 text-center text-sm text-green-deep bg-white p-1 inline-block rounded-lg w-1/2" style={{ margin: '0 auto' }}>
+            {card.tagline}
+          </p>
+        )}
+      </div>
+      <div className="relative h-50 bg-green-200">
+        <p className="text-gray-900 font-semibold mb-4 p-2 px-4 text-sm">{card.desc}</p>
+        <div className="text-gray-900 font-semibold p-2 px-4">
+          <p className="pb-2 flex"><FaLocationDot /><p className="ml-2">{card.venue}</p></p>
+          <p className="pb-2 flex"><MdOutlineAccessTimeFilled /><p className="ml-2">{card.date}</p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+))
+}
       </div>
       
 

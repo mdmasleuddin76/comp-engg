@@ -5,7 +5,7 @@ import Spc from "./Spc";
 
 const PlacementTable = () => {
   const [selectedCourse, setSelectedCourse] = useState("SPCs");
-  const [selectedYear, setSelectedYear] = useState("2021");
+  const [selectedYear, setSelectedYear] = useState("2024");
   const [list, setList] = useState([]);
 
   useEffect(() => {
@@ -40,9 +40,9 @@ const PlacementTable = () => {
               onChange={(e) => setSelectedYear(e.target.value)}
               value={selectedYear}
             >
-              <option value="2021">2021</option>
               <option value="2022">2022</option>
               <option value="2023">2023</option>
+              <option value="2024">2024</option>
             </select>
           </div>
         </div>
