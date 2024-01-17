@@ -70,7 +70,7 @@ const NavRoutes = styled.div``;
 const NavRoute = styled(Link)`
   display: flex;
   text-decoration: none;
-  color: black;
+  color: #046b09;
   font-size: 1.4rem;
   padding: 0.5rem;
 `;

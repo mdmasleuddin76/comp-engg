@@ -12,7 +12,7 @@ const JmiCarousel = () => {
         showThumbs={false}
         autoPlay={true}
         // transitionTime={3}
-        interval={3000}
+        interval={4000}
         infiniteLoop={true}
         showStatus={false}
       >
