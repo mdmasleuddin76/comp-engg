@@ -10,7 +10,7 @@ const PlacementTable = () => {
 
   useEffect(() => {
     const filteredData = placementStats.filter(
-      (item) => item.course === selectedCourse && item.year === selectedYear
+      (item) => item.course === selectedCourse && item.year === selectedYear,
     );
     setList(filteredData);
   }, [selectedCourse, selectedYear]);
@@ -40,6 +40,12 @@ const PlacementTable = () => {
               onChange={(e) => setSelectedYear(e.target.value)}
               value={selectedYear}
             >
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
               <option value="2022">2022</option>
               <option value="2023">2023</option>
               <option value="2024">2024</option>
@@ -49,8 +55,8 @@ const PlacementTable = () => {
       </div>
 
       {list.length === 0 ? (
-        <div className="flex items-center justify-center h-[150px]">
-          <p className="text-xl align-center font-semibold">No data found!</p>
+        <div className="flex h-[150px] items-center justify-center">
+          <p className="align-center text-xl font-semibold">No data found!</p>
         </div>
       ) : selectedCourse === "SPCs" ? (
         <section className="m-10">
