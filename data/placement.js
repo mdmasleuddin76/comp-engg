@@ -33,24 +33,52 @@ export const caraData = [
 export const placementStats = [
   {
     course: "B.Tech",
-    year: "2021",
-    company_name: ["abc", "xyz", "pqr"],
-    package: [12, 13, 9],
-    placed: [2, 3, 4],
-  },
-  {
-    course: "M.Tech",
-    year: "2022",
-    company_name: ["abcd", "xyzq", "pqrs"],
-    package: [14, 199, 33],
-    placed: [99, 83, 34],
+    year: "2016",
+    company_name: ["HSBC Software Development India Pvt. Ltd.", "Tata Consultancy Services(TCS)", "Wipro", "Zillious", "Libsys Limited", "Opera Solutions", "Info Edge India Limited", "Unisys Limited", "Tolexo", "Newgen Software Technologies", "Mroads", "Bluegape", "Global Logic", "Sparta Security", "Cube26"],
+    package: [12, 3.5, 3.5, 7, 8, 4, 6.3, 6.03, 5, 3.75, 5, 5.5, 4.75, 4, 10],
+    placed: [3, 11, 5, 1, 2, 6, 5, 4, 7, 2, 3, 1, 8, 1, 1]
   },
   {
     course: "B.Tech",
-    year: "2022",
-    company_name: ["ghi", "vyz", "rty"],
-    package: [12, 13, 9],
-    placed: [2, 3, 4],
+    year: "2017",
+    company_name: ["HSBC Software India Pvt. Ltd.", "Tata Consultancy Survices(TCS)", "Wipro", "Opera Solutions", "Newgen Software Technologies", "Mroads", "Belzabar", "Global Logic", "Cube26", "Atom Data Labs", "Jabong", "Think Future Technology Pvt. Ltd.", "SMEC", "Infosys", "Conduent", "Taazaa Tech Pvt. Ltd.", "Code Brew Labs", "Round One Network Pvt. Ltd.", "Adobe Systems"],
+    package: [12, 3.5, 3.3, 4, 6.25, 5, 9.36, 4.5, 6.5, 8, 5.5, 5.5, 5, 3.5, 3.2, 3, 7.5, 1.5, 10.12],
+    placed: [8, 6, 1, 1, 3, 1, 3, 3, 6, 1, 4, 4, 1, 1, 1, 3, 1, 1, 1]
+  },
+  {
+    course: "B.Tech",
+    year: "2018",
+    company_name: ["HSBC Software Development India Pvt. Ltd.", "Tata Consultancy Services(TCS)", "Wipro", "Zillious", "Libsys Limited", "Newgen Software Technologies", "NEC Technologies", "Global Logic", "Mahindra Conviva", "Think Future Technologies Pvt. Ltd.", "NPCL", "Nedu Technologies", "Samsung", "Samsung R&D", "EXL Analytics", "VIZ Experts", "Tejas Networks Ltd.", "Xceedance", "Microsoft", "Provakil", "Adobe Systems"],
+    package: [7, 3.5, 3.3, 7, 8, 6.2, 4, 4.5, 6.63, 6, 5, 6.5, 8.8, 8.8, 6, 6, 6.5, 3.15, 35, 3.5, 11],
+    placed: [7, 8, 4, 2, 2, 2, 1, 5, 4, 1, 3, 1, 1, 3, 3, 1, 1, 1, 1, 1,1]
+  },
+  {
+    course: "B.Tech",
+    year: "2019",
+    company_name: ["ZS Associates", "Zenon Analytics", "Info Edge"," Accenture","Incedo","Truminds","HSBC Technology","Lumiq AI","Digit Insurance","EXL Analytics","JIT Japan","Reliance Jio","KPMG","C-DOT","Pregard","Tredence Analytics","Reliance Fynd","MAQ","Big Oh Tech","Canney Alley/ LongShort Labs"],
+    package: [13.65, 14, 14.5, 12.59, 5.55, 6, 9, 8, 7, 6.5, 18, 8.5, 7, 19, 4, 8, 13.5, 7.5, 5, 4.1],
+    placed: [1, 4, 3, 11, 1, 1, 4, 1, 3, 2, 1, 4, 6, 7, 1, 2, 1, 2, 1, 1]
+  },
+  {
+    course: "B.Tech",
+    year: "2021",
+    company_name: ["TCS Ninja", "TCS Digital", "IBM", "Wipro", "ZS Associates", "EXL Services", "Infoedge", "Josh Technology Group", "Optum - UHG", "Accenture", "Incedo", "Decimal Technologies", "Think Future Technology", "Pure Software", "Delhivery", "Publicis Sapient", "Unthinkable Solutions", "Larsen & Toubro"],
+    package: [3.36, 7, 4.5, 3.5, 9, 6, 12.5, 9, 15.39, 9.96, 5, 4.5, 5.5, 8, 8, 10, 5, 6],
+    placed: [5, 4, 8, 9, 2, 8, 4, 2, 4, 6, 1, 1, 1, 2, 5, 4, 2, 1]
+  },
+  {
+    course: "M.Tech",
+    year: "2020",
+    company_name: ["Optum - UHG", "Samsung R&D", "IndiaMart", "Byjus", "L&T", "UpGrad", "TCS Ninja"],
+    package: [17, 14.5, 15, 6, 5.5, 4, 3.5],
+    placed: [1, 2, 1, 1, 4, 1, 1]
+  },
+  {
+    course: "M.Tech",
+    year: "2019",
+    company_name: ["JIT Japan","C-DOT"],
+    package: [18, 19],
+    placed: [1, 1]
   },
   {
     course: "SPCs",
