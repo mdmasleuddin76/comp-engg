@@ -2,28 +2,41 @@ import { useEffect, useState } from "react";
 import HeroSection from "../About/Component/HeroSection";
 import image from "./assets/study-book.jpeg";
 import {
-  courseOfferedHeaders,
-  courseOfferedData,
-  courseOfferedFilters,
-} from "../../../data/CourseOffered";
-import { CourseOfferedFilters } from "./Component/CourseOfferedFilter";
+  courseStructureHeaders,
+  courseStructureData,
+  courseStructureFilters,
+} from "../../../data/CourseStructure";
+import { CourseStructureFilters } from "./Component/CourseStructureFilter";
+import { useNavigate } from "react-router-dom";
 
 const DEFAULT_COURSE = "BTech";
 const DEFAULT_SEMESTER = "Semester-1";
 
 function CourseStructure() {
-  const [selectedCourse, setSelectedCourse] = useState(DEFAULT_COURSE);
-  const [selectedSemester, setSelectedSemester] = useState(DEFAULT_SEMESTER);
+  const searchParams = new URLSearchParams(window.location.search);
+  const defaultCourse = searchParams.get("course");
+  const defaultSemester = searchParams.get("semester");
+  const navigate = useNavigate();
+  const [selectedCourse, setSelectedCourse] = useState(
+    defaultCourse ?? DEFAULT_COURSE,
+  );
+  const [selectedSemester, setSelectedSemester] = useState(
+    defaultSemester ?? DEFAULT_SEMESTER,
+  );
   const [courseData, setCourseData] = useState();
 
   useEffect(() => {
-    const data = courseOfferedData.find((course) => {
+    const data = courseStructureData.find((course) => {
       return (
         course.course === selectedCourse && course.semester === selectedSemester
       );
     });
+    const searchParams = new URLSearchParams(window.location.search);
+    searchParams.set("course", selectedCourse);
+    searchParams.set("semester", selectedSemester);
+    navigate(`?${searchParams.toString()}`, { replace: true });
     setCourseData(data?.course_data);
-  }, [selectedCourse, selectedSemester]);
+  }, [navigate, selectedCourse, selectedSemester]);
   return (
     <div>
       <HeroSection heading={"Course Structure"} image={image} />
@@ -31,8 +44,8 @@ function CourseStructure() {
         <h1 className="text-pretty text-3xl font-semibold text-white">
           {`${selectedCourse} (${selectedSemester})`}
         </h1>
-        <CourseOfferedFilters
-          options={courseOfferedFilters}
+        <CourseStructureFilters
+          options={courseStructureFilters}
           selectedCourse={selectedCourse}
           setSelectedCourse={setSelectedCourse}
           selectedSemester={selectedSemester}
@@ -43,7 +56,7 @@ function CourseStructure() {
         <table className="mx-auto table w-full">
           <thead>
             <tr>
-              {courseOfferedHeaders.map((item, index) => (
+              {courseStructureHeaders.map((item, index) => (
                 <th key={index} className="w-fit bg-green-yellow text-white">
                   {item}
                 </th>

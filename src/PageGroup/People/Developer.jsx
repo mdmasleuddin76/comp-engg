@@ -1,10 +1,10 @@
-import FacultyGrid from "./Component/Faculty_Grid"
-import DevGrid from "./Component/Dev_Grid"
-import polygon18 from './assets/polygon-18@2x.png'
-import polygon17 from './assets/polygon-17@2x.png'
-import ellipse78 from './assets/ellipse-78@2x.png'
-import image12 from './assets/image-12@2x.png'
-import vector72 from './assets/vector-72@2x.png'
+import FacultyGrid from "./Component/Faculty_Grid";
+import DevGrid from "./Component/Dev_Grid";
+import polygon18 from "./assets/polygon-18@2x.png";
+import polygon17 from "./assets/polygon-17@2x.png";
+import ellipse78 from "./assets/ellipse-78@2x.png";
+import image12 from "./assets/image-12@2x.png";
+import vector72 from "./assets/vector-72@2x.png";
 
 const Developer = () => {
   return (
@@ -39,10 +39,12 @@ const Developer = () => {
               </p>
             </div>
             <p className="my-2 mr-2 text-base font-medium lg:text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Necessitatibus impedit, culpa assumenda aliquid dicta facilis
-              voluptatem sed autem sequi ipsum velit doloremque omnis eaque nam
-              sit maxime aspernatur dolor reprehenderit.
+              Behind the seamless functionality and captivating design of
+              our website, you'll find a group of dedicated and talented
+              individuals who are passionate about pushing the boundaries of
+              technology. From crafting elegant front-end interfaces to
+              architecting robust back-end systems, our developers are at the
+              forefront of creating a user-centric digital experience.
             </p>
             <button className="text-md rounded-lg bg-[#046B09] px-6 py-2 text-white hover:bg-[#1c8721]">
               Know More...
@@ -64,11 +66,11 @@ const Developer = () => {
       </div>
 
       <div>
-        <div className="mb-24 mt-4 py-4 bg-green-200 text-center text-3xl font-medium text-[#000000d8]">
+        <div className=" mb-16 mt-4 bg-green-200 py-4 text-center text-3xl font-medium text-[#000000d8] md:mb-24">
           Faculty Members
         </div>
         <FacultyGrid />
-        <div className="lg:16 mb-24 mt-4 py-4 bg-green-200 text-center text-3xl font-medium text-[#000000d8] md:mb-28">
+        <div className="lg:16 mb-24 mt-4 bg-green-200 py-4 text-center text-3xl font-medium text-[#000000d8] md:mb-28">
           Student Developers
         </div>
         <DevGrid />

@@ -1,13 +1,15 @@
+// *********************computer lab1***********************
+import c1 from "../images/Facilities/Computerlab1/1.jpeg";
+import c2 from "../images/Facilities/Computerlab1/2.jpeg";
+import c3 from "../images/Facilities/Computerlab1/3.jpeg";
+import c4 from "../images/Facilities/Computerlab1/4.jpeg";
+import c5 from "../images/Facilities/Computerlab1/5.jpeg";
+
 const computerlab1 = {
   heading: "Computer Lab 1",
   content:
     "The Apple Lab is a state-of-the-art facility housing a total of 60 computers, each equipped with dual-boot capabilities for both Mac OS and Windows operating systems. These computers are powered by Intel Core I5-2400S CPUs running at 2.50GHz, with 4GB of RAM, and a spacious 500GB HDD. The lab is well-equipped with essential software tools, including DevC++, Codeblocks, JDK, MySQL 5.0, and Adobe Reader, making it an ideal environment for various tasks. It serves as an excellent hub for conducting labs related to Data Structure, Database Management Systems (DBMS), and Operating Systems, providing students with a versatile and conducive space for their academic endeavors.",
-  images: [
-    "https://images.unsplash.com/photo-1677579016602-d342f911d11c?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
-    "https://images.unsplash.com/photo-1682192701389-4865ccd41a3f?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
-    "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
-    "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
-  ],
+  images: [c1, c2, c3, c4, c5],
 };
 const computerlab2 = {
   heading: "Computer Lab 2",

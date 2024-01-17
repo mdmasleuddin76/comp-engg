@@ -7,9 +7,9 @@ const Imagebox = ({title, num}) => {
         { 
           title.slice(0, num).map((item) => (
         <div class="border-2 border-green-500 border-solid rounded-lg">
-            <img class="h-auto max-w-full rounded-lg" src={item} alt="" />
+            <img class="h-auto max-w-full rounded-lg" src={item.img} alt="" />
             <div class="text-center mt-2">
-                <span class="text-sm text-gray-600">Republic Day <span class="text-green-deep">, 2023</span></span>
+                <span class="text-sm text-gray-600">{item.txt}<span class="text-green-deep">,{item.year}</span></span>
             </div>
         </div>
     ))}
