@@ -25,15 +25,19 @@ function Event() {
   };
   return (
     <div>
-      <HeroSection heading={"Events"} image={project_data[0]} />
-      <div className="flex w-full items-center justify-between gap-y-8 px-20 font-[450]">
+      <HeroSection heading={"Computer Engineering"} image={project_data[0]} />
+      
+      <div className="flex w-full items-center justify-between gap-y-8 px-20 font-[450] mt-10 mb-10">
           <h3 className="mb-2 px-6 text-3xl font-medium">
-            <span className="text">Events</span>
+          <p className="text-gray-900 font-semibold relative inline-block p-2">
+            Events
+            <span className="absolute bottom-0 right-0 bg-green-800 h-1 w-full rounded"></span>
+          </p>
           </h3>
           
 
           <select
-            className="bg-deep text-grey border-deep-green w-32 border-3 p-4 px-4 py-2"
+            className="bg-deep text-grey border-deep-green w-32 border-3 p-4 px-4 py-2 rounded-lg"
             value={selectedCategory}
             onChange={(e) => setSelectedCategory(e.target.value)}
           >
@@ -52,29 +56,33 @@ function Event() {
 
       {/* Display */}
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-10 p-4 mx-2 md:mx-0">
+      <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-12 p-4 mx-2 md:mx-0">
         {filteredData.map((card, index) => (
-            <div key={index} className="bg-green-200 rounded-md border-6 border-green-deep shadow-t-lg " style={{boxShadow: '0px 0px 12px rgba(0, 0, 0, 0.7)' }}>
+          <div key={index} className="">
+            <div className="">
+            <div className="border-6 border-solid border-green-deep p-1">
           
-              <div className="relative h-1/2 mb-4 overflow-hidden rounded-t-md">
+              <div className="relative h-1/2  overflow-hidden rounded-t-md ">
                 <img
                   className="object-cover w-full h-full rounded-t-md "
                   src={card.image}
                   alt={card.desc}
                 />
-                {card.tagline && <p className="absolute bottom-0 left-0 right-0 text-center text-sm text-green-deep bg-white p-2 mb-4  inline-block" style={{ margin: '0 auto' }}>{card.tagline}</p> }
+                {card.tagline && <p className="font-semibold absolute bottom-3 left-0 right-0 text-center text-sm text-green-deep bg-white p-1 inline-block rounded-lg w-1/2" style={{ margin: '0 auto' }}>{card.tagline}</p> }
               </div>
 
           
-              <div className="h-1/2">
-                <p className="text-gray-700 mb-4 p-2 px-4 text-sm">{card.desc}</p>
+              <div className="h-1/2 bg-green-200">
+                <p className="text-gray-900 font-semibold mb-4 p-2 px-4 text-sm">{card.desc}</p>
 
                 
-                <div className="text-sm p-2 px-4">
+                <div className="text-gray-900 font-semibold p-2 px-4">
                 <p className="pb-2 flex"><FaLocationDot/><p className="ml-2">{card.venue}</p></p>
-                  <p className="pb-2 flex"><MdOutlineAccessTimeFilled/><p className="ml-2">{card.date}</p></p>
+                  <p className="pb-2 flex"><MdOutlineAccessTimeFilled /><p className="ml-2">{card.date}</p></p>
                 </div>
               </div>
+            </div>
+            </div>
             </div>
         ))}
       </div>
