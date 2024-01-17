@@ -1,5 +1,5 @@
 import HeroSection from "./Component/HeroSection";
-import { testimonials } from "../../../data/achievement";
+import { testimonials } from "../../../data/Testimonial.js";
 import TestimonialCard from "./Component/TestimonialCard";
 import image from "./assets/aboutjmi.jpeg";
 
@@ -15,6 +15,7 @@ function Testimonials() {
             text={testimonial.text}
             name={testimonial.name}
             batch={testimonial.batch}
+            img={testimonial.img}
           />
         ))}
       </div>
