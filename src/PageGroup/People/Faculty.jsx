@@ -1,5 +1,5 @@
 import { IoIosMail, IoIosCall } from "react-icons/io";
-import { faculty_data, HOD } from "../../../data/faculty_data";
+import { faculty_data, HOD } from "../../../data/faculty_data2";
 import { Link } from "react-router-dom";
 import HeroSection from "../About/Component/HeroSection";
 import image from "../About/assets/aboutjmi.jpeg";
