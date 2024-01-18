@@ -36,6 +36,7 @@ const MenuButton = styled.div`
   font-size: 1.4rem;
   padding: 0.3rem;
   display: flex;
+  color: #046b09;
   align-items: center;
   justify-content: space-between;
 `;
@@ -44,6 +45,7 @@ const SubRoute = styled(Link)`
   text-decoration: none;
   color: black;
   padding: 0.2rem;
+  padding-left: 1rem;
   font-size: 1.2rem;
   margin-left: -0.8rem;
   margin-top: -0.2rem;

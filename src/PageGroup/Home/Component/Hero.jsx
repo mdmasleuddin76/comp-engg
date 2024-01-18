@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import HeroImg from "../assets/Jmi.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -12,9 +12,7 @@ const Hero = () => {
         <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
           <div class="textboxhero relative max-w-xl ltr:sm:text-left rtl:sm:text-right">
             <h1 class="text-3xl sm:text-4xl">
-              Welcome to <span className="herotextchar">J</span>amia{" "}
-              <span className="herotextchar">M</span>illia{" "}
-              <span className="herotextchar">I</span>slamia
+              Welcome to Jamia Millia Islamia
             </h1>
 
             <p class="mt-4 max-w-lg sm:text-xl/relaxed">
@@ -25,7 +23,7 @@ const Hero = () => {
 
             <div class="mt-8 flex flex-wrap gap-4 text-center">
               <a
-                href="#"
+                href="/about/aboutDept"
                 class="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
                 style={{ background: "#E4FCE5", color: "#046B09" }}
               >
@@ -45,7 +43,7 @@ const Hero = () => {
         </div>
       </section>
 
-      <div class="flexcontainer">
+      {/* <div class="flexcontainer">
         <div class="columns">
           <h1>₹ 10 LPA</h1>
           <h3>1 in 3 B.Tech Students Placed Above</h3>
@@ -63,11 +61,10 @@ const Hero = () => {
           <h3>1 in 3 B.Tech Students Placed Above</h3>
         </div>
         <div class="columns lastcol">
-        <a href="/placement"><u>Click here to know more about our placement </u>
-        </a>
+        <u><Link to='/placement'>Click here to know more about our placement</Link></u>
         </div>
-      </div>
-      <hr></hr>
+      </div> */}
+      {/* <hr></hr> */}
       
     </>
   );
