@@ -36,7 +36,7 @@ function CourseOffered() {
         <div className="mx-4 flex flex-col gap-y-12 sm:mx-8 md:mx-12 lg:mx-16">
           <CoverTitle text={PEO_COVER} />
           {/* PEOs */}
-          <div className="grid w-full grid-cols-1 place-items-center gap-x-4 gap-y-12 sm:grid-cols-2 xl:grid-cols-3">
+          <div className="m-auto grid w-full grid-cols-1 gap-x-4 gap-y-12 sm:grid-cols-2 xl:grid-cols-3">
             {COURSES[courseIndex].peos.map(
               ({ title, description, icon }, i) => (
                 <PEOCard
@@ -82,13 +82,14 @@ function CourseOffered() {
                   duration-300 hover:saturate-200 sm:w-auto
                   ${
                     courseIndex === i
-                      ? "pointer-events-none bg-green-700 text-white"
+                      ? "bg-green-700 text-white"
                       : "bg-green-light text-green-800"
                   }
                   `}
                   onClick={() => {
                     setCourseIndex(i);
-                    topRef.current.scrollIntoView({
+                    topRef.current?.scrollIntoView({
+                      block: "start",
                       behavior: "smooth",
                     });
                   }}
