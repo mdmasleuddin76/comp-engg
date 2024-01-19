@@ -41,20 +41,9 @@ const y2018= [{
   tagline: "JMI Honours Hotmail Founder Sabeer Bhatia",
 }];
 
-<<<<<<< HEAD
+const y2015 = []
+
 export const data = {
-=======
-const y2015 = [{
-  image : "https://csejmi.github.io/html/educat-preview/educat/img/event/hpcac1.jpg",
-  desc : "JMI won the LINPACK award with a record breaking score of 10.78 teraFLOPS which translated into an energy efficient 3.59 teraFLOPS per kilowatt, enough to achieve an estimated rank of 6 on the Green500.",
-  venue: "Frankfurt, Germany",
-  date: "11-15 July, 2015",
-  tagline: "4th HPCAC-ISC STUDENT CLUSTER COMPETITION",
-  
-},];
-export const data= {
-    "2018" : y2018,
->>>>>>> ece1b533a708472a43b9e8518e06bb5ab4324d13
     "2017" : y2017,
     "2016" : y2016,
     "2015" : y2015,    
