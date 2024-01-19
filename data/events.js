@@ -102,7 +102,7 @@ const y2018= [{
   
 },];
 
-export const data= {
+export const data = {
     "2017" : y2017,
     "2016" : y2016,
     "2018" : y2018
