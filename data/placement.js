@@ -7,6 +7,7 @@ import mariyaImg from "../src/PageGroup/Placement/assets/mariyaImg.jpeg";
 import ausaf from "../src/PageGroup/Placement/assets/ausaf.jpeg";
 import aatir from "../src/PageGroup/Placement/assets/aatir.jpeg";
 import faizan from "../src/PageGroup/Placement/assets/faizan.jpeg";
+import lalBihari from "../src/PageGroup/Placement/assets/lalBihari.jpeg";
 import sample from "../src/assets/sample.jpeg";
 
 export const caraData = [
@@ -52,19 +53,27 @@ export const placementStats = [
     package: [7, 3.5, 3.3, 7, 8, 6.2, 4, 4.5, 6.63, 6, 5, 6.5, 8.8, 8.8, 6, 6, 6.5, 3.15, 35, 3.5, 11],
     placed: [7, 8, 4, 2, 2, 2, 1, 5, 4, 1, 3, 1, 1, 3, 3, 1, 1, 1, 1, 1,1]
   },
-  {
-    course: "B.Tech",
-    year: "2019",
-    company_name: ["ZS Associates", "Zenon Analytics", "Info Edge"," Accenture","Incedo","Truminds","HSBC Technology","Lumiq AI","Digit Insurance","EXL Analytics","JIT Japan","Reliance Jio","KPMG","C-DOT","Pregard","Tredence Analytics","Reliance Fynd","MAQ","Big Oh Tech","Canney Alley/ LongShort Labs"],
-    package: [13.65, 14, 14.5, 12.59, 5.55, 6, 9, 8, 7, 6.5, 18, 8.5, 7, 19, 4, 8, 13.5, 7.5, 5, 4.1],
-    placed: [1, 4, 3, 11, 1, 1, 4, 1, 3, 2, 1, 4, 6, 7, 1, 2, 1, 2, 1, 1]
-  },
+ 
   {
     course: "B.Tech",
     year: "2021",
     company_name: ["TCS Ninja", "TCS Digital", "IBM", "Wipro", "ZS Associates", "EXL Services", "Infoedge", "Josh Technology Group", "Optum - UHG", "Accenture", "Incedo", "Decimal Technologies", "Think Future Technology", "Pure Software", "Delhivery", "Publicis Sapient", "Unthinkable Solutions", "Larsen & Toubro"],
     package: [3.36, 7, 4.5, 3.5, 9, 6, 12.5, 9, 15.39, 9.96, 5, 4.5, 5.5, 8, 8, 10, 5, 6],
     placed: [5, 4, 8, 9, 2, 8, 4, 2, 4, 6, 1, 1, 1, 2, 5, 4, 2, 1]
+  },
+  {
+    course: "B.Tech",
+    year: "2023",
+    company_name: ["ZS Associates", "Zenon Analytics", "Info Edge"," Accenture","Incedo","Truminds","HSBC Technology","Lumiq AI","Digit Insurance","EXL Analytics","JIT Japan","Reliance Jio","KPMG","C-DOT","Pregard","Tredence Analytics","Reliance Fynd","MAQ","Big Oh Tech","Canney Alley/ LongShort Labs"],
+    package: [13.65, 14, 14.5, 12.59, 5.55, 6, 9, 8, 7, 6.5, 18, 8.5, 7, 19, 4, 8, 13.5, 7.5, 5, 4.1],
+    placed: [1, 4, 3, 11, 1, 1, 4, 1, 3, 2, 1, 4, 6, 7, 1, 2, 1, 2, 1, 1]
+  },
+  {
+    course: "B.Tech",
+    year: "2024",
+    company_name: ["Zenon Analytics","Accenture","Algosec","Octro Inc","HSBC","S&P Global (Pool Campus)","JIT Japan"],
+    package: [14.33, 12.59, 18, 10, 9, 9, 16],
+    placed: [3, 3, 2, 2, 7, 4, 2]
   },
   {
     course: "M.Tech",
@@ -85,6 +94,33 @@ export const placementStats = [
     year: "2024",
     spcList: [
       {
+        name: "Md Masleuddin",
+        year: "B.Tech/3rd",
+        email: "mdmasleuddin8008@gmail.com",
+        img: masleuddin,
+        github: "https://github.com/mdmasleuddin76/",
+        linkedin: "https://www.linkedin.com/in/md-masleuddin-956938225/",
+        whatsapp: "",
+      },
+      {
+        name: "Md Kashiful Haque",
+        year: "B.Tech/3rd",
+        email: "kashifulhaq1@gmail.com",
+        img: kashif,
+        github: "",
+        linkedin: "https://www.linkedin.com/in/md-kashiful-haque-037192229",
+        whatsapp: "",
+      },
+      {
+        name: "Hemant Navlani",
+        year: "B.Tech/3rd",
+        email: "hemant.navlani.0506@gmail.com",
+        img: hemantImg,
+        github: "https://github.com/HemantNavlani",
+        linkedin: "https://www.linkedin.com/in/hemant-navlani-1a5a331b4/",
+        whatsapp: "",
+      },
+      {
         name: "Insharah Ayyubi",
         year: "B.Tech/3rd",
         email: "insharahayyubifiverr@gmail.com",
@@ -102,15 +138,7 @@ export const placementStats = [
         linkedin: "https://www.linkedin.com/in/mariya-usman-a24b0722b",
         whatsapp : "",
       },
-      {
-        name: "Md Masleuddin",
-        year: "B.Tech/3rd",
-        email: "mdmasleuddin8008@gmail.com",
-        img: masleuddin,
-        github: "https://github.com/mdmasleuddin76/",
-        linkedin: "https://www.linkedin.com/in/md-masleuddin-956938225/",
-        whatsapp: "",
-      },
+      
       {
         name: "Sania Ahmad",
         year: "B.Tech/3rd",
@@ -118,24 +146,6 @@ export const placementStats = [
         img: sania,
         github: "https://github.com/saniaahmad6",
         linkedin: "https://www.linkedin.com/in/sania-ahmad-b6a5b7224/",
-        whatsapp: "",
-      },
-      {
-        name: "Hemant Navlani",
-        year: "B.Tech/3rd",
-        email: "hemant.navlani.0506@gmail.com",
-        img: hemantImg,
-        github: "https://github.com/HemantNavlani",
-        linkedin: "https://www.linkedin.com/in/hemant-navlani-1a5a331b4/",
-        whatsapp: "",
-      },
-      {
-        name: "Md Kashiful Haque",
-        year: "B.Tech/3rd",
-        email: "kashifulhaq1@gmail.com",
-        img: kashif,
-        github: "",
-        linkedin: "https://www.linkedin.com/in/md-kashiful-haque-037192229",
         whatsapp: "",
       },
     ],
@@ -166,7 +176,7 @@ export const placementStats = [
         name: "Lal Bihari Pandey",
         year: "B.Tech/4th",
         email: "lalbiharipandeyg@gmail.com",
-        img: sample,
+        img: lalBihari,
         github: "https://github.com/xpandeyed/",
         linkedin: "https://www.linkedin.com/in/xpandeyed/",
         whatsapp : "",

@@ -9,17 +9,14 @@ const computerlab1 = {
   heading: "Computer Lab 1",
   content:
     "The Apple Lab is a state-of-the-art facility housing a total of 60 computers, each equipped with dual-boot capabilities for both Mac OS and Windows operating systems. These computers are powered by Intel Core I5-2400S CPUs running at 2.50GHz, with 4GB of RAM, and a spacious 500GB HDD. The lab is well-equipped with essential software tools, including DevC++, Codeblocks, JDK, MySQL 5.0, and Adobe Reader, making it an ideal environment for various tasks. It serves as an excellent hub for conducting labs related to Data Structure, Database Management Systems (DBMS), and Operating Systems, providing students with a versatile and conducive space for their academic endeavors.",
-  images: [c1, c2, c3, c4, c5],
+  images: [],
 };
 const computerlab2 = {
   heading: "Computer Lab 2",
   content:
     "The Programming Lab boasts 40 advanced computer systems, each powered by Intel Core I5-4590 CPUs running at 3.3GHz with quad-core capabilities, 4GB of RAM, and 500GB HDDs. It supports both Windows and Ubuntu 16.10 operating systems and comes equipped with a wide range of software tools, including TurboC++, Codeblocks, DevC++, Intellij, LibreOffice, JDK, Python 3.6 (Anaconda 3), Sublime, and Vim Editor. This lab is exclusively dedicated to C Programming, Compiler design, and Computer Network labs, providing students with a conducive environment for enhancing their programming expertise and exploring computer science concepts.",
   images: [
-    "https://images.unsplash.com/photo-1677579016602-d342f911d11c?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
-    "https://images.unsplash.com/photo-1682192701389-4865ccd41a3f?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
-    "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
-    "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
+    c1, c2, c3, c4, c5
   ],
 };
 
