@@ -41,6 +41,7 @@ function Event() {
             value={selectedCategory}
             onChange={(e) => setSelectedCategory(e.target.value)}
           >
+            <option value="2015">2015</option>
             <option value="2016">2016</option>
             <option value="2017">2017</option>
             <option value="2018">2018</option>
@@ -65,7 +66,7 @@ function Event() {
         <img
           className="w-full h-full object-cover rounded-t-md"
           src={card.image}
-          alt={card.desc}
+          alt={card.tagline}
         />
         {card.tagline && (
           <p className="font-semibold absolute bottom-3 left-0 right-0 text-center text-sm text-green-deep bg-white p-1 inline-block rounded-lg w-1/2" style={{ margin: '0 auto' }}>
@@ -73,10 +74,10 @@ function Event() {
           </p>
         )}
       </div>
-      <div className="relative h-50 bg-green-200">
-        <p className="text-gray-900 font-semibold mb-4 p-2 px-4 text-sm">{card.desc}</p>
+      <div className="relative h-70 bg-green-200">
+        <p className="text-gray-900 font-semibold mb-4 p-2 px-4 text-sm h-50">{card.desc.substr(0,250)}</p>
         <div className="text-gray-900 font-semibold p-2 px-4">
-          <p className="pb-2 flex"><FaLocationDot /><p className="ml-2">{card.venue}</p></p>
+          <p className="pb-2 flex h-15"><FaLocationDot /><p className="ml-2">{card.venue}</p></p>
           <p className="pb-2 flex"><MdOutlineAccessTimeFilled /><p className="ml-2">{card.date}</p></p>
         </div>
       </div>
