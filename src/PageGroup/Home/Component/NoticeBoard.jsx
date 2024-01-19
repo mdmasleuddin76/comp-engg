@@ -27,7 +27,7 @@ const NoticeBoard = () => {
         {displayedNews.map((news) => (
           <li key={news.id} className="p-3 rounded flex gap-3 text-sm sm:px-8 md:px-12">
           <p className='NB-date px-2 font-bold'>{news.date}</p>
-            <p className='font-semibold'>{news.headline.substring(0,35) + '...'}<a className='text-sm text-green-yellow' href={news.url} target='_blank'>View</a></p>
+            <p className='font-semibold'>{news.headline.substring(0,35) + '...'}<a className='text-sm text-green-yellow' href={news.url2} target='_blank'>View</a></p>
           </li>
         ))}
       </ul>
