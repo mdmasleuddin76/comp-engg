@@ -29,6 +29,7 @@ div.columns {
 
 div.lastcol {
     flex: 2;
+    /* flex:content; */
 }
 
 div.columns:nth-of-type(odd) {
@@ -53,13 +54,22 @@ div.columns:nth-of-type(even) {
 }
 
 .posterImage{
-    height: 600px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .posterImage > img {
     margin: auto;
+    padding: auto;
+    height: auto;
+    width: auto;
     display: block;
-    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 768px) {

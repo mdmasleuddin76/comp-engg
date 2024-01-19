@@ -9,7 +9,7 @@ const AvatarSection = () => {
         <img
           id="Government"
           alt="Prof. Bashir Alam"
-          src="https://placebeard.it/640x360"
+          src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/freeimages/30/8970630/8932580/alam-2959629-small.gif"
           onError={() => setImageLoaded(false)}
           className="h-48 w-48 translate-y-12 rounded-md object-cover object-top shadow-lg shadow-gray-500 drop-shadow-lg transition duration-300 hover:scale-105"
         />

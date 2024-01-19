@@ -56,11 +56,31 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 850px) {
+    .main-footer-end{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-between;
+    }
+
+    .main-footer-end > span {
+        padding: 2px 0px 2px;
+    }
+}
+
 .contact-icons-main {
     border: 2px solid #046b04;
     border-radius: 50%;
     padding: 2px;
 }
+
+@media screen and (max-width: 500px) {
+    .contact-icons-main{
+        border: 2px solid #046b04;
+        border-radius: 50%;
+    }
+} 
 
 .footer-touch-heading {
     /* border-bottom: 5px solid #046b04; */
@@ -123,19 +143,26 @@
 }
 
 .NB-button {
-    padding: 0px;
+    margin: 5px;
     border-radius: 50%;
+    padding: 0px;
 }
 
 .NB-button > img{
-    border-radius: 100%;
+    border-radius: 50% !important;
+    padding: 0px;
 }
 
 .NB-button:hover {
-    background-color: #fff;
-    border-radius: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    background-color: #d7f5ba;
+    border-radius: 50%;
+}
+
+.NB-button:disabled,
+.NB-button[disabled] {
+    /* background-color: rgba(103, 104, 103, 0.255); */
+    opacity: 0.4;
+    border-radius: 50%;
 }
 
 .events-heading {

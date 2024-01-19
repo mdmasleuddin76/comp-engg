@@ -38,10 +38,10 @@ const DrawerButton = styled.button`
   all: unset;
   font-size: 3rem;
   display: grid;
-  @media (min-width: 768px) {
+  @media (min-width: 1050px) {
     display: none;
   }
-`;
+`; // max-width: 768px
 
 const SNavbar = styled.nav`
   background-color: white;
@@ -64,14 +64,14 @@ const RightNav = styled.div`
   gap: 2rem;
 `;
 const NavRoutes = styled.div`
-  @media (max-width: 768px) {
+  @media (max-width: 1050px) {
     display: none;
   }
   display: flex;
   gap: 1rem;
   font-size: 1.2rem;
   align-items: center;
-`;
+`; // max-width: 768px 
 const NavRoute = styled(Link)`
   text-decoration: none;
   color: black;

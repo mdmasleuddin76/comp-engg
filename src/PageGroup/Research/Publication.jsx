@@ -38,7 +38,8 @@ const Publication = () => {
   const [button, setButton] = useState(0);
   const [num, setNum] = useState(6);
 
-  // console.log(selectedCategory)
+  const allYears = [...new Set(data.map(item => item.year))]
+
 
   return (
     <>
@@ -78,13 +79,19 @@ const Publication = () => {
                 className="text-left bg-deep text-grey border-deep-green w-32 border-3 p-4 px-4 py-2"
                 value={selectedCategory.year}
                 onChange={(e) => setSelectedCategory({...selectedCategory, year: e.target.value})}
-              >
+              > 
                 <option value="all">Year</option>
+                {allYears.map((year) => ( 
+                  <option value={year}>{year}</option>
+                ))}
+
+                {/* <option value="all">Year</option>
                 <option value="2018">2018</option>
                 <option value="2019">2019</option>
                 <option value="2020">2020</option>
+                <option value="2021">2021</option>
                 <option value="2022">2022</option>
-                <option value="2023">2023</option>
+                <option value="2023">2023</option> */}
                 {/* Add more options as needed */}
               </select>
             </div>
@@ -93,11 +100,11 @@ const Publication = () => {
 
         <Container className="flex flex-wrap items-center  place-items-center grid sm:grid-cols-1 md:grid-cols-2 ">
           {filteredData.length > 0 && filteredData.slice(0, num).map((publication => (
-            <div className="mt-10 w-11/12
+            <div className="mt-10 w-11/12 h-4/5
            rounded-3xl border-2 border-[color:var(--green-deep)] bg-white p-4 shadow-md" >
               <div className="flex items-center">
                 <div className="text-lg">{publication.year}</div>
-                <div className="ml-auto text-sm">Current (WOS) Impact factor: <b>{publication?.factor}</b></div>
+                <div className="ml-auto text-sm">Current (WOS) Impact factor: <b>{publication.impactFactor}</b></div>
               </div>
               <div className="flex items-center md:items-start">
 
@@ -108,7 +115,7 @@ const Publication = () => {
                   <p className=" text-md font-medium text-[color:var(--green-deep)]">
                     {publication.desc}
                   </p>
-                  <p className="mb-1 text-sm font-medium text-[color:var(--green-deep)]">{publication.paper}</p>
+                  <p className="mb-1 text-sm font-medium text-[color:var(--green-deep)]">{publication.journal_paper_details}</p>
                   <br />
 
                 </div>

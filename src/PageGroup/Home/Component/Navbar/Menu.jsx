@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+
 const Menu = ({ route }) => {
   return (
     <SMenu>
@@ -26,7 +27,7 @@ const SubRoutesContainer = styled.div`
   flex-direction: column;
   box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 1rem;
-  left: -1rem;
+  left: -5rem;
   visibility: hidden;
   opacity: 0;
   border-radius: 1rem;

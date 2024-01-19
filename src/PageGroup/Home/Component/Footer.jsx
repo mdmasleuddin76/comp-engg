@@ -22,6 +22,7 @@ const Footer = () => {
           className="mb-4 flex justify-center font-bold  md:justify-start">
           <span className='footer-touch-heading'>GET IN TOUCH</span>
         </h6>
+        <div className=''>
         
         <p className="mb-2 flex items-center justify-center md:justify-start">
         <svg
@@ -54,7 +55,7 @@ const Footer = () => {
             className="w-7 h-7 mr-3 contact-icons-main" 
             xmlns="http://www.w3.org/2000/svg" 
             fill="none" 
-            viewBox="0 0 10 6"> */}
+          viewBox="0 0 10 6"> */}
         <svg 
             fill="#ffffff" 
             className="w-7 h-7 mr-3 contact-icons-main" 
@@ -72,6 +73,8 @@ const Footer = () => {
           Jamia Milla Islamia,New Delhi,<br/>
           Delhi - 10025 India
         </p>
+
+      </div>
       </div>
     </div>
   </div>
