@@ -21,9 +21,9 @@ function Home() {
       </section>
       
       <Achievements />
-      <div class="mt-28"></div>
+      {/* <div class="mt-28"></div>
       <Ribbon />
-      <div class="mb-40"></div>
+      <div class="mb-40"></div> */}
 
       <JmiCarousel />
 
