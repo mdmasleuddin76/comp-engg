@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import HeroImg from "../assets/Jmi.png";
+// import HeroImg from "/jmi-no-bg.svg";
 // import { Link } from "react-router-dom";
 
 const Hero = () => {

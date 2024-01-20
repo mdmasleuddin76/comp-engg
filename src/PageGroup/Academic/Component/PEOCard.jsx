@@ -12,7 +12,7 @@ const PEOCard = ({ title, description, icon }) => {
       <Book className="h-12 w-12" />
     );
   return (
-    <div className="col-span-1 flex max-w-[22rem] flex-col gap-y-4 rounded-md bg-green-light p-2 shadow sm:p-4 md:p-6">
+    <div className="col-span-1 flex h-full max-w-[22rem] flex-col gap-y-4 rounded-md bg-green-light p-2 shadow sm:p-4 md:p-6">
       <div className="flex w-full items-center">
         {Icon}
         <div className="ml-4 h-1 flex-1 rounded bg-green-deep" />

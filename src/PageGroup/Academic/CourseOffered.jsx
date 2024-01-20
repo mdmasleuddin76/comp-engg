@@ -36,7 +36,7 @@ function CourseOffered() {
         <div className="mx-4 flex flex-col gap-y-12 sm:mx-8 md:mx-12 lg:mx-16">
           <CoverTitle text={PEO_COVER} />
           {/* PEOs */}
-          <div className="m-auto grid w-full grid-cols-1 gap-x-4 gap-y-12 sm:grid-cols-2 xl:grid-cols-3">
+          <div className="m-auto grid w-full grid-cols-1 place-items-center gap-x-4 gap-y-12 sm:grid-cols-2 xl:grid-cols-3">
             {COURSES[courseIndex].peos.map(
               ({ title, description, icon }, i) => (
                 <PEOCard
@@ -63,7 +63,7 @@ function CourseOffered() {
 
         <div className="mx-4 flex flex-col gap-y-12 sm:mx-8 md:mx-12 lg:mx-16">
           <CoverTitle text={PSO_COVER} />
-          <div className="grid w-full grid-cols-1 gap-x-4 gap-y-4 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid w-full grid-cols-1 gap-x-4 gap-y-4 md:grid-cols-2 xl:grid-cols-3">
             {COURSES[courseIndex].psos.map(({ title, description }, i) => (
               <PSOCard key={i} text={description} title={title} />
             ))}
