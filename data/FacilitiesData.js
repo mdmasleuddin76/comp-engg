@@ -7,8 +7,8 @@ import c5 from "../images/Facilities/Computerlab1/5.jpeg";
 //***************computer lab2 *****************************
 import a1 from "../images/Facilities/Computerlab2/1.jpg";
 import a2 from "../images/Facilities/Computerlab2/2.jpg";
-import a3 from "../images/Facilities/Computerlab2/3.jpg";
-import a4 from "../images/Facilities/Computerlab2/4.jpg";
+import a3 from "../images/Facilities/Computerlab2/3.jpeg";
+import a4 from "../images/Facilities/Computerlab2/4.jpeg";
 import a5 from "../images/Facilities/Computerlab2/5.jpg";
 //****************research lab ******************************
 import r1 from "../images/Facilities/ResearchLab/1.jpg";
