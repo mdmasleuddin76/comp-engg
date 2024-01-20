@@ -136,6 +136,7 @@
 .main-notice-board {
     background-color: #E4FCE5;
     height: fit-content;
+    max-width: 500px;
 }
 
 .NB-date {

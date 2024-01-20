@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 // was giving error for React not used
 import React, { useState } from 'react';
-import notice from '../../../../data/notice.js';
+import { notice } from '../../../../data/home.js';
 
 const newsData = notice;
 
@@ -21,13 +21,13 @@ const NoticeBoard = () => {
 
   return (
     <div className='main-notice'>
-      <div className="main-notice-board m-4 p-4 rounded-lg">
-      <h2 className="text-2xl text-center font-bold mb-4">Notice Board</h2>
+      <div className="main-notice-board m-3 p-3 rounded-lg">
+      <h2 className="text-2xl text-center font-semibold mb-4 underline">Notice Board</h2>
       <ul className="space-y-2">
         {displayedNews.map((news) => (
-          <li key={news[0]} className="p-4 rounded flex gap-3">
-          <p className='NB-date px-2 font-bold'>{news[1]}</p>
-            <p className='font-semibold'>{news[2].substring(0,25) + '...'}</p>
+          <li key={news.id} className="p-3 rounded flex gap-3 text-sm sm:px-8 md:px-12">
+          <p className='NB-date px-2 font-bold'>{news.date}</p>
+            <p className='font-semibold'>{news.headline.substring(0,35) + '...'}<a className='text-sm text-green-yellow' href={news.url2} target='_blank'>View</a></p>
           </li>
         ))}
       </ul>
