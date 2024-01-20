@@ -1,8 +1,8 @@
 // *********************computer lab1***********************
 import c1 from "../images/Facilities/Computerlab1/1.jpeg";
-import c2 from "../images/Facilities/Computerlab1/2.jpeg";
-import c3 from "../images/Facilities/Computerlab1/3.jpeg";
-import c4 from "../images/Facilities/Computerlab1/4.jpeg";
+import c2 from "../images/Facilities/Computerlab1/2.jpg";
+import c3 from "../images/Facilities/Computerlab1/3.jpg";
+import c4 from "../images/Facilities/Computerlab1/4.jpg";
 import c5 from "../images/Facilities/Computerlab1/5.jpeg";
 //***************computer lab2 *****************************
 import a1 from "../images/Facilities/Computerlab2/1.jpg";
