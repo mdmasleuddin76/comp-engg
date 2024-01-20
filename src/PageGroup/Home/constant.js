@@ -23,7 +23,6 @@ export const routes = [
     subRoutes: [
       { link: "/academic/courseOffered", name: "Courses Offered" },
       { link: "/academic/courseStructure", name: "Course Structure" },
-      { link: "/academic/notices", name: "Notices" },
     ],
   },
   {
