@@ -10,7 +10,6 @@ import Hero from "./Component/Hero";
 import Achievements from "./Component/Achievements";
 import JmiCarousel from "./Component/Carousel";
 import Ribbon from "./Component/Ribbon";
-import { Caserol } from "./Component/Caserol";
 
 function Home() {
   return (
