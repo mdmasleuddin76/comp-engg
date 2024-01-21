@@ -9,7 +9,7 @@ const Events = () => {
     const new_events = events['2018'].slice(0,3); // latest year - can use max of Object.keys(data);
 
   return (
-    
+    <div className='flex flex-col gap-0'>
     <div className='m-3 relative flex flex-col flex-wrap max-w-screen-sm'>
       {/* <h1 className='events-heading font-bold'>Events</h1> */}
       <div
@@ -25,8 +25,8 @@ const Events = () => {
             <div className="group relative mt-1 mb-1 col-span-1 flex items-center justify-center overflow-hidden rounded-md text-green-800 shadow" key={eventId}>
             <div className="flex w-full flex-col gap-y-3 bg-green-light px-4 pl-6 py-4 sm:pl-8 text-sm sm:px-8 md:px-12">
                 <h3 className="font-semibold">{event.tagline}</h3>
-                <p className="text-black">{event.desc.substring(0,50)}...<a className='text-green-yellow underline' href='/event'>Read More</a></p>
-            <div className='m-1 mt-3 flex flex-row flex-wrap gap-5'>
+                <p className="text-black">{event.desc.substring(0,65)}...</p>
+            <div className='m-1 mt-3 flex flex-row flex-wrap gap-3'>
                      <p className='flex flex-nowrap'><img className='event-icon' src={clock} alt='clock8' /><span className='-ml-2'>{event.date}</span></p>
                      <p className='flex flex-nowrap'><img className='event-icon' src={location} alt='location8' /><span className='-ml-2'>{event.venue}</span></p>
             </div>
@@ -35,6 +35,17 @@ const Events = () => {
         </div>
         )
         )}
+    </div>
+    <div
+                className="mt-1 group relative col-span-1 flex justify-end overflow-hidden rounded-md text-black h-12 "
+            >
+                <a href='/event' ><h3 className="font-semibold" style={{fontSize: "20px", marginRight:"30px"}}>
+                View More
+                <div className="right-20 bottom-2 h-[5px] w-[30px] rounded bg-green-700 transition-all duration-300 group-hover:w-[10%] sm:left-4" />
+
+                </h3></a>
+            </div>
+    
     </div>
   )
 }

@@ -128,10 +128,17 @@
     /* padding: 15%; */
     position: relative;
     padding: auto auto;
+    margin-top: -9em;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+@media screen and (max-width: 1068px) {
+    .main-notice{
+        margin-top: 2em;
+    }
+} 
 
 .main-notice-board {
     background-color: #E4FCE5;
