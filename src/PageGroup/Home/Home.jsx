@@ -19,25 +19,11 @@ function Home() {
         <NoticeBoard />
         <Events />
       </section>
-      
+
       <Achievements />
-      {/* <div class="mt-28"></div>
-      <Ribbon />
-      <div class="mb-40"></div> */}
 
+      {/* <Caserol /> */}
       <JmiCarousel />
-
-      <div
-          className="-mt-12 group relative col-span-1 flex justify-end overflow-hidden rounded-md text-black h-12 "
-        >
-          <a href='/gallery'><h3 className="font-semibold" style={{ fontSize: "20px", marginRight: "30px" }}>
-            View More
-            <div className="right-20 bottom-2 h-[5px] w-[30px] rounded bg-green-700 transition-all duration-300 group-hover:w-[10%] sm:left-4" />
-
-          </h3></a>
-        </div>
-
-
       <Footer />
     </>
   );

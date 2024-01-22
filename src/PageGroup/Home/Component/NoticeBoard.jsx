@@ -22,7 +22,7 @@ const NoticeBoard = () => {
   return (
     <div className='main-notice'>
       <div className="main-notice-board m-3 p-3 rounded-lg">
-      <h2 className="text-2xl text-center font-semibold mb-4 underline">Notice Board</h2>
+        <h2 className="text-2xl text-center font-semibold mb-4 underline">Notice Board</h2>
       <ul className="space-y-2">
         {displayedNews.map((news) => (
           <li key={news.id} className="p-3 rounded flex gap-3 text-sm sm:px-8 md:px-12">
