@@ -2,7 +2,6 @@
 // was giving error for React not used
 import React, { useState } from "react";
 import { notice } from "../../../../data/home.js";
-import { redirect } from "react-router-dom";
 
 const newsData = notice;
 
@@ -34,13 +33,13 @@ const NoticeBoard = () => {
             {displayedNews.map((news) => (
                 <li
                   key={news.id}
-                  className="flex gap-3 rounded p-3 text-base sm:px-8 md:pr-1 cursor-pointer hover:bg-green-700 hover:text-white"
+                  className=" group flex gap-3 rounded p-3 text-base sm:px-8 md:pr-1 cursor-pointer hover:bg-green-yellow "
                   onClick={() => {
                     window.open(news.url, "_blank");
                   }}
                 >
-                  <p className="NB-date px-2 font-bold">{news.date}</p>
-                  <p className="font-semibold">
+                  <p className=" text-green-deep px-2 font-bold group-hover:text-white">{news.date}</p>
+                  <p className="font-semibold group-hover:text-white">
                     {news.headline.substring(0, 65) + "..."}
                   </p>
                 </li>
