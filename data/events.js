@@ -1,4 +1,5 @@
-import img1 from "../src/PageGroup/Event/images/im1.jpg"
+const y2015 = [];
+const y2016= [];
 const y2017 = [
   {
     image : "https://csejmi.github.io/html/educat-preview/educat/img/event/e2.jpg",
@@ -9,8 +10,6 @@ const y2017 = [
     
   }
 ];
-
-const y2016= [];
 
 const y2018= [{
   image : "https://csejmi.github.io/html/educat-preview/educat/img/event/e11.jpg",
@@ -40,13 +39,22 @@ const y2018= [{
   date: "11 am | 7th February, 2018",
   tagline: "JMI Honours Hotmail Founder Sabeer Bhatia",
 }];
-
-const y2015 = []
-
+const y2019 = [];
+const y2020 = [];
+const y2021 = [];
+const y2022 = [];
+const y2023 = [];
+const y2024 = [];
 export const data = {
+   "2015" : y2015,
+   "2016" : y2016,
     "2017" : y2017,
-    "2016" : y2016,
-    "2015" : y2015,    
-
-
+    "2018" : y2018,
+    "2019" : y2019,
+    "2020" : y2020,
+    "2021" : y2021,
+    "2022" : y2022,
+    "2023" : y2023,
+    "2024" : y2024,
 }
+export const options = ["2024","2023","2022","2021","2020","2019","2018","2017","2016","2015"]

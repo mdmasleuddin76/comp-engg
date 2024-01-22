@@ -1,6 +1,5 @@
 import React from 'react'
-import { achievementInTechDummy as achievementInTech } from '../../../../data/achievement'
-
+import { achievements } from '../../../../data/home'
 const Achievements = () => {
 
     return (
@@ -16,12 +15,12 @@ const Achievements = () => {
             <div className=" flex w-full flex-col items-center justify-center gap-y-8 font-[450]">
         
                 <div className="mt-8 grid w-full grid-cols-1 gap-x-2 gap-y-6 px-6 sm:grid-cols-2 sm:gap-x-6 sm:px-8 md:px-12 lg:px-16">
-                    {achievementInTech.map((achievement, i) => (
+                    {achievements.map((achievement, i) => (
                         <div
-                            className="group relative col-span-1 flex items-center justify-center overflow-hidden rounded-md text-green-800 shadow"
+                            className="group relative col-span-1 flex items-center justify-center overflow-hidden rounded-md bg-green-light text-green-800 shadow"
                             key={i}
                         >
-                            <div className="flex w-full flex-col gap-y-3 bg-green-light px-4 pl-6 py-4 sm:pl-8 text-sm sm:px-8 md:px-12">
+                            <div className="flex w-full flex-col gap-y-3 bg-green-light px-4 pl-6 py-4 sm:pl-8 text-base sm:px-8 md:px-12">
                                 <h3 className="font-semibold">{achievement.title}</h3>
                                 <p className="text-black">{achievement.description}</p>
                             </div>

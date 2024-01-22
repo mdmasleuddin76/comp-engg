@@ -15,10 +15,11 @@ function Home() {
   return (
     <>
       <Hero />
-      <section className="flex justify-evenly mb-16 flex-row flex-wrap">
+
+      <div className="flex justify-evenly mb-0 flex-row flex-wrap">
         <NoticeBoard />
         <Events />
-      </section>
+      </div>
 
       <Achievements />
 
