@@ -22,11 +22,17 @@ export const NoticeBoard = () => {
   );
 
   return (
-    <div className="mt-24 h-full w-full rounded-md bg-green-light pb-5 xs:w-[90%] md:mx-0 md:w-1/2">
+    <div className="mt-24 h-full w-full rounded-xl bg-green-light pb-5 xs:w-[90%] md:mx-0 md:w-1/2">
       <div className="m-3 w-full rounded-lg p-3">
-        <h2 className="mb-4 text-center text-2xl font-semibold underline">
+        {/* <h2 className="mb-4 text-center text-2xl font-semibold underline">
           Notice Board
-        </h2>
+        </h2> */}
+        <div className="group relative col-span-1 mx-auto mb-5 mt-3 flex h-12 w-fit overflow-hidden rounded-md text-black ">
+          <h3 className="text-xl font-semibold">
+            Notice Board
+            <div className="bottom-2 right-20 h-[5px] w-full rounded bg-green-700 transition-all duration-300 group-hover:w-[80%] sm:left-4" />
+          </h3>
+        </div>
         <div className="h-full bg-green-light">
           <ul className="mt-5">
             {displayedNews.map((news) => (
