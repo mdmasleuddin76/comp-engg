@@ -48,6 +48,7 @@ function Achievments() {
         {achievementInTech.map((achievement, i) => (
           <AchiementCard
             key={i}
+            id={achievement.id}
             title={achievement.title}
             description={achievement.description}
           />

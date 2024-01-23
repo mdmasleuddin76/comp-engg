@@ -3,37 +3,33 @@ import React from "react";
 import { events } from "../../../../data/home.js";
 import clock from "../../../assets/icons8-clock.png";
 import location from "../../../assets/icons8-location.png";
+import { Link } from "react-router-dom";
 
 const Events = () => {
-  const new_events = events.slice(0, 3); // latest year - can use max of Object.keys(data);
+  const new_events = events.slice(0, 3);
 
   return (
     <div className="flex flex-col gap-0">
       <div className="relative m-3 flex max-w-screen-sm flex-col flex-wrap">
-        {/* <h1 className='events-heading font-bold'>Events</h1> */}
-        <div
-          className="group relative flex h-12 rounded-md text-green-800 "
-          style={{ marginTop: "30px" }}
-        >
-          <h3
-            className="font-semibold"
-            style={{ fontSize: "20px", marginLeft: "15px" }}
-          >
+        <div className="group relative col-span-1 mb-5 mt-3 flex mx-auto h-12 w-fit overflow-hidden rounded-md text-black ">
+          <h3 className="text-xl font-semibold">
             Events
+            <div className="bottom-2 right-20 h-[5px] w-full rounded bg-green-700 transition-all duration-300 group-hover:w-[80%] sm:left-4" />
           </h3>
-          <div className="absolute bottom-2 left-3 h-[5px] w-[30px] rounded bg-green-700 transition-all duration-300 group-hover:w-[10%] sm:left-4" />
         </div>
-
         {new_events.map((event, eventId) => (
           <div
-            className="group relative col-span-1 mb-1 mt-1 flex items-center justify-center overflow-hidden rounded-md text-green-800 shadow"
+            className="group relative col-span-1 my-1 flex items-center justify-center overflow-hidden rounded-md text-green-800 shadow"
             key={eventId}
           >
             <div className="flex w-full flex-col gap-y-3 bg-green-light px-4 py-4 pl-6 text-base sm:px-8 sm:pl-8 md:px-12">
               <h3 className="font-semibold">{event.tagline}</h3>
               <a href="/event" className="">
                 <p className="text-black">
-                  {event.desc.substring(0, 55)}... <span className=" text-green-950 font-semibold underline underline-offset-4">Read more</span>
+                  {event.desc.substring(0, 55)}...{" "}
+                  <span className=" font-semibold text-green-950 underline underline-offset-4">
+                    Read more
+                  </span>
                 </p>
               </a>
               <div className="m-1 mt-3 flex flex-row flex-wrap gap-3">
@@ -51,16 +47,13 @@ const Events = () => {
           </div>
         ))}
       </div>
-      <div className="group relative col-span-1 mt-1 flex h-12 justify-end overflow-hidden rounded-md text-black ">
-        <a href="/event">
-          <h3
-            className="font-semibold"
-            style={{ fontSize: "20px", marginRight: "30px" }}
-          >
+      <div className="group relative col-span-1 mb-5 ml-auto mr-[3%] mt-3 flex h-12 w-fit justify-end overflow-hidden rounded-md text-black ">
+        <Link to="/event">
+          <h3 className="text-xl font-semibold">
             View More
-            <div className="bottom-2 right-20 h-[5px] w-[30px] rounded bg-green-700 transition-all duration-300 group-hover:w-[10%] sm:left-4" />
+            <div className="bottom-2 right-20 h-[5px] w-full rounded bg-green-700 transition-all duration-300 group-hover:w-[80%] sm:left-4" />
           </h3>
-        </a>
+        </Link>
       </div>
     </div>
   );

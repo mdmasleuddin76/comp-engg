@@ -1,7 +1,7 @@
-import React from "react";
 import { ChevronLeft, ChevronRight } from "react-feather";
 import { images } from "../../../../data/home";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const JmiCarousel = () => {
   const [currentindex, setcurrentindex] = useState(0);
@@ -25,32 +25,33 @@ const JmiCarousel = () => {
     return () => clearInterval(intervalid);
   }, [currentindex]);
   return (
-    <>
+    <div className="relative grid h-full w-full place-items-center">
       <div
-        className=" relative mx-auto mb-4 mt-4 flex h-64 w-[90%] rounded-2xl border-2 border-black bg-cover bg-center shadow-2xl md:h-[470px] md:w-[90%] transition-all"
+        className="group absolute top-0 mx-auto h-64 w-[90%] scale-100 rounded-md bg-cover bg-center shadow-2xl blur-sm transition-all md:h-[470px] md:w-[90%]"
+        style={{ backgroundImage: `url(${images[currentindex]})` }}
+      />
+      <div
+        className="group m-auto flex h-64 w-[90%] scale-95 rounded-md bg-cover bg-center shadow-2xl transition-all md:h-[470px] md:w-[90%]"
         style={{ backgroundImage: `url(${images[currentindex]})` }}
       >
         <ChevronLeft
-          className=" absolute left-0 top-[50%] cursor-pointer rounded-xl bg-white bg-opacity-50"
+          className="absolute left-0 top-[50%] cursor-pointer rounded-xl bg-white bg-opacity-20 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
           onClick={prev}
         />
         <ChevronRight
-          className="absolute right-0 top-[50%] cursor-pointer rounded-xl bg-white bg-opacity-50"
+          className="absolute right-0 top-[50%] cursor-pointer rounded-xl bg-white bg-opacity-20 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
           onClick={next}
         />
       </div>
-      <div className="group relative col-span-1 mb-5 mr-[3%] flex h-12 justify-end overflow-hidden rounded-md text-black ">
-        <a href="/gallery">
-          <h3
-            className="font-semibold"
-            style={{ fontSize: "20px", marginRight: "30px" }}
-          >
+      <div className="group relative col-span-1 mb-5 ml-auto mr-[3%] flex h-12 w-fit justify-end overflow-hidden rounded-md text-black ">
+        <Link to="/gallery">
+          <h3 className="mr-8 text-xl font-semibold">
             View More
-            <div className="bottom-2 right-20 h-[5px] w-[30px] rounded bg-green-700 transition-all duration-300 group-hover:w-[10%] sm:left-4" />
+            <div className="bottom-2 right-20 h-[5px] w-full rounded bg-green-700 transition-all duration-300 group-hover:w-[80%] sm:left-4" />
           </h3>
-        </a>
+        </Link>
       </div>
-    </>
+    </div>
   );
 };
 
