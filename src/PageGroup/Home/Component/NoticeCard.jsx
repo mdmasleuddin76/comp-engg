@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Marquee from "react-fast-marquee";
+import { ExternalLink } from "react-feather";
 
 /**
  * NoticeCard component.
@@ -14,7 +15,7 @@ export const NoticeCard = ({ data }) => {
   const [play, setPlay] = useState(false);
   const [rxdt, setRxdt] = useState(0);
   return (
-    <li className="flex items-center justify-between rounded-md bg-green-light p-3">
+    <li className="relative flex items-center justify-between rounded-md bg-green-light p-3">
       <span className="w-24 font-semibold text-green-deep">{data.date}</span>
       <span
         className="flex-1 text-gray-800"
@@ -27,6 +28,12 @@ export const NoticeCard = ({ data }) => {
           {data.headline}
         </Marquee>
       </span>
+      <button
+        className="opacity-30"
+        onClick={() => window.open(data.url, "_blank")}
+      >
+        <ExternalLink className="h-5 w-5" />
+      </button>
     </li>
   );
 };
