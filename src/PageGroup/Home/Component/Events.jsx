@@ -9,9 +9,9 @@ const Events = () => {
   const new_events = events.slice(0, 3);
 
   return (
-    <div className="flex flex-col gap-0">
-      <div className="relative m-3 flex max-w-screen-sm flex-col flex-wrap">
-        <div className="group relative col-span-1 mb-5 mt-3 flex mx-auto h-12 w-fit overflow-hidden rounded-md text-black ">
+    <div className="flex w-full flex-col gap-0 md:w-1/2">
+      <div className="relative m-3 flex flex-col flex-wrap">
+        <div className="group relative col-span-1 mx-auto mb-5 mt-3 flex h-12 w-fit overflow-hidden rounded-md text-black ">
           <h3 className="text-xl font-semibold">
             Events
             <div className="bottom-2 right-20 h-[5px] w-full rounded bg-green-700 transition-all duration-300 group-hover:w-[80%] sm:left-4" />
@@ -46,14 +46,14 @@ const Events = () => {
             <div className="absolute left-2 h-[80%] w-[6px] rounded bg-green-700 transition-all duration-300 group-hover:h-[60%] sm:left-4" />
           </div>
         ))}
-      </div>
-      <div className="group relative col-span-1 mb-5 ml-auto mr-[3%] mt-3 flex h-12 w-fit justify-end overflow-hidden rounded-md text-black ">
-        <Link to="/event">
-          <h3 className="text-xl font-semibold">
-            View More
-            <div className="bottom-2 right-20 h-[5px] w-full rounded bg-green-700 transition-all duration-300 group-hover:w-[80%] sm:left-4" />
-          </h3>
-        </Link>
+        <div className="group mb-5 ml-auto mt-3 flex h-12 w-fit justify-end rounded-md text-black ">
+          <Link to="/event">
+            <h3 className="text-xl font-semibold">
+              View More
+              <div className="bottom-2 right-20 h-[5px] w-full rounded bg-green-700 transition-all duration-300 group-hover:w-[80%] sm:left-4" />
+            </h3>
+          </Link>
+        </div>
       </div>
     </div>
   );
