@@ -10,6 +10,9 @@ export default {
         "green-yellow": "var(--green-yellow)",
         "black-deep": "var(--dark-black)",
       },
+      screens: {
+        xs: "475px",
+      },
       // fontFamily:{
       //   sans: ['Lato', ...defaultTheme.fontFamily.sans],
       //   sans: ['Poppins', ...defaultTheme.fontFamily.sans],
