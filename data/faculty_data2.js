@@ -3,7 +3,8 @@ import zeeshanSirImg from '../src/PageGroup/People/assets/zeeshanSir.jpeg';
 import amjadSirImg from '../src/PageGroup/People/assets/amjadSir.png';
 import MumtazSirImg from '../src/PageGroup/People/assets/MumtazSir.png';
 import pdf from "../src/PageGroup/People/assets/dummy_pdf.pdf";
-
+import SarfarazSir from "../images/Faculty/Sarfaraz Sir.jpg"
+import FaiyazSir from "../images/Faculty/Faiyaz Sir.jpg"
 export const HOD = {
     "name": "Prof. Bashir Alam",
     "dp": "https://ieeexplore.ieee.org/mediastore_new/IEEE/content/freeimages/30/8970630/8932580/alam-2959629-small.gif",
@@ -48,28 +49,28 @@ export const faculty_data = [ {
 
 },{
     "name": "Dr. Sarfaraz Massod",
-    "dp": "https://mdmshf.github.io/assets/images/11.jpg",
+    "dp": SarfarazSir,
     "onclick": "id11",
     "designation": "( Assistant Professor )",
     "pdf" :"https://www.jmi.ac.in/upload/employeeresume/smasood.pdf",
     "department": "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
     "mobileNumber": "+919654774604",
-    "email": "smasood@jmi.ac.in, sarfarazmasood2002@yahoo.com",
+    "email": "Email: smasood@jmi.ac.in",
     "portfolio": "Professional Portfolio",
-    "areaOfIntrest": "Soft Computing, Artificial Neural Networks, Image Processing",
-    "details" : "Dr. Sarfaraz Massod is currently Assistant Professor in the Department of Computer Engineering, Faculty of Engineering and Technology, Jamia Millia Islamia, New Delhi-110025. He is pursuing his Ph.D from Jamia Millia Islamia, New Delhi, had received his M.TECH in Information Technology from GGS Indraprastha University, New Delhi in 2012 and B.TECH in Computer Engineering from Jamia Millia Islamia, New Delhi in 2006. He has more than 7 years of teaching experiences in field of Computer Engineering.Dr. Sarfaraz Massod has published a total of 16 research papers and journals. He has supervised a total of 30 B.Tech final year projects which includes topic from Soft computing using Neural Networks, User activity Tracker Module, Search Engines design, application on stenography etc. His area of Interest includes Artificial Neural Networks, Problem solving using Deep learning, Natural Language Processing, Compiler Design & Automata theory."
+    "areaOfIntrest": "Machine Learning and Deep Learning applications in healthcare, vehicular safety",
+    "details" : "Dr. Sarfaraz Masood is currently working as an Associate Professor in the Department of Computer Engineering, Faculty of Engineering and Technology, Jamia Millia Islamia, New Delhi, India. He has a rich experience in teaching and research for more than 16 years in the field of Computer Science and Engineering. He also worked in the software industry for around a year before joining academics. He has obtained his Ph.D. degree in Computer Engineering with a focus on the field of Artificial Neural Networks. His research areas include Machine Learning and Deep Learning applications in healthcare, vehicular safety, agriculture science, etc. He has published more than 60 research papers in various reputed International Journals and conferences in his research domain. He has been granted an international patent titled “A feature boosted Web-based product purchase recommendation method and system”. He is also serving as a Technical Expert in multiple committees at various government institutions in India, including UPSC, NTA & CEC-UGC"
 
 
 }, {
-    "name": "Dr. Mumtaz Ahmad",
+    "name": "Dr Mumtaz Ahmed",
     "dp": MumtazSirImg,
     "onclick": "id10",
     "designation": "( Assistant Professor )",
     "department": "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
     "mobileNumber": "011-26980281 , 9911669991",
-    "email": "ahmedmumtaz01@jmi.ac.in, mahmed1.jmi@gmail.com",
+    "email": "ahmedmumtaz01@gmail.com, mahmed1@jmi.ac.in",
     "portfolio": "Professional Portfolio",
-    "areaOfIntrest": "Computer Networks, Artificial Intelligence",
+    "areaOfIntrest": "Wireless Sensor Networks, Artificial Intelligence",
     "pdf" :"https://www.jmi.ac.in/upload/employeeresume/mahmed1.pdf",
     "details" : "Dr. Mumtaz Ahmed is currently Assistant Professor in the Department of Computer Engineering, Faculty of Engineering and Technology, Jamia Millia Islamia, New Delhi-110025. He has more than 9 years of teaching experiences in the field of Computer Engineering. He is pursuing his Ph.D from Jamia Millia Islamia, New Delhi, had received his M.TECH from Delhi College Of Engineering, New Delhi in 2013 and B.TECH from Jamia Millia Islamia in 2004. Dr. Mumtaz Ahmed has published a total of 7 papers , 2 of which are in National/International Conferences and rest are in National/International Journals. He has also taken part in various Workshop/Conferences including ISTE workshop on Database Management System conducted by IIT-Bombay fomr 13th to 23rd Dec 2010. His research interest includes Computer Networks, Artificial Intelligence and Operating Systems"
 
@@ -82,9 +83,9 @@ export const faculty_data = [ {
     "mobileNumber": "+911126980281",
     "email": "mahmad9@jmi.ac.in, musheer.cse@gmail.com",
     "portfolio": "Professional Portfolio",
-    "areaOfIntrest": "Chaos-based Cryptography, Multimedia Security, Cryptanalysis, Image Processing",
+    "areaOfIntrest": "Multimedia security, Chaos-based cryptography, Cyber security, Machine learning & Deep learning, and Optimization techniques.",
     "pdf" :"https://www.jmi.ac.in/upload/employeeresume/mahmad9.pdf",
-    "details" : "He has more than 8 years of teaching experiences in the field of Computer Engineering. He received his M.TECH in Computer Science & Engineering from ZH College of Engineering and Technology, Aligarh Muslim University in 2004 and B.TECH in Computer Engineering from ZH College of Engineering and Technology, Aligarh Muslim University in 2004. His M.Tech Dissertation topic was “Design and implementation of LFSR based Data Encryption Circuit for Secure Communications”. His research interest includes : Chaos-based Security Multidisciplinary Cryptography Cryptanalysis Information Hiding Secure Sequence Design Hash Function Design Digital Image Processing. Dr. Musheer Ahmad has published a total of 10 papers in journals and 32 Conference papers. He is currently supervising 3 B.Tech projectsand had supervised a total of 23 B.Tech final year project and 9 M.Tech projects. He is Editorial Board member of International Journal of Chaos, Control, Modelling and Simulation(IJCCMS) and The Journal of Theoretical Physics and Cryptography(IJTPC). He is also Technical Program Committee member of over 16 International conferences and Journal and Reviewer of over 34 International conferences and Journal. Dr. Musheer Ahmad has also Prepared Department’s Report for NAAC Accreditation and serving as Nodal faculty member for NAAC related activities. He is also member of Society of Digital Information and Wireless Communication(SDIWC), USA, Member of International Association of Computer Science and Information Technology (IACSIT), Singapore and Member of Institute of Doctors, Engineers and Scientists (IDES), India"
+    "details" : "MUSHEER AHMAD received the B.Tech. and M.Tech. degrees from the Department of Computer Engineering, Aligarh Muslim University, India, in 2004 and 2008, respectively, and the Ph.D. degree in the area of Chaos-based Cryptography from the Department of Computer Engineering, Jamia Millia Islamia, New Delhi, India. From 2007 to 2010, he has worked in the Department of Computer Engineering, Aligarh Muslim University, Aligarh. Since 2011, he has been working as an Assistant Professor in the Department of Computer Engineering, Jamia Millia Islamia. He has published over 110 research papers in internationally reputed refereed journals and conference proceedings of the IEEE, Springer, Elsevier. He has more than 3600 citations of his research works with an H-index of 36, i-10 index of 87, and cumulative JCR impact factor of more than 300. He has been consecutively listed three times among World's Top 2% researchers in studies conducted by Elsevier and Stanford University in 2021, 2022 and 2023. His research interests include multimedia security, chaos-based cryptography, cyber security, machine learning & deep learning, and optimization techniques. He has served as a reviewer and a technical program committee member of many international conferences. He is serving serving as associate editor of International Journal of Information Security and Privacy (IJISP), and International Journal of Artificial Intelligence in Scientific Disciplines (IJAISD) from IGI. He is Editorial Board member of International Journal of Chaos, Control, Modelling and Simulation (IJCCMS) and The Journal of Theoretical Physics and Cryptography (IJTPC). He has also served as referee of some renowned journals, such as Information Sciences, Signal Processing, Journal of Information Security and Applications, Expert Systems with Applications, Knowledge-based Systens, Applied Soft Computing, Engineering Applications of Artificial Intelligence, Chaos Solitons & Fractals, Physica A, Signal Processing: Image Communication, Neurocomputing, IEEE JSAC, IEEE TCYB, IEEE TCSVT, IEEE TII, IEEE TPAMI, IEEE TNNLS, IEEE TITS, IEEE SMCA, IEEE TCE, IEEE TNSE, IEEE TNB, IEEE TCAS, IEEE TBD, IEEE TR, IEEE IOTJ, IEEE MULTIMEDIA, IEEE ACCESS, Wireless Personal Communications, Neural Computing and Applications, Multimedia Tools & Applications, International Journal of Bifurcation and Chaos, IET Information Security, IET Image Processing, Security and Communication Networks, Optik, Complexity, Computers in Biology and Medicine, Computational and Applied Mathematics, Concurrency and Computation & so on. Recently, he is felicitated with Jamia Achievers Award by Jamia Millia Islamia, New Delhi."
 
 }, {
     "name": "Dr. Mohammad Zeeshan Ansari",
@@ -102,7 +103,7 @@ export const faculty_data = [ {
 
 }, {
     "name": "Dr Faiyaz Ahmad",
-    "dp": "https://www.jmi.ac.in/upload/employee/fahmad120160516102806_l.jpg",
+    "dp": FaiyazSir,
     "onclick": "id5",
     "designation": "( Assistant Professor )",
     "department": "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
