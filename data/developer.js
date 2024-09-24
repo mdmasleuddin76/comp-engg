@@ -25,7 +25,7 @@ export const faculty = [
     designation: "Counsellor",
     img: MumtazSirImg,
     mail: "mailto:mahmed1@jmi.ac.in",
-    linkedin: "https://www.linkedin.com/in/mumtaz-ahmed"
+    linkedin: "https://www.linkedin.com/in/mumtaz-ahmed-12875711/"
   },
 ];
 
