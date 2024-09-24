@@ -29,7 +29,7 @@ export const faculty_data = [
     name: "Prof. Bashir Alam",
     dp: bashirSirImg,
     onclick: "id3",
-    designation: "( Associate Professor )",
+    designation: "( Professor )",
     department:
       "Department of Computer Engineering, Jamia Millia Islamia<br>New Delhi, Delhi-110025 India",
     mobileNumber: "9911903930",
@@ -45,7 +45,7 @@ export const faculty_data = [
     name: "Prof. Tanvir Ahmad",
     dp: "https://computerenggjmi.github.io/html/educat-preview/educat/img/team/1.jpg",
     onclick: "id2",
-    designation: "( Professor)",
+    designation: "( Professor )",
     department:
       "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
     mobileNumber: "011-26980281",
@@ -61,7 +61,7 @@ export const faculty_data = [
     name: "Dr. Sarfaraz Massod",
     dp: SarfarazSir,
     onclick: "id11",
-    designation: "( Assistant Professor )",
+    designation: "( Associate Professor )",
     pdf: "https://www.jmi.ac.in/upload/employeeresume/smasood.pdf",
     department:
       "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
@@ -92,7 +92,7 @@ export const faculty_data = [
     name: "Dr Mumtaz Ahmed",
     dp: MumtazSirImg,
     onclick: "id10",
-    designation: "( Assistant Professor )",
+    designation: "( Associate Professor )",
     department:
       "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
     mobileNumber: "011-26980281 , 9911669991",
@@ -207,7 +207,7 @@ export const faculty_data = [
     details: "",
   },
   {
-    name: "Prof. Nehal Ahmad",
+    name: "Dr. Nehal Ahmad",
     dp: nehalSirImg,
     onclick: "id13",
     designation: "( Assistant Professor )",
