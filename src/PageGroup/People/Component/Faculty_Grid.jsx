@@ -8,11 +8,11 @@ const Item = ({ name, designation, img, mail, linkedin }) => {
   return (
     <div className="relative mb-12 flex items-center justify-center ">
       <img
-        className="absolute top-[-30%] z-10 h-[150px] w-[150px] rounded-full border-2 border-green-700 object-cover md:top-[-40%]"
+        className="absolute top-[-40%] z-10 h-[150px] w-[150px] rounded-full border-2 border-green-700 object-cover"
         src={`${img}`}
         alt="Avatar"
       />
-      <div className="relative z-0 min-h-[250px] min-w-[400px] rounded-xl border-2 border-green-900 bg-[#d7ffdab0] md:h-[100%]">
+      <div className="relative z-0 min-h-[250px] sm:min-w-[400px] rounded-xl border-2 border-green-900 bg-[#d7ffdab0] md:h-[100%]">
         <div className="mt-8 max-w-[450px] px-16 pb-4 pt-8 text-center md:mt-8 md:px-12">
           <div className="mb-1 text-lg font-medium">{name}</div>
           <div className="mb-2 text-lg font-semibold text-gray-900">
