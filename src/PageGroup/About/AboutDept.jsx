@@ -8,8 +8,8 @@ function AboutDept() {
         heading={"Department of Computer Engineering"}
         image={image}
       />
-      <div className="mx-auto mt-6 max-w-[90%] rounded-3xl bg-green-light px-12 pb-6 pt-5 text-justify text-lg">
-        <div className=" mb-5 border-l-2 border-green-yellow px-4 ">
+      <div className="mx-auto mt-6 max-w-[90%] rounded-3xl bg-green-light px-2 md:px-12 pb-6 pt-5 text-justify text-lg">
+        <div className="mb-5 border-l-2 border-green-yellow px-4">
           <span className=" text-xl text-green-deep">
             The Department of Computer Engineering{" "}
           </span>
