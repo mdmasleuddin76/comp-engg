@@ -9,8 +9,9 @@ const HeroRemastered = () => {
         <div className="flex w-full flex-col gap-y-5 text-white">
           <div className="relative flex flex-col py-2">
             <h2 className="ml-6 text-3xl">
-              Welcome to Dept. Of Computer Engineering
+              Welcome to Department Of Computer Engineering
             </h2>
+            <h2 className="ml-6 text-xl">  Faculty of Engineering and Technology</h2>
             <h2 className="ml-6 text-3xl text-green-yellow">
               Jamia Millia Islamia
             </h2>
