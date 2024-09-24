@@ -15,95 +15,94 @@ import midTerm20222nd from "../pdf/Notice/25-10-2022 2nd MID-TERM.pdf";
 import midTerm20231st_2 from "../pdf/Notice/27-09-2023 1st Mid-Term.pdf";
 
 export const notice = [
-    {
-      id: 1,
-      date: "2024-09-05",
-      headline: "1st MID TERM",
-      url: midSem202425FirstTerm
-    },
-    {
-      id: 2,
-      date: "2024-09-05",
-      headline: "3rd Semester MID SEMESTER Schedule",
-      url: midSem202425ThirdSemester
-    },
-    {
-      id: 3,
-      date: "2024-08-23",
-      headline: "REGULAR COMPARTMENT EXAMINATION",
-      url: regularCompartmentExam2024
-    },
-    {
-      id: 4,
-      date: "2024-08-20",
-      headline: "PRESENTATION SCHEDULE",
-      url: presentationSchedule2024
-    },
-    {
-      id: 5,
-      date: "2024-07-20",
-      headline: "MINOR PROJECT NOTICE",
-      url: minorProject2024
-    },
-    {
-      id: 6,
-      date: "2024-04-08",
-      headline: "2nd Mid Sem Schedule",
-      url: midSem2024SecondTerm
-    },
-    {
-      id: 7,
-      date: "2023-10-17",
-      headline: "2nd Mid Term Schedule",
-      url: midTerm20232nd
-    },
-    {
-      id: 8,
-      date: "2023-09-27",
-      headline: "1st Mid-Term Schedule",
-      url: midTerm20231st_2
-    },
-    {
-      id: 9,
-      date: "2023-09-13",
-      headline: "1st MID-TERM Schedule",
-      url: midTerm20231st
-    },
-    {
-      id: 10,
-      date: "2023-04-03",
-      headline: "2nd MID SEMESTER",
-      url: midSem202223
-    },
-    {
-      id: 11,
-      date: "2023-02-18",
-      headline: "1st MID SEMESTER Schedule",
-      url: midSem20231st_2
-    },
-    {
-      id: 12,
-      date: "2023-02-13",
-      headline: "1st MID SEMESTER Schedule",
-      url: midSem20231st
-    },
-    {
-      id: 13,
-      date: "2022-11-18",
-      headline: "RE-TEST Schedule",
-      url: reTest2022
-    },
-    {
-      id: 14,
-      date: "2022-10-25",
-      headline: "2nd MID-TERM Schedule",
-      url: midTerm20222nd
-    },
-    {
-      id: 15,
-      date: "2022-09-08",
-      headline: "1st MID-TERM Schedule",
-      url: midTerm20221st
-    }
-  ]
-  
+  {
+    id: 1,
+    date: "2024-09-05",
+    headline: "Revised Datesheet for first sessional",
+    url: midSem202425ThirdSemester
+  },
+  {
+    id: 2,
+    date: "2024-09-05",
+    headline: "Datesheet for first sessional..",
+    url: midSem202425FirstTerm
+  },
+  {
+    id: 3,
+    date: "2024-08-23",
+    headline: "Notice for regular compartment examination",
+    url: regularCompartmentExam2024
+  },
+  {
+    id: 4,
+    date: "2024-08-20",
+    headline: "Presentation Schedules of minor projects",
+    url: presentationSchedule2024
+  },
+  {
+    id: 5,
+    date: "2024-07-20",
+    headline: "Notice regarding minor projects submission deadline",
+    url: minorProject2024
+  },
+  {
+    id: 6,
+    date: "2024-04-08",
+    headline: "Datesheet for second sessional",
+    url: midSem2024SecondTerm
+  },
+  {
+    id: 7,
+    date: "2023-10-17",
+    headline: "Datesheet for second sessional",
+    url: midTerm20232nd
+  },
+  {
+    id: 8,
+    date: "2023-09-27",
+    headline: "Datesheet for first sessional",
+    url: midTerm20231st_2
+  },
+  {
+    id: 9,
+    date: "2023-09-13",
+    headline: "Datesheet for first sessional",
+    url: midTerm20231st
+  },
+  {
+    id: 10,
+    date: "2023-04-03",
+    headline: "Datesheet for second sessional",
+    url: midSem202223
+  },
+  {
+    id: 11,
+    date: "2023-02-18",
+    headline: "Datesheet for first sessional",
+    url: midSem20231st_2
+  },
+  {
+    id: 12,
+    date: "2023-02-13",
+    headline: "Datesheet for first sessional",
+    url: midSem20231st
+  },
+  {
+    id: 13,
+    date: "2022-11-18",
+    headline: "Datesheet for re-test",
+    url: reTest2022
+  },
+  {
+    id: 14,
+    date: "2022-10-25",
+    headline: "Datesheet for second sessional",
+    url: midTerm20222nd
+  },
+  {
+    id: 15,
+    date: "2022-09-08",
+    headline: "Datesheet for first sessional",
+    url: midTerm20221st
+  }
+]
