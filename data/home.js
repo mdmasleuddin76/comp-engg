@@ -37,6 +37,54 @@ export const notice = [
     headline: "Academic Calender (B.Tech 2022-2023)",
     url: Academic_Calender,
   },
+  {
+    id: 6,
+    date: "08/09/2022",
+    headline: "First Sessional Schedule for Session 2022-2023",
+    url: First_Sessional,
+  },
+  {
+    id: 7,
+    date: "06/09/2022",
+    headline: "Academic Calender (B.Tech 2022-2023)",
+    url: Academic_Calender,
+  },
+  {
+    id: 8,
+    date: "08/09/2022",
+    headline: "First Sessional Schedule for Session 2022-2023",
+    url: First_Sessional,
+  },
+  {
+    id: 9,
+    date: "06/09/2022",
+    headline: "Academic Calender (B.Tech 2022-2023)",
+    url: Academic_Calender,
+  },
+  {
+    id: 10,
+    date: "06/09/2022",
+    headline: "Academic Calender (B.Tech 2022-2023)",
+    url: Academic_Calender,
+  },
+  {
+    id: 11,
+    date: "06/09/2022",
+    headline: "Academic Calender (B.Tech 2022-2023)",
+    url: Academic_Calender,
+  },
+  {
+    id: 12,
+    date: "06/09/2022",
+    headline: "Academic Calender (B.Tech 2022-2023)",
+    url: Academic_Calender,
+  },
+  {
+    id: 13,
+    date: "06/09/2022",
+    headline: "Academic Calender (B.Tech 2022-2023)",
+    url: Academic_Calender,
+  },
 ];
 
 // events
