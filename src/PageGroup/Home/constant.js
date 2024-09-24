@@ -21,7 +21,7 @@ export const routes = [
     link: "/services",
 
     subRoutes: [
-      { link: "/academic/courseOffered", name: "Courses Offered" },
+      { link: "/academic/courseOffered", name: "Programs Offered" },
       { link: "/academic/courseStructure", name: "Course Structure" },
     ],
   },

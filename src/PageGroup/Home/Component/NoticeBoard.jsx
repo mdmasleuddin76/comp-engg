@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from "react-feather";
-import { notice } from "../../../../data/home.js";
+import { notice } from "../../../../data/notice.js";
 import { useState } from "react";
 
 const newsData = notice;

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import HeroSection from "../About/Component/HeroSection";
 import project_data from "../../../data/ProjectData";
-import { data, options } from "../../../data/events";
+import { data, options } from "../../../data/events_new.js";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineAccessTimeFilled } from "react-icons/md";
 function Event() {

@@ -3,6 +3,48 @@ const images =
 
 const PhdScholarsongoing = [
   {
+    name: "Areeba Atiq",
+    supervisor: "Dr. Sarfaraz Masood",
+    title: "Estimation of Heart rate using Deep Learning",
+    year: 2024
+  },
+  {
+    name: "Shaista Khan",
+    supervisor: "Prof. Tanvir Ahmad",
+    title: "Fairness in Graph Mining",
+    year: 2024
+  },
+  {
+    name: "Anwar Hussain",
+    supervisor: "Dr. Mohd Zeeshan Ansari",
+    title: "Enhancing Healthcare Access Using Deep Learning",
+    year: 2024
+  },
+  {
+    name: "Sadaf",
+    supervisor: "Dr. Mumtaz Ahmad",
+    title: "Generating Image from Textual Description using Large Language Models (LLMs)",
+    year: 2024
+  },
+  {
+    name: "Mohd. Anas",
+    supervisor: "Dr. Mumtaz Ahmad",
+    title: "Hate Speech Detection in Social Networks using Machine Learning and Deep Learning Methods",
+    year: 2024
+  },
+  {
+    name: "Neelam",
+    supervisor: "Dr. Danish Raza Rizvi",
+    title: "Design and Development of an Advanced Plants Disease Detection System using Deep Learning for Precision Agriculture",
+    year: 2024
+  },
+  {
+    name: "Shadab Ahmad Ghazali",
+    supervisor: "Dr. Vinay Thakur",
+    title: "Mitigating Privacy and Security Challenges in Artificial Intelligence and Machine Learning Systems",
+    year: 2024
+  },
+  {
     name: "Saba Manzoor",
     supervisor: "Dr. Faiyaz Ahmad and Dr. Musheer Ahmad",
     title:

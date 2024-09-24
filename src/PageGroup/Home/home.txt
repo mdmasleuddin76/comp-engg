@@ -16,7 +16,7 @@ const sections = [
   {
     name: "Academic",
     links: [
-      { url: "/academic/courseOffered", text: "Courses Offered" },
+      { url: "/academic/courseOffered", text: "Program Offered" },
       { url: "/academic/courseStructure", text: "Course Structure" },
       { url: "/academic/notices", text: "Notices" },
     ],
