@@ -15,14 +15,14 @@ import nabeel from"../src/PageGroup/People/assets/Developer/nabeel.jpeg";
 export const faculty = [
   {
     name: "Prof. Mohd Amjad (HoD)",
-    designation: "Coordinator",
+    designation: "Head",
     img: amjadSirImg,
     mail: "mailto:mamjad@jmi.ac.in",
     linkedin: "https://www.linkedin.com"
   },
   {
     name: "Dr Mumtaz Ahmed (Associate Professor)",
-    designation: "Counsellor",
+    designation: "Website Incharge",
     img: MumtazSirImg,
     mail: "mailto:mahmed1@jmi.ac.in",
     linkedin: "https://www.linkedin.com/in/mumtaz-ahmed-12875711/"
