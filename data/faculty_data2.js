@@ -12,7 +12,7 @@ export const HOD = {
     name: "Prof. Mohammad Amjad",
     dp: amjadSirImg,
     onclick: "id7",
-    designation: "( Professor & Hony. Addl. Director : Website & MIS)",
+    designation: "( Professor & HoD )",
     department:
       "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
     mobileNumber: "not available",
