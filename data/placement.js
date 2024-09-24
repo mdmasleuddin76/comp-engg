@@ -71,9 +71,9 @@ export const placementStats = [
   {
     course: "B.Tech",
     year: "2024",
-    company_name: ["Zenon Analytics","Accenture","Algosec","Octro Inc","HSBC","S&P Global (Pool Campus)","JIT Japan"],
-    package: [14.33, 12.59, 18, 10, 9, 9, 16],
-    placed: [3, 3, 2, 2, 7, 4, 2]
+    company_name: ["Zenon Analytics","Accenture","Algosec","Octro Inc","HSBC","S&P Global (Pool Campus)","JIT Japan","TCS","TCS","TCS"],
+    package: [14.33, 12.59, 18, 10, 9, 9, 16,9,7,3.3],
+    placed: [3, 3, 2, 2, 7, 4, 2, 2, 7, 3]
   },
   {
     course: "M.Tech",

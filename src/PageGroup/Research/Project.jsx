@@ -25,7 +25,7 @@ function Project() {
       {/***************************************filter****************************/}
       <div className=" mx-auto flex w-full flex-wrap justify-center rounded-lg bg-green-yellow p-5 text-black md:w-[90%]">
         <h1 className="w-[100%] text-center text-xl md:text-3xl font-bold text-white md:w-[50%] md:pr-16 md:text-right mb-5 md:mb-0">
-          Projects ( {i ? (j?`Major,${ProjectData[3][j-1].value}`:"Major,2020-2024") :( j?`Minor,${ProjectData[3][j-1].value}`:"Minor,2020-2024")} )
+          Projects ( {i ? (j?`Major,${ProjectData[3][j-1].value}`:"Major,2020-2024") :( j?`Minor,${ProjectData[3][j-1].value}`:"Minor,2021-2025")} )
         </h1>
         {/*****************************first dropdown***********************************/}
         <select
@@ -40,7 +40,7 @@ function Project() {
           className="mb-5 w-[45%] bg-green-500 p-1 font-bold md:mb-0 md:w-[20%] md:p-0"
           onChange={(e) => setj(e.target.selectedIndex)}
         >
-           <option value="">2020-2024</option> 
+           <option value="">2021-2025</option> 
           {
             ProjectData[3].map((item,index)=>{
               return(
