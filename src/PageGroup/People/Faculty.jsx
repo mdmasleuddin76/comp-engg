@@ -73,9 +73,7 @@ function Faculty() {
                     {HOD.areaOfIntrest}
                   </div>
                   {/* <hr className="mx-auto my-4 w-4/5 border-t border-gray-300" /> */}
-                  <IoIosMail style={FacultyIcon} />
-                          
-                      
+                  <IoIosMail style={FacultyIcon} />                      
                   <IoIosCall style={FacultyIcon} />
                 </div>
               </div>

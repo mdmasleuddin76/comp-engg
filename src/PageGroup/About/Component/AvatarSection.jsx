@@ -10,9 +10,9 @@ const AvatarSection = () => {
         className="h-48 w-48 translate-y-12 rounded-md object-cover object-top shadow-lg shadow-gray-500 drop-shadow-lg transition duration-300 hover:scale-105"
       />
       <div className="flex h-fit translate-y-12 flex-col border-l-4 border-green-deep px-4 font-semibold">
-        <span className="text-green-deep">Prof. Mohammad Amjad</span>
+        <span>Prof. Mohammad Amjad</span>
         <span>Head & Professor</span>
-        <span className="text-green-deep">
+        <span >
           Department of Computer Engineering
         </span>
       </div>

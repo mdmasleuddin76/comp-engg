@@ -18,7 +18,7 @@ const HeroSection = ({ title, shortTitle, text }) => {
               navigate(`/academic/courseStructure?course=${shortTitle}`)
             }
           >
-            Course Structure {">>>"}{" "}
+            Program Structure {">>>"}{" "}
           </button>
         </div>
         <img

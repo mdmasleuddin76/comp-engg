@@ -1,6 +1,6 @@
 export const PSO_COVER = "Program Specific Outcome (PSOs) : ";
 export const PEO_COVER = "Program Educational Objectives (PEOs) :";
-export const COURSES_OFFERED = "Courses Offered :";
+export const COURSES_OFFERED = "Programs Offered :";
 
 const btech_peo1 = {
   title: "Leading a successful Professional Career:",
@@ -69,7 +69,7 @@ const BTECH = {
 
 const PHD = {
   title: "Doctor of Philosophy",
-  short_title: "PhD",
+  short_title: "Ph.D.",
   description:
     "Ph.D is a five year, full time program for advanced studies and research in Computer Science, Engineering, and Technology.",
   duration: "Years-5 (Semesters-10)",

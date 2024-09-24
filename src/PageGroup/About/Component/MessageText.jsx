@@ -35,9 +35,9 @@ const MessageText = () => {
       </div>
       <div className="mt-6 flex flex-col text-left border-r-4 border-green-deep px-1 md:px-4 font-semibold">
         <span>Best wishes,</span>
-        <span className="text-green-deep">Prof. Mohammad Amjad</span>
+        <span >Prof. Mohammad Amjad</span>
         <span>Head of Department</span>
-        <span className="text-green-deep">
+        <span >
           Department of Computer Engineering
         </span>
       </div>

@@ -6,8 +6,8 @@ function CompforStudents({ sno, name, rollno }) {
   return (
     <tr>
       <td className=" bg-slate-200 text-center">{sno}</td>
-      <td className=" bg-slate-200 text-center">{rollno}</td>
-      <td className=" bg-slate-200 text-center">{name}</td>
+      <td className=" bg-slate-200 text-left">{rollno}</td>
+      <td className=" bg-slate-200 text-left">{name}</td>
     </tr>
   );
 }

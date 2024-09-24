@@ -27,7 +27,7 @@ const Header = () => {
       <div>
         <div className="group relative col-span-1 m-10 flex items-center justify-center overflow-hidden rounded-md text-green-800 shadow">
           <div className="flex w-full flex-col gap-y-3 bg-green-light px-5 py-5 pl-6 text-sm sm:px-8 sm:pl-8 md:px-12">
-            <p className="font-normal text-black">
+            <p className="font-normal text-black text-justify">
               Campus Placement is the facility given by the University Placement
               Cell to the Department of Computer Engineering to provide jobs for
               students pursuing B.Tech. and M.Tech. Computer Engineering

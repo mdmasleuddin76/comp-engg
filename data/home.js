@@ -1,22 +1,22 @@
 // events
 export const events = [
   {
-    desc: "CSI-JMI organized Omnicron 2018, on 4th October, an online competitive programming contest for everyone. It was a great opportunity to showcase one’s knowledge of programming and coding skills to the world, with the additional incentive of cash prizes too. ",
-    date: "04 Oct, 2018",
-    venue: "online at hackerrank.com/omnicorn-2018",
-    tagline: "Omnicron 2018 : Competitive coding competition",
+    desc: "Join the 3-week Short Term Training Program on Artificial Intelligence & Machine Learning at Jamia Millia Islamia. The course covers lectures, hands-on sessions, and modules on AI, Python, Data Science, Machine Learning, and Deep Learning using Keras & Tensorflow.",
+    date: "1st July to 19th July, 2024",
+    venue: "Department of Computer Engineering, Jamia Millia Islamia",
+    tagline: "3-Weeks Short Term Training Program on AI & ML",
   },
   {
-    desc: "CSI-JMI in collaboration with Skill Campus brought one of a kind work shop on App Development, on 26th October, 2018. iOS App Development is amongst the most popular skills in the industry presently. iOS apps are developed with Swift and objective C. The workshop was successful with the huge response received from the students. ",
-    venue: "Room No. 328,3rd Floor, FET",
-    date: "21st, 22nd November, 2018",
-    tagline: "iOS App Development",
+    desc: "The hackathon organized by Ukumi AI on August 17-18, 2024, at Jamia Millia Islamia aimed to build innovative tools for deriving meaningful insights from videos and demonstrating video understanding. Participants were encouraged to think from the perspective of YouTubers or students seeking to extract useful information from video content.",
+    venue: "Jamia Millia Islamia",
+    date: "August 17-18, 2024",
+    tagline: "Ukumi AI Hackathon",
   },
   {
-    desc: "CSI-JMI organized a workshop on 'Basics of Machine Learning' on 21st and 22nd November, 2018. Machine Learning is one of the most discussed and rapidly emerging topics in the field of computer science.",
-    venue: "Room No. 328,3rd Floor, FET",
-    date: "08, 09 Sep, 2018",
-    tagline: "Workshop on Basics of Machine Learning",
+    desc: "The 2023-24 Tech Fest, to be held on 2nd March, is a celebration of innovation, technology, and creativity. It will feature a range of competitions, exhibitions, and workshops aimed at bringing together students and tech enthusiasts to showcase their talents and learn from industry experts. Join us for a day of hands-on experiences, cutting-edge demonstrations, and networking opportunities!",
+    date: "2nd March 2024",
+    venue: "FET Auditorium, Jamia Millia Islamia",
+    tagline: "CYBERSYNAPSE 2024",
   },
 ];
 

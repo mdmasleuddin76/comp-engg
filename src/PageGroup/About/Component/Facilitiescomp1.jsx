@@ -30,7 +30,7 @@ function Facilitiescomp1({ num1, images, content, heading }) {
 
   return (
     <div
-      className={`mx-auto my-14 flex w-[90%] flex-wrap-reverse justify-between md:flex-nowrap ${
+      className={`mx-auto my-14 flex w-[90%] flex-wrap-reverse justify-between md:flex-nowrap text-justify ${
         isEven() ? "flex-row-" : "flex-row-reverse"
       }`}
     >

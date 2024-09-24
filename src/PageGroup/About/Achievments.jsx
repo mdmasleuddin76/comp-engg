@@ -5,7 +5,7 @@ import { achievementInTech, videoLectures } from "../../../data/achievement";
 import AchiementCard from "./Component/AchiementCard";
 function Achievments() {
   return (
-    <div className="mb-48 flex w-full flex-col items-center justify-center gap-y-8 font-[450]">
+    <div className="mb-48 flex w-full flex-col items-center justify-center gap-y-8 font-[450] text-justify">
       <HeroSection heading={"achievements"} image={image} />
       <div className="mx-4 mb-8 flex flex-col justify-center rounded-md bg-green-light p-6 text-lg sm:mx-8 md:mx-12 lg:mx-24">
         <span className="group flex items-center text-sm font-bold capitalize text-green-deep">
@@ -44,7 +44,7 @@ function Achievments() {
         ))}
       </div>
       <hr className="mt-8 w-[80%] bg-green-deep" />
-      <div className="mt-8 grid w-full grid-cols-1 gap-x-2 gap-y-6 px-6 sm:grid-cols-2 sm:gap-x-6 sm:px-8 md:gap-x-12 md:px-12 lg:px-24">
+      <div className="mt-8 grid w-full grid-cols-1 gap-x-2 gap-y-6 px-6 sm:grid-cols-2 sm:gap-x-6 sm:px-8 md:gap-x-12 md:px-12 lg:px-24 text-justify">
         {achievementInTech.map((achievement, i) => (
           <AchiementCard
             key={i}

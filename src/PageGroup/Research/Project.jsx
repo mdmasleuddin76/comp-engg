@@ -6,10 +6,10 @@ function CompforStudents({ sno, name, rollno,title,superVisor }) {
   return (
     <tr>
       <td className=" bg-slate-200 text-center">{sno}</td>
-      <td className=" bg-slate-200 text-center">{title}</td>
+      <td className=" bg-slate-200 text-left">{title}</td>
       {/* <td className=" bg-slate-200 text-center">{superVisor}</td> */}
-      <td className=" bg-slate-200 text-center">{name}</td>
-      <td className=" bg-slate-200 text-center">{rollno}</td>
+      <td className=" bg-slate-200 text-left">{name}</td>
+      <td className=" bg-slate-200 text-left">{rollno}</td>
     </tr>
   );
 }

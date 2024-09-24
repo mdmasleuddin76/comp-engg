@@ -9,9 +9,9 @@ function Placement() {
   return (
     <section>
       <Header></Header>
-      <section>
+      <section >
         <div
-          className="group relative col-span-1 ml-6 flex h-12 overflow-hidden rounded-md text-green-800 sm:ml-8"
+          className="group relative col-span-1 ml-6 flex h-12 overflow-hidden rounded-md text-green-800 sm:ml-8 text-justify"
           style={{ marginTop: "30px" }}
         >
           <h3

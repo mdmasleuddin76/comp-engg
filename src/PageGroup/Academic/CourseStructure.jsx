@@ -39,7 +39,7 @@ function CourseStructure() {
   }, [navigate, selectedCourse, selectedSemester]);
   return (
     <div>
-      <HeroSection heading={"Course Structure"} image={image} />
+      <HeroSection heading={"Program Structure"} image={image} />
       <div className="mx-auto flex w-full flex-wrap items-center justify-evenly rounded-lg bg-green-yellow p-5 md:w-[90%]">
         <h1 className="text-pretty text-3xl font-semibold text-white">
           {`${selectedCourse} (${selectedSemester})`}

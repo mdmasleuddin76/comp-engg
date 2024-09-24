@@ -9,7 +9,7 @@ const Coordinator = () => {
             <h3 className="mb-3 text-[22px] font-bold text-[color:var(--green-deep)]">
               Teacher Placement Coordinator
             </h3>
-            <p className="font-medium leading-8 text-[#585858]">
+            <p className="font-medium leading-8 text-[#585858] text-justify">
               Jamia Millia Islamia continues to be ranked as the top university
               of the country and among the best in the world. Jamia Milllia
               Islamia attracts the brightest students...{" "}

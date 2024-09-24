@@ -16,7 +16,7 @@ function CourseOffered() {
   const [courseIndex, setCourseIndex] = useState(0);
   const topRef = useRef(null);
   return (
-    <div className="flex w-full flex-col gap-y-32" ref={topRef}>
+    <div className="flex w-full flex-col gap-y-32 text-justify" ref={topRef}>
       <HeroSection
         title={COURSES[courseIndex].title}
         shortTitle={COURSES[courseIndex].short_title}

@@ -50,7 +50,7 @@ function Event() {
 
         <div className="mx-2 grid grid-cols-1 gap-12 p-4 sm:grid-cols-2 md:mx-0 md:grid-cols-2 lg:grid-cols-3">
           {filteredData.map((card, index) => (
-            <div key={index} className="w-full p-2">
+            <div key={index} className="w-full p-2 text-justify">
               <div className="border-6 border-solid border-green-deep p-1">
                 <div className="relative h-40 overflow-hidden rounded-t-md">
                   <img

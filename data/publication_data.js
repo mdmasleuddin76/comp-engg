@@ -1,5 +1,81 @@
 let data = [
   {
+    year: "2024",
+    title:
+      "Kaur I., Ahmad T., & Doja M. N. (2024). A Systematic Review of Medical Expert Systems for Cardiac Arrest Prediction.",
+    journal_paper_details: "Current Bioinformatics, 19(6), 551-570",
+    impactFactor: 2.4,
+    code: "science",
+  },
+  {
+    year: "2024",
+    title:
+      "Sharma S., Abulaish M., & Ahmad T. (2024). conteNXt: A Graph-Based Approach to Assimilate Content and Context for Event Detection in OSN.",
+    journal_paper_details: "IEEE Transactions on Computational Social Systems",
+    impactFactor: 4.5,
+    code: "science",
+  },
+  {
+    year: "2024",
+    title:
+      "Kaur I., & Ahmad T. (2024). A cluster-based ensemble approach for congenital heart disease prediction.",
+    journal_paper_details:
+      "Computer Methods and Programs in Biomedicine, 243, 107922",
+    impactFactor: 4.9,
+    code: "science",
+  },
+  {
+    year: "2024",
+    title:
+      "Aiman U., & Ahmad T. (2024). Angle based hand gesture recognition using graph convolutional network.",
+    journal_paper_details:
+      "Computer Animation and Virtual Worlds, 35(1), e2207",
+    impactFactor: 0.9,
+    code: "science",
+  },
+  {
+    year: "2024",
+    title:
+      "Akram F., Ahmad T., & Sadiq M. (2024). Recommendation systems-based software requirements elicitation process—a systematic literature review.",
+    journal_paper_details:
+      "Journal of Engineering and Applied Science, 71(1), 29",
+    impactFactor: "-",
+    code: "journal",
+  },
+  {
+    year: "2024",
+    title:
+      "Akram F., Ahmad T., & Sadiq M. (2024). An integrated fuzzy adjusted cosine similarity and TOPSIS based recommendation system for information system requirements selection.",
+    journal_paper_details: "Decision Analytics Journal, 11, 100443",
+    impactFactor: "-",
+    code: "journal",
+  },
+  {
+    year: "2024",
+    title:
+      "Nissar I., Alam S., & Masood S. (2024). Computationally efficient LC-SCS deep learning model for breast cancer classification using thermal imaging.",
+    journal_paper_details: "Neural Computing and Applications (Springer), 1-18",
+    impactFactor: 6.0,
+    code: "science",
+  },
+  {
+    year: "2024",
+    title:
+      "Masood S., Khan R., Abd El-Latif A. A., & Ahmad M. (2024). An FCN-LSTM model for neurological status detection from non-invasive multivariate sensor data.",
+    journal_paper_details: "Neural Computing and Applications, 36(1), 77-93",
+    impactFactor: 4.5,
+    code: "science",
+  },
+  {
+    year: "2024",
+    title:
+      "Masood S., Hussain A., Khan M.T., & Trehan P. (2024). Indian Cultural event detection using GBVS boosted deep convolutional neural networks.",
+    journal_paper_details:
+      "Procedia Computer Science (Elsevier), ISSN: 1877-0509, 235, 394-402",
+    impactFactor: "-",
+    code: "science",
+  },
+  {
     title:
       "Shafi Ahmad, Sarfaraz Masood,  Noor Zaman Khan, Irfan Anjum Badruddin, Ompal, Ali Ahmadian, Zahid A. Khan, Amil Hayat Khan,. Analysing the impact of COVID-19 pandemic on the psychological health of people using fuzzy MCDM methods",
     journal_paper_details: "Operations Research Perspectives (Elsevier)",
