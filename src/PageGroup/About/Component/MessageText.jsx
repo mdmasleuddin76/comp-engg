@@ -1,6 +1,6 @@
 const MessageText = () => {
   return (
-    <div className="mx-4 mb-8 flex flex-col justify-center rounded-md bg-green-light p-6 text-lg sm:mx-8 md:mx-12 lg:mx-16">
+    <div className="mx-4 mb-8 flex flex-col justify-center rounded-md bg-green-light p-6 text-justify text-lg sm:mx-8 md:mx-12 lg:mx-16">
       <div className=" mb-5 border-l-4 border-green-deep px-4 ">
         To fulfil the growing demand of Computer Engineers in the Government and
         private sectors, the Department is making best efforts to produce highly

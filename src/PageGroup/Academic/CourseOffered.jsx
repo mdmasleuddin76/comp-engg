@@ -1,17 +1,16 @@
-import HeroSection from "./Component/HeroSection";
-import Ribbon from "./Component/Ribbon";
-import Why from "./Component/Why";
-import PEOCard from "./Component/PEOCard";
-import image from "./assets/career-success.svg";
-import CoverTitle from "./Component/CoverTitle";
-import PSOCard from "./Component/PSOCard";
+import { Fragment, useRef, useState } from "react";
 import {
+  COURSES,
+  COURSES_OFFERED,
   PEO_COVER,
   PSO_COVER,
-  COURSES_OFFERED,
-  COURSES,
 } from "../../../data/CourseOffered";
-import { Fragment, useRef, useState } from "react";
+import CoverTitle from "./Component/CoverTitle";
+import HeroSection from "./Component/HeroSection";
+import PEOCard from "./Component/PEOCard";
+import PSOCard from "./Component/PSOCard";
+import Ribbon from "./Component/Ribbon";
+import Why from "./Component/Why";
 
 function CourseOffered() {
   const [courseIndex, setCourseIndex] = useState(0);
@@ -33,46 +32,40 @@ function CourseOffered() {
           course_title={COURSES[courseIndex].short_title}
           text={COURSES[courseIndex].why}
         />
-        <div className="mx-4 flex flex-col gap-y-12 sm:mx-8 md:mx-12 lg:mx-16">
-          <CoverTitle text={PEO_COVER} />
-          {/* PEOs */}
-          <div className="m-auto grid w-full grid-cols-1 place-items-center gap-x-4 gap-y-12 sm:grid-cols-2 xl:grid-cols-3">
-            {COURSES[courseIndex].peos.map(
-              ({ title, description, icon }, i) => (
-                <PEOCard
-                  key={i}
-                  title={title}
-                  description={description}
-                  icon={icon}
-                />
-              ),
-            )}
-          </div>
-        </div>
-        {/* Career Prospects */}
-        <div className="mx-4 flex flex-col items-center justify-center sm:mx-8 sm:flex-row md:mx-12 lg:mx-16">
-          <img src={image} alt="" className="h-40 w-40" />
-          <div className="relative ml-4 flex flex-col gap-y-4 pl-8 sm:ml-12 md:ml-20 lg:ml-28">
-            <h3 className="text-2xl font-semibold">Career Prospects : </h3>
-            <div className="flex gap-y-4 rounded-md bg-green-light p-2 text-gray-800 shadow sm:p-4 md:p-6">
-              {COURSES[courseIndex].career_prospects}
-            </div>
-            <div className="absolute left-0 top-1/2 mt-1 h-[95%] w-1 -translate-y-1/2 rounded bg-green-deep" />
-          </div>
-        </div>
+        {/* PEOs */}
 
-        <div className="mx-4 flex flex-col gap-y-12 sm:mx-8 md:mx-12 lg:mx-16">
-          <CoverTitle text={PSO_COVER} />
-          <div className="grid w-full grid-cols-1 gap-x-4 gap-y-4 md:grid-cols-2 xl:grid-cols-3">
-            {COURSES[courseIndex].psos.map(({ title, description }, i) => (
-              <PSOCard key={i} text={description} title={title} />
-            ))}
+        {COURSES[courseIndex].peos.length !== 0 && (
+          <div className="mx-4 flex flex-col gap-y-12 sm:mx-8 md:mx-12 lg:mx-16">
+            <CoverTitle text={PEO_COVER} />
+            <div className="m-auto grid w-full grid-cols-1 place-items-center gap-x-4 gap-y-12 sm:grid-cols-2 xl:grid-cols-3">
+              {COURSES[courseIndex].peos.map(
+                ({ title, description, icon }, i) => (
+                  <PEOCard
+                    key={i}
+                    title={title}
+                    description={description}
+                    icon={icon}
+                  />
+                ),
+              )}
+            </div>
           </div>
-        </div>
+        )}
+
+        {COURSES[courseIndex].psos.length !== 0 && (
+          <div className="mx-4 flex flex-col gap-y-12 sm:mx-8 md:mx-12 lg:mx-16">
+            <CoverTitle text={PSO_COVER} />
+            <div className="grid w-full grid-cols-1 gap-x-4 gap-y-4 md:grid-cols-2 xl:grid-cols-3">
+              {COURSES[courseIndex].psos.map(({ title, description }, i) => (
+                <PSOCard key={i} text={description} title={title} />
+              ))}
+            </div>
+          </div>
+        )}
 
         <div className="mx-4 mb-24 flex flex-col gap-y-12 sm:mx-8 md:mx-12 lg:mx-16">
           <CoverTitle text={COURSES_OFFERED} />
-          <div className="flex w-full flex-col items-center justify-between gap-x-3 gap-y-3 sm:flex-row lg:justify-around">
+          <div className="flex w-full flex-col flex-wrap items-center justify-between gap-x-3 gap-y-3 sm:flex-row lg:justify-around">
             {COURSES.map(({ title, short_title }, i) => (
               <Fragment key={i}>
                 <div
@@ -94,8 +87,8 @@ function CourseOffered() {
                     });
                   }}
                 >
-                  <h3 className="text-center text-xl font-semibold">{title}</h3>
-                  <h3 className="text-center text-xl font-semibold">
+                  <h3 className="text-center text-lg font-semibold">{title}</h3>
+                  <h3 className="text-center text-lg font-semibold">
                     ({short_title})
                   </h3>
                 </div>
