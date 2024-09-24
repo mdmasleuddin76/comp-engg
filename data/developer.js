@@ -18,19 +18,22 @@ export const faculty = [
     name: "Prof. Mohd Amjad (Professor)",
     designation: "(Coordinator)  Hony. Adll. Director:Website & MIS",
     img: amjadSirImg,
-    info: "Mobile Computing, Wireless Sensor Networks, Security in Cloud Computing",
+    mail: "mailto:mamjad@jmi.ac.in",
+    linkedin: "https://www.linkedin.com"
   },
   {
     name: "Dr. Mohd Zeeshan Ansari (Assistant Professor)",
     designation: "(Counsellor)",
     img: zeeshanSirImg,
-    info: "Information Extraction, Text Mining, Machine Learning, Soft Computing",
+    mail: "mailto:mzansari@jmi.ac.in",
+    linkedin: "https://www.linkedin.com/in/ansarimz"
   },
   {
     name: "Dr. Shahzad Alam (Assistant Professor)",
     designation: "(Counsellor)",
     img: shahzadSirImg,
-    info: "Image processing, Information Security, Cryptography and Soft Computing Techniques",
+    mail: "mailto:salam7@jmi.ac.in",
+    linkedin: "https://www.linkedin.com/in/dr-shahzad-alam"
   },
 ];
 
