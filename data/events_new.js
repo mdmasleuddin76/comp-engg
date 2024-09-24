@@ -1,15 +1,15 @@
-import ai_ml_workshop from '../images/events/ai-ml_workshop_2024.jpeg';
-import cloud2023 from '../images/events/cloud2023.jpeg';
-import Conference from '../images/events/conference.png';
-import Cybersynapse from '../images/events/cybersynapse2024.jpeg';
-import event_2020_python from '../images/events/event_2020_python.jpg';
-import Ukumi from '../images/events/ukumi_hacakthno.jpg';
-import genai24 from '../images/events/genai24.jpg';
-import eci from '../images/events/ECI.jpg';
-import omnicon from '../images/events/omnicon 2018.jpg';
-import skill_campus from '../images/events/skill_campus_2018.jpg';
-import ml_18 from '../images/events/ml_2018.jpg';
-import audi_18 from '../images/events/audi_2018.jpg';
+import ai_ml_workshop from '../images/Events/ai-ml_workshop_2024.jpeg';
+import cloud2023 from '../images/Events/cloud2023.jpeg';
+import Conference from '../images/Events/conference.png';
+import Cybersynapse from '../images/Events/cybersynapse2024.jpeg';
+import event_2020_python from '../images/Events/event_2020_python.jpg';
+import Ukumi from '../images/Events/ukumi_hacakthno.jpg';
+import genai24 from '../images/Events/genai24.jpg';
+import eci from '../images/Events/ECI.jpg';
+import omnicon from '../images/Events/omnicon 2018.jpg';
+import skill_campus from '../images/Events/skill_campus_2018.jpg';
+import ml_18 from '../images/Events/ml_2018.jpg';
+import audi_18 from '../images/Events/audi_2018.jpg';
 
 const y2015 = [];
 const y2016= [];
