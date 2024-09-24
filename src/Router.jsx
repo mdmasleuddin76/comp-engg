@@ -1,8 +1,4 @@
-import {
-  Route,
-  createBrowserRouter,
-  createRoutesFromElements,
-} from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 
 import AboutDept from "./PageGroup/About/AboutDept";
 import AboutJMI from "./PageGroup/About/AboutJMI";
@@ -28,32 +24,100 @@ import ResearchArea from "./PageGroup/Research/ResearchArea";
 import Layout from "./Layout";
 import AboutProf from "./PageGroup/People/Component/AboutProf";
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<Layout/>}>
-      <Route path="" element={<Home />} />
-      <Route path="about/aboutjmi" element={<AboutJMI />} />
-      <Route path="about/aboutDept" element={<AboutDept />} />
-      <Route path="about/messageHOD" element={<MessageHOD />} />
-      <Route path="about/facilities" element={<Facilities />} />
-      <Route path="about/testimonials" element={<Testimonials />} />
-      <Route path="about/achievements" element={<Achievments />} />
-      <Route path="academic/courseOffered" element={<CourseOffered />} />
-      <Route path="academic/courseStructure" element={<CourseStructure />} />
-      <Route path="academic/notices" element={<Notices />} />
-      <Route path="event" element={<Event />} />
-      <Route path="gallery" element={<Gallery />} />
-      <Route path="placement" element={<Placement />} />
-      <Route path="people/faculty" element={<Faculty />} />
-      <Route path="people/staffMember" element={<StaffMember />} />
-      <Route path="people/students" element={<Students />} />
-      <Route path="people/phdScholar" element={<PhdScholar />} />
-      <Route path="people/developer" element={<Developer />} />
-      <Route path="research/project" element={<Project />} />
-      <Route path="research/publication" element={<Publication />} />
-      <Route path="research/researchArea" element={<ResearchArea />} />
-      <Route path="people/faculty/professor" element={<AboutProf />} />
-    </Route>,
-  ),
-);
+const router = createHashRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        path: "",
+        element: <Home />,
+      },
+      {
+        path: "about/aboutjmi",
+        element: <AboutJMI />,
+      },
+      {
+        path: "about/aboutDept",
+        element: <AboutDept />,
+      },
+      {
+        path: "about/messageHOD",
+        element: <MessageHOD />,
+      },
+      {
+        path: "about/facilities",
+        element: <Facilities />,
+      },
+      {
+        path: "about/testimonials",
+        element: <Testimonials />,
+      },
+      {
+        path: "about/achievements",
+        element: <Achievments />,
+      },
+      {
+        path: "academic/courseOffered",
+        element: <CourseOffered />,
+      },
+      {
+        path: "academic/courseStructure",
+        element: <CourseStructure />,
+      },
+      {
+        path: "academic/notices",
+        element: <Notices />,
+      },
+      {
+        path: "event",
+        element: <Event />,
+      },
+      {
+        path: "gallery",
+        element: <Gallery />,
+      },
+      {
+        path: "placement",
+        element: <Placement />,
+      },
+      {
+        path: "people/faculty",
+        element: <Faculty />,
+      },
+      {
+        path: "people/staffMember",
+        element: <StaffMember />,
+      },
+      {
+        path: "people/students",
+        element: <Students />,
+      },
+      {
+        path: "people/phdScholar",
+        element: <PhdScholar />,
+      },
+      {
+        path: "people/developer",
+        element: <Developer />,
+      },
+      {
+        path: "research/project",
+        element: <Project />,
+      },
+      {
+        path: "research/publication",
+        element: <Publication />,
+      },
+      {
+        path: "research/researchArea",
+        element: <ResearchArea />,
+      },
+      {
+        path: "people/faculty/professor",
+        element: <AboutProf />,
+      },
+    ],
+  },
+]);
 export default router;
