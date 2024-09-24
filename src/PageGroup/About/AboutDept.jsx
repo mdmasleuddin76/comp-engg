@@ -8,55 +8,59 @@ function AboutDept() {
         heading={"Department of Computer Engineering"}
         image={image}
       />
-      <div className="mx-auto mt-6 max-w-[90%] rounded-3xl bg-green-light px-12 pb-6 pt-5 text-lg">
+      <div className="mx-auto mt-6 max-w-[90%] rounded-3xl bg-green-light px-12 pb-6 pt-5 text-justify text-lg">
         <div className=" mb-5 border-l-2 border-green-yellow px-4 ">
           <span className=" text-xl text-green-deep">
             The Department of Computer Engineering{" "}
           </span>
-          was started in the year 2000. Since its inception, the department has
-          kept on evolving and now has become one of the leading departments at
-          the Faculty of Engineering and Technology.
+          was established in the year 2000. Since its inception, the department
+          has evolved and has become one of the leading departments at the
+          Faculty of Engineering and Technology.
         </div>
         <div className=" my-6 px-4">
-          Two undergraduate courses are running at the department, namely B.Tech
-          in Computer Engineering and B.E. in Computer Engineering, B. Tech
-          Computer Engineering is fully equipped with the subjects that are
-          currently the need of the industry, with the aim to make the students
-          market ready. Department of Computer Engineering also runs Masters
-          program that has thrust on research in AI, NLP, Soft computing and
-          Computer Networks. We have also been approached by leading companies
-          like Adobe, Google, Microsoft for placements.
+          In response to current market trends, the Department of Computer
+          Engineering has added new courses. Currently, two undergraduate
+          programs are offered: B.Tech in Computer Engineering and B.Tech in
+          Computer Science & Engineering (Data Sciences) (Self-Financed). Both
+          programs are fully equipped with subjects that meet industry needs,
+          aiming to make students market-ready. Notably, students have the
+          option to earn a B.Tech in Computer Engineering with honors by taking
+          additional credits, further enhancing their academic credentials. The
+          department also offers two master&apos;s programs: M.Tech in Computer
+          Engineering (AI & ML) and M.Tech in Data Science(Self-Financed), with
+          a focus on research in AI, NLP, soft computing, and computer networks.
+          We have been approached by leading companies such as Adobe, Google,
+          and Microsoft for placements.
         </div>
         <div className=" my-6 px-4">
-          Keeping the current market trends in mind, the department of Computer
-          Engineering has also started courses. The Department also runs the
-          Ph.D. program, under which a number of research scholars are working
-          in the fields of Networking, Data Mining, and Artificial Intelligence
-          etc. The Faculty members at the department have produced quite a large
-          number of research papers in various reputed National and
-          International Journals and Conferences. The faculty members have also
-          authored a number of books in the field of Computer Engineering and
-          are actively involved in taking the department to greater heights.
-          Apart from the curriculum, the department has actively organized
-          lectures for its students on various technical as well as
-          non-technical topics, which are delivered by professionals from the
-          industry.
+          Additionally, the department runs a Ph.D. program, with several
+          research scholars working in the fields of Networking, Data Mining,
+          Machine Learning, and Artificial Intelligence. The faculty members
+          have produced numerous research papers in reputable national and
+          international journals and conferences. They have also authored
+          several books in the field of Computer Engineering and are actively
+          involved in advancing the department&apos;s standing.
         </div>
         <div className=" my-6 px-4">
-          The Department has been working towards placements of its students
-          very diligently. We were fortunate enough to get an accreditation from
-          TCS. With the visit from other companies, most of the students of the
-          department have been placed. Companies like TCS, HCL, HP, Adobe,
-          Arricent, Accenture, BirlaSoft, NewGen etc. have visited the
-          department for campus selection in the recent years.
+          Apart from the curriculum, the department organizes lectures for
+          students on various technical and non-technical topics, delivered by
+          industry professionals.
+        </div>
+        <div className=" my-6 px-4">
+          The department has been diligent in securing placements for its
+          students. We were fortunate to receive accreditation from TCS, and
+          with visits from other companies, most students have found placements.
+          Companies like TCS, HCL, HP, Adobe, Aricent, Accenture, BirlaSoft, and
+          NewGen have visited the department for campus recruitment in recent
+          years.
         </div>
         <div className=" mt-6 border-r-2 border-green-yellow px-4">
           The Department of Computer Engineering is also an institutional member
-          of the Computer Society of India, and has an active student&apos;s
-          chapter which successfully conducts an annual cultural cum technical
-          fest and various other events throughout the year. We also have a
-          Linux user group here at the department which is also actively making
-          efforts to improve the student&apos;s skills in Linux.
+          of the Computer Society of India and has an active student chapter
+          that successfully conducts an annual cultural and technical fest,
+          along with various other events throughout the year. We also have a
+          Linux user group that actively works to enhance student&aapos;s skills
+          in Linux.
         </div>
       </div>
       <div className=" mx-auto my-20 flex max-w-[90%] flex-wrap justify-between md:flex-nowrap">

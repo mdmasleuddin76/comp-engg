@@ -60,11 +60,13 @@ const AboutProf = () => {
           ) : null}
         </div>
       </div>
-      <div className="mx-auto mt-6 max-w-[90%] rounded-3xl bg-green-light px-4 md:px-12 pb-6 pt-5 text-lg">
+      <div className="mx-auto mt-6 max-w-[90%] rounded-3xl bg-green-light px-4 pb-6 pt-5 text-lg md:px-12">
         <div className=" mb-5 border-l-2 border-green-yellow px-4">
           {professor.areaOfInterest}
         </div>
-        <div className="my-6 md:px-4 px-0 text-base md:text-lg">{professor.details}</div>
+        <div className="my-6 px-0 text-justify text-base md:px-4 md:text-lg">
+          {professor.details}
+        </div>
       </div>
       {/* <div className=" mx-auto my-20 flex max-w-[90%] flex-wrap justify-between md:flex-nowrap"> */}
       {/* <div className=" mx-auto mb-14 w-[90%] rounded-3xl bg-green-yellow text-white md:mx-0 md:mb-0 md:w-[45%]">
