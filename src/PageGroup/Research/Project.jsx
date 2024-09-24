@@ -7,7 +7,7 @@ function CompforStudents({ sno, name, rollno,title,superVisor }) {
     <tr>
       <td className=" bg-slate-200 text-center">{sno}</td>
       <td className=" bg-slate-200 text-center">{title}</td>
-      <td className=" bg-slate-200 text-center">{superVisor}</td>
+      {/* <td className=" bg-slate-200 text-center">{superVisor}</td> */}
       <td className=" bg-slate-200 text-center">{name}</td>
       <td className=" bg-slate-200 text-center">{rollno}</td>
     </tr>
@@ -25,7 +25,7 @@ function Project() {
       {/***************************************filter****************************/}
       <div className=" mx-auto flex w-full flex-wrap justify-center rounded-lg bg-green-yellow p-5 text-black md:w-[90%]">
         <h1 className="w-[100%] text-center text-xl md:text-3xl font-bold text-white md:w-[50%] md:pr-16 md:text-right mb-5 md:mb-0">
-          Projects ( {i ? (j?`Major,${ProjectData[3][j-1].value}`:"Major,2023-2027") :( j?`Minor,${ProjectData[3][j-1].value}`:"Minor,2023-2027")} )
+          Projects ( {i ? (j?`Major,${ProjectData[3][j-1].value}`:"Major,2020-2024") :( j?`Minor,${ProjectData[3][j-1].value}`:"Minor,2020-2024")} )
         </h1>
         {/*****************************first dropdown***********************************/}
         <select
@@ -40,7 +40,7 @@ function Project() {
           className="mb-5 w-[45%] bg-green-500 p-1 font-bold md:mb-0 md:w-[20%] md:p-0"
           onChange={(e) => setj(e.target.selectedIndex)}
         >
-           <option value="">2023-2027</option> 
+           <option value="">2020-2024</option> 
           {
             ProjectData[3].map((item,index)=>{
               return(
@@ -58,12 +58,12 @@ function Project() {
               <th className="w-1/12 min-w-[80px] bg-green-yellow text-white">
                 S.No.
               </th>
-              <th className="w-4/12 min-w-[245px] bg-green-yellow text-white">
+              <th className="w-5/12 min-w-[320px] bg-green-yellow text-white">
                 Title
               </th>
-              <th className="w-2/12 min-w-[180px] bg-green-yellow text-white">
+              {/* <th className="w-2/12 min-w-[180px] bg-green-yellow text-white">
                 Supervisor
-              </th>
+              </th> */}
               <th className="w-3/12 min-w-[180px] bg-green-yellow text-white">
                 Name
               </th>

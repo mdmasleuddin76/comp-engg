@@ -1,7 +1,26 @@
-const AchiementCard = ({ title, description }) => {
+import { useEffect, useState } from "react";
+
+const AchiementCard = ({ id, title, description }) => {
+  const [isActive, setIsActive] = useState(false);
+  useEffect(() => {
+    const url = window.location.href;
+    const selectedId = url.split("#")[1];
+    if (selectedId === id) {
+      setIsActive(true);
+      setTimeout(() => {
+        setIsActive(false);
+      }, 3500);
+    }
+  }, [id]);
   return (
-    <div className="group relative col-span-1 flex items-center justify-center overflow-hidden rounded-md text-green-800 shadow">
-      <div className="flex w-full flex-col gap-y-3 bg-green-light px-4 py-4 pl-6 text-base sm:px-8 sm:pl-8 md:px-12">
+    <div
+      id={id}
+      className={`group relative col-span-2 m-auto flex items-center
+       justify-center overflow-hidden rounded-md bg-green-light
+        text-green-800 shadow
+        ${isActive && "animate-pulse"}`}
+    >
+      <div className="flex w-full flex-col gap-y-3 px-4 py-4 pl-6 text-base sm:px-8 sm:pl-8 md:px-12">
         <h3 className="font-semibold">{title}</h3>
         <p className="text-black">{description}</p>
       </div>

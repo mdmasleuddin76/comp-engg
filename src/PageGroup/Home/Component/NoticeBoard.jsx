@@ -1,11 +1,10 @@
-/* eslint-disable no-unused-vars */
-// was giving error for React not used
-import React, { useState } from 'react';
-import notice from '../../../../data/notice.js';
+import { ChevronLeft, ChevronRight } from "react-feather";
+import { notice } from "../../../../data/home.js";
+import { useState } from "react";
 
 const newsData = notice;
 
-const NoticeBoard = () => {
+export const NoticeBoard = () => {
   const [page, setPage] = useState(0);
   const itemsPerPage = 4;
 
@@ -17,39 +16,60 @@ const NoticeBoard = () => {
     setPage((prevPage) => Math.max(prevPage - 1, 0));
   };
 
-  const displayedNews = newsData.slice(page * itemsPerPage, (page + 1) * itemsPerPage);
+  const displayedNews = newsData.slice(
+    page * itemsPerPage,
+    (page + 1) * itemsPerPage,
+  );
 
   return (
-    <div className='main-notice'>
-      <div className="main-notice-board m-4 p-4 rounded-lg">
-      <h2 className="text-2xl text-center font-bold mb-4">Notice Board</h2>
-      <ul className="space-y-2">
-        {displayedNews.map((news) => (
-          <li key={news[0]} className="p-4 rounded flex gap-3">
-          <p className='NB-date px-2 font-bold'>{news[1]}</p>
-            <p className='font-semibold'>{news[2].substring(0,25) + '...'}</p>
-          </li>
-        ))}
-      </ul>
-      <div className="mt-4 text-center">
-        <button
-          onClick={handlePrevClick}
-          className="NB-button py-2 px-2 mr-2 rounded"
-          disabled={page === 0}
-        >
-          <img width="50" height="50" src="https://img.icons8.com/ios/50/circled-chevron-left.png" alt="circled-chevron-left"/>
-        </button>
-        <button
-          onClick={handleNextClick}
-          className="NB-button py-2 px-2 rounded"
-          disabled={(page + 1) * itemsPerPage >= newsData.length}
-        >
-            <img width="50" height="50" src="https://img.icons8.com/ios/50/circled-chevron-right--v1.png" alt="circled-chevron-right--v1"/>  
-        </button>
+    <div className="mt-24 h-full w-full rounded-xl bg-green-light pb-5 xs:w-[90%] md:mx-0 md:w-1/2">
+      <div className="m-3 w-full rounded-lg p-3">
+        {/* <h2 className="mb-4 text-center text-2xl font-semibold underline">
+          Notice Board
+        </h2> */}
+        <div className="group relative col-span-1 mx-auto mb-5 mt-3 flex h-12 w-fit overflow-hidden rounded-md text-black ">
+          <h3 className="text-xl font-semibold">
+            Notice Board
+            <div className="bottom-2 right-20 h-[5px] w-full rounded bg-green-700 transition-all duration-300 group-hover:w-[80%] sm:left-4" />
+          </h3>
+        </div>
+        <div className="h-full bg-green-light">
+          <ul className="mt-5">
+            {displayedNews.map((news) => (
+              <li
+                key={news.id}
+                className="group mr-5 flex cursor-pointer gap-3 rounded py-2 text-base hover:bg-green-yellow"
+                onClick={() => {
+                  window.open(news.url, "_blank");
+                }}
+              >
+                <p className="px-2 font-bold text-green-deep group-hover:text-white">
+                  {news.date}
+                </p>
+                <p className="font-semibold group-hover:text-white">
+                  {news.headline.substring(0, 65) + "..."}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="mt-4 text-center">
+          <button
+            onClick={handlePrevClick}
+            className="NB-button mr-2 rounded px-2 py-2"
+            disabled={page === 0}
+          >
+            <ChevronLeft />
+          </button>
+          <button
+            onClick={handleNextClick}
+            className="NB-button rounded px-2 py-2"
+            disabled={(page + 1) * itemsPerPage >= newsData.length}
+          >
+            <ChevronRight />
+          </button>
+        </div>
       </div>
-    </div>
     </div>
   );
 };
-
-export default NoticeBoard;

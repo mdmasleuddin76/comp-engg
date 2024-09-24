@@ -2,7 +2,6 @@ import FacultyGrid from "./Component/Faculty_Grid";
 import DevGrid from "./Component/Dev_Grid";
 import polygon18 from "./assets/polygon-18@2x.png";
 import polygon17 from "./assets/polygon-17@2x.png";
-import ellipse78 from "./assets/ellipse-78@2x.png";
 import image12 from "./assets/image-12@2x.png";
 import vector72 from "./assets/vector-72@2x.png";
 
@@ -39,8 +38,8 @@ const Developer = () => {
               </p>
             </div>
             <p className="my-2 mr-2 text-base font-medium lg:text-lg">
-              Behind the seamless functionality and captivating design of
-              our website, you'll find a group of dedicated and talented
+              Behind the seamless functionality and captivating design of our
+              website, you&apos;ll find a group of dedicated and talented
               individuals who are passionate about pushing the boundaries of
               technology. From crafting elegant front-end interfaces to
               architecting robust back-end systems, our developers are at the

@@ -3,7 +3,7 @@ import zeeshanSirImg from '../src/PageGroup/People/assets/zeeshanSir.jpeg';
 import amjadSirImg from '../src/PageGroup/People/assets/amjadSir.png';
 import MumtazSirImg from '../src/PageGroup/People/assets/MumtazSir.png';
 import pdf from "../src/PageGroup/People/assets/dummy_pdf.pdf";
-
+import SarfarazSir from "../images/Faculty/Sarfaraz Sir.jpg"
 export const HOD = {
     "name": "Prof. Bashir Alam",
     "dp": "https://ieeexplore.ieee.org/mediastore_new/IEEE/content/freeimages/30/8970630/8932580/alam-2959629-small.gif",
@@ -61,7 +61,7 @@ export const faculty_data = [{
 
 }, {
     "name": "Dr. Sarfaraz Massod",
-    "dp": "https://mdmshf.github.io/assets/images/11.jpg",
+    "dp": SarfarazSir,
     "onclick": "id11",
     "designation": "( Assistant Professor )",
     "pdf" :pdf,
