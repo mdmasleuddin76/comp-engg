@@ -5,17 +5,20 @@ import MumtazSirImg from '../src/PageGroup/People/assets/MumtazSir.png';
 import pdf from "../src/PageGroup/People/assets/dummy_pdf.pdf";
 import SarfarazSir from "../images/Faculty/Sarfaraz Sir.jpg"
 export const HOD = {
-    "name": "Prof. Bashir Alam",
-    "dp": "https://ieeexplore.ieee.org/mediastore_new/IEEE/content/freeimages/30/8970630/8932580/alam-2959629-small.gif",
-    "onclick": "id3",
-    "designation": "(Professor & Head of Department )",
-    "department": "Department of Computer Engineering, Jamia Millia Islamia<br>New Delhi, Delhi-110025 India",
-    "mobileNumber": "not available",
-    "email": "balam2@jmi.ac.in , babashirala,@gmail.com",
-    "portfolio": "Professional Portfolio",
-    "pdf" :pdf,
-    "areaOfIntrest": "Parallel Programming, Cluster programming, Distributed and Cloud computing, Information Security, High Performance Computing, GPU Computing",
-    "details" : "Dr. Bashir Alam is currently Associate Professor in the Department of Computer Engineering, Faculty of Engineering and Technology, Jamia Millia Islamia (A Central University), New Delhi-110025. He has more than 15 years of teaching experience at post graduate, graduate and under graduate level. He received his B.Tech.(Computer Engineering) from Aligarh Muslim University Aligarh, Uttar Pradesh, India in 2000 with division First(Hons.)(8.6 /10 CPI), M.Tech. (IT) from IP University, Delhi, India in 2006 with division first (73 % marks), Ph.D.(Computer Engineering) from Jamia Millia Islamia, New Delhi, India in 2010. He previously worked as Lecturer, Department of Computer Science, Jamia Hamdard, New Delhi-110062 from 04/07/2000 to 21/09/2006. He was Principal Investigator for the following Funded Research Projects 'GPU based Router using Multigraph, funded by Jamia Millia Islamia, amount 1 lakh. “NVIDIA CUDA teaching Centre” funded by NVIDIA by means of donating one Tesla K20, two Quadro K5000 and two GTX 750 GPU along with two jetson TK1 Board and Books worth 6 Lakhs. A Major Research Project funded by Ministry of IT and Communication, government of India, amount 39.30 Lakhs (recommended by working group, Sanction letter is awaited). Prof Bashir Alam has published a total of 48 papers in which 22 of them are in journals, 24 of them are in International conferences and 2 are in national conference. He has also done Short term Course on High Performance Parallel and Enterprise Computing, April 12 – 18 2010, I.I.T. Kharagpur, India. Prof Bashir Alam has got CCNA and CCAI certification. He is a life time member of ISTE (Indian Society for Technical Education). He is Member of Board of Studies and faculty committee, Department of Computer Engineering, Jamia Millia Islamia, New Delhi. He was also Member of Board of Studies and faculty committee, Department of Computer Science, Jamia Hamdard, New Delhi. Prof Bashir Alam was also coach of Jamia Hamdard team for the 2003 ACM Asia ICPC(International Collegiate Programming Contest) at IIT Roorkee (10th Place) Coach and coach of Jamia Millia Islamia team for the 2014 ACM Asia ICPC(International Collegiate• Programming Contest) at IIIT Gwalior. He is also member of organizing team of Algorythm 2007 and Algorythm 2008 of department of Computer Engineering, Jamia Millia Islamia, New Delhi."
+    name: "Prof. Mohammad Amjad",
+    dp: amjadSirImg,
+    onclick: "id7",
+    designation: "( Professor & Hony. Addl. Director : Website & MIS)",
+    department:
+      "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
+    mobileNumber: "not available",
+    email: "mamjad@jmi.ac.in",
+    pdf: "https://www.jmi.ac.in/upload/employeeresume/mamjad.pdf",
+    portfolio: "Professional Portfolio",
+    areaOfIntrest:
+      "Mobile Computing, Wireless Sensor Networks, Security in Cloud Computing",
+    details:
+      "Prof. Mohammad Amjad has obtained his B.Tech. in Computer Engineering from Aligarh Muslim University Aligarh, India in 1997 with first class. He obtained his M.Tech. (Information Technology) degree from IP University New Delhi, India in 2008 with first class and Ph.D. (Computer Engineering) degree from Jamia Millia Islamia in the year 2013, New Delhi India. He joined the Crescent computer Pvt. Ltd. New Delhi as a senior Network engineer in 1997. He was having the responsibilities to look after the Networks Design of Northern Indian Railway, Telecommunication of India Limited (TCIL) and Videsh Sanchar Nigam Limited (VSNL). Thereafter he joined as a Lecturer in the Department of Computer Science and Information Technology in MJP Rohilkhand University Bareilly U.P. In the year 2002 , he joined the Department of Computer Engineering University polytechnic, F/o Engineering and Technology Jamia Millia Islamia and then after he joined the Department of Computer Engineering F/o Engineering & Technology, Jamia Millia Islamia New Delhi in 2006 . He has the teaching experience of approximately 13 Years. Dr. Amjad is Assistant Professor in the Department of Computer Engineering, Faculty of Engineering & Technology of Jamia Millia Islamia, New Delhi. Dr. Amjad has earned the Ph.D. degree for his research work in the field of Mobile Ad hoc Networks, where he investigated the clustering in MANET and Energy consumption in Wireless sensor Networks and designed a “Quality of Service Framework for Mobile Ad hoc Networks”. Dr. Amjad’s research work has been published in refereed International journals/ International conferences of repute. He contributed 15 research papers during his Ph.D. to the IEEE explore/ Springer/ International Journals in U.S.A/ International Conferences etc. He is actively involved in research and development activities in areas of MANET, WSN, Green Computing and Network Security systems. Dr. Amjad is having the life membership of ISTE and an expert lecturer on the topics related to Green cloud Computing, Wireless sensor Networks, Mobile Communication, Network security and Mobile Ad hoc Networks.",
 
 }
 export const faculty_data = [

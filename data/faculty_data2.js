@@ -42,22 +42,6 @@ export const faculty_data = [
       "Dr. Bashir Alam is currently Associate Professor in the Department of Computer Engineering, Faculty of Engineering and Technology, Jamia Millia Islamia (A Central University), New Delhi-110025. He has more than 15 years of teaching experience at post graduate, graduate and under graduate level. He received his B.Tech.(Computer Engineering) from Aligarh Muslim University Aligarh, Uttar Pradesh, India in 2000 with division First(Hons.)(8.6 /10 CPI), M.Tech. (IT) from IP University, Delhi, India in 2006 with division first (73 % marks), Ph.D.(Computer Engineering) from Jamia Millia Islamia, New Delhi, India in 2010. He previously worked as Lecturer, Department of Computer Science, Jamia Hamdard, New Delhi-110062 from 04/07/2000 to 21/09/2006. He was Principal Investigator for the following Funded Research Projects 'GPU based Router using Multigraph, funded by Jamia Millia Islamia, amount 1 lakh. “NVIDIA CUDA teaching Centre” funded by NVIDIA by means of donating one Tesla K20, two Quadro K5000 and two GTX 750 GPU along with two jetson TK1 Board and Books worth 6 Lakhs. A Major Research Project funded by Ministry of IT and Communication, government of India, amount 39.30 Lakhs (recommended by working group, Sanction letter is awaited). Prof Bashir Alam has published a total of 48 papers in which 22 of them are in journals, 24 of them are in International conferences and 2 are in national conference. He has also done Short term Course on High Performance Parallel and Enterprise Computing, April 12 – 18 2010, I.I.T. Kharagpur, India. Prof Bashir Alam has got CCNA and CCAI certification. He is a life time member of ISTE (Indian Society for Technical Education). He is Member of Board of Studies and faculty committee, Department of Computer Engineering, Jamia Millia Islamia, New Delhi. He was also Member of Board of Studies and faculty committee, Department of Computer Science, Jamia Hamdard, New Delhi. Prof Bashir Alam was also coach of Jamia Hamdard team for the 2003 ACM Asia ICPC(International Collegiate Programming Contest) at IIT Roorkee (10th Place) Coach and coach of Jamia Millia Islamia team for the 2014 ACM Asia ICPC(International Collegiate• Programming Contest) at IIIT Gwalior. He is also member of organizing team of Algorythm 2007 and Algorythm 2008 of department of Computer Engineering, Jamia Millia Islamia, New Delhi.",
   },
   {
-    name: "Prof. Nehal Ahmad",
-    dp: nehalSirImg,
-    onclick: "id13",
-    designation: "( Assistant Professor )",
-    department:
-      "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
-    mobileNumber: "9350850160",
-    email: "nehalahmadcse@gmail.com",
-    pdf: "",
-    portfolio: "Professional Portfolio",
-    areaOfIntrest:
-      "Machine Learning, Deep Learning, Optimization, Natural Language Processing, Web Mining and Searching",
-    details:
-      "Dr. Nehal Ahmad (Assistant Professor, Dept. of Computer Engineering JMI) obtained his undergraduate (Computer Engineering) from  Jamia Millia Islamia Central University New Delhi, India in the year 2016. He earned  M.S. (Gold Medalist) in the field of Machine Learning from the Department of Electrical Engineering and Computer Science, National Taipei  University of Technology, Taiwan with an Award of Excellence and prize money of 100$ (First Rank in the Department) in the year 2020. He was the recipient of Ministry of Education (MoE Fellow) Fellowship, Govt. of Taiwan for  the higher education in the country. Dr. Nehal earned his Ph.D. degree in the area of Machine learning (biomedical engineering domain) from National Taipei  University of Technology, Taiwan in collaboration with IIT Indore, India in the year 2023. He joined the department of Computer Engineering as an Assistant Professor in July 2024. Dr. Nehal bagged the Best Paper Award in an international CORE ranked “A” Conference ICONIP-2022. He has published his research articles in top quality reputed journals such as  IEEE  Journal of Biomedical and Health Informatics (Impact factor 7.021, earlier IEEE Transaction), Information Fusion (I.F = 18.6) etc. Dr. Nehal is also serving as a reviewer of several journals of repute. His current research interests include the area of Machine Learning, Deep Learning, Optimization, Natural Language Processing, Web Mining and Searching.",
-  },
-  {
     name: "Prof. Tanvir Ahmad",
     dp: "https://computerenggjmi.github.io/html/educat-preview/educat/img/team/1.jpg",
     onclick: "id2",
@@ -88,6 +72,21 @@ export const faculty_data = [
       "Machine Learning and Deep Learning applications in healthcare, vehicular safety",
     details:
       "Dr. Sarfaraz Masood is currently working as an Associate Professor in the Department of Computer Engineering, Faculty of Engineering and Technology, Jamia Millia Islamia, New Delhi, India. He has a rich experience in teaching and research for more than 16 years in the field of Computer Science and Engineering. He also worked in the software industry for around a year before joining academics. He has obtained his Ph.D. degree in Computer Engineering with a focus on the field of Artificial Neural Networks. His research areas include Machine Learning and Deep Learning applications in healthcare, vehicular safety, agriculture science, etc. He has published more than 60 research papers in various reputed International Journals and conferences in his research domain. He has been granted an international patent titled “A feature boosted Web-based product purchase recommendation method and system”. He is also serving as a Technical Expert in multiple committees at various government institutions in India, including UPSC, NTA & CEC-UGC",
+  },
+  {
+    name: "Dr. Danish Raza Rizvi",
+    dp: "https://computerenggjmi.github.io/images/danishRizvi.png",
+    onclick: "id4",
+    designation: "( Assistant Professor )",
+    department:
+      "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
+    mobileNumber: "011-26980281 , 9910625221",
+    email: "drizvi@jmi.ac.in, Danish.jmi@gmail.com",
+    portfolio: "Professional Portfolio",
+    areaOfIntrest: "Wireless Sensor Networks Security, Mobile Computing, ADBMS",
+    pdf: "https://www.jmi.ac.in/upload/employeeresume/drizvi.pdf",
+    details:
+      "Dr. Danish Raza Rizvi is currently Assistant Professor in the Department of Computer Engineering, Faculty of Engineering and Technology, Jamia Millia Islamia, New Delhi-110025. He has more than 10 years of teaching experiences in the field of Computer Engineering and Information Technology. He is currently doing his Ph.D from Jamia Millia Islamia, he received his M.TECH in Information Technology from USIT, GGS Indraprastha University, New Delhi in 2008 and B.TECH in Computer Science & Engineering from M.J.P. Rohilkhand University, Bareilly, U.P. in 2003. His M.TECH dissertation topic was Data Security and Authentication using Steganography. Dr. Danish Raza Rizvi has published a total of 7 papers in journals. He is currently supervising 5 B.Tech projects and 3 M.Tech projects and had supervised a total of 21 B.Tech final year project and 15 final year Diploma engineering projects (2004 – 2010). His research interest includes Data Security, Network Security and Steganography",
   },
   {
     name: "Dr Mumtaz Ahmed",
@@ -137,6 +136,22 @@ export const faculty_data = [
       "Dr. Mohd Zeeshan Ansari is currently Assistant Professor at Department of Computer Engineering, Jamia Millia Islamia (A Central University), New Delhi. He received M.Tech in Computer Science and Engineering from Delhi Technological University, New Delhi and B.Tech in Computer Science and Engineering from Uttar Pradesh Technical University, Lucknow, Uttar Pradesh. He has more than nine years of teaching experience. His area of research interest is Code Mixing, Information Extraction and Retrieval, Text Mining, Natural Language Processing and Soft Computing Techniques. His field of Specialization is Information Extraction and Retrieval. He has taken part in many workshops/seminars like summer special programme organized by UGC-Academic Staff College and GIAN Course on Fairness accuracy and transparency in Machine Learning. He is also member of various organizations like IDES, IRED, IAENG, IIJRC. He has also published two chapters in journals and books namely A simple and efficient S-box design using Fisher Yates shuffle technique and Enhancement of Fuzzy Rank Aggregation Technique. He is also member of Departmental Committee for Curriculum Development of M.Tech, Computer Science and Engineering and NBA Coordinator of Dept of Computer Engineering. He is attendance coordinator of computer engineering department.",
   },
   {
+    name: "Dr. Shahzad Alam",
+    dp: shahzadSirImg,
+    onclick: "id12",
+    designation: "( Assistant Professor )",
+    department:
+      "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
+    mobileNumber: "+919818538198",
+    email: "salam7@jmi.ac.in (Primary), shahzad5alam@gmail.com (Secondary)",
+    portfolio: "Professional Portfolio",
+    pdf: pdf,
+    areaOfIntrest:
+      "Image processing, Information Security, Machine Learning, Cryptography and Soft Computing Techniques,Machine Learning",
+    details:
+      "Dr. Shahzad Alam is Assistant Professor in the Department of Computer Engineering, Jamia Millia Islamia (A Central University), New Delhi. He has done Ph.D from the Department of Computer Engineering, Jamia Millia Islamia. He received M. Tech degree from the Department of Computer Engineering, Z.H. College of Engineering & Technology, Aligarh Muslim University, Aligarh, India in 2010 and B. Tech degree in Computer Science and Engineering from Uttar Pradesh Technical University, Lucknow, Uttar Pradesh in 2007. He also worked as a Software Developer in the ODO Software Solution Pvt. Ltd., Noida in the year 2007. He qualified GATE-2007, GATE-2015, GATE-2016 and UGC NET-2015 in Computer Sc. & Engg discipline. He has more than 7 years of teaching and research experience. He has published many research articles and presented his work in various international conferences. His area of research interest is Image processing, information Security, Cryptography and Soft Computing Techniques. The subjects taught by him include: Data Structure, Operating System, Analysis and Design of Algorithm, Data Base Management System, Computer Organization, Computer Architecture, Artificial Intelligence, Computer Network, Fundamental of Computer, Programming in C and Mobile Computing.",
+  },
+  {
     name: "Dr Faiyaz Ahmad",
     dp: FaiyazSir,
     onclick: "id5",
@@ -152,21 +167,6 @@ export const faculty_data = [
       "Dr. Faiyaz Ahmad is currently Assistant Professor in the Department of Computer Engineering, Faculty of Engineering and Technology, Jamia Millia Islamia, New Delhi-110025. He has more than 9 years of academic experiences in the field of Computer Engineering . He is pursuing his PhD in Computer Engineering from Department of Computer Engineering, Jamia Millia Islamia New Delhi. He did his M.Tech(IT) from Guru Gobind Singh Indraprastha University, Delhi with first division. And B.Tech. In Computer Engineering from Dr. Bhim Rao Ambedkar University (Formerly Known as Agra University) with Hons. His area of interest includes Operating System, Image Processing, Big data, Data Mining and has published 14 journals till now and had taken part in various seminars and conferences. He is Member of Faculty Committee and board of studies, Faculty of Engineering & Technology Jamia Millia Islamia. Question Paper Setter/ Examiner of Various Courses of several University. He is Member of Jamia Teachers Association and of Jamia Cultural Committee",
   },
   {
-    name: "Dr. Danish Raza Rizvi",
-    dp: "https://computerenggjmi.github.io/images/danishRizvi.png",
-    onclick: "id4",
-    designation: "( Assistant Professor )",
-    department:
-      "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
-    mobileNumber: "011-26980281 , 9910625221",
-    email: "drizvi@jmi.ac.in, Danish.jmi@gmail.com",
-    portfolio: "Professional Portfolio",
-    areaOfIntrest: "Wireless Sensor Networks Security, Mobile Computing, ADBMS",
-    pdf: "https://www.jmi.ac.in/upload/employeeresume/drizvi.pdf",
-    details:
-      "Dr. Danish Raza Rizvi is currently Assistant Professor in the Department of Computer Engineering, Faculty of Engineering and Technology, Jamia Millia Islamia, New Delhi-110025. He has more than 10 years of teaching experiences in the field of Computer Engineering and Information Technology. He is currently doing his Ph.D from Jamia Millia Islamia, he received his M.TECH in Information Technology from USIT, GGS Indraprastha University, New Delhi in 2008 and B.TECH in Computer Science & Engineering from M.J.P. Rohilkhand University, Bareilly, U.P. in 2003. His M.TECH dissertation topic was Data Security and Authentication using Steganography. Dr. Danish Raza Rizvi has published a total of 7 papers in journals. He is currently supervising 5 B.Tech projects and 3 M.Tech projects and had supervised a total of 21 B.Tech final year project and 15 final year Diploma engineering projects (2004 – 2010). His research interest includes Data Security, Network Security and Steganography",
-  },
-  {
     name: "Mr. Jawahar Lal",
     dp: "https://computerenggjmi.github.io/images/jawaharLal.png",
     onclick: "id6",
@@ -180,22 +180,6 @@ export const faculty_data = [
     pdf: pdf,
     details:
       "Jawahar Lal is currently Assistant Professor in the Department of Computer Engineering at Jamia Millia Islamia, New Delhi, India. He did his M.E. in Computer Technology & Application from Department of Computer Engineering, Delhi College of Engineering, Delhi and B.Tech in Computer Engineering from Kurukshetra University India( both with First Class). Earlier, he was a faculty member in Department of Computer Science & Engineering at B.M Institute of Engineering & Technology, (B.M.I.E.T, Sonepat) (2005) and Guru Tegh Bahadur Institute of Technology, Delhi (G.T.B.I.T, Delhi) (2006), before joining Jamia. He has more than 6 years of teaching experience in the field of Computer Engineering. His Industrial Software Training experience includes- Binary Semantics Ltd. Gurgaon. [2002] which is a client centric global software development company providing software development, research, web development, IT outsourcing services along with optimization and mathematical modeling solutions and consulting services. This Company has global operations across USA, Canada, Europe and India, where he had performed Software Testing on live Project named “Quality Control Management Information System (QCMIS)” during his training. He has attended many Seminars and Conferences of national repute including-E-Security: Issues, Concerns and Preparedness at GGS IP University, Delhi (17-18 March 2006). Recent Trend in Software Testing at Delhi Technological University, Delhi (September 2010) and many Professional Development Programs Conducted by ACCENTURE.",
-  },
-  {
-    name: "Dr. Shahzad Alam",
-    dp: shahzadSirImg,
-    onclick: "id12",
-    designation: "( Assistant Professor )",
-    department:
-      "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
-    mobileNumber: "+919818538198",
-    email: "salam7@jmi.ac.in (Primary), shahzad5alam@gmail.com (Secondary)",
-    portfolio: "Professional Portfolio",
-    pdf: pdf,
-    areaOfIntrest:
-      "Image processing, Information Security, Machine Learning, Cryptography and Soft Computing Techniques,Machine Learning",
-    details:
-      "Dr. Shahzad Alam is Assistant Professor in the Department of Computer Engineering, Jamia Millia Islamia (A Central University), New Delhi. He has done Ph.D from the Department of Computer Engineering, Jamia Millia Islamia. He received M. Tech degree from the Department of Computer Engineering, Z.H. College of Engineering & Technology, Aligarh Muslim University, Aligarh, India in 2010 and B. Tech degree in Computer Science and Engineering from Uttar Pradesh Technical University, Lucknow, Uttar Pradesh in 2007. He also worked as a Software Developer in the ODO Software Solution Pvt. Ltd., Noida in the year 2007. He qualified GATE-2007, GATE-2015, GATE-2016 and UGC NET-2015 in Computer Sc. & Engg discipline. He has more than 7 years of teaching and research experience. He has published many research articles and presented his work in various international conferences. His area of research interest is Image processing, information Security, Cryptography and Soft Computing Techniques. The subjects taught by him include: Data Structure, Operating System, Analysis and Design of Algorithm, Data Base Management System, Computer Organization, Computer Architecture, Artificial Intelligence, Computer Network, Fundamental of Computer, Programming in C and Mobile Computing.",
   },
   {
     name: "Mr. Hannan Mansoor",
@@ -221,5 +205,21 @@ export const faculty_data = [
     areaOfIntrest: "Fuzzy Theory, Soft Computing, Data Mining",
     pdf: "https://www.jmi.ac.in/upload/employeeresume/waseem_ahmed_ce.pdf",
     details: "",
+  },
+  {
+    name: "Prof. Nehal Ahmad",
+    dp: nehalSirImg,
+    onclick: "id13",
+    designation: "( Assistant Professor )",
+    department:
+      "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
+    mobileNumber: "9350850160",
+    email: "nehalahmadcse@gmail.com",
+    pdf: "",
+    portfolio: "Professional Portfolio",
+    areaOfIntrest:
+      "Machine Learning, Deep Learning, Optimization, Natural Language Processing, Web Mining and Searching",
+    details:
+      "Dr. Nehal Ahmad (Assistant Professor, Dept. of Computer Engineering JMI) obtained his undergraduate (Computer Engineering) from  Jamia Millia Islamia Central University New Delhi, India in the year 2016. He earned  M.S. (Gold Medalist) in the field of Machine Learning from the Department of Electrical Engineering and Computer Science, National Taipei  University of Technology, Taiwan with an Award of Excellence and prize money of 100$ (First Rank in the Department) in the year 2020. He was the recipient of Ministry of Education (MoE Fellow) Fellowship, Govt. of Taiwan for  the higher education in the country. Dr. Nehal earned his Ph.D. degree in the area of Machine learning (biomedical engineering domain) from National Taipei  University of Technology, Taiwan in collaboration with IIT Indore, India in the year 2023. He joined the department of Computer Engineering as an Assistant Professor in July 2024. Dr. Nehal bagged the Best Paper Award in an international CORE ranked “A” Conference ICONIP-2022. He has published his research articles in top quality reputed journals such as  IEEE  Journal of Biomedical and Health Informatics (Impact factor 7.021, earlier IEEE Transaction), Information Fusion (I.F = 18.6) etc. Dr. Nehal is also serving as a reviewer of several journals of repute. His current research interests include the area of Machine Learning, Deep Learning, Optimization, Natural Language Processing, Web Mining and Searching.",
   },
 ];
