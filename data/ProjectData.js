@@ -1032,700 +1032,719 @@ const MA15 = [
 ];
 const MA16 = [
   {
-    name: [ 'Areesha Fatima Siddiqui , ', 'Mohammad Anas' ],
-    rollNo: [ '16BCS002 , ', '16BCS006' ],
-    supervisor: '',
-    title: 'Homograph Language Identification in Multilingual Text'
+    name: ["Areesha Fatima Siddiqui , ", "Mohammad Anas"],
+    rollNo: ["16BCS002 , ", "16BCS006"],
+    supervisor: "",
+    title: "Homograph Language Identification in Multilingual Text",
   },
   {
-    name: [ 'Anmol Malik , ', 'Sayalath Souvannachack' ],
-    rollNo: [ '16BCS022 , ', '16BCS023' ],
-    supervisor: '',
-    title: 'Generative writing style transfer using machine learning'
+    name: ["Anmol Malik , ", "Sayalath Souvannachack"],
+    rollNo: ["16BCS022 , ", "16BCS023"],
+    supervisor: "",
+    title: "Generative writing style transfer using machine learning",
   },
   {
-    name: [ 'Mohd. Khalid , ', 'Wasim Akram' ],
-    rollNo: [ '16BCS007 , ', '16BCS070' ],
-    supervisor: '',
-    title: 'Automatic examination system using NLP'
+    name: ["Mohd. Khalid , ", "Wasim Akram"],
+    rollNo: ["16BCS007 , ", "16BCS070"],
+    supervisor: "",
+    title: "Automatic examination system using NLP",
   },
   {
-    name: [ 'Juned Raghib , ', 'Shahnazar' ],
-    rollNo: [ '16BCS029 , ', '16BCS065' ],
-    supervisor: '',
-    title: 'Deep Al Bot playing video games using reinforcement learning algorithm'
+    name: ["Juned Raghib , ", "Shahnazar"],
+    rollNo: ["16BCS029 , ", "16BCS065"],
+    supervisor: "",
+    title:
+      "Deep Al Bot playing video games using reinforcement learning algorithm",
   },
   {
-    name: [ 'Shabad Ahmad , ', 'Pranjal Anand' ],
-    rollNo: [ '16BCS054 , ', '16BCS055' ],
-    supervisor: '',
-    title: 'Text classification for letters characters and numbers'
+    name: ["Shabad Ahmad , ", "Pranjal Anand"],
+    rollNo: ["16BCS054 , ", "16BCS055"],
+    supervisor: "",
+    title: "Text classification for letters characters and numbers",
   },
   {
-    name: [ 'Tushar Goel , ', 'Mohd. Saqib' ],
-    rollNo: [ '16BCS053 , ', '16BCS060' ],
-    supervisor: '',
-    title: 'DNA computing based substitution Box design'
+    name: ["Tushar Goel , ", "Mohd. Saqib"],
+    rollNo: ["16BCS053 , ", "16BCS060"],
+    supervisor: "",
+    title: "DNA computing based substitution Box design",
   },
   {
-    name: [ 'Arif Khan , ', 'Kumail Asgar Zaidi' ],
-    rollNo: [ '16BCSO , ', '16BCSO' ],
-    supervisor: '',
-    title: 'DeepFake Detection'
+    name: ["Arif Khan , ", "Kumail Asgar Zaidi"],
+    rollNo: ["16BCSO , ", "16BCSO"],
+    supervisor: "",
+    title: "DeepFake Detection",
   },
   {
-    name: [ 'Sidra Tasleem , ', 'Rishabh Chauhan' ],
-    rollNo: [ '16BCS028 , ', '16BCS059' ],
-    supervisor: '',
-    title: 'Stock market forecasting using time series analysis'
+    name: ["Sidra Tasleem , ", "Rishabh Chauhan"],
+    rollNo: ["16BCS028 , ", "16BCS059"],
+    supervisor: "",
+    title: "Stock market forecasting using time series analysis",
   },
   {
-    name: [ 'Faria Mabood , ', 'Abdul Irshad' ],
-    rollNo: [ '16BCS020 , ', '16BCS077' ],
-    supervisor: '',
-    title: 'Rethinking Atrous convolution for semantic image segmentation'
+    name: ["Faria Mabood , ", "Abdul Irshad"],
+    rollNo: ["16BCS020 , ", "16BCS077"],
+    supervisor: "",
+    title: "Rethinking Atrous convolution for semantic image segmentation",
   },
   {
-    name: [ 'Aditya Anand Thakur , ', 'Aakash Jha' ],
-    rollNo: [ '16BCS016 , ', '16BCS024' ],
-    supervisor: '',
-    title: 'Face recognition based attendance marking system'
+    name: ["Aditya Anand Thakur , ", "Aakash Jha"],
+    rollNo: ["16BCS016 , ", "16BCS024"],
+    supervisor: "",
+    title: "Face recognition based attendance marking system",
   },
   {
-    name: [ 'Umar Salman , ', 'Mohd. Zeeshan Sheikh' ],
-    rollNo: [ '16BCS038 , ', '16BCS075' ],
-    supervisor: '',
-    title: 'Plant Disease Identification'
+    name: ["Umar Salman , ", "Mohd. Zeeshan Sheikh"],
+    rollNo: ["16BCS038 , ", "16BCS075"],
+    supervisor: "",
+    title: "Plant Disease Identification",
   },
   {
-    name: [ 'Yatin Kumar , ', 'Shikhar Singhal' ],
-    rollNo: [ '16BCS035 , ', '16BCS039' ],
-    supervisor: '',
-    title: 'Real Time sign language gesture recognition from video sequences'
+    name: ["Yatin Kumar , ", "Shikhar Singhal"],
+    rollNo: ["16BCS035 , ", "16BCS039"],
+    supervisor: "",
+    title: "Real Time sign language gesture recognition from video sequences",
   },
   {
-    name: [ 'Marhaba Azim , ', 'Roshan Kumar' ],
-    rollNo: [ '16BCS004 , ', '16BCS058' ],
-    supervisor: '',
-    title: 'Image amelioration using deconvolutional neural networks'
+    name: ["Marhaba Azim , ", "Roshan Kumar"],
+    rollNo: ["16BCS004 , ", "16BCS058"],
+    supervisor: "",
+    title: "Image amelioration using deconvolutional neural networks",
   },
   {
-    name: [ 'Tabish Iqbal , ', 'Wajahat Kareem' ],
-    rollNo: [ '16BCS052 , ', '16BCS076' ],
-    supervisor: '',
-    title: 'Business and Data understanding'
+    name: ["Tabish Iqbal , ", "Wajahat Kareem"],
+    rollNo: ["16BCS052 , ", "16BCS076"],
+    supervisor: "",
+    title: "Business and Data understanding",
   },
   {
-    name: [ 'Sumera Naaz , ','Zain Ul Abedin' ],
-    rollNo: [ '16BCS011 , ', '16BCS012' ],
-    supervisor: '',
-    title: 'Bidirectional Encoder representation from transformers in the field of cataclysm'
+    name: ["Sumera Naaz , ", "Zain Ul Abedin"],
+    rollNo: ["16BCS011 , ", "16BCS012"],
+    supervisor: "",
+    title:
+      "Bidirectional Encoder representation from transformers in the field of cataclysm",
   },
   {
-    name: ['Shabi Ul Hassan , ', 'Rishab Vats , ',],
-    rollNo: [ '16BCSO , ', '16BCSO' ],
-    supervisor: '',
-    title: 'Currency detector app for visually impaired'
+    name: ["Shabi Ul Hassan , ", "Rishab Vats , "],
+    rollNo: ["16BCSO , ", "16BCSO"],
+    supervisor: "",
+    title: "Currency detector app for visually impaired",
   },
   {
-    name: [ 'Agnik Guha , ', 'Ajay Kumar Yadav' ],
-    rollNo: [ '16BCS009 , ', '16BCS063' ],
-    supervisor: '',
-    title: 'Identifying depression on social media using sentiment analysis'
+    name: ["Agnik Guha , ", "Ajay Kumar Yadav"],
+    rollNo: ["16BCS009 , ", "16BCS063"],
+    supervisor: "",
+    title: "Identifying depression on social media using sentiment analysis",
   },
   {
-    name: [ 'Asma Ikram , ', 'Azmal Hussain Aakil ,'],
-    rollNo: [ '16BCS003 , ', '16BCS051' ],
-    supervisor: '',
-    title: 'Vehicle recognition and compilation in database software'
+    name: ["Asma Ikram , ", "Azmal Hussain Aakil ,"],
+    rollNo: ["16BCS003 , ", "16BCS051"],
+    supervisor: "",
+    title: "Vehicle recognition and compilation in database software",
   },
   {
-    name: [ 'Zakiuddin , ', 'Salman Khan' ],
-    rollNo: [ '16BCS017 , ', '16BCS074' ],
-    supervisor: '',
-    title: 'Depth aware video frame interpolation'
+    name: ["Zakiuddin , ", "Salman Khan"],
+    rollNo: ["16BCS017 , ", "16BCS074"],
+    supervisor: "",
+    title: "Depth aware video frame interpolation",
   },
   {
-    name: [ 'Ariba Praveen , ', 'Shadma Siddiqui , ', 'Asjad Ali Khan' ],
-    rollNo: [ '16BCS019 , ', '16BCS021 , ', '16BCS073' ],
-    supervisor: '',
-    title: 'Fine grained named entity recognition for code mixed text'
+    name: ["Ariba Praveen , ", "Shadma Siddiqui , ", "Asjad Ali Khan"],
+    rollNo: ["16BCS019 , ", "16BCS021 , ", "16BCS073"],
+    supervisor: "",
+    title: "Fine grained named entity recognition for code mixed text",
   },
   {
-    name: [ 'Urooj Iqbal , ', 'Mohd Mohtashim' ],
-    rollNo: [ '16BCS040 , ', '16BCS071' ],
-    supervisor: '',
-    title: 'Identifying semantically duplicate questions'
+    name: ["Urooj Iqbal , ", "Mohd Mohtashim"],
+    rollNo: ["16BCS040 , ", "16BCS071"],
+    supervisor: "",
+    title: "Identifying semantically duplicate questions",
   },
   {
-    name: [ 'Bhuvnesh Sharma , ', 'Pratham Batra' ],
-    rollNo: [ '16BCS018 , ', '16BCS045' ],
-    supervisor: '',
-    title: 'Emotion Recognition by speech signals'
+    name: ["Bhuvnesh Sharma , ", "Pratham Batra"],
+    rollNo: ["16BCS018 , ", "16BCS045"],
+    supervisor: "",
+    title: "Emotion Recognition by speech signals",
   },
   {
-    name: [ 'Asheeque C M , ', 'Faraaz' ],
-    rollNo: [ '16BCS008 , ', '16BCS049' ],
-    supervisor: '',
-    title: 'Information extraction using hindi Wikipedia articles'
+    name: ["Asheeque C M , ", "Faraaz"],
+    rollNo: ["16BCS008 , ", "16BCS049"],
+    supervisor: "",
+    title: "Information extraction using hindi Wikipedia articles",
   },
   {
-    name: [ 'Yousuf Ansari , ', 'Md. Ikrar Khan' ],
-    rollNo: [ '16BCS010 , ', '16BCS040' ],
-    supervisor: '',
-    title: 'Redefining cancer treatment'
+    name: ["Yousuf Ansari , ", "Md. Ikrar Khan"],
+    rollNo: ["16BCS010 , ", "16BCS040"],
+    supervisor: "",
+    title: "Redefining cancer treatment",
   },
   {
-    name: [ 'Prithipal Singh Patwal , ', 'Chirag Kaushik' ],
-    rollNo: [ '16BCS042 , ', '16BCS047' ],
-    supervisor: '',
-    title: 'Classifying the genetic variations/ mutations based on evidence from the text based clinical literature'
+    name: ["Prithipal Singh Patwal , ", "Chirag Kaushik"],
+    rollNo: ["16BCS042 , ", "16BCS047"],
+    supervisor: "",
+    title:
+      "Classifying the genetic variations/ mutations based on evidence from the text based clinical literature",
   },
   {
-    name: [ 'Manoj , ','Khawaja Wisal Maqsood'],
-    rollNo: [ '16BCS026 , ', '16BCS078' ],
-    supervisor: '',
-    title: 'Pneumothorax detection and segmentation using differential learning rates and semantic segmentation through deep learning'
+    name: ["Manoj , ", "Khawaja Wisal Maqsood"],
+    rollNo: ["16BCS026 , ", "16BCS078"],
+    supervisor: "",
+    title:
+      "Pneumothorax detection and segmentation using differential learning rates and semantic segmentation through deep learning",
   },
   {
-    name: [ 'Abhishek Singh , ','Aftab Alam' ],
-    rollNo: [ '16BCS033 , ', '16BCS034' ],
-    supervisor: '',
-    title: "Student's Drive"
+    name: ["Abhishek Singh , ", "Aftab Alam"],
+    rollNo: ["16BCS033 , ", "16BCS034"],
+    supervisor: "",
+    title: "Student's Drive",
   },
   {
-    name: [ 'Priyansh Taneja , ', 'Tanmay Gupta' ],
-    rollNo: [ '16BCS043 , ', '16BCS050' ],
-    supervisor: '',
-    title: 'Credit Card fraud detection'
+    name: ["Priyansh Taneja , ", "Tanmay Gupta"],
+    rollNo: ["16BCS043 , ", "16BCS050"],
+    supervisor: "",
+    title: "Credit Card fraud detection",
   },
   {
-    name: [ 'Manas Kumar Patel' ],
-    rollNo: [ '16BCS055' ],
-    supervisor: '',
-    title: 'Classifications of sound using ML Algorithms'
+    name: ["Manas Kumar Patel"],
+    rollNo: ["16BCS055"],
+    supervisor: "",
+    title: "Classifications of sound using ML Algorithms",
   },
   {
-    name: ['Mohd. Sadique , ','Shah Faisal , ','Abdul Ahad Khan'],
-    rollNo: [ '16BCS013 , ', '16BCS031 , ', '16BCS068' ],
-    supervisor: '',
-    title: 'Smart Door system (SW + HW)'
+    name: ["Mohd. Sadique , ", "Shah Faisal , ", "Abdul Ahad Khan"],
+    rollNo: ["16BCS013 , ", "16BCS031 , ", "16BCS068"],
+    supervisor: "",
+    title: "Smart Door system (SW + HW)",
   },
   {
-    name: [ 'Tabish Aleem , ', 'Divyanshu Singh' ],
-    rollNo: [ '16BCS056 , ', '16BCS064' ],
-    supervisor: '',
-    title: "Blind's Eye"
+    name: ["Tabish Aleem , ", "Divyanshu Singh"],
+    rollNo: ["16BCS056 , ", "16BCS064"],
+    supervisor: "",
+    title: "Blind's Eye",
   },
   {
-    name: [ 'Adnan Khan , ', 'Bhavya Jain' ],
-    rollNo: [ '16BCSO , ', '16BCSO' ],
-    supervisor: '',
-    title: 'Object Detection& Depth estimation'
+    name: ["Adnan Khan , ", "Bhavya Jain"],
+    rollNo: ["16BCSO , ", "16BCSO"],
+    supervisor: "",
+    title: "Object Detection& Depth estimation",
   },
   {
-    name: [ 'Pulkit Pradeep Gupta , ', 'Abhinav Nirwan' ],
-    rollNo: [ '16BCS001 , ', '16BCS030' ],
-    supervisor: '',
-    title: 'oRate: rate your speech'
+    name: ["Pulkit Pradeep Gupta , ", "Abhinav Nirwan"],
+    rollNo: ["16BCS001 , ", "16BCS030"],
+    supervisor: "",
+    title: "oRate: rate your speech",
   },
   {
-    name: [ 'Bilal Ahmad , ', 'Md. Sajid Ashrafi' ],
-    rollNo: [ '16BCS014 , ', '16BCS015' ],
-    supervisor: '',
-    title: 'Image caption Generator'
-  }
-] ;
+    name: ["Bilal Ahmad , ", "Md. Sajid Ashrafi"],
+    rollNo: ["16BCS014 , ", "16BCS015"],
+    supervisor: "",
+    title: "Image caption Generator",
+  },
+];
 const MA17 = [];
 const MA18 = [
   {
-     name: ['Naresh Pratap Singh , ', 'Kartik Kaushik'], 
-     rollNo: ['18BCS053 , ', '18BCS061'], 
-     supervisor: '', 
-     title: 'Parental Monitoring System'
+    name: ["Naresh Pratap Singh , ", "Kartik Kaushik"],
+    rollNo: ["18BCS053 , ", "18BCS061"],
+    supervisor: "",
+    title: "Parental Monitoring System",
   },
   {
-     name: ['Amir Khan , ', 'Mustafa Raza'], 
-     rollNo: ['18BCS043 , ', '18BCS052'], 
-     supervisor: '', 
-     title: 'Number Plate Recognition using Machine Learning'
+    name: ["Amir Khan , ", "Mustafa Raza"],
+    rollNo: ["18BCS043 , ", "18BCS052"],
+    supervisor: "",
+    title: "Number Plate Recognition using Machine Learning",
   },
   {
-     name: ['Pradhumn Singh , ','Aftab khan , ','Amber Chawla'], 
-     rollNo: ['18BCS029 , ', '18BCS040 , ', '18BCS058'], 
-     supervisor: '', 
-     title: 'Android Application For Vegetable and Fruit Classification'
+    name: ["Pradhumn Singh , ", "Aftab khan , ", "Amber Chawla"],
+    rollNo: ["18BCS029 , ", "18BCS040 , ", "18BCS058"],
+    supervisor: "",
+    title: "Android Application For Vegetable and Fruit Classification",
   },
   {
-     name: ['Ali Shahzeb , ', 'Md Jansheir Khan , ', 'Saifur Rahman Khan'], 
-     rollNo: ['18BCS082 , ', '18BCS083 , ', '18BCS087'], 
-     supervisor: '', 
-     title: 'Food Image Recognition Using Deep Learning'
+    name: ["Ali Shahzeb , ", "Md Jansheir Khan , ", "Saifur Rahman Khan"],
+    rollNo: ["18BCS082 , ", "18BCS083 , ", "18BCS087"],
+    supervisor: "",
+    title: "Food Image Recognition Using Deep Learning",
   },
   {
-     name: ['Anas Intekhab Alam , ', 'Masuma Akther , ', 'Shazia Ansari'], 
-     rollNo: ['18BCS003 , ', '18BCS010 , ','17BCS066'], 
-     supervisor: '', 
-     title: 'Real time vision based American sign language recognition'
+    name: ["Anas Intekhab Alam , ", "Masuma Akther , ", "Shazia Ansari"],
+    rollNo: ["18BCS003 , ", "18BCS010 , ", "17BCS066"],
+    supervisor: "",
+    title: "Real time vision based American sign language recognition",
   },
   {
-     name: ['Adnan Ali , ', 'Mutiur Rehman Khan'], 
-     rollNo: ['18BCS014 , ', '18BCS039 , ', '18BCS049 , ','17BCS011'], 
-     supervisor: '', 
-     title: 'Vocalyz'
+    name: ["Adnan Ali , ", "Mutiur Rehman Khan"],
+    rollNo: ["18BCS014 , ", "18BCS039 , ", "18BCS049 , ", "17BCS011"],
+    supervisor: "",
+    title: "Vocalyz",
   },
   {
-     name: ['Adnan Shamsi , ', 'Azim Javed'], 
-     rollNo: ['18BCS002 , ', '18BCS004'], 
-     supervisor: '', 
-     title: 'COLLAR: Collaborative Text And Code Editor'
+    name: ["Adnan Shamsi , ", "Azim Javed"],
+    rollNo: ["18BCS002 , ", "18BCS004"],
+    supervisor: "",
+    title: "COLLAR: Collaborative Text And Code Editor",
   },
   {
-     name: ['Ibraheem M. A. Khan , ','Mohammed Asim'], 
-     rollNo: ['18BCS007 , ', '18BCS013'], 
-     supervisor: 'N', 
-     title: 'Named Entity Recognition for Hindi-English Code Text'
+    name: ["Ibraheem M. A. Khan , ", "Mohammed Asim"],
+    rollNo: ["18BCS007 , ", "18BCS013"],
+    supervisor: "N",
+    title: "Named Entity Recognition for Hindi-English Code Text",
   },
   {
-     name: ['Chavi Gupta , ', 'Nikhat Nasim'], 
-     rollNo: ['18BCS005 , ', '18BCS015'], 
-     supervisor: '', 
-     title: 'Human Activity Prediction Using Machine Learning'
+    name: ["Chavi Gupta , ", "Nikhat Nasim"],
+    rollNo: ["18BCS005 , ", "18BCS015"],
+    supervisor: "",
+    title: "Human Activity Prediction Using Machine Learning",
   },
   {
-     name: ['Arbab Alam , ', 'Md. Manan Gani , ', 'Amzad Choudhary'], 
-     rollNo: ['18BCS021 , ', '18BCS050 , ', '18BCS074'], 
-     supervisor: '', 
-     title: 'Real-time Eye Blink Detection'
+    name: ["Arbab Alam , ", "Md. Manan Gani , ", "Amzad Choudhary"],
+    rollNo: ["18BCS021 , ", "18BCS050 , ", "18BCS074"],
+    supervisor: "",
+    title: "Real-time Eye Blink Detection",
   },
   {
-     name: ['Faiz Ur Rahman , ', 'Irshad Ahmed Khan'], 
-     rollNo: ['18BCS024 , ', '18BCS026'], 
-     supervisor: '', 
-     title: 'Number Plate Detection and Recognition using YoloV3'
+    name: ["Faiz Ur Rahman , ", "Irshad Ahmed Khan"],
+    rollNo: ["18BCS024 , ", "18BCS026"],
+    supervisor: "",
+    title: "Number Plate Detection and Recognition using YoloV3",
   },
   {
-     name: ['Yusra Nasir , ', 'Aseya Fatima'], 
-     rollNo: ['18BCS037 , ', '18BCS045'], 
-     supervisor: '', 
-     title: 'Classification Of BotNet Attacks via Deep Learning'
+    name: ["Yusra Nasir , ", "Aseya Fatima"],
+    rollNo: ["18BCS037 , ", "18BCS045"],
+    supervisor: "",
+    title: "Classification Of BotNet Attacks via Deep Learning",
   },
   {
-     name: ['Karishma Kathat , ', 'Zoya Shams'], 
-     rollNo: ['18BCS009 , ', '18BCS018'], 
-     supervisor: '', 
-     title: 'Text Summarization'
+    name: ["Karishma Kathat , ", "Zoya Shams"],
+    rollNo: ["18BCS009 , ", "18BCS018"],
+    supervisor: "",
+    title: "Text Summarization",
   },
   {
-     name: ['Md Aatif , ', 'Md Tauhid Alam'], 
-     rollNo: ['18BCS011 , ', '18BCS012'], 
-     supervisor: '', 
-     title: 'Toxic Comment Identification And Span Detection'
+    name: ["Md Aatif , ", "Md Tauhid Alam"],
+    rollNo: ["18BCS011 , ", "18BCS012"],
+    supervisor: "",
+    title: "Toxic Comment Identification And Span Detection",
   },
   {
-     name: ['Rehan Kurian Philip , ', 'Mohd Uvas , ', 'Md Rabbani'], 
-     rollNo: ['18BCS054 , ', '18BCS079 , ', '18BCS078'], 
-     supervisor: '', 
-     title: 'Speech Emotion Recognition'
+    name: ["Rehan Kurian Philip , ", "Mohd Uvas , ", "Md Rabbani"],
+    rollNo: ["18BCS054 , ", "18BCS079 , ", "18BCS078"],
+    supervisor: "",
+    title: "Speech Emotion Recognition",
   },
   {
-     name: ['Aatif Rashid'], 
-     rollNo: ['18BCS001'], 
-     supervisor: '', 
-     title: 'Plant Disease Detection Using Convolutional Neural Network'
+    name: ["Aatif Rashid"],
+    rollNo: ["18BCS001"],
+    supervisor: "",
+    title: "Plant Disease Detection Using Convolutional Neural Network",
   },
   {
-     name: ['Ahmad Hassan Ansari , ', 'Arshan Ahmad'], 
-     rollNo: ['18BCS041 , ', '18BCS075'], 
-     supervisor: '', 
-     title: 'In-memory scalable database'
+    name: ["Ahmad Hassan Ansari , ", "Arshan Ahmad"],
+    rollNo: ["18BCS041 , ", "18BCS075"],
+    supervisor: "",
+    title: "In-memory scalable database",
   },
   {
-     name: ['Ifa Zareen , ', 'Firdausia Fatima'], 
-     rollNo: ['18BCS077 , ', '18BCS090'], 
-     supervisor: '', 
-     title: 'Emotion Analyzer'
+    name: ["Ifa Zareen , ", "Firdausia Fatima"],
+    rollNo: ["18BCS077 , ", "18BCS090"],
+    supervisor: "",
+    title: "Emotion Analyzer",
   },
   {
-     name: ['Syed Mohammad Raza , ','MD Ruhulamin Khan , ','Dhruv Dua'], 
-     rollNo: ['18BCS056 , ', '18BCS067 , ', '18BCS089'], 
-     supervisor: '', 
-     title: 'Exploring, generating and ranking alternate voting systems in an n-Dimensional issue space given a multivariate multi-party environment'
+    name: ["Syed Mohammad Raza , ", "MD Ruhulamin Khan , ", "Dhruv Dua"],
+    rollNo: ["18BCS056 , ", "18BCS067 , ", "18BCS089"],
+    supervisor: "",
+    title:
+      "Exploring, generating and ranking alternate voting systems in an n-Dimensional issue space given a multivariate multi-party environment",
   },
   {
-     name: ['Sayed Edris Sadeed , ','Amir Hussain Mohibi , ','Said Elham Sadat'], 
-     rollNo: ['18BCS070 , ','17BCS078 , ','17BCS036'], 
-     supervisor: '', 
-     title: 'Automatic Traffic Accident Detection and Notification with Smartphones'
+    name: [
+      "Sayed Edris Sadeed , ",
+      "Amir Hussain Mohibi , ",
+      "Said Elham Sadat",
+    ],
+    rollNo: ["18BCS070 , ", "17BCS078 , ", "17BCS036"],
+    supervisor: "",
+    title:
+      "Automatic Traffic Accident Detection and Notification with Smartphones",
   },
   {
-     name: ['Mohd. Imtiaz Alam , ','Qazi Saheeb , ', 'Md Aamir'], 
-     rollNo: ['18BCS065 , ', '18BCS066 , ', '18BCS062'], 
-     supervisor: '', 
-     title: 'Blockchain To Ensure Counterfeit Free Pharmaceutical Supply Chain'
+    name: ["Mohd. Imtiaz Alam , ", "Qazi Saheeb , ", "Md Aamir"],
+    rollNo: ["18BCS065 , ", "18BCS066 , ", "18BCS062"],
+    supervisor: "",
+    title: "Blockchain To Ensure Counterfeit Free Pharmaceutical Supply Chain",
   },
   {
-     name: ['Debal Hussain Abbas , ','Mauwaz A. Farooqui'], 
-     rollNo: ['18BCS046 , ', '18BCS048'], 
-     supervisor: '', 
-     title: 'Solve Maths Word Problems using AI'
+    name: ["Debal Hussain Abbas , ", "Mauwaz A. Farooqui"],
+    rollNo: ["18BCS046 , ", "18BCS048"],
+    supervisor: "",
+    title: "Solve Maths Word Problems using AI",
   },
   {
-     name: ['Mohammad Sahil , ','Saif Ali Khan , ', 'Jatin Rishi'], 
-     rollNo: ['18BCS028 , ', '18BCS030 , ', '18BCS060'], 
-     supervisor: '', 
-     title: 'Detection Of Persuasion Techniques'
+    name: ["Mohammad Sahil , ", "Saif Ali Khan , ", "Jatin Rishi"],
+    rollNo: ["18BCS028 , ", "18BCS030 , ", "18BCS060"],
+    supervisor: "",
+    title: "Detection Of Persuasion Techniques",
   },
   {
-     name: ['Md Akdas Ahmad , ', 'Anas Riyaz , ','Mohammad Fahad'], 
-     rollNo: ['18BCS020 , ', '18BCS059 , ','17BCS009'], 
-     supervisor: '', 
-     title: 'Toxic Comment Classification'
+    name: ["Md Akdas Ahmad , ", "Anas Riyaz , ", "Mohammad Fahad"],
+    rollNo: ["18BCS020 , ", "18BCS059 , ", "17BCS009"],
+    supervisor: "",
+    title: "Toxic Comment Classification",
   },
   {
-     name: ['Abhishek Gupta , ','Javed Ahmad'], 
-     rollNo: ['18BCSO , ', '18BCSO'], 
-     supervisor: '', 
-     title: 'Political Sentiment Analysis On Uttar Pradesh Elections'
+    name: ["Abhishek Gupta , ", "Javed Ahmad"],
+    rollNo: ["18BCSO , ", "18BCSO"],
+    supervisor: "",
+    title: "Political Sentiment Analysis On Uttar Pradesh Elections",
   },
   {
-     name: ['Mohammad Abdul Basit , ','Salman Ghufran Shaikh'], 
-     rollNo: ['18BCS064 , ', '18BCS069'], 
-     supervisor: '', 
-     title: 'Natural disaster tweets classification using multimodal data'
+    name: ["Mohammad Abdul Basit , ", "Salman Ghufran Shaikh"],
+    rollNo: ["18BCS064 , ", "18BCS069"],
+    supervisor: "",
+    title: "Natural disaster tweets classification using multimodal data",
   },
   {
-     name: ['Gaurav Arora , ', 'Paritosh Singh , ', 'Rahil Ali Khan'], 
-     rollNo: ['18BCS025 , ', '18BCS084 , ', '18BCS085'], 
-     supervisor: '', 
-     title: 'Blockchain Based KYC verification System Implemented Using Dynamic NFTS'
+    name: ["Gaurav Arora , ", "Paritosh Singh , ", "Rahil Ali Khan"],
+    rollNo: ["18BCS025 , ", "18BCS084 , ", "18BCS085"],
+    supervisor: "",
+    title:
+      "Blockchain Based KYC verification System Implemented Using Dynamic NFTS",
   },
   {
-     name: ['Umayma Khan'], 
-     rollNo: ['18BCS088'], 
-     supervisor: '', 
-     title: 'Single Image Super Resolution'
+    name: ["Umayma Khan"],
+    rollNo: ["18BCS088"],
+    supervisor: "",
+    title: "Single Image Super Resolution",
   },
   {
-     name: ['Shahrukh Khan , ', 'Yash Johri'], 
-     rollNo: ['18BCS031 , ', '18BCS036'], 
-     supervisor: '', 
-     title: 'Flora And Fauna Recognition'
+    name: ["Shahrukh Khan , ", "Yash Johri"],
+    rollNo: ["18BCS031 , ", "18BCS036"],
+    supervisor: "",
+    title: "Flora And Fauna Recognition",
   },
   {
-     name: ['Arbind Sah , ', 'Chirag Garg , ', 'Ashar Ekram'], 
-     rollNo: ['18BCS022 , ', '18BCS023 , ', '18BCS076'], 
-     supervisor: '', 
-     title: 'Emotion Recognition by Speech Signals'
+    name: ["Arbind Sah , ", "Chirag Garg , ", "Ashar Ekram"],
+    rollNo: ["18BCS022 , ", "18BCS023 , ", "18BCS076"],
+    supervisor: "",
+    title: "Emotion Recognition by Speech Signals",
   },
   {
-     name: ['Ilma Faridi , ', 'Sparsh Bansal'], 
-     rollNo: ['18BCS008 , ', '18BCS034'], 
-     supervisor: '', 
-     title: 'Speech Emotion Detection'
+    name: ["Ilma Faridi , ", "Sparsh Bansal"],
+    rollNo: ["18BCS008 , ", "18BCS034"],
+    supervisor: "",
+    title: "Speech Emotion Detection",
   },
   {
-     name: ['Mohd Arsalan , ', 'Nabige Aala , ', 'Nawaz Mian'], 
-     rollNo: ['18BCS051 , ', '18BCS080 , ', '18BCS081'], 
-     supervisor: '', 
-     title: 'Fake News Detection Using Deep Learning'
+    name: ["Mohd Arsalan , ", "Nabige Aala , ", "Nawaz Mian"],
+    rollNo: ["18BCS051 , ", "18BCS080 , ", "18BCS081"],
+    supervisor: "",
+    title: "Fake News Detection Using Deep Learning",
   },
   {
-     name: ['Md Altaf Raza , ', 'Shahzeb Qamar'], 
-     rollNo: ['18BCS027 , ', '18BCS032'], 
-     supervisor: '', 
-     title: 'Sign Language to Text'
+    name: ["Md Altaf Raza , ", "Shahzeb Qamar"],
+    rollNo: ["18BCS027 , ", "18BCS032"],
+    supervisor: "",
+    title: "Sign Language to Text",
   },
   {
-     name: ['Aayush Bhat , ', 'Aquil Hasan , ', 'Sameer Choudhary'], 
-     rollNo: ['18BCS038 , ', '18BCS044 , ', '18BCS055'], 
-     supervisor: '', 
-     title: 'Self-Driving Cars Simulation Using CNN'
+    name: ["Aayush Bhat , ", "Aquil Hasan , ", "Sameer Choudhary"],
+    rollNo: ["18BCS038 , ", "18BCS044 , ", "18BCS055"],
+    supervisor: "",
+    title: "Self-Driving Cars Simulation Using CNN",
   },
   {
-     name: ['Shatak Garg'], 
-     rollNo: ['18BCS033'], 
-     supervisor: '', 
-     title: 'Real Time Parking Space Identifier'
+    name: ["Shatak Garg"],
+    rollNo: ["18BCS033"],
+    supervisor: "",
+    title: "Real Time Parking Space Identifier",
   },
   {
-     name: ['Shahid Afridi , ', 'Tauhid Alam'], 
-     rollNo: ['18BCS071 , ', '18BCS072'], 
-     supervisor: '', 
-     title: 'Flight price prediction using machine learning techniques'
+    name: ["Shahid Afridi , ", "Tauhid Alam"],
+    rollNo: ["18BCS071 , ", "18BCS072"],
+    supervisor: "",
+    title: "Flight price prediction using machine learning techniques",
   },
   {
-     name: ['Hamza Ansari'], 
-     rollNo: ['18BCS006'], 
-     supervisor: '', 
-     title: 'Stock Market Prediction Using Machine Learning Techniques'
+    name: ["Hamza Ansari"],
+    rollNo: ["18BCS006"],
+    supervisor: "",
+    title: "Stock Market Prediction Using Machine Learning Techniques",
   },
   {
-     name: ['Srijith Nair , ', 'Suyash Chauhan'], 
-     rollNo: ['18BCS016 , ', '18BCS017'], 
-     supervisor: '', 
-     title: 'Image Steganography using LSB and secret key'
-  }
- ];
-const MA19 =[
+    name: ["Srijith Nair , ", "Suyash Chauhan"],
+    rollNo: ["18BCS016 , ", "18BCS017"],
+    supervisor: "",
+    title: "Image Steganography using LSB and secret key",
+  },
+];
+const MA19 = [
   {
-    name: [ 'Md. Minhaj , ', 'Shahabuddin' ],
-    rollNo: [ '19BCS014 , ', '19BCS031' ],
-    supervisor: '',
-    title: 'Smart Eyeglass with face recognition, obstacle detection features for visually impaired'
+    name: ["Md. Minhaj , ", "Shahabuddin"],
+    rollNo: ["19BCS014 , ", "19BCS031"],
+    supervisor: "",
+    title:
+      "Smart Eyeglass with face recognition, obstacle detection features for visually impaired",
   },
   {
-    name: [ 'Mushabah Siddiqui , ', 'Momin Siddiqui' ],
-    rollNo: [ '19BCS056 , ', '19BCS086' ],
-    supervisor: '',
-    title: 'Assessing Widget Interaction using Magnetometer Readings'
+    name: ["Mushabah Siddiqui , ", "Momin Siddiqui"],
+    rollNo: ["19BCS056 , ", "19BCS086"],
+    supervisor: "",
+    title: "Assessing Widget Interaction using Magnetometer Readings",
   },
   {
-    name: [ 'Sheikh M. Sabir , ', 'Mehedi Hasan' ],
-    rollNo: [ '19BCS058 , ', '19BCS082' ],
-    supervisor: '',
-    title: 'Web3 Based Crowdfunding Application using Blockchain'
+    name: ["Sheikh M. Sabir , ", "Mehedi Hasan"],
+    rollNo: ["19BCS058 , ", "19BCS082"],
+    supervisor: "",
+    title: "Web3 Based Crowdfunding Application using Blockchain",
   },
   {
-    name: [ 'Ali Abbas , ', 'Tabish Khan' ],
-    rollNo: [ '19BCS007 , ', '19BCS037' ],
-    supervisor: '',
-    title: 'Video downloader App a'
+    name: ["Ali Abbas , ", "Tabish Khan"],
+    rollNo: ["19BCS007 , ", "19BCS037"],
+    supervisor: "",
+    title: "Video downloader App a",
   },
   {
-    name: [ 'Shivam Bhardwaj , ', 'Lakhsay Garg' ],
-    rollNo: [ '19BCS033 , ', '19BCS069' ],
-    supervisor: '',
-    title: 'Map My Run App'
+    name: ["Shivam Bhardwaj , ", "Lakhsay Garg"],
+    rollNo: ["19BCS033 , ", "19BCS069"],
+    supervisor: "",
+    title: "Map My Run App",
   },
   {
-    name: [ 'Wajiha Fatima , ', 'Nishtha Gupta' ],
-    rollNo: [ '19BCS040 , ', '19BCS057' ],
-    supervisor: '',
-    title: 'Image search Engine a'
+    name: ["Wajiha Fatima , ", "Nishtha Gupta"],
+    rollNo: ["19BCS040 , ", "19BCS057"],
+    supervisor: "",
+    title: "Image search Engine a",
   },
   {
-    name: [ 'Wahiba Jawaid , ', 'Syed Sarim Husain' ],
-    rollNo: [ '19BCS036 , ', '19BCS039' ],
-    supervisor: '',
-    title: 'Open Domain Question Answering'
+    name: ["Wahiba Jawaid , ", "Syed Sarim Husain"],
+    rollNo: ["19BCS036 , ", "19BCS039"],
+    supervisor: "",
+    title: "Open Domain Question Answering",
   },
   {
-    name: [ 'Arshi Naaz , ', 'Syed Sahba Hasan' ],
-    rollNo: [ '19BCS008 , ', '19BCS035' ],
-    supervisor: '',
-    title: 'Underwater fish Species Detection and Classification in Video Sample'
+    name: ["Arshi Naaz , ", "Syed Sahba Hasan"],
+    rollNo: ["19BCS008 , ", "19BCS035"],
+    supervisor: "",
+    title:
+      "Underwater fish Species Detection and Classification in Video Sample",
   },
   {
-    name: [ 'Heba Shakeel , ', 'Sayeda Fatima' ],
-    rollNo: [ '19BCS065 , ', '19BCS084' ],
-    supervisor: '',
-    title: 'Medical document Summarization a'
+    name: ["Heba Shakeel , ", "Sayeda Fatima"],
+    rollNo: ["19BCS065 , ", "19BCS084"],
+    supervisor: "",
+    title: "Medical document Summarization a",
   },
   {
-    name: [ 'Fahad Ahmad , ', 'Mohammad Hammad' ],
-    rollNo: [ '19BCS012 , ', '19BCS025' ],
-    supervisor: '',
-    title: 'Perimeter Intruder Detection using Deep Learning'
+    name: ["Fahad Ahmad , ", "Mohammad Hammad"],
+    rollNo: ["19BCS012 , ", "19BCS025"],
+    supervisor: "",
+    title: "Perimeter Intruder Detection using Deep Learning",
   },
   {
-    name: [ 'Mohammed Saad , ', 'Shuja Hamid' ],
-    rollNo: [ '19BCS071 , ', '19BCS085' ],
-    supervisor: '',
-    title: 'A Comprehensive Traffic Monitoring System using Computer Vision'
+    name: ["Mohammed Saad , ", "Shuja Hamid"],
+    rollNo: ["19BCS071 , ", "19BCS085"],
+    supervisor: "",
+    title: "A Comprehensive Traffic Monitoring System using Computer Vision",
   },
   {
-    name: [ 'Md. Asfak , ', 'Mohd. Rizwan Khan' ],
-    rollNo: [ '19BCS051 , ', '19BCS055' ],
-    supervisor: '',
-    title: 'Human Following Robot using Arduino'
+    name: ["Md. Asfak , ", "Mohd. Rizwan Khan"],
+    rollNo: ["19BCS051 , ", "19BCS055"],
+    supervisor: "",
+    title: "Human Following Robot using Arduino",
   },
   {
-    name: [ 'Piyush Para Jha , ', 'Aayush Jha' ],
-    rollNo: [ '19BCS072 , ', '19BCS087' ],
-    supervisor: '',
-    title: 'Stock Price Prediction in Indian Exchange'
+    name: ["Piyush Para Jha , ", "Aayush Jha"],
+    rollNo: ["19BCS072 , ", "19BCS087"],
+    supervisor: "",
+    title: "Stock Price Prediction in Indian Exchange",
   },
   {
-    name: [ 'Yash Vinayvanshi' ],
-    rollNo: [ '19BCS081' ],
-    supervisor: '',
-    title: 'A New Policy for the K-Server Problem on General Metrics and its Analysis'
+    name: ["Yash Vinayvanshi"],
+    rollNo: ["19BCS081"],
+    supervisor: "",
+    title:
+      "A New Policy for the K-Server Problem on General Metrics and its Analysis",
   },
   {
-    name: [ 'Aisha Pervin , ', 'Kahkasha Khan' ],
-    rollNo: [ '19BCS006 , ', '19BCS013' ],
-    supervisor: '',
-    title: 'Attack Classification of an Intrusion Detection system using Deep Learning and Hyper parameter Optimization'     
+    name: ["Aisha Pervin , ", "Kahkasha Khan"],
+    rollNo: ["19BCS006 , ", "19BCS013"],
+    supervisor: "",
+    title:
+      "Attack Classification of an Intrusion Detection system using Deep Learning and Hyper parameter Optimization",
   },
   {
-    name: [ 'Arham Athar , ', 'Garv Nanwani' ],
-    rollNo: [ '19BCS045 , ', '19BCS049' ],
-    supervisor: '',
-    title: 'Fake product Detection using Block Chain'
+    name: ["Arham Athar , ", "Garv Nanwani"],
+    rollNo: ["19BCS045 , ", "19BCS049"],
+    supervisor: "",
+    title: "Fake product Detection using Block Chain",
   },
   {
-    name: [ 'Mohammad Aqdas , ', 'Shashi Kalwar' ],
-    rollNo: [ '19BCS053 , ', '19BCS064' ],
-    supervisor: '',
-    title: 'Image Based Malware classification ensemble of CNN architecture'
+    name: ["Mohammad Aqdas , ", "Shashi Kalwar"],
+    rollNo: ["19BCS053 , ", "19BCS064"],
+    supervisor: "",
+    title: "Image Based Malware classification ensemble of CNN architecture",
   },
   {
-    name: [ 'Kushagra Tyagi , ', 'Vithal Gulati' ],
-    rollNo: [ '19BCS001 , ', '19BCS080' ],
-    supervisor: '',
-    title: 'Skin Cancer Classification using Computer Vision'
+    name: ["Kushagra Tyagi , ", "Vithal Gulati"],
+    rollNo: ["19BCS001 , ", "19BCS080"],
+    supervisor: "",
+    title: "Skin Cancer Classification using Computer Vision",
   },
   {
-    name: [ 'Faraz Anwar , ', 'Haider Ali Khan' ],
-    rollNo: [ '19BCS047 , ', '19BCS050' ],
-    supervisor: '',
-    title: 'Block Chain Messenger'
+    name: ["Faraz Anwar , ", "Haider Ali Khan"],
+    rollNo: ["19BCS047 , ", "19BCS050"],
+    supervisor: "",
+    title: "Block Chain Messenger",
   },
   {
-    name: [ 'Aamir Ashraf , ', 'Zaid Khan' ],
-    rollNo: [ '19BCS004 , ', '19BCS041' ],
-    supervisor: '',
-    title: ''
+    name: ["Aamir Ashraf , ", "Zaid Khan"],
+    rollNo: ["19BCS004 , ", "19BCS041"],
+    supervisor: "",
+    title: "",
   },
   {
-    name: [ 'Surya Kant , ', 'Kanishka' ],
-    rollNo: [ '19BCS060 , ', '19BCS067' ],
-    supervisor: '',
-    title: 'Extractive Text Summarization with Topic Modeling'
+    name: ["Surya Kant , ", "Kanishka"],
+    rollNo: ["19BCS060 , ", "19BCS067"],
+    supervisor: "",
+    title: "Extractive Text Summarization with Topic Modeling",
   },
   {
-    name: [ 'S. M. Arham Bilal , ','Abhay Sharma' ],
-    rollNo: [ '19BCS079 , ', '19BCS088' ],
-    supervisor: '',
-    title: 'Bird Species Identification using Convolutional Neural Networks'
+    name: ["S. M. Arham Bilal , ", "Abhay Sharma"],
+    rollNo: ["19BCS079 , ", "19BCS088"],
+    supervisor: "",
+    title: "Bird Species Identification using Convolutional Neural Networks",
   },
   {
-    name: [ 'Almas Amsari , ', 'Tanmay Vij' ],
-    rollNo: [ '19BCS042 , ', '19BCS061' ],
-    supervisor: '',
-    title: 'Image Captioning in Hindi using Deep Learning Techniques'
+    name: ["Almas Amsari , ", "Tanmay Vij"],
+    rollNo: ["19BCS042 , ", "19BCS061"],
+    supervisor: "",
+    title: "Image Captioning in Hindi using Deep Learning Techniques",
   },
   {
-    name: [ 'Siddhartha Ganjoo , ', 'Mohd. Humaid Ilyas' ],
-    rollNo: [ '19BCS003 , ', '19BCS028' ],
-    supervisor: '',
-    title: 'Vehicle Proximity Detection using Computer Vision'
+    name: ["Siddhartha Ganjoo , ", "Mohd. Humaid Ilyas"],
+    rollNo: ["19BCS003 , ", "19BCS028"],
+    supervisor: "",
+    title: "Vehicle Proximity Detection using Computer Vision",
   },
   {
-    name: [ 'Asif Nazir , ', 'Sharique Parwez' ],
-    rollNo: [ '19BCS009 , ', '19BCS032' ],
-    supervisor: '',
-    title: 'Place of Interest Recommendation'
+    name: ["Asif Nazir , ", "Sharique Parwez"],
+    rollNo: ["19BCS009 , ", "19BCS032"],
+    supervisor: "",
+    title: "Place of Interest Recommendation",
   },
   {
-    name: [ 'Takseer Reyaz' ],
-    rollNo: [ '19BCS083' ],
-    supervisor: '',
-    title: 'Lung Cancer Detection using Machine Learning'
+    name: ["Takseer Reyaz"],
+    rollNo: ["19BCS083"],
+    supervisor: "",
+    title: "Lung Cancer Detection using Machine Learning",
   },
   {
-    name: [ 'Amir Jawed , ', 'Mayank Vashishtha' ],
-    rollNo: [ '19BCS042 , ', '19BCS070' ],
-    supervisor: '',
-    title: 'Dog Breed Classification using Transfer Learning'
+    name: ["Amir Jawed , ", "Mayank Vashishtha"],
+    rollNo: ["19BCS042 , ", "19BCS070"],
+    supervisor: "",
+    title: "Dog Breed Classification using Transfer Learning",
   },
   {
-    name: [ 'Ritik Vashist , ', 'Kshitij Dwivedi' ],
-    rollNo: [ '19BCS002 , ', '19BCS068' ],
-    supervisor: '',
-    title: 'Top N resolution recommendation for customer inquiry using clustering of semantically similar textual data'      
+    name: ["Ritik Vashist , ", "Kshitij Dwivedi"],
+    rollNo: ["19BCS002 , ", "19BCS068"],
+    supervisor: "",
+    title:
+      "Top N resolution recommendation for customer inquiry using clustering of semantically similar textual data",
   },
   {
-    name: [ 'Prakhar Vasishtha , ', 'Raghav Gautam' ],
-    rollNo: [ '19BCS074 , ', '19BCS075' ],
-    supervisor: '',
-    title: 'Medical Image Synthesis (Morula) using Diffusion Probabilistic Model & GAN'
+    name: ["Prakhar Vasishtha , ", "Raghav Gautam"],
+    rollNo: ["19BCS074 , ", "19BCS075"],
+    supervisor: "",
+    title:
+      "Medical Image Synthesis (Morula) using Diffusion Probabilistic Model & GAN",
   },
   {
-    name: [ 'Minhaj Iqbal , ', 'Mohd. Tabish' ],
-    rollNo: [ '19BCS023 , ', '19BCS026' ],
-    supervisor: '',
-    title: 'EEG-Based Epileptic Seizure Detection in Neonates'
+    name: ["Minhaj Iqbal , ", "Mohd. Tabish"],
+    rollNo: ["19BCS023 , ", "19BCS026"],
+    supervisor: "",
+    title: "EEG-Based Epileptic Seizure Detection in Neonates",
   },
   {
-    name: [ 'Fariha Salman , ', 'Sumaiya Fatma' ],
-    rollNo: [ '19BCS048 , ', '19BCS059' ],
-    supervisor: '',
-    title: 'Automatic Detection and Monitoring of Diabetic Retinopathy using Efficient Convolution Neural Networks'
+    name: ["Fariha Salman , ", "Sumaiya Fatma"],
+    rollNo: ["19BCS048 , ", "19BCS059"],
+    supervisor: "",
+    title:
+      "Automatic Detection and Monitoring of Diabetic Retinopathy using Efficient Convolution Neural Networks",
   },
   {
-    name: [ 'Ujjwal Tyagi , ', 'Viksit Kaushik' ],
-    rollNo: [ '19BCS062 , ', '19BCS063' ],
-    supervisor: '',
-    title: 'Connect Wall- Meetings integrated with real time frame'
+    name: ["Ujjwal Tyagi , ", "Viksit Kaushik"],
+    rollNo: ["19BCS062 , ", "19BCS063"],
+    supervisor: "",
+    title: "Connect Wall- Meetings integrated with real time frame",
   },
   {
-    name: [ 'Azmal Shaikh , ', 'Raiyan Haque' ],
-    rollNo: [ '19BCS0 , ', '19BCS029' ],
-    supervisor: '',
-    title: 'Hand Gesture recognition based interactive gaming'
+    name: ["Azmal Shaikh , ", "Raiyan Haque"],
+    rollNo: ["19BCS0 , ", "19BCS029"],
+    supervisor: "",
+    title: "Hand Gesture recognition based interactive gaming",
   },
   {
-    name: [ 'Avi Tyagi , ', 'Prabal Sharma' ],
-    rollNo: [ '19BCS010 , ', '19BCS073' ],
-    supervisor: '',
-    title: 'Signature Forgery Detection'
+    name: ["Avi Tyagi , ", "Prabal Sharma"],
+    rollNo: ["19BCS010 , ", "19BCS073"],
+    supervisor: "",
+    title: "Signature Forgery Detection",
   },
   {
-    name: [ 'Syed Farees Hussain' ],
-    rollNo: [ '19BCS034' ],
-    supervisor: '',
-    title: 'In-app Debugging Library a'
+    name: ["Syed Farees Hussain"],
+    rollNo: ["19BCS034"],
+    supervisor: "",
+    title: "In-app Debugging Library a",
   },
   {
-    name: [ 'Mirza Zaid Beg , ', 'Mohd Ayaaz Ansari' ],
-    rollNo: [ '19BCS024 , ', '19BCS027' ],
-    supervisor: '',
-    title: 'Offensive Language classification of YouTube comments using Deep Learning Techniques'
+    name: ["Mirza Zaid Beg , ", "Mohd Ayaaz Ansari"],
+    rollNo: ["19BCS024 , ", "19BCS027"],
+    supervisor: "",
+    title:
+      "Offensive Language classification of YouTube comments using Deep Learning Techniques",
   },
   {
-    name: [ 'Faisal Alam , ', 'Md. Adil Khan' ],
-    rollNo: [ '19BCS046 , ', '19BCS052' ],
-    supervisor: '',
-    title: 'Irrigation System Automation using IoT'
+    name: ["Faisal Alam , ", "Md. Adil Khan"],
+    rollNo: ["19BCS046 , ", "19BCS052"],
+    supervisor: "",
+    title: "Irrigation System Automation using IoT",
   },
   {
-    name: [ 'Md. Shams Qamar , ', 'Md. Zaki A. Akhtar' ],
-    rollNo: [ '19BCS020 , ', '19BCS022' ],
-    supervisor: '',
-    title: 'Real Time Sign Language Recognition'
+    name: ["Md. Shams Qamar , ", "Md. Zaki A. Akhtar"],
+    rollNo: ["19BCS020 , ", "19BCS022"],
+    supervisor: "",
+    title: "Real Time Sign Language Recognition",
   },
   {
-    name: [ 'Mohd. Firoz , ', 'Vikas Kaushik' ],
-    rollNo: [ '18BCS063 , ', '19BCS038' ],
-    supervisor: '',
-    title: 'Image Compression using Deep Learning'
+    name: ["Mohd. Firoz , ", "Vikas Kaushik"],
+    rollNo: ["18BCS063 , ", "19BCS038"],
+    supervisor: "",
+    title: "Image Compression using Deep Learning",
   },
   {
-    name: [ 'Abdul Samad , ', 'Aman Ali' ],
-    rollNo: [ '19BCS005 , ', '19BCS043' ],
-    supervisor: '',
-    title: 'Cab Sharing System'
+    name: ["Abdul Samad , ", "Aman Ali"],
+    rollNo: ["19BCS005 , ", "19BCS043"],
+    supervisor: "",
+    title: "Cab Sharing System",
   },
   {
-    name: [ 'Md. Kamil Ansari , ', 'Md. Saif Haider' ],
-    rollNo: [ '19BCS018 , ', '19BCS019' ],
-    supervisor: '',
-    title: 'Toxic Comment Classification'
+    name: ["Md. Kamil Ansari , ", "Md. Saif Haider"],
+    rollNo: ["19BCS018 , ", "19BCS019"],
+    supervisor: "",
+    title: "Toxic Comment Classification",
   },
   {
-    name: [ 'Md. Asif Anjum , ', 'Rishi Malla' ],
-    rollNo: [ '19BCS017 , ', '19BCS030' ],
-    supervisor: '',
-    title: 'Concrete Crack Detection using Deep Learning'
+    name: ["Md. Asif Anjum , ", "Rishi Malla"],
+    rollNo: ["19BCS017 , ", "19BCS030"],
+    supervisor: "",
+    title: "Concrete Crack Detection using Deep Learning",
   },
   {
-    name: [ 'Md. Ozaid , ', 'Md. Tanzeel Mujtaba' ],
-    rollNo: [ '19BCS015 , ', '19BCS021' ],
-    supervisor: '',
-    title: 'Speech Emotion Recognition'
-  }
+    name: ["Md. Ozaid , ", "Md. Tanzeel Mujtaba"],
+    rollNo: ["19BCS015 , ", "19BCS021"],
+    supervisor: "",
+    title: "Speech Emotion Recognition",
+  },
 ];
 const MA20 = [];
 
@@ -3592,8 +3611,269 @@ const MI20 = [
     title: "Fruits & Vegetable Recognition System",
   },
 ];
+
+const MI21 = [
+  {
+    name: ["Ramsha Anwar"],
+    rollNo: ["21BCS066"],
+    supervisor: "Prof. Tanvir Ahmad",
+    title: "Investigation of the security and privacy risks of healthcare applications"
+  },
+  {
+    name: ["Mohammad Najmuddin , ", "Nihal Ahmad"],
+    rollNo: ["21BCS021 , ", "21BCS022"],
+    supervisor: "Dr. Sarfaraz Masood",
+    title: "Real-time hand gesture-controlled virtual mouse using Machine Learning"
+  },
+  {
+    name: ["Palash Kachroo"],
+    rollNo: ["20BCS072"],
+    supervisor: "Mr. Shamim Ahmad",
+    title: "Audience Feedback Generative Tool"
+  },
+  {
+    name: ["Mohammad Danish , ", "Mohd. Aakib"],
+    rollNo: ["21BCS032 , ", "21BCS033"],
+    supervisor: "Prof. Mohd. Amjad",
+    title: "Music Genre Classification using Machine Learning Technique"
+  },
+  {
+    name: ["Mohammad Basit Keen , ", "Mohd Jazib Ansari"],
+    rollNo: ["21BCS060 , ", "21BCS065"],
+    supervisor: "Dr. Mumtaz Ahmed",
+    title: "Android online news app"
+  },
+  {
+    name: ["Muneeb Ahmad"],
+    rollNo: ["21BCS012"],
+    supervisor: "Dr. Sarfaraz Masood",
+    title: "Latent Diffusion-Based Image Inpainting with Multimodal Guidance"
+  },
+  {
+    name: ["Mohammed Ayan , ", "Sania Ahmad"],
+    rollNo: ["21BCS020 , ", "21BCS041"],
+    supervisor: "Dr. Waseem Ahmed",
+    title: "Plant Leaf Disease Detection"
+  },
+  {
+    name: ["Fahad Ur Rehman , ", "M. Rayyan Ahmad"],
+    rollNo: ["21BCS015 , ", "21BCS078"],
+    supervisor: "Dr. Musheer Ahmad",
+    title: "Skeleton-Based Dynamic Hand Gesture Recognition"
+  },
+  {
+    name: ["Fayez Siddiqui"],
+    rollNo: ["21BCS003"],
+    supervisor: "Dr. Nihal Ahmad",
+    title: "PICOLM: LLM for Edge-Devices"
+  },
+  {
+    name: ["Vasudev Sharma , ", "Saad Zafar"],
+    rollNo: ["21BCS070 , ", "21BCS082"],
+    supervisor: "Mr. Jawahar Lal",
+    title: "Deep Neural Network Based Vehicle Detection and Classification using YOLO Algorithm"
+  },
+  {
+    name: ["Abhishek Choudhary , ", "M. Azharul Islam"],
+    rollNo: ["21BCS071 , ", "21BCS081"],
+    supervisor: "Mr. Jawahar Lal",
+    title: "Plant Leaf Detection using Deep Learning Techniques"
+  },
+  {
+    name: ["Md. Sajid Alam , ", "Mohd. Moazzam"],
+    rollNo: ["21BCS053 , ", "21BCS054"],
+    supervisor: "Mr. Shamim Ahmad",
+    title: "Video-to-Text Conversion: Summarizing Videos with NLP"
+  },
+  {
+    name: ["Parvez Raza Siddiqui , ", "Shabbir Zafar"],
+    rollNo: ["21BCS039 , ", "21BCS042"],
+    supervisor: "Dr. Shahzad Alam",
+    title: "Stock Prediction using Machine Learning Techniques"
+  },
+  {
+    name: ["Mohd. Ravish , ", "Syed Owais Nawaz"],
+    rollNo: ["21BCS079 , ", "21BCS083"],
+    supervisor: "Mr. Hannan Mansoor",
+    title: "Deepfake Detection using Deep Learning"
+  },
+  {
+    name: ["Aliza Ahsan , ", "Mariyam Shaikh"],
+    rollNo: ["21BCS072 , ", "21BCS076"],
+    supervisor: "Prof. Mohd. Amjad",
+    title: "Anomaly-Based Network Intrusion Detection System"
+  },
+  {
+    name: ["Waqas Ahmad , ", "Mohammad Hamza"],
+    rollNo: ["21BCS056 , ", "21BCS085"],
+    supervisor: "Dr. Danish Raza Rizvi",
+    title: "Heart Disease Prediction Using Logistic Regression"
+  },
+  {
+    name: ["Mohammad Yasir Aftab , ", "Musharraf Khan"],
+    rollNo: ["21BCS010 , ", "21BCS038"],
+    supervisor: "Dr. Danish Raza Rizvi",
+    title: "Used car price prediction using Machine Learning"
+  },
+  {
+    name: ["Insharah Ayyubi , ", "Mariya Usman"],
+    rollNo: ["21BCS048 , ", "21BCS058"],
+    supervisor: "Prof. Tanvir Ahmad",
+    title: "Automation of KYC Verification Using Deep Learning"
+  },
+  {
+    name: ["Bushra Shahzad , ", "Tabinda Hoda"],
+    rollNo: ["21BCS046 , ", "21BCS055"],
+    supervisor: "Dr. Musheer Ahmad",
+    title: "VoiceBridge: An Intelligent Accessibility Assistant for Seamless Communication"
+  },
+  {
+    name: ["Aamir Suhail , ", "M. Sharif Ansari"],
+    rollNo: ["21BCS044 , ", "21BCS086"],
+    supervisor: "Dr. Mumtaz Ahmed",
+    title: "IPL Score Prediction using Deep Learning"
+  },
+  {
+    name: ["Badre Alam , ", "Md. Hamid"],
+    rollNo: ["21BCS045 , ", "21BCS051"],
+    supervisor: "Dr. Shahzad Alam",
+    title: "Helmet & License Plate Detection"
+  },
+  {
+    name: ["Faizan Ahamad , ", "Mantasha Firdous"],
+    rollNo: ["21BCS047 , ", "21BCS049"],
+    supervisor: "Dr. Faiyaz Ahmad",
+    title: "A Speech-To-Text Enable Chatbot using Transformer Models"
+  },
+  {
+    name: ["M. Siddiqul Haque , ", "Sohail Ahmed"],
+    rollNo: ["21BCS037 , ", "21BCS043"],
+    supervisor: "Mr. Firoj Ahmad",
+    title: "Age and Gender Recognition by Voice using Machine Learning Techniques"
+  },
+  {
+    name: ["M. Noman Khan , ", "Kausar Ibrahim"],
+    rollNo: ["21BCS063 , ", "21BCS074"],
+    supervisor: "Dr. Faiyaz Ahmad",
+    title: "Sign Language Recognition using Deep Learning"
+  },
+  {
+    name: ["Shazia Fatima , ", "Madeeha Ruhi"],
+    rollNo: ["21BCS069 , ", "21BCS075"],
+    supervisor: "Dr. Faiyaz Ahmad",
+    title: "Diagnosing Acute Lymphoblastic Leukemia Through Microscopic Blood Images using CNN"
+  },
+  {
+    name: ["Khushal Chadda , ", "Syed Saad Zaidi"],
+    rollNo: ["21BCS005 , ", "21BCS084"],
+    supervisor: "Dr. Shahzad Alam",
+    title: "Real-time Player Tracking system using Machine Learning Techniques"
+  },
+  {
+    name: ["Khatri Prashant Kumar"],
+    rollNo: ["21BCS004"],
+    supervisor: "Dr. Mumtaz Ahmed",
+    title: "AI-Driven Personalized Travel Assistant with Real-Time Adaptability"
+  },
+  {
+    name: ["Osama Ayub Ghazi , ", "Saim Tanweer"],
+    rollNo: ["21BCS023 , ", "21BCS040"],
+    supervisor: "Mr. Hannan Mansoor",
+    title: "Driver drowsiness detection using Machine Learning techniques"
+  },
+  {
+    name: ["Md. Nabeel Ashar , ", "Md. Hammad Akram"],
+    rollNo: ["21BCS052 , ", "21BCS077"],
+    supervisor: "Dr. Sarfaraz Masood",
+    title: "OPG based Age Estimation using Deep Learning"
+  },
+  {
+    name: ["Md. Ibrahim Akhtar , ", "M. Aman Khan"],
+    rollNo: ["21BCS007 , ", "21BCS011"],
+    supervisor: "Dr. M. Zeeshan Ansari",
+    title: "Detection of Skin Cancer using Deep Learning Techniques"
+  },
+  {
+    name: ["M. Danish Khan , ", "Hardik Misri"],
+    rollNo: ["21BCS036 , ", "21BCS057"],
+    supervisor: "Dr. M. Zeeshan Ansari",
+    title: "Car Number Plate Detection and Recognition System"
+  },
+  {
+    name: ["Meraj Ahmed , ", "Mohammad Faiz"],
+    rollNo: ["21BCS030 , ", "21BCS031"],
+    supervisor: "Mr. Firoj Ahmad",
+    title: "CNN-Driven Image Steganography for Enhanced Data Security"
+  },
+  {
+    name: ["Rumman Ahmad , ", "Saud Anwar"],
+    rollNo: ["21BCS067 , ", "21BCS068"],
+    supervisor: "Dr. Musheer Ahmad",
+    title: "Enhanced Disaster Event Classification with UAV-Aided Images: Integrating CNN, LSTM, and GRU for Improved Emergency Response"
+  },
+  {
+    name: ["Mohd. Shafaat , ", "Mohd. Abbas Rizvi"],
+    rollNo: ["21BCS034 , ", "21BCS035"],
+    supervisor: "Prof. Mohd. Amjad",
+    title: "Machine Learning-Driven Soft Bag Creation for Personalized E-Commerce Recommendations"
+  },
+  {
+    name: ["Md. Masleuddin , ", "Md. Kashiful Haque"],
+    rollNo: ["21BCS028 , ", "21BCS029"],
+    supervisor: "Dr. Waseem Ahmad",
+    title: "Prediction of Book Genres by Cover and Title"
+  },
+  {
+    name: ["Ayaan Khan , ", "Mohd. Azim"],
+    rollNo: ["21BCS027 , ", "21BCS062"],
+    supervisor: "Prof. Bashir Alam",
+    title: "Detection of Alzheimer using MRI Images using Deep Learning Techniques"
+  },
+  {
+    name: ["M. Arsalan M. Rizvi , ", "Hammad Faizvi"],
+    rollNo: ["21BCS064 , ", "21BCS073"],
+    supervisor: "Dr. Nihal Ahmad",
+    title: "Automated Detection of Plagiarism in Online Assessments and Source Code"
+  },
+  {
+    name: ["Anmol Prabha , ", "Mohammad Noor E Ain"],
+    rollNo: ["21BCS001 , ", "21BCS061"],
+    supervisor: "Prof. Tanvir Ahmad",
+    title: "Intrusion Detection System using Machine Learning Algorithms"
+  },
+  {
+    name: ["Ankit , ", "Modabbir"],
+    rollNo: ["21BCS013 , ", "21BCS017"],
+    supervisor: "Prof. Bashir Alam",
+    title: "Early Detection of Alzheimer’s Disease using Machine Learning"
+  },
+  {
+    name: ["Mohammad Asad Ali , ", "Suhel Khan"],
+    rollNo: ["21BCS019 , ", "21BCS025"],
+    supervisor: "Prof. Bashir Alam",
+    title: "Wound Detection, Classification and Segmentation"
+  },
+  {
+    name: ["Mirza Ibrahim Beg , ", "M. Faraz Idris Siddiqui"],
+    rollNo: ["21BCS008 , ", "21BCS009"],
+    supervisor: "Dr. Danish Raza Rizvi",
+    title: "Artificial Intelligence in Public Transit Systems"
+  },
+  {
+    name: ["Divyansh Thapliyal , ", "Hemant Navlani"],
+    rollNo: ["21BCS002 , ", "21BCS016"],
+    supervisor: "Dr. M. Zeeshan Ansari",
+    title: "Textual-Video-to-Speech Interface"
+  }
+];
+
+
 // ******************************OPTIONS********************************
 const opt = [
+  {
+    id: 1,
+    value: "2020-2024",
+  },
   {
     id: 1,
     value: "2019-2023",
@@ -3633,6 +3913,6 @@ const opt = [
 ];
 // ******************************PROJECT DATA********************************
 const major = [MA20, MA19, MA18, MA17, MA16, MA15, MA14, MA13, MA12, MA11];
-const minor = [MI20, MI19, MI18, MI17, MI16, MI15, MI14, MI13, MI12, MI11];
+const minor = [MI21, MI20, MI19, MI18, MI17, MI16, MI15, MI14, MI13, MI12, MI11];
 const ProjectData = [image, minor, major, opt];
 export default ProjectData;

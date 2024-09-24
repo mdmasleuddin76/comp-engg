@@ -7,7 +7,7 @@ function AboutJMI() {
       <HeroSection image={image} heading={"JAMIA MILLIA ISLAMIA"} />
       {/* <div className="max-w-screen h-32 bg-center bg-cover bg-no-repeat  md:h-72 " style={{ backgroundImage:`url(${image})`}}> */}
       {/* </div> */}
-      <div className=" mx-auto my-3 max-w-[90%] rounded-3xl bg-green-light px-12 py-7 text-lg">
+      <div className=" mx-auto text-justify my-3 max-w-[90%] rounded-3xl bg-green-light px-2 md:px-12 py-7 text-lg">
         <div className=" mb-5 border-l-[3px] border-green-yellow px-4 ">
           <span className=" text-xl text-green-deep">Jamia Millia Islamia</span>
           , established in the year 1920, is an institution originally

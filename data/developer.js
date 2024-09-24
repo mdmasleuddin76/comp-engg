@@ -1,5 +1,4 @@
-import shahzadSirImg from "../src/PageGroup/Placement/assets/shahzadSir.jpeg";
-import zeeshanSirImg from "../src/PageGroup/People/assets/zeeshanSir.jpeg";
+import MumtazSirImg from '../src/PageGroup/People/assets/MumtazSir.png';
 import amjadSirImg from "../src/PageGroup/People/assets/amjadSir.png";
 import masleuddin from "../src/PageGroup/People/assets/Developer/masleuddin.jpg";
 import insharahImg from "../src/PageGroup/Placement/assets/insharah.jpeg";
@@ -15,22 +14,18 @@ import nabeel from"../src/PageGroup/People/assets/Developer/nabeel.jpeg";
 
 export const faculty = [
   {
-    name: "Prof. Mohd Amjad (Professor)",
-    designation: "(Coordinator)  Hony. Adll. Director:Website & MIS",
+    name: "Prof. Mohd Amjad (HoD)",
+    designation: "Coordinator",
     img: amjadSirImg,
-    info: "Mobile Computing, Wireless Sensor Networks, Security in Cloud Computing",
+    mail: "mailto:mamjad@jmi.ac.in",
+    linkedin: "https://www.linkedin.com"
   },
   {
-    name: "Dr. Mohd Zeeshan Ansari (Assistant Professor)",
-    designation: "(Counsellor)",
-    img: zeeshanSirImg,
-    info: "Information Extraction, Text Mining, Machine Learning, Soft Computing",
-  },
-  {
-    name: "Dr. Shahzad Alam (Assistant Professor)",
-    designation: "(Counsellor)",
-    img: shahzadSirImg,
-    info: "Image processing, Information Security, Cryptography and Soft Computing Techniques",
+    name: "Dr Mumtaz Ahmed (Associate Professor)",
+    designation: "Counsellor",
+    img: MumtazSirImg,
+    mail: "mailto:mahmed1@jmi.ac.in",
+    linkedin: "https://www.linkedin.com/in/mumtaz-ahmed-12875711/"
   },
 ];
 
