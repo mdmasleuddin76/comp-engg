@@ -7,9 +7,9 @@ function CompforPhdScholar({ sno, name, supervisor, title, year }) {
   return (
     <tr>
       <td className=" bg-slate-200 text-center">{sno}</td>
-      <td className=" bg-slate-200 text-center">{name}</td>
-      <td className=" bg-slate-200 text-center">{supervisor}</td>
-      <td className=" bg-slate-200 text-center">{title}</td>
+      <td className=" bg-slate-200 text-left">{name}</td>
+      <td className=" bg-slate-200 text-left">{supervisor}</td>
+      <td className=" bg-slate-200 text-left">{title}</td>
       <td className=" bg-slate-200 text-center">{year}</td>
     </tr>
   );
@@ -23,7 +23,7 @@ function PhdScholar() {
       <HeroSection heading={"Phd Scholar"} image={PhdScholars[0]} />
       <div className=" mx-auto flex w-full flex-wrap-reverse justify-center rounded-lg bg-green-yellow p-5 text-black md:w-[90%]">
         <h1 className="w-[100%] text-center text-2xl font-bold text-white md:w-[55%] md:pr-16 md:text-right">
-          PHD Scholar({index ? "Awarded " : "Ongoing "})
+          PHD Scholar ({index ? "Awarded" : "Ongoing"})
         </h1>
         <select
           className="mb-5 w-[50%] bg-green-500 p-1 font-bold md:mb-0 md:w-[20%] md:p-0"
