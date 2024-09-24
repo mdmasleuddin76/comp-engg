@@ -104,14 +104,14 @@ function Faculty() {
         Faculty Members
       </div>
       <div className="flex minh-[400px] items-center justify-center">
-        <div className="grid max-w-7xl grid-cols-1 gap-x-8 gap-y-24 p-8 py-30 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+        <div className="grid max-w-7xl grid-cols-1 gap-x-8 gap-y-24 p-8 py-30 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
           {faculty_data.map((professor, index) => {
             return (
               <div key={index}>
               <Link to="/people/faculty/professor" state={{ fromHome: { professor } }}>
                 <div className="relative mb-10 flex items-center justify-center">
                   <img
-                    className="absolute top-[-30%] z-10 h-[150px] w-[150px] rounded-full border-2 border-green-700 object-cover md:top-[-40%]"
+                    className="absolute top-[-30%] z-10 h-[150px] w-[150px] rounded-full border-2 border-green-700 object-cover md:top-[-35%]"
                     src={professor.dp}
                     alt="image"
                   />

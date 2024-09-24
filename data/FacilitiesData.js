@@ -16,6 +16,10 @@ import r2 from "../images/Facilities/ResearchLab/2.jpg";
 import r3 from "../images/Facilities/ResearchLab/3.jpg";
 import r4 from "../images/Facilities/ResearchLab/4.jpg";
 import r5 from "../images/Facilities/ResearchLab/5.jpg";
+//****************hardware lab ******************************
+import h1 from "../images/Facilities/HardwareLab/1.jpeg";
+import h2 from "../images/Facilities/HardwareLab/2.jpeg";
+import h3 from "../images/Facilities/HardwareLab/3.jpeg";
 //***************** advancecomputinglab **********************
 import ad1 from "../images/Facilities/AdvComputinglab/1.jpg";
 import ad2 from "../images/Facilities/AdvComputinglab/2.jpg";
@@ -35,11 +39,12 @@ import l3 from "../images/Facilities/Library/3.jpg";
 import l4 from "../images/Facilities/Library/4.jpg";
 import l5 from "../images/Facilities/Library/5.jpg";
 //******************** Canteen ********************************
-import ca1 from "../images/Facilities/Canteen/1.jpg";
-import ca2 from "../images/Facilities/Canteen/2.jpg";
-import ca3 from "../images/Facilities/Canteen/3.jpg";
+import ca1 from "../images/Facilities/Canteen/1.jpeg";
+import ca2 from "../images/Facilities/Canteen/2.jpeg";
+import ca3 from "../images/Facilities/Canteen/3.jpeg";
 import ca4 from "../images/Facilities/Canteen/4.jpg";
 import ca5 from "../images/Facilities/Canteen/5.jpg";
+import ca6 from "../images/Facilities/Canteen/6.jpg";
 
 const computerlab1 = {
   heading: "Computer Lab 1",
@@ -71,10 +76,7 @@ const hardwarelab = {
   content:
     "The Hardware Lab is a hub of digital innovation, featuring an array of digital logic trainers equipped with a wide range of integrated circuits for hardware implementation. Through hands-on experience with these circuits, students gain invaluable insights into the world of electronics and communication. This lab serves as a gateway to understanding the fundamental building blocks of digital technology and prepares students for future advancements in this field",
   images: [
-    "https://images.unsplash.com/photo-1677579016602-d342f911d11c?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
-    "https://images.unsplash.com/photo-1682192701389-4865ccd41a3f?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
-    "https://images.unsplash.com/photo-1682241229580-e72acdf0eb6d?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMzE5MDQwfHxlbnwwfHx8fHw%3D",
-    "https://images.unsplash.com/photo-1680624926202-29e190fc2bc9?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMzE5MDQwfHxlbnwwfHx8fHw%3D",
+      h1, h2, h3
   ],
 };
 
@@ -107,7 +109,7 @@ const canteen = {
   content:
     "The canteen of Faculty of Engineering and Technology is a two storey building which is well ventilated with adequate lighting facility and an open air environment . Canteen serves a variety of food prepared in hygienic conditions. The food is of excellent quality and at very affordable rates. The college canteen plays an important role in this regard by catering the daily nutritional requirements of students and staff members as well. Canteen builds up an ambience of rendezvous where students have food and spend time with friends, keeping away all the hassles of mundane living. The food is served here for breakfast, lunch and evening, which includes snacks.",
   images: [
-    ca1, ca2, ca3, ca4, ca5
+    ca1, ca2, ca3, ca4, ca5, ca6
   ],
 };
 const FacilitiesData = [
