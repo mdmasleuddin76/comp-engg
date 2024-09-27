@@ -214,7 +214,7 @@ export const faculty_data = [
     department:
       "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
     mobileNumber: "9350850160",
-    email:`nehalahmad@iiti.ac.in ${<br/>}nehalahmadcse@gmail.com`,
+    email:`nehalahmad@iiti.ac.in , nehalahmadcse@gmail.com`,
     pdf: "",
     portfolio: "Professional Portfolio",
     areaOfIntrest:
