@@ -190,7 +190,7 @@ export const faculty_data = [
       "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
     mobileNumber: "",
     areaOfIntrest:
-      "Machine Learning, Natural Language Processing, Image Processing",
+      "Machine Learning , Natural Language Processing, Image Processing",
     pdf: "https://www.jmi.ac.in/upload/employeeresume/hannan_mansoor_ce.pdf",
     details: "",
   },
